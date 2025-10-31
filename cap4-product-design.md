@@ -94,6 +94,47 @@ Finalmente, la organización **visual y cromática** mantiene coherencia con los
 
 ### 4.2.2. Labeling Systems
 
+A continuación, se presenta el sistema de etiquetado (labeling system) diseñado para la plataforma **PlantaE**.  
+Este sistema busca garantizar una comunicación clara, coherente y accesible en todos los puntos de interacción, tanto en la **Landing Page** como en la **Aplicación Web**.  
+Las etiquetas fueron definidas bajo principios de **claridad semántica, consistencia visual y tono cercano**, manteniendo coherencia con la identidad ecológica y tecnológica del producto.
+
+El objetivo principal es minimizar la carga cognitiva de los usuarios —ya sean hogares o viveros comerciales— facilitando la comprensión de las funciones, la navegación entre secciones y el acceso a información relevante.
+
+---
+
+#### **Landing Page**
+
+- **Inicio:** Sección de bienvenida que presenta la propuesta de valor de PlantaE, combinando el mensaje principal, el logotipo y el acceso a la plataforma.  
+- **Beneficios:** Expone las ventajas de PlantaE, diferenciadas por tipo de usuario (hogares y viveros), destacando ahorro de agua, sostenibilidad y automatización.  
+- **Cómo funciona:** Describe de manera visual el proceso de uso: instalación de sensores IoT, monitoreo ambiental y generación de alertas.  
+- **Testimonios:** Presenta experiencias de usuarios que validan la efectividad del sistema.  
+- **Preguntas Frecuentes:** Reúne respuestas a inquietudes comunes sobre el uso de sensores, conexión y mantenimiento.  
+- **Contacto:** Formulario de comunicación directa con el equipo de PlantaE y enlaces a redes sociales.  
+- **Registro / Demo:** Botones de acción destacados (“Regístrate gratis”, “Solicitar demo”) que impulsan la conversión y refuerzan la accesibilidad del sitio.
+
+---
+
+#### **Aplicación Web – Usuarios Domésticos**
+
+- **Dashboard:** Vista general del estado de las plantas registradas (humedad, temperatura, luz y calidad del aire).  
+- **Mis Plantas:** Listado visual con nombre, foto, ubicación y nivel de salud de cada planta.  
+- **Alertas:** Panel de notificaciones automáticas que indica plantas con riego pendiente o variables críticas.  
+- **Consejos:** Sección de recomendaciones personalizadas según las condiciones detectadas por los sensores IoT.  
+- **Reportes:** Visualización y descarga de métricas históricas sobre cuidado, consumo de agua y estado de salud de las plantas.  
+- **Perfil:** Espacio donde el usuario puede editar sus datos, idioma, modo de visualización y preferencias de notificación.
+
+---
+
+#### **Aplicación Web – Viveros Comerciales**
+
+- **Panel de Cultivos:** Control centralizado de lotes con indicadores de humedad, temperatura y luminosidad.  
+- **Alertas Críticas:** Notificaciones sobre riesgos ambientales o deficiencias detectadas en sensores.  
+- **Historial de Registros:** Acceso a datos históricos para análisis de rendimiento y planificación de mantenimiento.  
+- **Reportes de Rendimiento:** Generación de informes descargables por fechas, variables ambientales o tipo de cultivo.  
+- **Gestión de Sensores:** Administración de dispositivos IoT registrados, con opción de agregar, editar o retirar sensores.  
+- **Configuración:** Personalización de idioma, apariencia del sistema y preferencias de monitoreo.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
