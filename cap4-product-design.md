@@ -73,6 +73,10 @@ Estos elementos y principios no se aplican de forma aislada, sino como parte int
 
 ### 4.1.2. Web Style Guidelines
 
+***PlantaE*** se compromete a ofrecer una interfaz digital que no solo sea visualmente atractiva, sino también funcional y adaptable a distintos dispositivos. La prioridad está en la usabilidad, la accesibilidad y la coherencia visual, garantizando que cada usuario pueda interactuar con la aplicación de manera intuitiva y sin barreras. Estos lineamientos buscan asegurar una experiencia unificada, fresca y eficiente, en armonía con los valores de sostenibilidad y conexión con la naturaleza que inspiran al proyecto.
+
+![Web-Style-Guidelines2](assets/images/chapter-4/Wen_Sytile_Guidneles.png)
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
