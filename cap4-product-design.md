@@ -137,6 +137,106 @@ El objetivo principal es minimizar la carga cognitiva de los usuarios —ya sean
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+**1. Landing Page**
+
+**Charset**
+
+    `<meta charset="utf-8">`
+ 
+Indica al navegador cómo interpretar los caracteres del texto. UTF-8 garantiza la correcta visualización de letras con tildes, la “ñ” y otros símbolos, evitando errores de lectura.
+
+**Viewport (responsive)**
+
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+Permite que la página se adapte al tamaño de cualquier pantalla, asegurando una experiencia responsiva en móviles, tablets y equipos de escritorio.
+
+**Title (SEO)**
+
+    `<title>PlantaE | Monitorea tus cultivos urbanos con IoT</title>`
+
+Define el título que se muestra en la pestaña del navegador y en los resultados de búsqueda, destacando el propósito principal de la plataforma.
+
+**Meta Description (SEO)**
+
+    `<meta name="description" content="Supervisa tus cultivos urbanos en tiempo real con sensores IoT. Recibe alertas y recomendaciones personalizadas para reducir el uso de agua y mantener tus plantas saludables.">`
+
+Proporciona un resumen breve y atractivo del contenido del sitio, ayudando a captar la atención de los usuarios en buscadores.
+
+**Meta Author**
+
+    `<meta name="author" content="Equipo PlantaE">`
+
+Esta línea de código identifica a los autores o responsables del desarrollo del sitio web.
+
+**Meta Robots**
+
+    `<meta name="robots" content="index, follow">`
+    
+Permite que los motores de búsqueda indexen el contenido y sigan los enlaces del sitio, favoreciendo su posicionamiento.
+
+**Meta Language**
+
+    `<meta name="language" content="es">`
+    
+Especifica el idioma principal del contenido, ayudando a su correcta interpretación por navegadores y buscadores.
+
+**Meta Copyright**
+
+    `<meta name="copyright" content="PlantaE 2025">`
+    
+Declara los derechos de autor sobre el contenido y establece el año de publicación.
+
+**2. Web Application (Frontend)**
+
+**Charset**
+
+    `<meta charset="utf-8">`
+    
+Garantiza que los textos y símbolos del panel interno se muestren correctamente en todos los navegadores.
+
+**Viewport (responsive)**
+
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+Permite que la interfaz del dashboard sea responsiva, manteniendo la legibilidad en diferentes dispositivos.
+
+**Title (identificación de módulo)**
+
+    `<title>PlantaE App | Panel de monitoreo</title>`
+
+Define el título visible en la pestaña del navegador, identificando claramente el entorno de gestión de la aplicación.
+
+**Meta Description**
+
+    `<meta name="description" content="Panel interno de PlantaE para monitorear métricas, alertas y sensores IoT. Acceso solo para usuarios autorizados.">`
+
+Resume la finalidad de la aplicación, facilitando su identificación en herramientas de desarrollo o enlaces compartidos.
+
+**Meta Author**
+
+    `<meta name="author" content="Equipo PlantaE">`
+
+Reconoce al equipo de desarrollo responsable de la aplicación web.
+
+**Meta Robots (privacidad)**
+
+    `<meta name="robots" content="noindex, nofollow">`
+
+Evita que los buscadores indexen o sigan los enlaces del panel interno, protegiendo la información privada de los usuarios.
+
+**Meta Language**
+
+    `<meta name="language" content="es">`
+
+Declara el idioma principal de la aplicación, contribuyendo a la accesibilidad y coherencia lingüística.
+
+**Meta Copyright**
+
+    `<meta name="copyright" content="PlantaE 2025">`
+    
+Establece los derechos de autor sobre el software y su año de creación.
+
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
