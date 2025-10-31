@@ -81,6 +81,17 @@ Estos elementos y principios no se aplican de forma aislada, sino como parte int
 
 ### 4.2.1. Organization Systems
 
+En **PlantaE**, el sistema de organización de la información combina enfoques jerárquicos, secuenciales y categóricos para optimizar la experiencia de los distintos tipos de usuarios: hogares urbanos y viveros comerciales. Su propósito es facilitar la navegación, reducir la carga cognitiva y priorizar los contenidos más relevantes según el contexto de uso.
+
+A nivel de la **landing page**, se emplea una organización **jerárquica** que guía al usuario desde la propuesta de valor hasta la acción final. Los elementos se disponen visualmente de forma progresiva: encabezado con logotipo y menú principal, sección hero con mensaje clave y llamada a la acción, beneficios principales, funcionamiento del sistema IoT, testimonios y registro. Esta estructura responde a un patrón de lectura en “Z”, que favorece la comprensión inmediata y conduce naturalmente a los botones de conversión.
+
+En los flujos internos de la **web application**, se aplica una organización **secuencial**, orientada a tareas. Los procesos siguen una lógica paso a paso, desde el registro de plantas y sensores IoT hasta la consulta de métricas, generación de reportes y descarga de resultados. Este enfoque asegura que el usuario pueda realizar acciones sin ambigüedades ni interrupciones, manteniendo una progresión cognitiva clara.
+
+Asimismo, se utiliza una organización **categórica por tipo de usuario**, diferenciando el acceso y contenido según el perfil. Los usuarios domésticos visualizan información simplificada sobre sus plantas (estado, humedad, alertas), mientras que los viveros comerciales acceden a paneles especializados con métricas históricas, variables críticas y reportes de rendimiento. Esta categorización garantiza que cada grupo reciba información relevante a su nivel de gestión.
+
+Finalmente, la organización **visual y cromática** mantiene coherencia con los principios de sostenibilidad del proyecto. Los tonos verdes, beige y tierra segmentan visualmente las secciones, reforzando la conexión con la naturaleza y facilitando la orientación del usuario. Esta integración entre jerarquía visual y arquitectura de información permite que PlantaE comunique de manera efectiva su identidad ecológica, tecnológica y accesible.
+
+
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
