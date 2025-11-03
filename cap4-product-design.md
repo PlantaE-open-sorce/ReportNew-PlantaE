@@ -239,6 +239,79 @@ Establece los derechos de autor sobre el software y su año de creación.
 
 ### 4.2.4. Searching Systems
 
+El sistema de búsqueda de PlantaE está diseñado para ser claro, ligero y de fácil procesamiento, priorizando la eficiencia en la localización de datos para ambos segmentos de usuarios.
+
+**Vista para los hogares urbanos**
+
+##### 1. Medios de ayuda para la búsqueda de datos
+
+- Barra de búsqueda principal en los módulos de monitoreo y el dashboard.
+- Autocompletado inteligente: Muestra sugerencias de nombres de plantas registrados por el usuario y tipos de cultivo.
+- Historial de búsquedas recientes: Acceso rápido a las plantas o sensores monitoreados recientemente.
+- Mensajes contextuales si no se encuentran resultados: Ofrece una sugerencia de acción clara.
+
+##### 2. Filtros y opciones
+
+Los filtros permiten segmentar la búsqueda por criterios de estado y clasificación:
+
+- Por Nombre de la Planta
+- Por Tipo de Cultivo
+- Por Ubicación/Área
+- Por Estado de Alerta:
+    - Saludable (Verde)
+    - En Observación (Amarillo)
+    - Alerta Crítica (Rojo)
+- Por Tipo de Sensor Conectado
+
+##### 3. Visualización de resultados
+
+Los resultados se visualizan de manera intuitiva y visualmente jerárquica:
+
+- Tarjetas con vista de Grid
+    - Información en la tarjeta: Nombre, Tipo de planta, Foto y Última revisión.
+    - Alertas: Indicador circular de color junto a la "Última revisión".
+- Filas en la Vista de Gestión
+    - Filas con: Nombre, Sensor, Alerta, Reporte.
+    - Alerta: Círculo de color (Rojo/Amarillo/Verde) para identificación inmediata.
+    - Botón de acción rápida: Link "Ver reporte" para acceder a detalles.
+
+**Vista de viveros comerciales**
+
+##### 1. Medios de ayuda para la búsqueda de datos
+
+- Buscador centralizado para los módulos "Inventario de Lotes" y "Gestión de Clientes"
+- Autocompletado especializado: Ofrece sugerencias de códigos de lote, nombres de clientes o especies a nivel de producción.
+- Filtros persistentes en la barra lateral para alternar entre la gestión de Lotes/Stock.
+
+##### 2. Filtros y opciones
+
+Los filtros permiten segmentar el inventario y la producción a nivel masivo:
+
+- Por nombre de la Especie/Variedad
+- Por lote de Siembra/ID de Área
+- Por estado de Inventario/Stock
+- Por métrica crítica:
+    - Humedad Baja Extrema (Requiere riego masivo).
+    - Temperatura Extrema (Requiere ventilación/calefacción de lote).
+    - pH Anormal (Requiere ajuste de solución nutritiva).
+    - Sensor Desconectado (Alerta de sistema de infraestructura).
+- Por Fecha de Cosecha.
+
+##### 3. Visualización de resultados
+
+El formato es tabular, priorizando la densidad de información y la gestión de métricas agregadas.
+
+- Contenido de Resultados:
+    - Código de lotes o especie
+    - Tipo de especie 
+    - Cantidad de stock
+    - Alerta promedio de sensores
+    - Edad promedio
+- Colores de Estado:
+    - Verde: Producción Saludable
+    - Amarillo: Lote con Monitoreo
+    - Rojo: Riesgo Crítico en Lote
+
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
