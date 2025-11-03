@@ -314,6 +314,12 @@ El formato es tabular, priorizando la densidad de información y la gestión de 
 
 ### 4.2.5. Navigation Systems
 
+La navegación principal de la aplicación web está diseñada para una interacción directa y eficiente. Los controles se ubican en una barra horizontal superior fija y persistente que proporciona acceso inmediato a las áreas operacionales fundamentales: Dashboard, Mis Plantas, Gestión de Plantas y el área de Ajustes. La estructura interna del contenido se gestiona mediante filtros y botones de acción, siendo el botón "Añadir plantas" el principal elemento de interacción.
+
+En el Landing Page, el flujo de usuario se establece principalmente a través del desplazamiento vertical (scroll), construyendo una experiencia narrativa que expone la propuesta de valor y los beneficios del producto. La barra de navegación superior utiliza enlaces ancla para dirigir al visitante a secciones informativas específicas (como Benefits o Testimonials). La finalidad de este recorrido es conducir a la audiencia hacia los Call to Actions (CTAs) finales de registro.
+
+La navegación del sistema se diferencia de forma consciente según el perfil de usuario. El Jardinero Amateur sigue un recorrido simplificado que se enfoca en su lista de "Mis Plantas" y el monitoreo individual. En contraste, el Gestor Profesional (Vivero) accede a módulos especializados donde se requiere una Barra Lateral Fija para visualizar la gestión de Lotes/Stock, optimizando así su recorrido para tareas complejas y de gran volumen.
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
