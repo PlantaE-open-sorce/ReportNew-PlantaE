@@ -323,6 +323,45 @@ La navegación del sistema se diferencia de forma consciente según el perfil de
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+A continuación, se presentan los wireframes de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
+
+Wireframe:
+
+En esta primera sección se presenta la pantalla Home de la landing page.
+
+<img src="assets/images/chapter-4/home-wire.png" alt="home wireframes"/>
+
+Se presenta la sección de propuesta de who are we:
+
+<img src="assets/images/chapter-4/who-are-we-wire.png" alt="who are we wireframes"/>
+
+Se presenta la sección de propuesta de Services:
+
+<img src="assets/images/chapter-4/services-wire.png" alt="services wireframes"/>
+
+Se presenta la sección de propuesta de Benefits:
+
+<img src="assets/images/chapter-4/benefits-wire.png" alt="benefits wireframes"/>
+
+Se presenta la sección de propuesta de Testimonials:
+
+<img src="assets/images/chapter-4/testimonials-wire.png" alt="testimonials wireframes"/>
+
+Se presenta la sección de propuesta de Frequently Asked Questions:
+
+<img src="assets/images/chapter-4/frequently-asked-questions-wire.png" alt="faq wireframes"/>
+
+Se presenta la sección de propuesta de Contact:
+
+<img src="assets/images/chapter-4/contact-wire.png" alt="contact wireframes"/>
+
+Se presenta la sección de propuesta de Download:
+
+<img src="assets/images/chapter-4/download-wire.png" alt="download wireframes"/>
+
+Se presenta la sección de propuesta de Footer:
+
+<img src="assets/images/chapter-4/footer-wire.png" alt="footer wireframes"/>
 
 ### 4.3.2. Landing Page Mock-up
 
