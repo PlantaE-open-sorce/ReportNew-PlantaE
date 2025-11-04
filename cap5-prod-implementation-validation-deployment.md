@@ -530,3 +530,147 @@ El trabajo se organizó de manera estratégica, asignando a cada miembro módulo
 ---
 
 El **Sprint 2** consolidó al equipo como una unidad técnica cohesiva especializada en desarrollo frontend con **Angular**, estableciendo bases arquitectónicas sólidas para el módulo **PLANT-CARE** y sentando las bases para la integración futura con servicios backend.
+
+### 5.2.3 Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+#### 5.2.3.2 Aspect Leaders and Collaborators
+
+#### 5.2.3.3 Sprint Backlog 3
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+#### 5.2.3.5 Execution Evidence for Sprint Review
+
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8 Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+**Landing Page / Página de Inicio**
+- ¿La información sobre las funciones gratuitas de PlantaE es clara y suficiente?
+- ¿El proceso para acceder a la aplicación desde la página de inicio fue directo y sin complicaciones?
+
+**Registro y Autenticación de Usuario**
+- ¿El formulario de registro fue simple y rápido de completar?
+- ¿Los campos solicitados (nombre, email, contraseña) te parecieron apropiados para crear tu cuenta?
+- Durante el registro, ¿quedó claro que estás accediendo a una versión completamente funcional sin restricciones de membresía?
+
+**Dashboard o Panel Principal**
+- Al ingresar al panel principal, ¿lograste entender rápidamente cómo navegar por las diferentes secciones?
+- ¿La información de resumen que se muestra (como "Mis Plantas" o "Equipos Registrados") es útil para tener una visión general?
+- ¿En algún momento te sentiste perdido o confundido dentro del panel?
+
+**Gestión de Plantas**
+- Agregar una nueva planta, ¿fue un proceso intuitivo y sencillo?
+- ¿La presentación de tus plantas en listas o tarjetas facilita su identificación y organización?
+- ¿Encontraste sin problemas la opción para ver el listado de equipos de una planta en específico?
+
+**Gestión de Equipos (dentro de una Planta)**
+- Al visualizar los equipos de una planta, ¿la información mostrada es relevante para tus necesidades?
+- ¿Agregar un nuevo equipo a una planta fue  (directo) y libre de confusiones?
+- Al seleccionar un equipo para ver sus detalles, ¿la información de propiedades mostrada es completa y está bien presentada?
+
+**Configuración y Perfil**
+- ¿Ubicaste la sección de Configuración sin dificultad?
+- ¿Las opciones de personalización (Idioma y Tema Nocturno) funcionaron correctamente y de inmediato?
+- ¿Consideras que estas opciones de configuración son útiles y mejoran tu experiencia en la aplicación?
+
+### 5.3.2. Registro de Entrevistas
+
+**User Persona del Segmento Objetivo 1: Personas con plantas en casa**
+
+|  ****   |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <div align="center"> <img src="" width="25%" height="auto"> </div> |
+| **Link de la Entrevista:**  |
+| <div align="center"><b>Duración:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:00:00 </div> |
+| ... |
+
+**User Persona del Segmento Objetivo 2: Viveros comerciales**
+
+|  **NICOLE GUILLEN**   |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <div align="center"> <img src="" alt="Entrevista Nicole Segmento 2" width="25%" height="auto"> </div> |
+| Género: Femenino  |
+| Edad: 25 años     |
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/Efag7pda96JEgj9sn5zBkFMB9jo6SnRWKuCj75AMR-g_-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yDhopA |
+| <div align="center"><b>Duración:</b> 00:05:16 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:16 </div> |
+| Nicole Guillen, exploró las principales funciones de PlantaE, incluyendo el registro, la gestión de plantas y equipos, así como la configuración general de la aplicación. En su experiencia, destacó la claridad de la información, la facilidad de navegación y la simplicidad de los procesos, desde el acceso hasta la personalización del perfil. La interfaz fue percibida como intuitiva y organizada, con funciones que responden correctamente y mejoran la experiencia del usuario. En general, el entrevistado consideró que PlantaE ofrece una experiencia fluida, completa y accesible, sin presentar dificultades o confusiones durante su uso. |
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## **SITE o APP A EVALUAR:**
+
+Nombre: PlantE
+Objetivo: Evaluar las fallas en la facilidad de uso del sitio web de la administracion de plantas aplicando los principios de la Lista Heurística de Nielsen.
+
+## **TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Registro y autenticación de usuario, Completando el formulario de registro (nombre, correo, contraseña).
+2. Explorar las secciones disponibles.
+3. Identificar si el usuario comprende la estructura general y se orienta fácilmente.
+4. Agregar una nueva planta al sistema.
+5. Visualizar las plantas registradas en formato de tarjeta.
+6. Revisar los detalles y propiedades de un equipo determinado de una planta.
+7. Cambiar idioma y activar/desactivar el tema nocturno.
+8. Evaluar la respuesta inmediata de las opciones de personalización.
+9. Comprobar si el usuario puede regresar fácilmente a la página anterior o de inicio desde cualquier punto.
+10. Evaluar si el diseño mantiene coherencia entre las diferentes vistas.
+11. Observar si la app ofrece mensajes claros al completar acciones.
+12. Evaluar si los botones y formularios son legibles.
+
+## **PROBLEMAS DETECTADOS:**
+
+| 	| Problema detectado                                                	  | Heurística violada	                | Severidad |
+|:-:| :-------------------------------------------------------------------: | :---------------------------------: | :-------: |
+| 1	| Falla al activar y desactivar el tema nocturno.                       | Visibilidad del estado del sistema  | 3         |
+| 2	| Falta de opciones en "Tipos de Alarma"                                | Flexibilidad y eficiencia de uso    | 2         |
+| 3	| Falla en uso de boton en "Gestion de Equipos"                         | Control y libertad del usuario      | 3         |
+| 4	| Necesidad de más características, como gráficos de estado del equipo  | Flexibilidad y eficiencia de uso    | 1         |
+| 5	| Falta de tutoriales o guía para nuevos usuarios	                      | Ayuda y documentación               | 2         |
+
+## **ESCALA DE SEVERIDAD:**
+
+| Nivel | Descripción	                                                                                                    |
+| :---: | :-------------------------------------------------------------------------------------------------------------: |
+| 1	    | **Problema leve:** No requiere atención inmediata y el usuario puede superarlo fácilmente.                      | 
+| 2    	| **Problema moderado:** Genera confusión y conviene solucionarlo en la siguiente versión .                       |
+| 3	    | **Problema serio:** Aparece con frecuencia y afecta uso, resolverse con alta prioridad.                         |
+| 4	    | **Problema crítico:** Immpide el uso adecuado de la aplicación, indispensable corregirlo antes del lanzamiento. |
+
+## **ANÁLISIS HEURÍSTICO DETALLADO:**
+
+1. Falla al activar y desactivar el tema nocturno:
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Descripción:** El sistema no muestra una respuesta clara o inmediata al cambiar entre modo claro y oscuro, generando incertidumbre en el usuario.
+- **Recomendación:** Implementar una transición visual fluida o un mensaje de confirmación que indique el cambio de tema, reforzando la retroalimentación del sistema.
+
+2. Falta de opciones en "Tipos de Alarma":
+- **Heurística violada:** Flexibilidad y eficiencia de uso
+- **Descripción:** El módulo de alarmas ofrece opciones limitadas, lo que restringe la personalización según las necesidades del usuario.
+- **Recomendación:** Ampliar las opciones de configuración o permitir que el usuario cree alarmas personalizadas para aumentar la flexibilidad.
+  
+3. Falla en el uso del botón en "Gestión de Equipos":
+- **Heurística violada:** Control y libertad del usuario
+- **Descripción:** El botón de acción presenta fallas al ser presionado o no responde adecuadamente, interrumpiendo tareas esenciales como agregar o modificar equipos.
+- **Recomendación:** Revisar la funcionalidad del botón, garantizar su correcta detección de eventos y ofrecer mensajes de error claros en caso de fallo.
+
+4. Necesidad de más características, como gráficos de estado del equipo:
+- **Heurística violada:** Flexibilidad y eficiencia de uso
+- **Descripción:** Los usuarios perciben la ausencia de elementos visuales que faciliten la interpretación del estado de los equipos.
+- **Recomendación:** Incorporar gráficos o indicadores visuales que permitan una comprensión rápida y atractiva del estado de los equipos.
+
+5. Falta de tutoriales o guía para nuevos usuarios:
+- **Heurística violada:** Ayuda y documentación
+- **Descripción:** Los nuevos usuarios no cuentan con una guía introductoria que explique las principales funciones o flujos de navegación.
+- **Recomendación:** Incluir un tutorial interactivo o una sección de ayuda que describa brevemente las funciones principales, accesible desde el menú de inicio.
+
+## 5.4. Video About-the-Product
