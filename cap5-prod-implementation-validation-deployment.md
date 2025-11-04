@@ -588,7 +588,7 @@ El **Sprint 2** consolidó al equipo como una unidad técnica cohesiva especiali
 
 |  ****   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <div align="center"> <img src="" width="25%" height="auto"> </div> |
+| <div align="center"> <img src="" width="50%" height="auto"> </div> |
 | **Link de la Entrevista:**  |
 | <div align="center"><b>Duración:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:00:00 </div> |
 | ... |
@@ -597,7 +597,7 @@ El **Sprint 2** consolidó al equipo como una unidad técnica cohesiva especiali
 
 |  **NICOLE GUILLEN**   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <div align="center"> <img src="" alt="Entrevista Nicole Segmento 2" width="25%" height="auto"> </div> |
+| <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div> |
 | Género: Femenino  |
 | Edad: 25 años     |
 | **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/Efag7pda96JEgj9sn5zBkFMB9jo6SnRWKuCj75AMR-g_-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yDhopA |
