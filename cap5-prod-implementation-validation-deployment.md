@@ -641,17 +641,28 @@ Enlace:
 
 **User Persona del Segmento Objetivo 1: Personas con plantas en casa**
 
-|  ****   |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <div align="center"> <img src="" width="50%" height="auto"> </div> |
-| **Link de la Entrevista:**  |
-| <div align="center"><b>Duración:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:00:00 </div> |
-| ... |
+|  **FÁTIMA FLOREZ**   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="50%" height="auto"> </div>                                      |
+| Género: Femenino                                                                                                                                                                                   |
+| Edad: 20 años        
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20F%C3%A1tima%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb8d8127a%2Dd648%2D41ea%2Db6d7%2D5615d27402db                     |
+| <div align="center"><b>Duración:</b> 00:05:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:05 </div>                                                          |
+| La entrevistada Fatima exploró las funciones principales de PlantaE, como el registro, la administración de plantas y equipos, y la configuración general de la aplicación. Según su experiencia, la información es clara, la navegación resulta sencilla y los procesos, desde ingresar hasta personalizar el perfil son simples. Percibió la interfaz como intuitiva y bien estructurada, con funciones que funcionan adecuadamente y contribuyen a una buena experiencia de uso; Sin embargo, señaló que el modo día/noche presentaba fallos en su funcionamiento. En general, consideró que PlantaE ofrece una experiencia casi completa, fluida y accesible, sin generar complicaciones ni confusiones, salvo por los inconvenientes relacionados con el diseño nocturno.                                                                                                     |
+
+|  **ANGELICA APAZA**   |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <div align="center"> <img src="assets/images/resources/Entrevista Angelica Segmento 1.png" alt="Entrevista Angelica Segmento 1" width="50%" height="auto"> </div>                                  |
+| Género: Femenino                                                                                                                                                                                   |
+| Edad: 22 años        
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Angelica%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E70e12257%2D19a7%2D47a5%2Dbe35%2D024034a53f4c                        |
+| <div align="center"><b>Duración:</b> 00:05:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:05 </div>                                                          |
+| En la entrevista de Angelica tuvo la oportunidad de probar diversas funciones de PlantaE, entre ellas el registro, la gestión de plantas y equipos, y las opciones de configuración general. Comentó que la aplicación le resultó clara y fácil de usar, con procesos simples desde el inicio de sesión hasta la personalización del perfil. Destacó además que la estructura de la interfaz facilita la navegación y que las herramientas responden de manera eficiente, ofreciendo una experiencia agradable. Aun así, observó que el modo día/noche no operaba correctamente. En términos generales, consideró que PlantaE es una aplicación práctica, completa y accesible, aunque con margen de mejora en su diseño nocturno.                                                                                                                                                   |
 
 **User Persona del Segmento Objetivo 2: Viveros comerciales**
 
 |  **NICOLE GUILLEN**                                                                                                                                                                                |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div>                                      |
 | Género: Femenino                                                                                                                                                                                   |
 | Edad: 25 años                                                                                                                                                                                      |
