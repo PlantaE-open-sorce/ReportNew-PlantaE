@@ -643,7 +643,7 @@ Enlace:
 
 |  **FÁTIMA FLOREZ**   |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="50%" height="auto"> </div>                                      |
+| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
 | Género: Femenino                                                                                                                                                                                   |
 | Edad: 20 años        
 | **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20F%C3%A1tima%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb8d8127a%2Dd648%2D41ea%2Db6d7%2D5615d27402db                     |
@@ -652,7 +652,7 @@ Enlace:
 
 |  **ANGELICA APAZA**   |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Angelica Segmento 1.png" alt="Entrevista Angelica Segmento 1" width="50%" height="auto"> </div>                                  |
+| <div align="center"> <img src="assets/images/resources/Entrevista Angelica Segmento 1.png" alt="Entrevista Angelica Segmento 1" width="25%" height="auto"> </div>                                  |
 | Género: Femenino                                                                                                                                                                                   |
 | Edad: 22 años        
 | **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Angelica%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E70e12257%2D19a7%2D47a5%2Dbe35%2D024034a53f4c                        |
