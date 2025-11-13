@@ -606,7 +606,7 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 
 En esta parte se muestra la evidencia de ejecución correspondiente al sprint del proyecto PlantE, una aplicación enfocada en brindar experiencias turísticas personalizadas. Las capturas presentadas, se demuestran la ejecución exitosa de los endpoints desarrollados, verificando su correcto comportamiento y funcionamiento. Estas pruebas confirman la interacción adecuada con los servicios del backend para realizar operaciones de creación, consulta, actualización y eliminación de recursos vinculados a experiencias, disponibilidades y medios. Cada resultado valida que las funcionalidades implementadas fueron integradas correctamente y se encuentran activas y operativas conforme a los criterios definidos en las historias de usuario del sprint.
 
-**Evidencias visuales**
+**Evidencias visuales del Backend deployado****
 
 <p align="center">
     <img src="assets/images/resources/backend1.png" alt="backend1"/>    
@@ -620,6 +620,19 @@ En esta parte se muestra la evidencia de ejecución correspondiente al sprint de
     <img src="assets/images/resources/backend3.png" alt="backend3"/>    
 </p>
 
+<p align="center">
+    <img src="assets/images/resources/backend4.png" alt="backend4"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend5.png" alt="backend5"/>    
+</p>
+
+**Funcionamiento de Backend deployado**
+
+<p align="center">
+    <img src="assets/images/resources/backend_deployado.png" alt="backend_deployado"/>    
+</p>
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
