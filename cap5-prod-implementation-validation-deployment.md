@@ -403,19 +403,32 @@ Navegación fluida entre la página de presentación y la aplicación web.
 **Screenshots de la aplicación en funcionamiento:**
 
 ![Login de EcoTech](assets/images/resources/login.jpeg)
-Página de login para usuarios
+
+- Página de login para usuarios
+  
 ![Looger ](assets/images/resources/prelogin.jpeg)
-Página de registro para nuevos usuarios
+
+- Página de registro para nuevos usuarios
+  
 ![Home ](assets/images/resources/home.jpeg)
-Página principal de la aplicación web con navegación y funcionalidades principales
+
+- Página principal de la aplicación web con navegación y funcionalidades principales
+  
 ![Gestion ](assets/images/resources/gestionplantas.jpeg)
-Página de gestión de plantas
+
+- Página de gestión de plantas
+  
 ![Estado ](assets/images/resources/plantas.jpeg)
-Página de vista para ver detalles de estado de una planta*
+
+- Página de vista para ver detalles de estado de una planta*
+  
 ![Home_vivero ](assets/images/resources/listado-plantas.jpeg)
-Panel de gestión para viveros con plantas registradas
+
+- Panel de gestión para viveros con plantas registradas
+  
 ![Home_usuario ](assets/images/resources/profile.jpeg)
-Página de usuario
+
+- Página de usuario
 
 **Enlaces de despliegue:
 **
