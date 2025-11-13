@@ -596,7 +596,30 @@ Enlace:
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
+
+| **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
+| :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
+| G2-Aplicaciones-Open-Source/backend-java | main       | 94125b6       |          | feat: implement ExperienceMedia endpoint with full CRUD, validation and OpenAPI docs              | 2025-06-21             |
+
 #### 5.2.3.5 Execution Evidence for Sprint Review
+
+En esta parte se muestra la evidencia de ejecución correspondiente al sprint del proyecto PlantE, una aplicación enfocada en brindar experiencias turísticas personalizadas. Las capturas presentadas, se demuestran la ejecución exitosa de los endpoints desarrollados, verificando su correcto comportamiento y funcionamiento. Estas pruebas confirman la interacción adecuada con los servicios del backend para realizar operaciones de creación, consulta, actualización y eliminación de recursos vinculados a experiencias, disponibilidades y medios. Cada resultado valida que las funcionalidades implementadas fueron integradas correctamente y se encuentran activas y operativas conforme a los criterios definidos en las historias de usuario del sprint.
+
+**Evidencias visuales**
+
+<p align="center">
+    <img src="assets/images/resources/backend1.png" alt="backend1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend2.png" alt="backend2"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend3.png" alt="backend3"/>    
+</p>
+
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
