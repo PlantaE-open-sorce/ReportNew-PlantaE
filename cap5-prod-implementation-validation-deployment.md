@@ -416,31 +416,57 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 **Screenshots de la aplicación en funcionamiento:**
 
-![Login de EcoTech](assets/images/resources/login.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_1.jpeg" alt="frontend_1"/>    
+</p>
 
 - Página de login para usuarios
   
-![Looger ](assets/images/resources/prelogin.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_2.jpeg" alt="frontend_2"/>    
+</p>
 
 - Página de registro para nuevos usuarios
   
-![Home ](assets/images/resources/home.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_3.jpeg" alt="frontend_3"/>    
+</p>
 
 - Página principal de la aplicación web con navegación y funcionalidades principales
   
-![Gestion ](assets/images/resources/gestionplantas.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_4.jpeg" alt="frontend_4"/>    
+</p>
+
+- Página del Dashboard
+  
+<p align="center">
+    <img src="assets/images/resources/frontend_5.jpeg" alt="frontend_5"/>    
+</p>
 
 - Página de gestión de plantas
   
-![Estado ](assets/images/resources/plantas.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_6.jpeg" alt="frontend_6"/>    
+</p>
 
-- Página de vista para ver detalles de estado de una planta*
+- Página de vista para ver detalles los dispositivos
   
-![Home_vivero ](assets/images/resources/listado-plantas.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_7.jpeg" alt="frontend_7"/>    
+</p>
 
-- Panel de gestión para viveros con plantas registradas
+- Página de alertas de plantas
+
+<p align="center">
+    <img src="assets/images/resources/frontend_8.png" alt="frontend_8"/>    
+</p>
+
+- Panel de gestión de reportes
   
-![Home_usuario ](assets/images/resources/profile.jpeg)
+<p align="center">
+    <img src="assets/images/resources/frontend_9.png" alt="frontend_9"/>    
+</p>
 
 - Página de usuario
 
