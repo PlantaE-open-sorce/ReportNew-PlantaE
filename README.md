@@ -140,13 +140,42 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                         | Descripción de modificación                      |
-| -------- | ---------- | --------------------------------- | -------------------------------------------------- |
+| Versión | Fecha      | Autor(es)                         | Descripción de modificación                        |
+| -------- | ---------- | --------------------------------- | ------------------------------------------------- |
 | 0.1      | 21/09/2025 | Apaza Bocanegra, Elizabeth Noelia | Elaboración de la estructura inicial del reporte. |
-| 0.2      | 21/09/2025 | Guillen Galindo, Julio Adolfo     | Desarrollo del Capítulo III y Capítulo IV        |
-| 0.3      | 21/09/2025 | Navarro Chinga, Antonio Jhair     | Desarrollo del Capítulo IV y Capítulo V          |
-| 0.4      | 21/09/2025 | Contreras Leon, Flor de Maria     | Desarrollo Basico de la landing Page               |
-| 0.5      | 21/09/2025 | Contreras Leon, Flor de Maria     | Desarrollo del Capítulo IV y Capítulo V          |
+| 0.2      | 21/09/2025 | Guillen Galindo, Julio Adolfo     | Desarrollo del Capítulo III y Capítulo IV         |
+| 0.3      | 21/09/2025 | Navarro Chinga, Antonio Jhair     | Desarrollo del Capítulo IV y Capítulo V           |
+| 0.4      | 21/09/2025 | Contreras Leon, Flor de Maria     | Desarrollo Basico de la landing Page              |
+
+# Project Report Collaboration Insights
+
+| URL del repositorio de la landing page                |
+| :---------------------------------------------------- |
+| https://github.com/PlantaE-open-sorce/PlantaE-landing | 
+
+| URL del repositorio del frontend                                     |
+| :----------------------------------------------------------------------------------------------------- |
+|  | 
+
+| URL del repositorio del backend                              |
+| :----------------------------------------------------------- |
+| https://github.com/PlantaE-open-sorce/backendNew-PlantaE.git | 
+
+TB2:
+
+| Integrante                        | Tarea Asignada                                              |
+| :-------------------------------: | :---------------------------------------------------------: |
+| Apaza Bocanegra, Elizabeth Noelia |	Conexión de los Bounded Context IAM del FrontEnd al BackEnd |
+| Guillen Galindo, Julio Adolfo     | Conexión del Bounded Context Gestion Plantas al BackEnd     |
+| Navarro Chinga, Antonio Jhair     |	Conexión de los Bounded Context Login y Perfil al BackEnd   |
+| Contreras Leon, Flor de Maria     |	Conexión del Bounded Context Home                           |
+| Miraval Pomalaya, Rodrigo Jesus   |	Conexión del Bounded Context Plants                         |
+
+Pull requests evidence:
+
+<p align="center">
+    <img src="assets/images/resources/evidence_tb2.jpeg" alt="evidence_tb2"/> 
+</p>
 
 # Student Outcome
 
