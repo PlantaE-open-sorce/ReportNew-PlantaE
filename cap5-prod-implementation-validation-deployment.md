@@ -692,6 +692,10 @@ En esta parte se muestra la evidencia de ejecución correspondiente al sprint de
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
 
+<p align="center">
+    <img src="assets/images/resources/documentation_evidence_3.jpeg" alt="documentation_evidence_3"/>    
+</p>
+
 ---
 
 ## IAM (Autenticación y Cuenta)
@@ -818,18 +822,14 @@ an ADMIN supplies `ownerId`.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 <p align="center">
-    <img src="assets/images/resources/sprint_review_3.jpeg" alt="sprint_review_3"/>    
-</p>
-
-#### 5.2.3.8 Team Collaboration Insights during Sprint
-
-<p align="center">
     <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
 </p>
 
 <p align="center">
     <img src="assets/images/resources/deployment_backend3_2.jpeg" alt="deployment_backend3_2"/>    
 </p>
+
+#### 5.2.3.8 Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 
