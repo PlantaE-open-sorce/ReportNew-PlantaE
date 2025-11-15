@@ -369,39 +369,27 @@ Wireflow:
 
 En esta primera sección se presenta la pantalla Home de la landing page.
 
-<img src="assets/images/chapter-4/Mock-up/home.png" alt="home wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/Home.png" alt="home wireframes"/>
 
-Se presenta la sección de propuesta de who are we:
+Se presenta la sección de quienes somos:
 
-<img src="assets/images/chapter-4/Mock-up/who-are-we.png" alt="who are we wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/About-us.png" alt="who are we wireframes"/>
 
 Se presenta la sección de propuesta de Services:
 
-<img src="assets/images/chapter-4/Mock-up/services.png" alt="services wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/Services.png" alt="services wireframes"/>
 
-Se presenta la sección de propuesta de Benefits:
+Se presenta la sección de propuesta de About the product:
 
-<img src="assets/images/chapter-4/Mock-up/benefits.png" alt="benefits wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/About the product.png" alt="about the product wireframes"/>
 
 Se presenta la sección de propuesta de Testimonials:
 
-<img src="assets/images/chapter-4/Mock-up/testimonials.png" alt="testimonials wireframes"/>
-
-Se presenta la sección de propuesta de Frequently Asked Questions:
-
-<img src="assets/images/chapter-4/Mock-up/frequently-asked-questions.png" alt="faq wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/Testimonials.png" alt="testimonials wireframes"/>
 
 Se presenta la sección de propuesta de Contact:
 
-<img src="assets/images/chapter-4/Mock-up/contact.png" alt="contact wireframes"/>
-
-Se presenta la sección de propuesta de Download:
-
-<img src="assets/images/chapter-4/Mock-up/download.png" alt="download wireframes"/>
-
-Se presenta la sección de propuesta de Footer:
-
-<img src="assets/images/chapter-4/Mock-up/footer.png" alt="footer wireframes"/>
+<img src="assets/images/chapter-4/Mock-ups/Contact us.png" alt="contact wireframes"/>
 
 
 ## 4.4. Web Applications UX/UI Design
