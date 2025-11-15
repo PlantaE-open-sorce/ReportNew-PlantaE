@@ -385,7 +385,6 @@ Acceso rápido a opciones como configuración y dashboard principal.
 - **Integración unificada con la Landing Page**
 Navegación fluida entre la página de presentación y la aplicación web.
 
-
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 **Durante el Sprint 2, se logró la implementación exitosa y el despliegue de la Frontend Web Application de EcoTech, estableciendo una interfaz de usuario completa y funcional que conecta ambos segmentos objetivo con las funcionalidades principales de la plataforma.**
 
@@ -515,14 +514,11 @@ La aplicación cuenta con documentación completa que incluye:
 **Componentes:** `Search`, `Filter`, `WorkshopList`  
 **Funcionalidades:** Búsqueda avanzada, filtros dinámicos, resultados paginados  
 
-
-
 **Tracking Dashboard**
 **Componentes:** `TrackingState`, `NotificationView`, `ProgressBar`  
 **Funcionalidades:** Seguimiento en tiempo real, visualización de estados, notificaciones  
 
 **Evidencias de despliegue:**
-
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 **Organización Estratégica del Equipo**
@@ -689,12 +685,10 @@ En esta parte se muestra la evidencia de ejecución correspondiente al sprint de
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
+En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
+
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
-
-<p align="center">
-    <img src="assets/images/resources/documentation_evidence_3.jpeg" alt="documentation_evidence_3"/>    
-</p>
 
 ---
 
@@ -821,6 +815,28 @@ an ADMIN supplies `ownerId`.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3 se logró desplegar satisfactoriamente la API del backend del proyecto en la plataforma Render, lo que permitió habilitar el acceso público a los endpoints desarrollados y documentados. Esto garantiza que las funcionalidades implementadas puedan ser evaluadas y probadas externamente en un entorno de staging.
+
+El despliegue contempla una instancia de servidor ejecutando la aplicación Spring Boot, junto con una base de datos PostgreSQL conectada de forma remota.
+
+**Entorno de Despliegue**
+- Plataforma: Microsoft Azure
+- Base de datos: PostgreSQL
+- Gestor de Base de Datos: pgAdmin 4
+- Tipo de despliegue: Máquina Virtual
+
+**Archivos de configuración clave**
+- `Dockerfile:` Utilizado para generar la imagen necesaria para la ejecución del backend dentro de la máquina virtual.
+
+**Verificación de Despliegue**
+Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, además de verificaciones manuales mediante pgAdmin 4. Estas pruebas permitieron confirmar:
+
+- El funcionamiento correcto de los endpoints del backend.
+- La persistencia adecuada de los datos en la base de datos PostgreSQL conectada de forma remota.
+- La estabilidad del backend desplegado en la VM Ubuntu y su correcta accesibilidad a través de la web.
+
+**Evidencia Visual**
+
 <p align="center">
     <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
 </p>
@@ -829,7 +845,23 @@ an ADMIN supplies `ownerId`.
     <img src="assets/images/resources/deployment_backend3_2.jpeg" alt="deployment_backend3_2"/>    
 </p>
 
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_2.jpeg" alt="spring_deploy_2"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_3.jpeg" alt="spring_deploy_3"/>    
+</p>
+
 #### 5.2.3.8 Team Collaboration Insights during Sprint
+
+<p align="center">
+    <img src="assets/images/resources/deployment_backend3_2.jpeg" alt="deployment_backend3_2"/>
+</p>
 
 ## 5.3. Validation Interviews
 
