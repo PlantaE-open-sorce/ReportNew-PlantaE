@@ -662,10 +662,6 @@ En esta parte se muestra la evidencia de ejecución correspondiente al sprint de
 </p>
 
 <p align="center">
-    <img src="assets/images/resources/backend2.png" alt="backend2"/>    
-</p>
-
-<p align="center">
     <img src="assets/images/resources/backend3.png" alt="backend3"/>    
 </p>
 
