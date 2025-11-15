@@ -448,7 +448,6 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 **Landing Page Actualizada:** Enlaces directos hacia la aplicación web desde la landing page
 
-
 **Screenshots de la aplicación en funcionamiento:**
 
 <p align="center">
@@ -511,6 +510,21 @@ Navegación fluida entre la página de presentación y la aplicación web.
 **Landing Page: **
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante este sprint se completó el diseño e implementación del FrontEnd del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Implementando los endpoints de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+
+**Descripción del Logro:**
+
+-Implementación del FrontEnd.
+
+-Deployment del FrontEnd.
+
+### Recursos del Sprint
+
+| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                                                              | Link de repositorio                                                         |
+| ------------ | --------------------- | ----------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| FrontEnd     | Visualización inicial | GET         | http://20.57.10.48/login                                                    | https://github.com/PlantaE-open-sorce/frontedNew-PlantaE                    |
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 **Documentación Técnica – Sprint 2**
