@@ -13,7 +13,7 @@
 - **Web Applications User Flow Diagrams:** https://www.figma.com/design/PPJfbzpYLR6c4nQ5jYwNe7/PlantE?node-id=0-1&t=iDIQYljrwXyWJJqd-1 
 - **URL de la organización del proyecto:**  https://github.com/PlantaE-open-sorce 
 - **URL del repositorio del reporte:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE.git
-- **URL del repositorio de la landing page:** https://github.com/PlantaE-open-sorce/PlantaE-landing.git
+- **URL del repositorio de la landing page:** https://github.com/PlantaE-open-sorce/PlantaE-landing
 - **URL del repositorio del Frontend:** [Link pendiente]() 
 - **URL del repositorio del backend:** https://github.com/PlantaE-open-sorce/backendNew-PlantaE.git
 - **URL deploy Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing
