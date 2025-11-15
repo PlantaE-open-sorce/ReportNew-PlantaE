@@ -196,6 +196,42 @@ Los principales avances fueron:
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
+<p align="center">
+    <img src="assets/images/resources/landing_1.png" alt="landing_1"/>    
+</p>
+
+- Parte de inicio.
+
+<p align="center">
+    <img src="assets/images/resources/landing_2.png" alt="landing_2"/>    
+</p>
+
+- Servicios que ofrece PlantE
+
+<p align="center">
+    <img src="assets/images/resources/landing_3.png" alt="landing_3"/>    
+</p>
+
+- Testimonios de usuarios.
+
+<p align="center">
+    <img src="assets/images/resources/landing_4.png" alt="landing_4"/>    
+</p>
+
+- Preguntas Frecuentes de usuarios.
+
+<p align="center">
+    <img src="assets/images/resources/landing_5.png" alt="landing_5"/>    
+</p>
+
+- Contacto para usuarios con mas preguntas o consultas.
+
+<p align="center">
+    <img src="assets/images/resources/landing_6.png" alt="landing_6"/>    
+</p>
+
+- Donde descargar la aplicacion PlantE.
+
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
 Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
