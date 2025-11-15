@@ -817,7 +817,19 @@ an ADMIN supplies `ownerId`.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+<p align="center">
+    <img src="assets/images/resources/sprint_review_3.jpeg" alt="sprint_review_3"/>    
+</p>
+
 #### 5.2.3.8 Team Collaboration Insights during Sprint
+
+<p align="center">
+    <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/deployment_backend3_2.jpeg" alt="deployment_backend3_2"/>    
+</p>
 
 ## 5.3. Validation Interviews
 
