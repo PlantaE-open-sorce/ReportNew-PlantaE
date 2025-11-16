@@ -19,6 +19,6 @@
 - **URL deploy Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
 - **Link de Trello (Sprints Backlog):** https://trello.com/invite/b/68ce3ff8e12e133c183cd40c/ATTI305fe686ba4051b68ba8b95e59ebb4e4467CCE1B/plantae 
 - **URL del Frontend desplegado:** http://20.57.10.48/login
-- **URL del Backend desplegado:** [Link pendiente]()  
+- **URL del Backend desplegado:** http://20.57.10.48:8080/swagger-ui/index.html
 - **Video About-The-Team:** [Link pendiente]()  
 - **Video About-The-Product:** https://youtu.be/NjN0LWdj1WI
