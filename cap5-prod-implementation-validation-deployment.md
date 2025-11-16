@@ -115,23 +115,37 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-#### Frontend (Landing Page - HTML, CSS, JavaScript)
+### Landing Page:
+**Resumen:** Como principales tecnologías, usaremos Astro, Tailwind CSS, HTML y TypeScript. Componentes pequeños y tipados, comunicación clara por props, y estilos utilitarios y organizados.
+| **Tecnología** | **Convenciones principales** | **Convenciones para código** |
+|---|---|---|
+| **Tailwind CSS** | - Usar solo clases utilitarias de Tailwind.<br>- Ordenar clases en bloques: Layout → Box Model → Tipografía → Colores/Fondos → Otros.<br>- Mantener legibilidad en clases largas. | - Usar `@apply` para estilos reutilizables.<br>- Evitar clases condicionales en el HTML. - Usar clases de estado (hover, focus, etc.) en lugar de JavaScript para interacciones simples.<br> - Mantener la estructura de carpetas organizada y coherente.<br> - Reutilizar el máximo de clases de tailwind. |
+| **HTML** | - Usar etiquetas semánticas (`header`, `main`, `section`, etc.).<br>- Indentación de 2 espacios.<br>- Atributos entre comillas dobles `"`.<br>- Orden de atributos: `id`, `class` → accesibilidad (`aria-*`) → funcionales (`src`, `href`, `alt`).<br>- Nombres en kebab-case (`main-section`). | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
+| **Astro** | - Archivos `.astro` en `PascalCase`.<br>- Orden del archivo: frontmatter → HTML/JSX → estilos `\<style>`.<br>- Props siempre tipadas con TypeScript.<br>- Importaciones cortas y claras.<br>- Componentes pequeños y reutilizables. | - Mantener la lógica de los componentes en el archivo `.astro` y evitar la lógica compleja en el frontmatter. - Usar `Astro.fetch` para obtener datos de manera eficiente.<br> - Utilización de props para comunicación entre componentes. |
 
-##### Convenciones generales:
+### Front-End:
 
-- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases, está escrito en **inglés**.
-- **Indentación**: 2 espacios.
-- **Formato de archivos**: `.html`, `.css`, `.js`
-- **Estilo de código adoptado**:
-  - https://www.w3schools.com/html/html5_syntax.asp
-  - https://google.github.io/styleguide/htmlcssguide.html
+**Resumen:** Como principales tecnologías, usaremos Vue.js, HTML, JavaScript y CSS. Componentes pequeños y tipados, comunicación clara por props/emits, y manejo de estado y APIs mantenible.
 
-##### Nomenclatura:
+| **Tecnología** | **Convención** | **Convenciones para código** |
+|----------------|----------------|------------------------------|
+| **HTML5** | Uso semántico de etiquetas (`header`, `main`, `section`, `footer`). Atributos en comillas dobles. Indentación de 2 espacios. | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **CSS3** | Estilos modulares y reutilizables. Variables globales para colores/tipografía. Evitar `!important`. | - Usar BEM (Block Element Modifier) para nombrar clases.<br>- Mantener la especificidad baja y evitar selectores complejos.<br>- Utilizar preprocesadores como SASS o LESS si es necesario. |
+| **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
+| **Angular** | - Componentes en `PascalCase`.<br>- Servicios en `camelCase`.<br>- Módulos en `PascalCase`.<br>- Uso de `@Input` y `@Output` para comunicación entre componentes. | - Mantener los componentes pequeños y enfocados en una sola responsabilidad.<br>- Utilzación de nuevas directivas como @if, @for o @else de Angular versión 20.<br>- No utilizar NgModules por nuevas recomendaciones de Angular versión 20. |
 
-- **Clases CSS**: `kebab-case` (ej. `main-container`)
-- **IDs HTML**: `camelCase` (ej. `mainContent`)
-- **Variables JS**: `camelCase` (ej. `userName`)
-- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+### Back-End:
+
+**Resumen:** Como principales tecnologías, C# y .NET. Como principales tecnologías, se utilizarán C# y .NET, enfocándose en un código limpio, seguro y mantenible bajo buenas prácticas de arquitectura, nomenclatura, validación, seguridad y pruebas.
+
+| **Tecnología** | **Convención** | **Convenciones para código** |
+|----------------|----------------|------------------------------|
+| **Java** | Lenguaje principal. Usar sintaxis moderna (Java 17+), convenciones de nomenclatura estándar de Oracle, y programación orientada a objetos junto con patrones modernos (Streams, Optional, records, etc.). | - Mantener el código limpio y bien estructurado.<br>- Usar comentarios para explicar la lógica compleja.<br>- Seguir las convenciones de nomenclatura de Oracle. |
+| **Spring Boot** | Framework principal para el backend. Uso de **arquitectura en capas** (API, Application, Domain, Infrastructure). Enfoque en modularidad, mantenibilidad y soporte multiplataforma. | - Seguir las mejores prácticas de diseño de API REST.<br>- Utilizar anotaciones de validación para entradas de usuario.<br>- Implementar manejo de errores y excepciones de manera consistente. |
+| **Maven** | Herramienta de gestión y construcción del proyecto. Uso de un `pom.xml` bien estructurado para gestionar dependencias, plugins y perfiles de construcción. | - Mantener una estructura de proyecto coherente y organizada.<br>- Utilizar versiones específicas de dependencias para evitar conflictos.<br>- Documentar la configuración del `pom.xml` para facilitar su comprensión. |
+| **JPA/Hibernate** | Framework de mapeo objeto-relacional. Uso de anotaciones para definir entidades, relaciones y consultas. Enfoque en la eficiencia y optimización de acceso a datos. | - Definir entidades claras y bien estructuradas.<br>- Utilizar consultas JPQL o Criteria API para operaciones complejas.<br>- Implementar estrategias de caché para mejorar el rendimiento. |
+| **Swagger** | Generación automática de documentación de la API REST. Versionado claro (`/api/v1`, `/api/v2`) y contratos visibles para clientes externos. | - Incluir ejemplos de solicitudes y respuestas en la documentación.<br>- Mantener la documentación actualizada con los cambios en la API.<br>- Utilizar herramientas de generación de documentación para automatizar el proceso. |
 
 ### 5.1.4. Software Deployment Configuration
 
