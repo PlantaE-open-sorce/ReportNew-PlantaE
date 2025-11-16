@@ -377,3 +377,5 @@ Se presenta la sección de propuesta de Contact:
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+
+<img src="assets/images/chapter-4/database_diagrams.png" alt="diagrama de clases"/>
