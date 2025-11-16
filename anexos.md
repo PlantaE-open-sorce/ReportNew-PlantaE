@@ -21,4 +21,4 @@
 - **URL del Frontend desplegado:** http://20.57.10.48/login
 - **URL del Backend desplegado:** [Link pendiente]()  
 - **Video About-The-Team:** [Link pendiente]()  
-- **Video About-The-Product:** [Link pendiente]()
+- **Video About-The-Product:** https://youtu.be/NjN0LWdj1WI
