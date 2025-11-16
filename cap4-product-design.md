@@ -362,6 +362,48 @@ Se presenta la sección de propuesta de Contact:
 
 ### 4.6.1. Design-Level Event Storming
 
+Para la elaboración del EventStorming, el equipo organizó una primera aproximación al modelo del dominmio de nuestro proyecto. Durante este proceso se realizaron una serie de 8 pasos.
+
+**Paso 1: Collect Domain Events**
+En este primer paso, se identificó todos los eventos relevantes para el dominio para nuestro sistema. Estos eventos representan hechos importantes que suceden en el proceso de negocio y los recopilamos con pos-its de color naranja.
+
+<img src="assets/images/chapter-4/event-storming/colect-domain-event.png" alt="colect-domain-event"/>
+
+**Paso 2: Timeline**
+En este paso organizamos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
+
+<img src="assets/images/chapter-4/event-storming/time-line.png" alt="time linea"/>
+
+**Paso 3: Pain and Pivotal points**
+En este paso se identificaron los pain points y los pivotal points del proceso. Esto significa que se encontraron las partes que necesitan mayor atención o que son cruciales para que el sistema funcione correctamente.
+
+<img src="assets/images/chapter-4/event-storming/paint-points.png" alt="paint-points"/>
+
+**Paso 4: Commands**
+En este paso se agregaron comandos (los post-its azules) para representar las acciones de los usuarios o sistemas que inician un cambio en el sistema.
+
+<img src="assets/images/chapter-4/event-storming/commands.png" alt="commands"/>
+
+**Paso 5: Policies**
+En este paso se definieron reglas de negocio (los post-its morados) que responden a ciertos eventos y generan nuevos eventos. Básicamente, estas reglas automatizan decisiones basadas en lo que sucedió antes.
+
+<img src="assets/images/chapter-4/event-storming/policies.png" alt="Policies"/>
+
+**Paso 6: Read models**
+En este paso se identificaron las vistas o modelos de lectura que los usuarios necesitan. Esto se refiere a la información específica que debe estar accesible en ciertos momentos para que los usuarios puedan tomar decisiones.
+
+<img src="assets/images/chapter-4/event-storming/read-model.png" alt="read-model"/>
+
+**Paso 7: Aggregates**
+En este paso se organizaron los comandos y eventos relacionados en grupos lógicos llamados agregados (los post-its amarillos). Cada grupo reúne un conjunto de funciones que trabajan juntas de manera coherente.
+
+<img src="assets/images/chapter-4/event-storming/aggregates.png" alt="Aggregates"/>
+
+**Paso 8: Bounded Context**
+Al final, definimos las áreas de responsabilidad del sistema, también conocidas como bounded contexts.
+
+<img src="assets/images/chapter-4/event-storming/bc-general.png" alt="bc-general"/>
+
 ### 4.6.2. Software Architecture Context Diagram
 
 ### 4.6.3. Software Architecture Container Diagrams
