@@ -173,7 +173,7 @@ Le asignamos el nombre “landing-page” dentro de nuestra organización
 Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
 Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/web_git.jpg)
 
 
 **4. Carga de los archivos de la landing page**
