@@ -51,7 +51,10 @@ Ruta de referencia:
 - Link oficial de Spring Boot: https://spring.io/projects/spring-boot
 - Link oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
 
+## Diseño UX/UI de Producto
+En cuanto al diseño de experiencia de usuario, usamos UXPressia para crear y compartir documentos como user personas, mapas de empatía y journey maps, lo que ayudó a nuestro equipo a entender mejor a los usuarios y validar las ideas antes de empezar la implementación.
 
+Ruta de Referencia: https://uxpressia.com/
 
 ### 5.1.2. Source Code Management
 
