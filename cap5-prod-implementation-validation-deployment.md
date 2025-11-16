@@ -681,11 +681,13 @@ Navegación fluida entre la página de presentación y la aplicación web.
 </p>
 
 - Página de usuario
+  
+ ### Primera Version Sprint 2
+**Enlaces de despliegue:** 
 
-**Enlaces de despliegue:
-**
-**Frontend Application: **
-**Landing Page: **
+**Frontend Application:** https://plant-e-frontend.vercel.app/auth/login
+
+**Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -703,6 +705,14 @@ Durante este sprint se completó el diseño e implementación del FrontEnd del s
 | ------------ | --------------------- | ----------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | FrontEnd     | Visualización inicial | GET         | http://20.57.10.48/login                                                    | https://github.com/PlantaE-open-sorce/frontedNew-PlantaE                    |
 
+- Component Documentation: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/fa2781f82273933e6fd230767d0d6da1d9f0aaa8/assets/documentation/Component%20Documentation
+
+- Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/2bec321d980f51e31d3c02847d06208262a7934d/assets/documentation/Module%20Documentation
+
+- Design Patterns: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4482f49e0503049298653b9b382b04b654dfdcc1/assets/documentation/Design%20Patterns%3A
+
+
+- Routing Guide: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4dd3ec64653c496cfb0e0ec20120c29fd7c923f0/assets/documentation/Routing%20Guide
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 **Documentación Técnica – Sprint 2**
