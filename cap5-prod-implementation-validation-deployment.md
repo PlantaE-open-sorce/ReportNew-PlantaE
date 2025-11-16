@@ -1430,20 +1430,20 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 | \#    | Problema                                                    | Escala de severidad | Heurística/Principio violada(o)                 |
 | :---: | :---------------------------------------------------------- | :-----------------: | :---------------------------------------------- |
-| 1	    | Falta de Login en la Landing Page	                          | 2	                  | Usability: Libertad y control del usuario       |
-| 2	    | Funciones inaccesibles en el Login	                        | 3	                  | Usability: Visibilidad del estado del sistema   | 
-| 3	    | Interfaz sin distribución clara; imágenes demasiado grandes	| 1	                  | Usability: Diseño estético y minimalista        |
-| 4	    | Cards muy amplias; filtrado y favoritos inactivos	          | 3	                  | Usability: Libertad y control del usuario       |
-| 5	    | No hay datos para Bicicletas Eléctricas	                    | 2	                  | Usability: Consistencia y estándares            |
-| 6	    | No permite cancelar reservas	                              | 4	                  | Usability: Libertad y control del usuario       |
-| 7	    | No se guardan nuevas reservas desde Booking	                | 4	                  | Usability: Prevención y recuperación de errores |
-| 8	    | Sección “Viaje” en Ver Detalles inactiva	                  | 2	                  | Usability: Visibilidad del estado del sistema   |
-| 9	    | Botón “Pagar” inactivo en la sección Planes	                | 3	                  | Usability: Libertad y control del usuario       |
-| 10	  | Botones del menú superior (Settings, User, etc.) inactivos	| 2	                  | Usability: Visibilidad del estado del sistema   |
-| 11	  | No hay traducción; dificulta comprensión de recibos	        | 1	                  | Usability: Consistencia y estándares            |
-| 12	  | Función “Reservar vehículo” inactiva	                      | 4	                  | Usability: Prevención de errores                |
-| 13	  | Botón reservar en las cards inactivo	                      | 3	                  | Usability: Libertad y control del usuario       |
-| 14	  | Botón “Edit Booking” no funciona	                          | 3	                  | Usability: Flexibilidad y eficiencia de uso     |
+| 1	    | Falta de Login en la Landing Page	                          | 2	                | Usability: Libertad y control del usuario       |
+| 2	    | Funciones inaccesibles en el Login	                      | 3	                | Usability: Visibilidad del estado del sistema   | 
+| 3	    | Interfaz sin distribución clara; imágenes demasiado grandes | 1	                | Usability: Diseño estético y minimalista        |
+| 4	    | Cards muy amplias; filtrado y favoritos inactivos	          | 3	                | Usability: Libertad y control del usuario       |
+| 5	    | No hay datos para Bicicletas Eléctricas	                  | 2	                | Usability: Consistencia y estándares            |
+| 6	    | No permite cancelar reservas	                              | 4	                | Usability: Libertad y control del usuario       |
+| 7	    | No se guardan nuevas reservas desde Booking	              | 4	                | Usability: Prevención y recuperación de errores |
+| 8	    | Sección “Viaje” en Ver Detalles inactiva	                  | 2	                | Usability: Visibilidad del estado del sistema   |
+| 9	    | Botón “Pagar” inactivo en la sección Planes	              | 3	                | Usability: Libertad y control del usuario       |
+| 10	| Botones del menú superior (Settings, User, etc.) inactivos  | 2	                | Usability: Visibilidad del estado del sistema   |
+| 11	| No hay traducción; dificulta comprensión de recibos	      | 1	                | Usability: Consistencia y estándares            |
+| 12	| Función “Reservar vehículo” inactiva	                      | 4	                | Usability: Prevención de errores                |
+| 13	| Botón reservar en las cards inactivo	                      | 3	                | Usability: Libertad y control del usuario       |
+| 14	| Botón “Edit Booking” no funciona	                          | 3	                | Usability: Flexibilidad y eficiencia de uso     |
 
 ## DESCRIPCIÓN DE PROBLEMAS:
 
