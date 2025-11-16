@@ -153,9 +153,9 @@
 | :---------------------------------------------------- |
 | https://github.com/PlantaE-open-sorce/PlantaE-landing | 
 
-| URL del repositorio del frontend                                     |
-| :----------------------------------------------------------------------------------------------------- |
-|  | 
+| URL del repositorio del frontend                         |
+| :------------------------------------------------------- |
+| https://github.com/PlantaE-open-sorce/frontedNew-PlantaE | 
 
 | URL del repositorio del backend                              |
 | :----------------------------------------------------------- |
