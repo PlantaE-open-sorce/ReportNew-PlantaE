@@ -158,7 +158,7 @@ Para que nuestra landing page esté disponible para todos nuestros usuarios, la 
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Landing Page de PlantaE.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
 
 
 **2. Creación del repositorio**
@@ -166,7 +166,7 @@ Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto 
 Hicimos clic en el botón “New” para generar un nuevo repositorio.
 Le asignamos el nombre “landing-page” dentro de nuestra organización
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
 
 **3. Configuración del repositorio
 **
@@ -183,7 +183,7 @@ Subimos los archivos generados del proyecto (HTML, TailwindCSS, TypeScript, Astr
 Verificamos que los cambios se hicieran en la rama principal (main).
 Finalmente, confirmamos la acción con “Commit changes” para guardar los archivos.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/web_git.jpg)
 
 
 ### Despliegue del Frontend Web Applications
@@ -192,7 +192,7 @@ Para que nuestra Frontend Web Application esté disponible para todos nuestros u
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Frontend Web Application de PlantaE. 
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
 
 
 **2. Creación del repositorio**
@@ -200,14 +200,14 @@ Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto 
 Hicimos clic en el botón “New” para generar un nuevo repositorio
 Le asignamos el nombre “frontend” dentro de nuestra organización PlantaE.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
 
 
 **3. Despliegue en Windows Azure**
 
 Tanto en Frontend como el backend se desplegaron en maquina virtual
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
 
 
 
@@ -224,7 +224,7 @@ Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto 
 
 Creamos un repositorio llamado backend dentro de nuestra organización prime-fix.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
 
 
 **2. Base datos en Microsoft Azure**
@@ -233,7 +233,7 @@ Creamos una instancia de base de datos en Amazon RDS para almacenar los datos de
 Configuramos los parámetros de la base de datos, incluyendo el motor (MySQL, PostgreSQL, etc.), tamaño, y credenciales de acceso.
 
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/execution_evidence_3.jpeg)
 
 
 **3. Build en Microsoft Azure C**
@@ -242,7 +242,7 @@ Configuramos un proyecto en la maquina virtual  para compilar el código del bac
 Construye la imagen Docker utilizando un archivo Dockerfile que define el entorno de ejecución.
 Con todos estos archivos podemos compilar el proyecto de Java v.25 y Spring Boot v.3.5.7
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/buil.jpg)
 
 
 
@@ -252,7 +252,7 @@ Creamos un repositorio en Amazon ECR para almacenar las imágenes Docker del bac
 Configuramos las políticas de acceso para permitir que AWS CodeBuild pueda subir imágenes al repositorio.
 Subimos la imagen Docker generada por CodeBuild al repositorio de ECR.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
 
 
 **6. Despliegue en Maquina Virtual**
@@ -262,7 +262,7 @@ Configuramos las variables de entorno necesarias para la conexión con la base d
 Definimos la configuración de escalado automático para manejar la carga de tráfico.
 Finalmente, iniciamos el servicio para que el backend esté disponible públicamente.
 
-![Logo de la empresa](https://example.com/logo.png)
+![Logo de la empresa](assets/images/resources/backend5.png)
 
 
 
