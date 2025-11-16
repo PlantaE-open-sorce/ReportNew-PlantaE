@@ -406,9 +406,25 @@ Al final, definimos las áreas de responsabilidad del sistema, también conocida
 
 ### 4.6.2. Software Architecture Context Diagram
 
+Context Diagram
+
+<img src="assets/images/chapter-4/c4-model/diagrama-contexto.png" alt="Diagrama de Contexto"/>
+
 ### 4.6.3. Software Architecture Container Diagrams
 
+Conatiner Diagram 
+
+<img src="assets/images/chapter-4/c4-model/diagrama-contenedor.png" alt="Diagrama de Contenedor"/>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Component Diagram: Web Service
+
+<img src="assets/images/chapter-4/c4-model/diagrama-componentes-web-services.png" alt="Component Diagram: Web Service"/>
+
+Component Diagram: UI-PlantaE
+
+<img src="assets/images/chapter-4/c4-model/diagrama-componentes-UI-PlantaE.png" alt="Component Diagram: UI-PlantaE"/>
 
 ## 4.7. Software Object-Oriented Design
 
