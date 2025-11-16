@@ -183,7 +183,7 @@ Subimos los archivos generados del proyecto (HTML, TailwindCSS, TypeScript, Astr
 Verificamos que los cambios se hicieran en la rama principal (main).
 Finalmente, confirmamos la acción con “Commit changes” para guardar los archivos.
 
-![Logo de la empresa](assets/images/resources/web_git.jpg)
+![Logo de la empresa](assets/images/resources/landing_1.png)
 
 
 ### Despliegue del Frontend Web Applications
@@ -1112,7 +1112,7 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
 <p align="center">
-    <img src="assets/images/resources/collaboration_insights_3.jpeg" alt="collaboration_insights_3"/>
+    <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
 </p>
 
 ## 5.3. Validation Interviews
