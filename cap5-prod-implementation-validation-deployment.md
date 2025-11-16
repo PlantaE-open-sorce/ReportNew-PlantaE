@@ -1037,7 +1037,7 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
     <img src="assets/images/resources/evaluacion_heuristicas_2.jpeg" alt="evaluacion_heuristicas_2"/>    
 </p>
 
-## Auditoria del Grupo 1:
+## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación  "PlantaE":
 
 
 **UX Heuristics & Principles Evaluation**
@@ -1120,12 +1120,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** El usuario que accede a la Landing Page no tiene disponible un acceso  visible para ingresar al sistema (Frontend). Esto genera confusión, incrementa el tiempo de exploración y puede provocar abandono al no saber cómo iniciar sesión o acceder a la - - plataforma funcional.
 - **Recomendación:** Incluir un botón visible de acceso al sistema en el header o sección principal de Landing Page, acompañado de un CTA claro como “Ingresar a mi cuenta” o “Ir al panel”.
 
+  ![Eu1](https://example.com/logo.png)
+
+
 ## PROBLEMA \#2: No se traduce la aplicación por completo
 
 - **Severidad: 1**
 - **Heurística violada:** Usabilidad \- Consistencia y estándares
 - **Problema:** La interfaz mezcla idiomas entre secciones, etiquetas y microtextos. Además del cambio manual entre EN/ES, algunos textos permanecen sin traducirse. Esto afecta la claridad del contenido y puede generar errores de interpretación.
 - **Recomendación:** Completar el sistema de internacionalización (i18n), asegurando una traducción integral de todos los componentes.
+
+![eu2](https://example.com/logo.png)
+
 
 ## PROBLEMA \#3: No se puede acceder al Dashboard como vivero
 
@@ -1134,12 +1140,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** El rol “Vivero” no puede verificar el acceso al Dashboard principal o falla al cargar la vista. La interfaz no informa si se trata de un error de permisos, carga o configuración. El usuario queda sin retroalimentación y sin ruta alternativa.
 - **Recomendación:** Implementar control de roles con mensajes informativos claros y acciones posibles (por ejemplo, “Solicitar permisos” o redirigir al panel adecuado según su rol).
 
+  ![eu3](https://example.com/logo.png)
+
+
 ## PROBLEMA \#4: Poca intuitividad en el panel de Vivero
 
 - **Severidad: 1**
 - **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema
 - **Problema:** Los elementos del panel no cuentan con una estructura fácilmente comprensible a primera vista. Probablemente, los usuarios o cliente deban explorar demasiado para entender dónde realizar las tareas clave, afectando su experiencia.
 - **Recomendación:** *Reestructurar el contenido según prioridades del usuario, utilizando agrupaciones visuales, etiquetas más claras e indicadores de acciones principales.*
+
+  ![eu4](https://example.com/logo.png)
+
 
 ## PROBLEMA \#5: No se pueden visualizar los reportes generados
 
@@ -1148,12 +1160,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** Luego de generar un PDF, CSV o resumen, este se descarga sin opción previa de previsualización o confirmación. Si el archivo contiene errores, el usuario debe repetir el flujo completo sin retroalimentación del sistema.
 - **Recomendación:** Agregar un visor de reportes antes de descargar y un mensaje de verificación del contenido generado, así como la posibilidad de cancelar o volver a editar filtros.
 
+  ![eu5](https://example.com/logo.png)
+
+
 ## PROBLEMA \#6: No se puede ingresar una ubicación real
 
 - **Severidad: 1**
 - **Heurística violada:** Usabilidad \- Consistencia y estándares
 - **Problema:** Campos relacionados a la ubicación de plantas o viveros parecen restringidos o no permiten ingresar direcciones reales, lo que hace que la información no coincida con la del usuario.
 - **Recomendación:** Integrar autocompletado basado en mapas o permitir entrada libre de direcciones con validación.
+
+  ![eu6](https://example.com/logo.png)
+
 
 ## PROBLEMA \#7: Falta filtrado de plantas
 
@@ -1162,12 +1180,16 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** La gestión de plantas no permite aplicar autocompletado avanzado (planta, sensor, tipo, especie). El usuario debe escribir toda la lista manualmente, aumentando tiempo y esfuerzo.
 - **Recomendación:** Incorporar filtros dinámicos, búsqueda por keywords y ordenamiento para agilizar la gestión, especialmente en viveros con gran cantidad de plantas.
 
+![eu7](https://example.com/logo.png)
+
 ## PROBLEMA \#8: Falta un dropdown para seleccionar una especie específica de planta
 
 - **Severidad: 2**
 - **Heurística violada:** Usabilidad \- Prevención de errores
 - **Problema:** Actualmente el registro o asignación de plantas depende de texto manual o selección genérica, lo cual puede generar errores tipográficos y datos inconsistentes.
 - **Recomendación:** Agregar un dropdown con especies predefinidas y la posibilidad de buscar o registrar nuevas especies bajo un control validado.
+
+![eu8](https://example.com/logo.png)
 
 ## PROBLEMA \#9: No se muestra un mensaje detallado al vincular sensores
 
@@ -1176,9 +1198,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** Al vincular un sensor, el sistema no comunica con claridad si la operación fue exitosa, qué sensor se vinculó, ni su estado. Esto deja al usuario en incertidumbre.
 - **Recomendación:** Implementar mensajes detallados de éxito/fracaso, incluyendo nombre del sensor, planta asociada y tiempo de actualización. Añadir indicadores visuales de estado (conectado/no conectado)
 
----
+![eu9](https://example.com/logo.png)
 
-## Auditoria del Grupo 4:
+Respositorio de auditoria: https://docs.google.com/document/d/1l-CNk5sWQjeFFNwcNM7c_uK6cvhBi8K9/edit?usp=sharing&ouid=104635486463406620880&rtpof=true&sd=true
+
+---
+## Proceso de Evaluacion para el grupo Contrario"
+
+## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación  "WeRide"
 
 **UX Heuristics & Principles Evaluation**
 
@@ -1195,11 +1222,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **AUDITOR:** Apaza Bocanegra, Elizabeth Noelia
 
 **CLIENTE(S):**
-- Bonifacio Jaramillo, Samuel Jesus
-- Castro Pariona, Jefferson Ernesto
-- Morales Sosa, Arnold Gabriel
-- Romero Meza, Jhimy Pool
-- Seminario Castillo, Diego Vicente
+**CLIENTE(S)	:**
+
+	   **Bonifacio Jaramillo, Samuel Jesus**   
+
+	   **Castro Pariona, Jefferson Ernesto**   
+
+	   **Morales Sosa, Arnold Gabriel** 
+
+	   **Romero Meza, Jhimy Pool**
+
+	   **Seminario Castillo, Diego Vicente**
 
 **SITE o APP A EVALUAR:** WeRide
 
