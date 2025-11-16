@@ -854,6 +854,21 @@ Enlace: https://trello.com/b/dCP1R45x/plante
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
+| Repository                 | Branch                               | Commit Id | Commit Message                                               | Commit Message Body                                            | Committed on (Date) |
+|---------------------------|----------------------------------------|-----------|--------------------------------------------------------------|----------------------------------------------------------------|----------------------|
+| feature/adding-home-options          | feature/adding-home-options            |  0609611cfca7d7e59b9fe3935253ac9975f4518b        | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025         |
+| feature/adding-home-options          | feature/adding-home-options            | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf        | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025         |
+| feature/adding-login-profile           | feature/adding-myplants-details        | 4c739fedc539ef752cc791f4081a46216f1a0c41         | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Nov 14, 2025         |
+| feature/adding-management-plants           | feature/adding-myplants-details        |  b04b9dfac519df4149fc2ce3bb473fd887b2571f       | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025         |
+| feature/adding-management-plants           | feature/adding-login-profile           | 28b8a03b16aab6cebfe0217dbd02a3a82a185664        | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025         |
+| feature/adding-login-profile           | feature/adding-login-profile           | 0c2cc477c174597d41b2120cbe0e30e919338921        | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Nov 14, 2025         |
+| feature/adding-login-profile          | feature/adding-management-plants       | 6e640a89acbbe66ea295f18edeb31112987d38e8        | Merge branch 'feature/adding-management-plants' into develop | -                                                              | Nov 14, 2025         |
+| feature/adding-login-profile           | feature/adding-management-plants       | 956fb8baa1b71f57202452db637aa3dc4f40c22b        | Añadiendo backend nuevo para management plants               | Añadiendo backend nuevo para management plants                 | Nov 14, 2025         |
+| feature/adding-myplants-details          | feature/adding-management-plants       | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f        | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025         |
+| feature/adding-myplants-details           | develop                                | a6fc142372c6951ecc3bfb4a23b71cc1a0452474       | Initial commit                                               | Initial commit                                                 | Oct 21, 2025         |
+
+
+
 
 | **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
 | :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
@@ -1110,6 +1125,7 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 </p>
 
 #### 5.2.3.8 Team Collaboration Insights during Sprint
+Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepcionalmente efectiva en la integración completa entre la Frontend Web Application y los Web Services RESTful del backend de PlantaE. La coordinación técnica precisa y la comunicación constante entre todos los miembros del equipo fueron fundamentales para lograr una integración exitosa y habilitar flujos de trabajo completos.
 
 <p align="center">
     <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
