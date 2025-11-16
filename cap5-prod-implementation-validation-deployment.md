@@ -153,33 +153,118 @@ Esta sección detalla los pasos necesarios para desplegar de forma satisfactoria
 
 **1. Landing Page - HTML, CSS y Javascript**
 
-**Tecnología Base**
+Para que nuestra landing page esté disponible para todos nuestros usuarios, la publicamos como un sitio web utilizando la plataforma de GitHub. El proceso se llevó a cabo de la siguiente manera:
 
-* Lenguajes: HTML5, CSS3, JavaScript
-* Hosting: GitHub Pages
+**1. Registro en GitHub**
+Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Landing Page de PlantaE.
 
-**Configuración y Despliegue**
+![Logo de la empresa](https://example.com/logo.png)
 
-* Repositorio de Código Fuente:
-  La Landing Page se desarrolla utilizando HTML, CSS y JavaScript puro. Todos los archivos del proyecto deben subirse a un repositorio público en GitHub. Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio (`/`) para que GitHub Pages lo detecte correctamente como punto de entrada del sitio.
 
-**Configuración del despliegue en GitHub Pages** :
+**2. Creación del repositorio**
 
-* Acceder al repositorio en GitHub.
-* Ir a la sección **Settings** del repositorio.
-* En el menú lateral, seleccionar  **Pages** .
-* En el campo  **Source** , elegir:
-  * Rama: `main`
-  * Carpeta: `/ (root)`
-* Guardar los cambios.
+Hicimos clic en el botón “New” para generar un nuevo repositorio.
+Le asignamos el nombre “landing-page” dentro de nuestra organización
 
-**Publicación** :
+![Logo de la empresa](https://example.com/logo.png)
 
-Una vez guardada la configuración, GitHub generará automáticamente una URL pública donde la Landing Page estará disponible. Esta URL sigue el formato: `https://<usuario>.github.io/<repositorio>/`
+**3. Configuración del repositorio
+**
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
+Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
-**Actualizaciones** :
+![Logo de la empresa](https://example.com/logo.png)
 
-Cualquier nuevo commit hecho a la rama `main` será detectado automáticamente por GitHub Pages y aplicado en la versión publicada sin necesidad de acciones adicionales.
+
+**4. Carga de los archivos de la landing page**
+
+Accedimos al repositorio creado.
+Subimos los archivos generados del proyecto (HTML, TailwindCSS, TypeScript, Astro).
+Verificamos que los cambios se hicieran en la rama principal (main).
+Finalmente, confirmamos la acción con “Commit changes” para guardar los archivos.
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+### Despliegue del Frontend Web Applications
+Para que nuestra Frontend Web Application esté disponible para todos nuestros usuarios, la publicamos como un sitio web utilizando la plataforma de GitHub. El proceso se llevó a cabo de la siguiente manera: 
+
+**1. Registro en GitHub**
+Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Frontend Web Application de PlantaE. 
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+**2. Creación del repositorio**
+
+Hicimos clic en el botón “New” para generar un nuevo repositorio
+Le asignamos el nombre “frontend” dentro de nuestra organización PlantaE.
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+**3. Despliegue en Windows Azure**
+
+Tanto en Frontend como el backend se desplegaron en maquina virtual
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+
+
+### Despliegue del RESTful Web Services
+
+Para que nuestro RESTful Web Services esté disponible para todos nuestros usuarios, lo desplegamos utilizando Amazon Web Services (AWS) como plataforma de infraestructura en la nube. El proceso se llevó a cabo de la siguiente manera:
+
+Como arquitectura general, el flujo de integración y despliegue continuo se compone de:
+
+**1. Registro en GitHub**
+
+Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código del RESTful Web Services de Prime-Fix.
+
+Creamos un repositorio llamado backend dentro de nuestra organización prime-fix.
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+**2. Base datos en Microsoft Azure**
+
+Creamos una instancia de base de datos en Amazon RDS para almacenar los datos de la aplicación.
+Configuramos los parámetros de la base de datos, incluyendo el motor (MySQL, PostgreSQL, etc.), tamaño, y credenciales de acceso.
+
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+**3. Build en Microsoft Azure C**
+
+Configuramos un proyecto en la maquina virtual  para compilar el código del backend.
+Construye la imagen Docker utilizando un archivo Dockerfile que define el entorno de ejecución.
+Con todos estos archivos podemos compilar el proyecto de Java v.25 y Spring Boot v.3.5.7
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+
+**4. Actualizar la maquina virtual**
+
+Creamos un repositorio en Amazon ECR para almacenar las imágenes Docker del backend.
+Configuramos las políticas de acceso para permitir que AWS CodeBuild pueda subir imágenes al repositorio.
+Subimos la imagen Docker generada por CodeBuild al repositorio de ECR.
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
+**6. Despliegue en Maquina Virtual**
+
+Configuramos un servicio en Windows Azure para desplegar el springboot del backend.
+Configuramos las variables de entorno necesarias para la conexión con la base de datos y otros servicios.
+Definimos la configuración de escalado automático para manejar la carga de tráfico.
+Finalmente, iniciamos el servicio para que el backend esté disponible públicamente.
+
+![Logo de la empresa](https://example.com/logo.png)
+
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
