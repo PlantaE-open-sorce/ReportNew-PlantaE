@@ -62,7 +62,25 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
+#### Repositorio de github - Landing Page de PlantaE
+
 - **Landing Page**: https://github.com/PlantaE-open-sorce/PlantaE-landing
+
+![Deploy1](https://example.com/logo.png)
+
+#### Repositorio de github - Frontend de PlantaE
+
+- **Frontend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
+  
+![Deploy2](https://example.com/logo.png)
+
+#### Repositorio de github - Backend de PlantaE
+
+- **Bckend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
+  
+![Deploy3](https://example.com/logo.png)
+
+
 
 #### GitFlow Workflow
 
@@ -72,6 +90,8 @@ Se implementará el modelo de ramificación propuesto por Vincent Driessen en su
 - `develop`: Rama de desarrollo principal, donde se integran las funcionalidades antes de pasar a producción.
 - `feature/*`: Ramas creadas a partir de `develop` para desarrollar nuevas funcionalidades.**Convención de nombres:** `feature/<nombre-corto-descriptivo>`_Ejemplo: `feature/login-auth`_
 - `release/*`: Ramas creadas desde `develop` cuando se prepara una nueva versión para producción.**Convención de nombres:** `release/<versión>`_Ejemplo: `release/TB1`_
+
+![GitFlow](https://example.com/logo.png)
 
 #### Versionado Semántico
 
