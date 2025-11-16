@@ -16,7 +16,7 @@
 - **URL del repositorio de la landing page:** https://github.com/PlantaE-open-sorce/PlantaE-landing
 - **URL del repositorio del Frontend:** https://github.com/PlantaE-open-sorce/frontedNew-PlantaE
 - **URL del repositorio del backend:** https://github.com/PlantaE-open-sorce/backendNew-PlantaE.git
-- **URL deploy Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing
+- **URL deploy Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
 - **Link de Trello (Sprints Backlog):** https://trello.com/invite/b/68ce3ff8e12e133c183cd40c/ATTI305fe686ba4051b68ba8b95e59ebb4e4467CCE1B/plantae 
 - **URL del Frontend desplegado:** http://20.57.10.48/login
 - **URL del Backend desplegado:** [Link pendiente]()  
