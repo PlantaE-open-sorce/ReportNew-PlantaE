@@ -294,39 +294,28 @@ Wireframe:
 
 En esta primera sección se presenta la pantalla Home de la landing page.
 
-<img src="assets/images/chapter-4/home-wire.png" alt="home wireframes"/>
+<img src="assets/images/chapter-4/wireframes/home-wire.png" alt="home wireframes"/>
 
-Se presenta la sección de propuesta de who are we:
+Se presenta la sección de quienes somos:
 
-<img src="assets/images/chapter-4/who-are-we-wire.png" alt="who are we wireframes"/>
+<img src="assets/images/chapter-4/wireframes/quienes-somos-wire.png" alt="quienes-somos-wire"/>
 
 Se presenta la sección de propuesta de Services:
 
-<img src="assets/images/chapter-4/services-wire.png" alt="services wireframes"/>
+<img src="assets/images/chapter-4/wireframes/servicios-wire.png" alt="servicios-wire"/>
 
-Se presenta la sección de propuesta de Benefits:
+Se presenta la sección de propuesta de About the product:
 
-<img src="assets/images/chapter-4/benefits-wire.png" alt="benefits wireframes"/>
+<img src="assets/images/chapter-4/wireframes/about-the-product-wire.png" alt="about-the-product-wire"/>
 
 Se presenta la sección de propuesta de Testimonials:
 
-<img src="assets/images/chapter-4/testimonials-wire.png" alt="testimonials wireframes"/>
-
-Se presenta la sección de propuesta de Frequently Asked Questions:
-
-<img src="assets/images/chapter-4/frequently-asked-questions-wire.png" alt="faq wireframes"/>
+<img src="assets/images/chapter-4/wireframes/testimonios-wire.png" alt="testimonios-wire"/>
 
 Se presenta la sección de propuesta de Contact:
 
-<img src="assets/images/chapter-4/contact-wire.png" alt="contact wireframes"/>
+<img src="assets/images/chapter-4/wireframes/contact-wire.png" alt="contact-wire"/>
 
-Se presenta la sección de propuesta de Download:
-
-<img src="assets/images/chapter-4/download-wire.png" alt="download wireframes"/>
-
-Se presenta la sección de propuesta de Footer:
-
-<img src="assets/images/chapter-4/footer-wire.png" alt="footer wireframes"/>
 
 ### 4.3.2. Landing Page Mock-up
 
