@@ -2,54 +2,556 @@
 
 ## 4.1. Style Guidelines
 
+Overview: El diseño web es un componente esencial de PlantaE. Debe reflejar la esencia de la sostenibilidad urbana, transmitiendo cercanía, confianza y armonía con la naturaleza. La interfaz debe ser clara, ligera y fácil de procesar para todo tipo de usuarios, desde hogares hasta viveros, priorizando siempre la accesibilidad y la experiencia intuitiva.
+
+Brand Name: PlantaE simboliza el vínculo entre las personas y el cuidado de la naturaleza en entornos urbanos. El nombre evoca vida, crecimiento y sostenibilidad, reforzando la idea de que cada acción, por pequeña que sea, contribuye al bienestar colectivo y a la conservación de las áreas verdes. Representa una comunidad comprometida con el equilibrio ecológico, la innovación y la colaboración.
+
 ### 4.1.1. General Style Guidelines
 
+En el diseño de PlantaE, se tomaron decisiones rigurosas para garantizar una experiencia de ususario coherente y efectiva.
+
+**Colores**
+
+PlantaE eligió su paleta de colores centrándose en la armonía visual y la accesibilidad. Cada tono fue seleccionado para cumplir una función específica y así optimizar la experiencia del usuario:
+
+![Foto de paleta de colores](assets/images/chapter-4/color_palette.png)
+
+- Verde Cítrico – #2EAG29: Este color transmite energía, acción y máximo dinamismo. En PlantaE, lo utilizamos para incentivar la acción primaria (CTA) en botones importantes como "Añadir Planta" o "Guardar Perfil". Representa la proactividad y el éxito.
+- Verde Hoja – #51A64E: Este color simboliza crecimiento y salud. Por ello, lo empleamos estratégicamente en indicadores de estado "saludable" y botones de confirmación importantes. Su intensidad refuerza la identidad de la marca y la sensación de seguridad en la gestión de tus cultivos.
+- Verde Musgo – #6AA668: Este color está asociado con la serenidad, estabilidad y equilibrio. Se utiliza en fondos de contenedores y tarjetas para agrupar información de manera visualmente agradable, fomentando una sensación de tranquilidad mientras interactúas con los datos.
+- Verde Oliva Oscuro – #50734F: Este color representa profundidad, seriedad y elegancia. Por ello, se usa en los fondos principales de la interfaz para crear un alto contraste con el texto claro y dar un soporte visual robusto y profesional al diseño general.
+- Menta Pálido – #AFD9AD: Este color evoca frescura, ligereza y un ambiente abierto. Se utiliza en fondos de página muy claros o como un tono de acento sutil para secciones que requieren máxima claridad y un toque de luminosidad, sin distraer del contenido.
+
+**Tipografía**
+
+Se seleccionó la tipografía "Open Sans" como fuente principal para los títulos (H1 y H2) en estilo Bold para resaltar jerarquía, subtítulos y descripciones en Semi-bold, textos de párrafos en regular para asegurar la legibilidad y notas o captions en ligth para diferenciar información secundaria. Además esta fuente es visualmente agradable y de fácil lectura gracias a sus formas neutrales y abiertas, lo que garantiza una experiencia cómoda y comprensible para el usuario en toda la plataforma.
+
+![Foto de tipografía de Open Sans](assets/images/chapter-4/Sytile_Fonts.png)
+
+Para dirigir la atención del usuario de manera efectiva, implementamos una jerarquía tipográfica basada en el tamaño. Esta jerarquía resalta elementos críticos (títulos, botones) con fuentes más grandes y asigna tamaños menores a la información de soporte, lo que resulta en una interacción más intuitiva y una mayor eficiencia en la navegación del producto.
+
+**Branding**
+
+El branding de PlantaE está diseñado para reflejar la innovación, el crecimiento y la sostenibilidad. El logotipo y los íconos adoptan un enfoque que fusiona lo orgánico con lo tecnológico, utilizando una simbología clara que comunica el propósito de la plataforma. El diseño central es una planta que integra circuitos y tecnología en sus hojas y tallo. Este concepto visual representa la gestión inteligente y el monitoreo digital de los cultivos, con una apariencia limpia, moderna y fácilmente reconocible en cualquier entorno digital.
+
+<p align="center">
+    <img src="assets/images/chapter-4/plantE.png" alt="Foto de Branding" width="120" height="120">
+</p>
+
+**Espaciado**
+
+El diseño de PlantaE implementa una estrategia deliberada de uso del espacio en blanco (whitespace), tanto a nivel macro como micro. Este enfoque es crucial para ofrecer una experiencia de usuario clara y sin fricciones. El espacio negativo no solo aporta valor estético, sino que mejora la comprensión del contenido y dirige la atención del usuario hacia elementos clave, como llamadas a la acción y secciones prioritarias. La interfaz también define un ancho máximo para el contenido, previniendo la fatiga visual. Finalmente, la gestión cuidadosa de los márgenes y los rellenos laterales garantiza una estructura visual armoniosa y una interfaz adaptable a cualquier tamaño de pantalla.
+
+**Dimensiones para el tono de comunicación y lenguaje aplicado**
+
+En PlantaE, definimos cuidadosamente el tono de nuestra comunicación para alinearlo con la misión de nuestra plataforma: digitalizar y optimizar el cuidado de cultivos urbanos y promover la sostenibilidad. Buscamos establecer una conexión cercana y de confianza con nuestro público, que valora la tecnología y el medio ambiente. Nuestro tono de voz busca ser educativo, alentador y profesional, combinando una comunicación clara, accesible y empática.
+
+Optamos por un tono casual, pero experto, que permita a los usuarios (desde el jardinero amateur hasta el vivero) sentirse cómodos al interactuar con funcionalidades clave para el monitoreo y cuidado de sus plantas. Queremos que cada interacción refleje entusiasmo por el crecimiento y confianza en la tecnología. Este equilibrio nos permite inspirar acción y un cuidado responsable, al tiempo que proyectamos confianza y experiencia en el sector de la tecnología ambiental y el IoT. 
+
+Aspectos Clave en el Diseño de PlantaE:
+- Consistencia: La coherencia en el diseño es esencial para brindar una experiencia uniforme e intuitiva. Todos los elementos visuales e interactivos de PlantaE (iconografía, paleta de verdes, jerarquía tipográfica) mantienen una línea funcional clara, lo que permite a los usuarios familiarizarse rápidamente con la lectura de datos y operar la plataforma en su día a día.
+- Navegación: La estructura de navegación ha sido pensada para ser intuitiva, verde (natural) y ordenada. Los usuarios pueden acceder fácilmente a funciones como monitoreo en tiempo real, historial de datos, configuración de sensores y recomendaciones personalizadas. Los menús son claros y las opciones están organizadas para ahorrar tiempo y facilitar la toma de decisiones sobre riego y fertilización.
+- Accesibilidad: La plataforma fue diseñada para adaptarse a todo tipo de usuarios y dispositivos. Desde computadoras hasta tablets o celulares, PlantaE ofrece botones de acción claros, opciones de idioma, y una navegación simplificada, permitiendo a cualquier usuario monitorear sus plantas en ambientes dinámicos o mientras está en movimiento.
+
+**Elementos de Diseño**
+
+Uno de los elementos clave es la línea, utilizada para dividir secciones, delimitar los campos de los formularios o separar las tarjetas de las plantas. Su uso sutil en los bordes y como separador organiza visualmente la interfaz, guiando la lectura de datos y evitando la saturación. El color también cumple un rol fundamental, no solo en la identidad visual de la naturaleza sino en la comunicación funcional. La paleta de verdes (oscuro, medio y brillante) se selecciona por su asociación emocional con el crecimiento, la salud y la tecnología, y su capacidad para transmitir estados como éxito (verde brillante), alerta (rojo) o datos activos.
+
+En cuanto al tamaño, se utiliza jerárquicamente para resaltar títulos, botones de acción y texto de soporte. Los tamaños más grandes, como los títulos de bienvenida o las secciones ("Mis plantas," "Gestión de plantas"), captan la atención en puntos clave de la navegación, mientras que los más pequeños se emplean para detalles secundarios (fechas, tooltips), lo que mejora tanto la comprensión como la eficiencia en la interacción. Por su parte, la textura es sutil, gracias al uso de fondos suaves y planos y los degradados en los botones, los cuales aportan modernidad y enfoque sin distraer de la funcionalidad principal de monitoreo.
+
+El espacio es uno de los elementos más destacados del diseño de PlantaE. Se han implementado márgenes amplios y rellenos generosos dentro y alrededor de las tarjetas (que contienen la información de cada planta), lo que permite una interfaz despejada, fácil de recorrer y cómoda para los usuarios. Esto es esencial para reducir la carga cognitiva al revisar datos en tiempo real. A nivel de valor o brillo (value), se aplican contrastes notables que dan lugar a jerarquías visuales claras: el texto blanco sobre fondos verdes oscuros y los botones verdes brillantes sobre el fondo oscuro se diferencian claramente para guiar al usuario a las acciones de monitoreo y configuración.
+
+Respecto a las formas, se ha optado por geometrías amigables y redondeadas. Los botones y las tarjetas con bordes suaves (border-radius) y los íconos estilizados (como la planta en el header) no solo mejoran la estética, sino que también transmiten accesibilidad, orden y modernidad. Estas formas se alinean con la imagen de una herramienta tecnológica funcional pero cercana a la naturaleza.
+
+**Principios de Diseño**
+
+En cuanto a los principios de diseño, el contraste se emplea para asegurar que los elementos más importantes, como el botón de "Ingresar" o los indicadores de alerta de los sensores, sean claramente visibles sobre el fondo. Este principio es clave en la accesibilidad visual y para la rápida toma de decisiones. La repetición de colores, las formas redondeadas y la iconografía refuerza la familiaridad y la consistencia del sistema visual, haciendo que los usuarios comprendan rápidamente la función de cada componente.
+
+La alineación contribuye a la profesionalidad y al orden del diseño: los formularios, encabezados y listas de gestión (como la tabla de sensores) mantienen una disposición coherente y clara, lo que facilita la navegación intuitiva. Por último, el principio de proximidad agrupa de manera lógica los elementos relacionados (como el nombre de la planta y su tipo, o los sensores y sus alertas), mejorando la lectura, la interacción y la comprensión de cada bloque de información en la plataforma.
+
+Estos elementos y principios no se aplican de forma aislada, sino como parte integral de un sistema visual que busca ser funcional, estético y coherente con la misión de PlantaE: facilitar la gestión inteligente de cultivos a través de una experiencia clara, empática y eficiente.
+
 ### 4.1.2. Web Style Guidelines
+
+***PlantaE*** se compromete a ofrecer una interfaz digital que no solo sea visualmente atractiva, sino también funcional y adaptable a distintos dispositivos. La prioridad está en la usabilidad, la accesibilidad y la coherencia visual, garantizando que cada usuario pueda interactuar con la aplicación de manera intuitiva y sin barreras. Estos lineamientos buscan asegurar una experiencia unificada, fresca y eficiente, en armonía con los valores de sostenibilidad y conexión con la naturaleza que inspiran al proyecto.
+
+![Web-Style-Guidelines2](assets/images/chapter-4/Wen_Sytile_Guidneles.png)
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+En **PlantaE**, el sistema de organización de la información combina enfoques jerárquicos, secuenciales y categóricos para optimizar la experiencia de los distintos tipos de usuarios: hogares urbanos y viveros comerciales. Su propósito es facilitar la navegación, reducir la carga cognitiva y priorizar los contenidos más relevantes según el contexto de uso.
+
+A nivel de la **landing page**, se emplea una organización **jerárquica** que guía al usuario desde la propuesta de valor hasta la acción final. Los elementos se disponen visualmente de forma progresiva: encabezado con logotipo y menú principal, sección hero con mensaje clave y llamada a la acción, beneficios principales, funcionamiento del sistema IoT, testimonios y registro. Esta estructura responde a un patrón de lectura en “Z”, que favorece la comprensión inmediata y conduce naturalmente a los botones de conversión.
+
+En los flujos internos de la **web application**, se aplica una organización **secuencial**, orientada a tareas. Los procesos siguen una lógica paso a paso, desde el registro de plantas y sensores IoT hasta la consulta de métricas, generación de reportes y descarga de resultados. Este enfoque asegura que el usuario pueda realizar acciones sin ambigüedades ni interrupciones, manteniendo una progresión cognitiva clara.
+
+Asimismo, se utiliza una organización **categórica por tipo de usuario**, diferenciando el acceso y contenido según el perfil. Los usuarios domésticos visualizan información simplificada sobre sus plantas (estado, humedad, alertas), mientras que los viveros comerciales acceden a paneles especializados con métricas históricas, variables críticas y reportes de rendimiento. Esta categorización garantiza que cada grupo reciba información relevante a su nivel de gestión.
+
+Finalmente, la organización **visual y cromática** mantiene coherencia con los principios de sostenibilidad del proyecto. Los tonos verdes, beige y tierra segmentan visualmente las secciones, reforzando la conexión con la naturaleza y facilitando la orientación del usuario. Esta integración entre jerarquía visual y arquitectura de información permite que PlantaE comunique de manera efectiva su identidad ecológica, tecnológica y accesible.
+
+
 ### 4.2.2. Labeling Systems
+
+A continuación, se presenta el sistema de etiquetado (labeling system) diseñado para la plataforma **PlantaE**.  
+Este sistema busca garantizar una comunicación clara, coherente y accesible en todos los puntos de interacción, tanto en la **Landing Page** como en la **Aplicación Web**.  
+Las etiquetas fueron definidas bajo principios de **claridad semántica, consistencia visual y tono cercano**, manteniendo coherencia con la identidad ecológica y tecnológica del producto.
+
+El objetivo principal es minimizar la carga cognitiva de los usuarios —ya sean hogares o viveros comerciales— facilitando la comprensión de las funciones, la navegación entre secciones y el acceso a información relevante.
+
+---
+
+#### **Landing Page**
+
+- **Home:** Sección principal de bienvenida que introduce la propuesta de valor de PlantaE. Incluye un mensaje destacado sobre el monitoreo inteligente de plantas con tecnología IoT, acompañado de un call to action (“Descubre más”), el logotipo y la barra de navegación.  
+- **Nosotros:** Presenta una breve descripción de EcoTech como startup universitaria enfocada en sostenibilidad urbana. Se explica el propósito del proyecto y cuál es el compromiso con el cuidado inteligente de plantas y cultivos urbanos.  
+- **Servicios:** Muestra los servicios principales que ofrece PlantaE mediante tarjetas informativas con iconos y descripciones. Incluye: Monitoreo en Tiempo Real, Alertas de Riego, Recomendaciones IA, etc.    
+- **Video – About the Product:** Sección demostrativa donde se incluye un video que permite conocer cómo funciona PlantaE en acción. Presenta la interfaz del sistema y explica visualmente el flujo del producto.  
+- **Testimonios:** Tarjetas con opiniones reales de usuarios que validan la efectividad del sistema. Incluyen nombre, rol del usuario y valoración, destacando beneficios como reducción de pérdidas, aumento de productividad y facilidad de monitoreo.
+- **Contacto:** Pie de página con información institucional y enlaces directos. Incluye: Descripción breve de PlantaE, Enlaces a servicios, Información de la empresa, etc.
+
+---
+
+#### **Aplicación Web – Usuarios Domésticos**
+
+- **Inicio:** Vista inicial del vivero después de iniciar sesión.
+- **Dashboard:** Panel con la visión general del vivero y métricas principales.
+- **Plantas:** Listado completo de plantas registradas en el vivero.
+- **Sensores:** Panel para visualizar sensores IoT asociados.
+- **Dispositivos:** Gestión de dispositivos IoT instalados en el vivero.
+- **Vivero:** Módulo exclusivo del rol vivero (gestión de áreas, espacios o administración específica del vivero).
+- **Gestión:** Herramientas para organizar, editar y administrar plantas o configuraciones operativas avanzadas.
+- **Alertas:** Panel de notificaciones ambientales y advertencias importantes.
+- **Reportes:** Análisis gráficos, estadísticas y reportes del vivero.
+- **Perfil:** Área de información personal y configuración de la cuenta del vivero.
+
+---
+
+#### **Aplicación Web – Viveros Comerciales**
+
+- **Inicio:** Pantalla inicial del usuario doméstico.
+- **Dashboard:** Vista resumida del estado general de sus plantas.
+- **Plantas:** Listado de plantas registradas.
+- **Sensores:** Visualización de sensores IoT asociados.
+- **Dispositivos:** Gestión de dispositivos IoT conectados.
+- **Gestión:** Herramientas para organizar o editar plantas del usuario.
+- **Alertas:** Panel de notificaciones y advertencias ambientales.
+- **Reportes:** Vista con estadísticas e historial del estado de sus plantas.
+- **Perfil:** Datos personales y ajustes básicos del usuario.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+**1. Landing Page**
+
+**Charset**
+
+    `<meta charset="utf-8">`
+ 
+Indica al navegador cómo interpretar los caracteres del texto. UTF-8 garantiza la correcta visualización de letras con tildes, la “ñ” y otros símbolos, evitando errores de lectura.
+
+**Viewport (responsive)**
+
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+Permite que la página se adapte al tamaño de cualquier pantalla, asegurando una experiencia responsiva en móviles, tablets y equipos de escritorio.
+
+**Title (SEO)**
+
+    `<title>PlantaE | Monitorea tus cultivos urbanos con IoT</title>`
+
+Define el título que se muestra en la pestaña del navegador y en los resultados de búsqueda, destacando el propósito principal de la plataforma.
+
+**Meta Description (SEO)**
+
+    `<meta name="description" content="Supervisa tus cultivos urbanos en tiempo real con sensores IoT. Recibe alertas y recomendaciones personalizadas para reducir el uso de agua y mantener tus plantas saludables.">`
+
+Proporciona un resumen breve y atractivo del contenido del sitio, ayudando a captar la atención de los usuarios en buscadores.
+
+**Meta Author**
+
+    `<meta name="author" content="Equipo PlantaE">`
+
+Esta línea de código identifica a los autores o responsables del desarrollo del sitio web.
+
+**Meta Robots**
+
+    `<meta name="robots" content="index, follow">`
+    
+Permite que los motores de búsqueda indexen el contenido y sigan los enlaces del sitio, favoreciendo su posicionamiento.
+
+**Meta Language**
+
+    `<meta name="language" content="es">`
+    
+Especifica el idioma principal del contenido, ayudando a su correcta interpretación por navegadores y buscadores.
+
+**Meta Copyright**
+
+    `<meta name="copyright" content="PlantaE 2025">`
+    
+Declara los derechos de autor sobre el contenido y establece el año de publicación.
+
+**2. Web Application (Frontend)**
+
+**Charset**
+
+    `<meta charset="utf-8">`
+    
+Garantiza que los textos y símbolos del panel interno se muestren correctamente en todos los navegadores.
+
+**Viewport (responsive)**
+
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+Permite que la interfaz del dashboard sea responsiva, manteniendo la legibilidad en diferentes dispositivos.
+
+**Title (identificación de módulo)**
+
+    `<title>PlantaE App | Panel de monitoreo</title>`
+
+Define el título visible en la pestaña del navegador, identificando claramente el entorno de gestión de la aplicación.
+
+**Meta Description**
+
+    `<meta name="description" content="Panel interno de PlantaE para monitorear métricas, alertas y sensores IoT. Acceso solo para usuarios autorizados.">`
+
+Resume la finalidad de la aplicación, facilitando su identificación en herramientas de desarrollo o enlaces compartidos.
+
+**Meta Author**
+
+    `<meta name="author" content="Equipo PlantaE">`
+
+Reconoce al equipo de desarrollo responsable de la aplicación web.
+
+**Meta Robots (privacidad)**
+
+    `<meta name="robots" content="noindex, nofollow">`
+
+Evita que los buscadores indexen o sigan los enlaces del panel interno, protegiendo la información privada de los usuarios.
+
+**Meta Language**
+
+    `<meta name="language" content="es">`
+
+Declara el idioma principal de la aplicación, contribuyendo a la accesibilidad y coherencia lingüística.
+
+**Meta Copyright**
+
+    `<meta name="copyright" content="PlantaE 2025">`
+    
+Establece los derechos de autor sobre el software y su año de creación.
+
 ### 4.2.4. Searching Systems
 
+El sistema de búsqueda de PlantaE está diseñado para ser claro, ligero y de fácil procesamiento, priorizando la eficiencia en la localización de datos para ambos segmentos de usuarios.
+
+- **Vista para los Usuarios Domésticos**
+
+El sistema de búsqueda para Usuarios Domésticos permite encontrar plantas, sensores, dispositivos y alertas de manera simple, orientado a un volumen reducido de información. Los filtros están diseñados para que el usuario pueda localizar rápidamente elementos dentro de su entorno doméstico.
+
+| **Filtros** | **Descripción** |
+|------------|------------------|
+| Nombre de Planta | Permite buscar plantas por su nombre o alias asignado por el usuario. |
+| Tipo de Planta | Filtra por categorías como aromáticas, ornamentales o suculentas. |
+| Estado de la Planta | Permite seleccionar plantas saludables, en riesgo o críticas. |
+| Tipo de Sensor | Filtra sensores según la medición que realizan (humedad, temperatura, luz). |
+| Estado del Dispositivo | Permite visualizar solo dispositivos conectados, desconectados o con fallas. |
+| Fecha de Alerta | Filtra alertas por rangos como: hoy, últimos 7 días o último mes. |
+| Periodo de Reporte | Permite seleccionar el intervalo de tiempo para ver reportes históricos. |
+
+- **Vista de Vivero Forestal**
+
+En el caso de Viveros, el sistema de búsqueda es más robusto debido al mayor volumen de plantas, sensores, alertas y áreas de cultivo. Los filtros se centran en variables técnicas, zonas del vivero y estados operativos.
+
+| **Filtros** | **Descripción** |
+|------------|------------------|
+| Nombre / Código de Planta | Busca plantas por nombre, código interno o especie. |
+| Lote / Área del Vivero | Filtra plantas según el módulo, zona o sección del vivero. |
+| Estado de la Planta | Permite identificar plantas saludables, en riesgo o en estado crítico. |
+| Especie | Filtra por tipos específicos como frutales, ornamentales, forestales, etc. |
+| Tipo de Sensor | Selecciona sensores según su función (humedad, luminosidad, pH, temperatura). |
+| Estado del Sensor | Permite mostrar sensores activos, inactivos o con fallas técnicas. |
+| Tipo de Alerta | Filtro para alertas ambientales, de riego, temperatura o fallas de sensor. |
+| Nivel de Prioridad | Permite filtrar alertas entre baja, media o alta prioridad. |
+| Estado del Dispositivo IoT | Muestra dispositivos activos, desconectados o con error. |
+| Periodo de Reporte | Selecciona rangos de fechas avanzados (semanal, mensual, trimestral). |
+
 ### 4.2.5. Navigation Systems
+
+La navegación de la Aplicación Web de PlantaE utiliza una barra lateral fija que brinda acceso directo a las secciones principales del sistema, tanto para Usuarios Domésticos como para Viveros. Ambos perfiles acceden a vistas como Dashboard, Plantas, Sensores, Dispositivos, Gestión, Alertas, Reportes y Perfil; sin embargo, el Usuario Vivero cuenta con un módulo adicional llamado “Vivero” para gestionar áreas y operaciones más avanzadas. Esta estructura permite que cualquier usuario navegue rápidamente entre funciones sin perder el contexto de su actividad.
+
+En la Landing Page, la navegación se desarrolla mediante un flujo vertical que presenta de forma progresiva las secciones informativas: Home, Nosotros, Servicios, Video, Testimonios y Contacto. La barra de navegación superior permanece fija y utiliza enlaces ancla que permiten moverse entre secciones de manera inmediata, guiando al usuario a través de un recorrido narrativo orientado hacia los llamados a la acción como “Descubre más” o “Contáctanos”.
+
+La navegación del sistema se adapta de forma consciente al tipo de usuario. El Usuario Doméstico experimenta un recorrido simplificado enfocado en el monitoreo de sus plantas, sus sensores y las alertas básicas. En contraste, el Usuario Vivero accede a módulos avanzados y a una estructura más robusta que le permite gestionar grandes volúmenes de plantas, áreas y dispositivos IoT. Esta separación garantiza que cada perfil recorra el sistema de manera eficiente y acorde a sus necesidades operativas.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+A continuación, se presentan los wireframes de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
+
+Wireframe:
+
+En esta primera sección se presenta la pantalla Home de la landing page.
+
+<img src="assets/images/chapter-4/wireframes/home-wire.png" alt="home wireframes"/>
+
+Se presenta la sección de quienes somos:
+
+<img src="assets/images/chapter-4/wireframes/quienes-somos-wire.png" alt="quienes-somos-wire"/>
+
+Se presenta la sección de propuesta de Services:
+
+<img src="assets/images/chapter-4/wireframes/servicios-wire.png" alt="servicios-wire"/>
+
+Se presenta la sección de propuesta de About the product:
+
+<img src="assets/images/chapter-4/wireframes/about-the-product-wire.png" alt="about-the-product-wire"/>
+
+Se presenta la sección de propuesta de Testimonials:
+
+<img src="assets/images/chapter-4/wireframes/testimonios-wire.png" alt="testimonios-wire"/>
+
+Se presenta la sección de propuesta de Contact:
+
+<img src="assets/images/chapter-4/wireframes/contact-wire.png" alt="contact-wire"/>
+
 
 ### 4.3.2. Landing Page Mock-up
+
+Wireflow:
+
+En esta primera sección se presenta la pantalla Home de la landing page.
+
+<img src="assets/images/chapter-4/Mock-ups/Home.png" alt="home wireframes"/>
+
+Se presenta la sección de quienes somos:
+
+<img src="assets/images/chapter-4/Mock-ups/About-us.png" alt="who are we wireframes"/>
+
+Se presenta la sección de propuesta de Services:
+
+<img src="assets/images/chapter-4/Mock-ups/Services.png" alt="services wireframes"/>
+
+Se presenta la sección de propuesta de About the product:
+
+<img src="assets/images/chapter-4/Mock-ups/About the product.png" alt="about the product wireframes"/>
+
+Se presenta la sección de propuesta de Testimonials:
+
+<img src="assets/images/chapter-4/Mock-ups/Testimonials.png" alt="testimonials wireframes"/>
+
+Se presenta la sección de propuesta de Contact:
+
+<img src="assets/images/chapter-4/Mock-ups/Contact us.png" alt="contact wireframes"/>
+
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+En esta sección se presentarán los Wireframes más relevantes del proyecto
+
+Para usuarios normales, formulario de registro y de logeo para cuenta normal 
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/login-register-wirefrmaes.png" alt="login-register-wirefrmaes"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/inicio-wireframe.png" alt="inicio-wireframe"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/dashboar-sin-plantas.png" alt="dashboar-sin-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/agregar-plantas.png" alt="agregar-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/detalle-planta.png" alt="detalle-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/plantas.png" alt="plantas"/>
+
+Para viveros, guardan la misma relación de las anteriores wireframes presentadas pero hay un punto en específico que lo destaca de el anterior segemento el cual es la vista viveros, la cual se le presenta ahora:
+
+<img src="assets/images/chapter-4/vivero/vivero/aplicacion-reciente-vivero.png" alt="aplicacion-reciente-vivero"/>
+
+<img src="assets/images/chapter-4/vivero/vivero/tarea-vivero.png" alt="tarea-vivero"/>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+
+En esta meta, ambos usuarios —tanto el Jardinero Amateur como el Gestor del Vivero— deben crear una cuenta seleccionando su tipo de usuario. Luego completan su información personal, configuran sus preferencias iniciales (como idioma y notificaciones) e inician sesión para acceder a las funcionalidades principales de Plant-Care según su rol.
+
+Jardinero Amateur:
+
+Inicia en el Home → elige Crear Cuenta
+
+Selecciona tipo Jardinero Amateur
+
+Llena datos personales
+
+Inicia sesión
+
+Accede a su Dashboard personal (Mis Plantas, alertas, consejos, monitoreo básico)
+
+Gestor Profesional (Vivero):
+
+Inicia en el Home → Crear Cuenta
+
+Selecciona tipo Vivero
+
+Llena datos del vivero y responsable
+
+Inicia sesión
+
+Accede al Dashboard profesional (gestión de lotes, sensores, dispositivos y reportes)
+
+<img src="assets/images/chapter-4/wire-flow/registro-usuario.png" alt="registro-usuario"/>
+
+USER GOAL 2: Gestión de Plantas
+
+En esta meta, el usuario puede registrar nuevas plantas, ver su estado general, editar información relevante y acceder a los detalles de cada una.
+
+Jardinero Amateur:
+
+Agrega una nueva planta desde Mis Plantas
+
+Completa especie, nombre, ubicación y cuidados
+
+Ve tarjetas con indicadores de humedad, luz, riego y salud
+
+Accede a Plant Detail para ver información ampliada
+
+Edita o elimina la planta cuando sea necesario
+
+Gestor Profesional (Vivero):
+
+Gestiona plantas en formato de lotes
+
+Revisa cantidades, estado del lote y rotación
+
+Organiza stock por categorías
+
+Visualiza la trazabilidad y crecimiento del inventario
+
+Edita lotes y actualiza disponibilidad
+
+<img src="assets/images/chapter-4/wire-flow/agregar-planta.png" alt="agregar-plantao"/>
+
 ### 4.4.3. Web Applications Mock-ups
+
+Se le presenta las capturas de nuestros mock-ups, losa más imortantes de nuestra aplicación.
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/inicio-applicación.png" alt="inicio-applicación"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/dashboard/dashboard-sin-plantas.png" alt="dashboard-sin-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/agregar-planta.png" alt="agregar-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/detalle-planta.png" alt="detalle-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/planta-estado.png" alt="planta-estado"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/registro-planta-vacio.png" alt="registro-planta-vacio"/>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+**Desktop User Flow 1**
+Relacionado con User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+
+Como usuario (Jardinero Amateur o Gestor Profesional), quiero registrarme eligiendo mi tipo de cuenta y luego iniciar sesión correctamente para acceder a las funcionalidades de la plataforma según mi perfil.
+
+En esta etapa, el usuario ingresa al Home, selecciona Crear Cuenta, completa el formulario según su tipo de usuario y finalmente inicia sesión. Tras la autenticación, el sistema lo dirige automáticamente al dashboard correspondiente, ya sea personal o empresarial.
+
+<img src="assets/images/chapter-4/User-flow/registro-usuario.png" alt="registro-usuario"/>
+
+**DESKTOP USER FLOW 2**
+Relacionado con User Goal 2: Gestión de Plantas
+
+Como Jardinero Amateur o Gestor Profesional, quiero registrar, visualizar y administrar mis plantas (o lotes en caso del vivero) para mantener control y seguimiento de cada una.
+
+En esta etapa, el usuario accede a la sección de plantas desde el menú, revisa la lista disponible y puede agregar o editar información. Para el Jardinero Amateur se muestran plantas individuales; para el Vivero, lotes de producción.
+
+<img src="assets/images/chapter-4/User-flow/agregar-planta.png" alt="agregar-planta"/>
+
 ## 4.5. Web Applications Prototyping
+En el presente link se le hace la entrega del prototipo del figma:
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/inicio-applicación.png" alt="inicio-applicación"/>
+
+[https://shorturl.at/sdUZr](https://shorturl.at/sdUZr)
 
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
 
+Para la elaboración del EventStorming, el equipo organizó una primera aproximación al modelo del dominmio de nuestro proyecto. Durante este proceso se realizaron una serie de 8 pasos.
+
+**Paso 1: Collect Domain Events**
+En este primer paso, se identificó todos los eventos relevantes para el dominio para nuestro sistema. Estos eventos representan hechos importantes que suceden en el proceso de negocio y los recopilamos con pos-its de color naranja.
+
+<img src="assets/images/chapter-4/event-storming/colect-domain-event.png" alt="colect-domain-event"/>
+
+**Paso 2: Timeline**
+En este paso organizamos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
+
+<img src="assets/images/chapter-4/event-storming/time-line.png" alt="time linea"/>
+
+**Paso 3: Pain and Pivotal points**
+En este paso se identificaron los pain points y los pivotal points del proceso. Esto significa que se encontraron las partes que necesitan mayor atención o que son cruciales para que el sistema funcione correctamente.
+
+<img src="assets/images/chapter-4/event-storming/paint-points.png" alt="paint-points"/>
+
+**Paso 4: Commands**
+En este paso se agregaron comandos (los post-its azules) para representar las acciones de los usuarios o sistemas que inician un cambio en el sistema.
+
+<img src="assets/images/chapter-4/event-storming/commands.png" alt="commands"/>
+
+**Paso 5: Policies**
+En este paso se definieron reglas de negocio (los post-its morados) que responden a ciertos eventos y generan nuevos eventos. Básicamente, estas reglas automatizan decisiones basadas en lo que sucedió antes.
+
+<img src="assets/images/chapter-4/event-storming/policies.png" alt="Policies"/>
+
+**Paso 6: Read models**
+En este paso se identificaron las vistas o modelos de lectura que los usuarios necesitan. Esto se refiere a la información específica que debe estar accesible en ciertos momentos para que los usuarios puedan tomar decisiones.
+
+<img src="assets/images/chapter-4/event-storming/read-model.png" alt="read-model"/>
+
+**Paso 7: Aggregates**
+En este paso se organizaron los comandos y eventos relacionados en grupos lógicos llamados agregados (los post-its amarillos). Cada grupo reúne un conjunto de funciones que trabajan juntas de manera coherente.
+
+<img src="assets/images/chapter-4/event-storming/aggregates.png" alt="Aggregates"/>
+
+**Paso 8: Bounded Context**
+Al final, definimos las áreas de responsabilidad del sistema, también conocidas como bounded contexts.
+
+<img src="assets/images/chapter-4/event-storming/bc-general.png" alt="bc-general"/>
+
 ### 4.6.2. Software Architecture Context Diagram
+
+Context Diagram
+
+<img src="assets/images/chapter-4/c4-model/diagrama-contexto.png" alt="Diagrama de Contexto"/>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+Conatiner Diagram 
+
+<img src="assets/images/chapter-4/c4-model/diagrama-contenedor.png" alt="Diagrama de Contenedor"/>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Component Diagram: Web Service
+
+<img src="assets/images/chapter-4/c4-model/diagrama-componentes-web-services.png" alt="Component Diagram: Web Service"/>
+
+Component Diagram: UI-PlantaE
+
+<img src="assets/images/chapter-4/c4-model/diagrama-componentes-UI-PlantaE.png" alt="Component Diagram: UI-PlantaE"/>
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
+<img src="assets/images/chapter-4/class_diagrams.png" alt="diagrama de clases"/>
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+
+<img src="assets/images/chapter-4/database_diagrams.png" alt="diagrama de clases"/>
