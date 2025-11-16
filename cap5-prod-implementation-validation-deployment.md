@@ -1039,26 +1039,31 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 
 ## Auditoria del Grupo 1:
 
+
 **UX Heuristics & Principles Evaluation**
 
 **Usability – Inclusive Design – Information Architecture**
 
-**CARRERA:** Ingeniería de Software
+**CARRERA	: Ingeniería de Software**
 
-**CURSO:** Desarrollo de Aplicaciones Open Source
+**CURSO	: Desarrollo de Aplicaciones Open Source**
 
-**SECCIÓN:** 7380  
+**SECCIÓN	: 7380**  
+**PROFESORES	: Todos**
 
-**PROFESORES:** Todos
+**AUDITOR	: Samuel Jesus Bonifacio Jaramillo**
 
-**AUDITOR:** Samuel Jesus Bonifacio Jaramillo
+**CLIENTE(S)	:**
 
-**CLIENTE(S):**
-- Apaza Bocanegra, Elizabeth Noelia
-- Contreras Leon, Flor De María
-- Guillen Galindo, Julio Adolfo
-- Miraval Pomalaya, Rodrigo Jesus
-- Navarro Chinga, Antonio Jhair
+	   **Contreras Leon, Flor De María**   
+
+	   **Guillen Galindo, Julio Adolfo**   
+
+	   **Miraval Pomalaya, Rodrigo Jesus** 
+
+	   **Navarro Chinga, Antonio Jhair**
+
+	   **Apaza Bocanegra, Elizabeth Noelia**
 
 **SITE o APP A EVALUAR:** PlantaE
 
