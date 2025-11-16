@@ -994,43 +994,34 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 
 **User Persona del Segmento Objetivo 1: Personas con plantas en casa**
 
-|  **FÁTIMA FLOREZ**                                                                                                                                                                                 |  
+|  **DANIEL CASTILLO**                                                                                                                                                                               |  
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
-| Género: Femenino                                                                                                                                                                                   |
-| Edad: 20 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20F%C3%A1tima%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb8d8127a%2Dd648%2D41ea%2Db6d7%2D5615d27402db                     |
-| <div align="center"><b>Duración:</b> 00:05:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:05 </div>                                                          |
-| La entrevistada Fatima exploró las funciones principales de PlantaE, como el registro, la administración de plantas y equipos, y la configuración general de la aplicación. Según su experiencia, la información es clara, la navegación resulta sencilla y los procesos, desde ingresar hasta personalizar el perfil son simples. Percibió la interfaz como intuitiva y bien estructurada, con funciones que funcionan adecuadamente y contribuyen a una buena experiencia de uso; Sin embargo, señaló que el modo día/noche presentaba fallos en su funcionamiento. En general, consideró que PlantaE ofrece una experiencia casi completa, fluida y accesible, sin generar complicaciones ni confusiones, salvo por los inconvenientes relacionados con el diseño nocturno.                                                                                                     |
-
-|  **ANGELICA APAZA**                                                                                                                                                                                |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Angelica Segmento 1.png" alt="Entrevista Angelica Segmento 1" width="25%" height="auto"> </div>                                  |
-| Género: Femenino                                                                                                                                                                                   |
+| Género: Masculino                                                                                                                                                                                  |
 | Edad: 22 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u20231c197_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c197%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Angelica%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E70e12257%2D19a7%2D47a5%2Dbe35%2D024034a53f4c                        |
-| <div align="center"><b>Duración:</b> 00:05:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:05 </div>                                                          |
-| En la entrevista de Angelica tuvo la oportunidad de probar diversas funciones de PlantaE, entre ellas el registro, la gestión de plantas y equipos, y las opciones de configuración general. Comentó que la aplicación le resultó clara y fácil de usar, con procesos simples desde el inicio de sesión hasta la personalización del perfil. Destacó además que la estructura de la interfaz facilita la navegación y que las herramientas responden de manera eficiente, ofreciendo una experiencia agradable. Aun así, observó que el modo día/noche no operaba correctamente. En términos generales, consideró que PlantaE es una aplicación práctica, completa y accesible, aunque con margen de mejora en su diseño nocturno.                                                                                                                                                   |
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
+| <div align="center"><b>Duración:</b> 00:05:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:00 </div>                                                          |
+|                                                                                                    |
 
-|  **CRISTHYAN BRAVO**                                                                                                                                                                               |
+|  **ANDRE CARDENAN**                                                                                                                                                                                |  
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="25%" height="auto"> </div>                                |
-| Género: Maculino                                                                                                                                                                                   |
-| Edad: 22 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u202311082_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311082_upc_edu_pe%2FDocuments%2F2025-11-07%2018-27-41%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9732982d-a5f6-4dfe-8235-e9c44b623f77                                                                                                                      |
-| <div align="center"><b>Duración:</b> 00:05:19 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:19 </div>                                                          |
-| Cristhyan analizó las principales funcionalidades de PlantaE, entre ellas el proceso de registro, la administración de plantas y equipos, así como la configuración general del sistema. Durante su experiencia, resaltó la claridad de la información, la facilidad para desplazarse dentro de la aplicación y la sencillez de las operaciones, desde el inicio de sesión hasta la personalización del perfil. Consideró que la interfaz es intuitiva y bien estructurada, con herramientas que funcionan adecuadamente y optimizan la interacción del usuario. En términos generales, el entrevistado opinó que PlantaE brinda una experiencia completa, fluida y accesible, sin inconvenientes ni confusiones durante su utilización.                                                                                                                                                |
+| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
+| Género: Masculino                                                                                                                                                                                  |
+| Edad: 21 años        
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c197_upc_edu_pe/IQBAPbPzZ9LaRLTMuplI1HgtAb3jY5Yyp_9oBWWvl_uLqoI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Nlzd3P      |
+| <div align="center"><b>Duración:</b> 00:04:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:05 </div>                                                          |
+|     |
 
 **User Persona del Segmento Objetivo 2: Viveros comerciales**
 
-|  **NICOLE GUILLEN**                                                                                                                                                                                |
+|  **DIONISIO RODRIGUEZ**                                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div>                                      |
-| Género: Femenino                                                                                                                                                                                   |
-| Edad: 25 años                                                                                                                                                                                      |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/Efag7pda96JEgj9sn5zBkFMB9jo6SnRWKuCj75AMR-g_-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yDhopA |
-| <div align="center"><b>Duración:</b> 00:05:16 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:16 </div>                                                          |
-| Nicole Guillen, exploró las principales funciones de PlantaE, incluyendo el registro, la gestión de plantas y equipos, así como la configuración general de la aplicación. En su experiencia, destacó la claridad de la información, la facilidad de navegación y la simplicidad de los procesos, desde el acceso hasta la personalización del perfil. La interfaz fue percibida como intuitiva y organizada, con funciones que responden correctamente y mejoran la experiencia del usuario. En general, el entrevistado consideró que PlantaE ofrece una experiencia fluida, completa y accesible, sin presentar dificultades o confusiones durante su uso. |
+| Género: Masculino                                                                                                                                                                                   |
+| Edad: 35 años                                                                                                                                                                                      |
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
+| <div align="center"><b>Duración:</b> 00:05:10 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:10 </div>                                                          |
+|  |
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -1112,3 +1103,21 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 - **Recomendación:** Incluir un tutorial interactivo o una sección de ayuda que describa brevemente las funciones principales, accesible desde el menú de inicio.
 
 ## 5.4. Video About-the-Product
+
+En esta parte, el equipo ofrece una síntesis de los puntos más importantes de PlantE. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de las plantas, ya sean hogares o comericales.
+
+El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como las recomendaciones de riego y luz, monitoreo del crecimiento, alertas de cuidado y reportes generales sobre tus plantas registradas.
+
+La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado el cuidado de plantas tanto para principiantes como para aficionados experimentados. Estos relatos destacan la facilidad de uso y la mejora en la salud de las plantas.
+
+En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el cuidado responsable de las plantas, demostrando su utilidad, su usabilidad y su impacto positivo.
+
+**Video Explicativo**
+
+<p align="center">
+    <img src="assets/images/resources/about_product.jpeg" alt="about_product"/>    
+</p>
+
+**URL de la Versión Publicada**
+
+- Link de YouTube: https://youtu.be/NjN0LWdj1WI
