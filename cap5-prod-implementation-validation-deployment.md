@@ -655,7 +655,12 @@ En este Sprint, el equipo enfocó sus esfuerzos principalmente en el desarrollo 
 
 El Sprint Backlog 3 se centró en el desarrollo de los *bounded contexts* definidos para el proyecto. Aunque se dio prioridad al backend sobre el frontend, esta decisión permitirá que las funcionalidades estén listas para su integración, reduciendo la complejidad del desarrollo en la interfaz. Esto se debe a que los servicios esenciales para el funcionamiento de la aplicación y el cumplimiento de las historias de usuario ya estarán implementados. En conjunto, este trabajo sienta una base sólida que brindará una ventaja significativa en los próximos sprints frente a otros enfoques de desarrollo ágil.
 
-Enlace:
+Enlace: https://trello.com/b/dCP1R45x/plante
+
+![Sprint1-Trello.png](assets/images/resources/Sprint3-Trello.png)
+<figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Sprint Backlog 3.
+  </figcaption>
 
 | User Story ID | User Story Title             | Task ID | Task Title                       | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
 | :------------ | :--------------------------- | :------ | :------------------------------- | :----------------------------------------------------------------------------------- | :-------------- | :-------------- | :----- |
