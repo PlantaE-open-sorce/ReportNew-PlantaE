@@ -16,5 +16,7 @@
 - **Link de Trello (Sprints Backlog):** https://trello.com/invite/b/68ce3ff8e12e133c183cd40c/ATTI305fe686ba4051b68ba8b95e59ebb4e4467CCE1B/plantae 
 - **URL del Frontend desplegado:** http://20.57.10.48/login
 - **URL del Backend desplegado:** http://20.57.10.48:8080/swagger-ui/index.html
-- **Video About-The-Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDQSPb2-TYTTZvyRH9gREvIAetLgGKMzJEq01C66LWeI1s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6XYGHh
+- **Video About-The-Team:**
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDQSPb2-TYTTZvyRH9gREvIAetLgGKMzJEq01C66LWeI1s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6XYGHh
+- https://youtu.be/uF8EA4og8VM
 - **Video About-The-Product:** https://youtu.be/NjN0LWdj1WI
