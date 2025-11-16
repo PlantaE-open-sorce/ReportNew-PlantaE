@@ -401,6 +401,8 @@ Inicia sesión
 
 Accede al Dashboard profesional (gestión de lotes, sensores, dispositivos y reportes)
 
+<img src="assets/images/chapter-4/wire-flow/registro-usuario.png" alt="registro-usuario"/>
+
 USER GOAL 2: Gestión de Plantas
 
 En esta meta, el usuario puede registrar nuevas plantas, ver su estado general, editar información relevante y acceder a los detalles de cada una.
@@ -429,6 +431,8 @@ Visualiza la trazabilidad y crecimiento del inventario
 
 Edita lotes y actualiza disponibilidad
 
+<img src="assets/images/chapter-4/wire-flow/agregar-planta.png" alt="agregar-plantao"/>
+
 ### 4.4.3. Web Applications Mock-ups
 
 Se le presenta las capturas de nuestros mock-ups, losa más imortantes de nuestra aplicación.
@@ -454,12 +458,16 @@ Como usuario (Jardinero Amateur o Gestor Profesional), quiero registrarme eligie
 
 En esta etapa, el usuario ingresa al Home, selecciona Crear Cuenta, completa el formulario según su tipo de usuario y finalmente inicia sesión. Tras la autenticación, el sistema lo dirige automáticamente al dashboard correspondiente, ya sea personal o empresarial.
 
+<img src="assets/images/chapter-4/User-flow/registro-usuario.png" alt="registro-usuario"/>
+
 **DESKTOP USER FLOW 2**
 Relacionado con User Goal 2: Gestión de Plantas
 
 Como Jardinero Amateur o Gestor Profesional, quiero registrar, visualizar y administrar mis plantas (o lotes en caso del vivero) para mantener control y seguimiento de cada una.
 
 En esta etapa, el usuario accede a la sección de plantas desde el menú, revisa la lista disponible y puede agregar o editar información. Para el Jardinero Amateur se muestran plantas individuales; para el Vivero, lotes de producción.
+
+<img src="assets/images/chapter-4/User-flow/agregar-planta.png" alt="agregar-planta"/>
 
 ## 4.5. Web Applications Prototyping
 En el presente link se le hace la entrega del prototipo del figma:
