@@ -940,10 +940,6 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 </p>
 
 <p align="center">
-    <img src="assets/images/resources/deployment_backend3_2.jpeg" alt="deployment_backend3_2"/>    
-</p>
-
-<p align="center">
     <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
 </p>
 
@@ -1037,6 +1033,16 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 | Nicole Guillen, exploró las principales funciones de PlantaE, incluyendo el registro, la gestión de plantas y equipos, así como la configuración general de la aplicación. En su experiencia, destacó la claridad de la información, la facilidad de navegación y la simplicidad de los procesos, desde el acceso hasta la personalización del perfil. La interfaz fue percibida como intuitiva y organizada, con funciones que responden correctamente y mejoran la experiencia del usuario. En general, el entrevistado consideró que PlantaE ofrece una experiencia fluida, completa y accesible, sin presentar dificultades o confusiones durante su uso. |
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+## Auditoria con el Grupo 1:
+
+<p align="center">
+    <img src="assets/images/resources/evaluacion_heuristicas_1.jpeg" alt="evaluacion_heuristicas_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/evaluacion_heuristicas_2.jpeg" alt="evaluacion_heuristicas_2"/>    
+</p>
 
 ## **SITE o APP A EVALUAR:**
 
