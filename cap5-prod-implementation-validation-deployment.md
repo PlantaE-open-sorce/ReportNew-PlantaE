@@ -66,19 +66,19 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Landing Page**: https://github.com/PlantaE-open-sorce/PlantaE-landing
 
-![Deploy1](https://example.com/logo.png)
+![Deploy1](assets/images/resources/DeployLanding.jpg)
 
 #### Repositorio de github - Frontend de PlantaE
 
 - **Frontend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
   
-![Deploy2](https://example.com/logo.png)
+![Deploy2](assets/images/resources/DeployFrontend.jpg)
 
 #### Repositorio de github - Backend de PlantaE
 
 - **Bckend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
   
-![Deploy3](https://example.com/logo.png)
+![Deploy3](assets/images/resources/DeployBckend.jpg)
 
 
 
@@ -91,7 +91,7 @@ Se implementará el modelo de ramificación propuesto por Vincent Driessen en su
 - `feature/*`: Ramas creadas a partir de `develop` para desarrollar nuevas funcionalidades.**Convención de nombres:** `feature/<nombre-corto-descriptivo>`_Ejemplo: `feature/login-auth`_
 - `release/*`: Ramas creadas desde `develop` cuando se prepara una nueva versión para producción.**Convención de nombres:** `release/<versión>`_Ejemplo: `release/TB1`_
 
-![GitFlow](https://example.com/logo.png)
+![GitFlow](assets/images/resources/GitFlow.jpg)
 
 #### Versionado Semántico
 
