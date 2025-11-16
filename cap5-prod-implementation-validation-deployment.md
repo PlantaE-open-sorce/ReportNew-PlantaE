@@ -703,10 +703,53 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
-En esta parte se muestra la evidencia de ejecución correspondiente al sprint del proyecto PlantE, una aplicación enfocada en brindar experiencias turísticas personalizadas. Las capturas presentadas, se demuestran la ejecución exitosa de los endpoints desarrollados, verificando su correcto comportamiento y funcionamiento. Estas pruebas confirman la interacción adecuada con los servicios del backend para realizar operaciones de creación, consulta, actualización y eliminación de recursos vinculados a experiencias, disponibilidades y medios. Cada resultado valida que las funcionalidades implementadas fueron integradas correctamente y se encuentran activas y operativas conforme a los criterios definidos en las historias de usuario del sprint.
+En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
 
-**Evidencias visuales del Backend deployado****
+**Capturas de Pantalla de MySQL conectado a la database de la maquina virtual**
 
+- Datos en bounded context
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
+</p>
+
+- Puerto MySQL prendido:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
+</p>
+
+- Datos en bounded context Profiles:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
+</p>
+
+- Tablas de base de datos:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_4.jpeg" alt="execution_evidence_4"/>    
+</p>
+
+- Datos en bounded context User:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_5.jpeg" alt="execution_evidence_5"/>    
+</p>
+
+- Datos en bounded context Plants Details:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_6.jpeg" alt="execution_evidence_6"/>    
+</p>
+
+- Datos en bounded context Sensors:
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_7.jpeg" alt="execution_evidence_7"/>    
+</p>
+
+**Evidencias visuales del Backend deployado**
 <p align="center">
     <img src="assets/images/resources/backend1.png" alt="backend1"/>    
 </p>
@@ -732,6 +775,15 @@ En esta parte se muestra la evidencia de ejecución correspondiente al sprint de
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
 En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
+
+<p align="center">
+    <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
+</p>
+
 
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
