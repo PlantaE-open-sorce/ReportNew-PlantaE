@@ -289,6 +289,11 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Velocity               | 18 puntos                                                                                                                                                            |
 | Sum of Story Points             | 18 puntos                                                                                                                                                            |
 
+
+![eu2](assets/images/resources/Sprint1.jpg)
+Link del Trello primera version Sprint 1: https://trello.com/b/eD8ju2rS/sprint-1
+
+
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
 ##### Aspect Leaders and Collaborators
