@@ -551,6 +551,31 @@ Las principales funcionalidades implementadas durante este sprint abarcan todas 
 El trabajo de desarrollo se organizó siguiendo las mejores prácticas de desarrollo frontend, implementando componentes standalone según las nuevas recomendaciones de Angular, gestión de estado reactiva con RxJS, validaciones de formularios robustas y diseño responsive que funciona óptimamente en desktop, tablet y móvil.
 
 Se estableció la integración completa con la Landing Page existente, agregando enlaces directos que permiten a los usuarios navegar fluidamente desde la página de presentación hacia la aplicación web funcional. La configuración incluye internacionalización (i18n), cambio de tema dinámico y optimización de rendimiento con lazy loading.
+| Repository            | Branch  | Commit Message                                                   | Commit Message Body                               | Author           | Committed on (Date) |
+|----------------------|----------|------------------------------------------------------------------|----------------------------------------------------|------------------|----------------------|
+| plantae/frontend     | develop  | Update main.ts                                                   | Update main.ts                                     | AntonioNavarro24 | Nov 15, 2025         |
+| plantae/frontend     | develop  | Update devices.view.ts                                           | Update devices.view.ts                             | Elizabeth-Apaza  | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update translate.pipe.ts                                         | Update translate.pipe.ts                           | Elizabeth-Apaza  | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update home.view.ts                                              | Update home.view.ts                                | Elizabeth-Apaza  | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update styles.css                                                | Update styles.css                                  | Elizabeth-Apaza  | Nov 14, 2025         |
+| plantae/frontend     | develop  | Correct labelForAssetType return statement formatting            | Correct formatting                                 | FlorDeMa         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update login.view.ts                                             | Update login.view.ts                               | FlorDeMa         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update auth.guard.ts                                             | Update auth.guard.ts                               | FlorDeMa         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update app.routes.ts                                             | Update app.routes.ts                               | FlorDeMa         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update paged-result.model.ts                                     | Update paged-result.model.ts                       | RodMiraval       | Nov 14, 2025         |
+| plantae/frontend     | develop  | Add files via upload                                             | Add files via upload                               | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Delete src/app/plant-care/application/facades directory          | Delete facades directory                           | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update alert.facade.ts                                           | Update alert.facade.ts                             | RodMiraval       | Nov 14, 2025         |
+| plantae/frontend     | develop  | Add files via upload                                             | Add files via upload                               | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Delete src/styles.css                                            | Delete styles.css                                  | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update main.ts                                                   | Update main.ts                                     | RodMiraval       | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update index.html                                                | Update index.html                                  | RodMiraval       | Nov 14, 2025         |
+| plantae/frontend     | develop  | Add files via upload                                             | Add files via upload                               | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Delete src/environments directory                                | Delete environments directory                      | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update README.md                                                 | Update README.md                                   | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Update README.md                                                 | Update README.md                                   | julio645         | Nov 14, 2025         |
+| plantae/frontend     | develop  | Primer commit de mi proyecto                                     | Primer commit de mi proyecto                       | FlorDeMa         | Nov 14, 2025         |
+
 
 **Funcionalidades Implementadas con Operaciones CRUD**
 - **Sistema de autenticación completo**
