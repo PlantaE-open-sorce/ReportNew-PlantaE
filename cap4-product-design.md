@@ -246,76 +246,36 @@ Establece los derechos de autor sobre el software y su año de creación.
 
 El sistema de búsqueda de PlantaE está diseñado para ser claro, ligero y de fácil procesamiento, priorizando la eficiencia en la localización de datos para ambos segmentos de usuarios.
 
-**Vista para los hogares urbanos**
+- **Vista para los Usuarios Domésticos**
 
-##### 1. Medios de ayuda para la búsqueda de datos
+El sistema de búsqueda para Usuarios Domésticos permite encontrar plantas, sensores, dispositivos y alertas de manera simple, orientado a un volumen reducido de información. Los filtros están diseñados para que el usuario pueda localizar rápidamente elementos dentro de su entorno doméstico.
 
-- Barra de búsqueda principal en los módulos de monitoreo y el dashboard.
-- Autocompletado inteligente: Muestra sugerencias de nombres de plantas registrados por el usuario y tipos de cultivo.
-- Historial de búsquedas recientes: Acceso rápido a las plantas o sensores monitoreados recientemente.
-- Mensajes contextuales si no se encuentran resultados: Ofrece una sugerencia de acción clara.
+| **Filtros** | **Descripción** |
+|------------|------------------|
+| Nombre de Planta | Permite buscar plantas por su nombre o alias asignado por el usuario. |
+| Tipo de Planta | Filtra por categorías como aromáticas, ornamentales o suculentas. |
+| Estado de la Planta | Permite seleccionar plantas saludables, en riesgo o críticas. |
+| Tipo de Sensor | Filtra sensores según la medición que realizan (humedad, temperatura, luz). |
+| Estado del Dispositivo | Permite visualizar solo dispositivos conectados, desconectados o con fallas. |
+| Fecha de Alerta | Filtra alertas por rangos como: hoy, últimos 7 días o último mes. |
+| Periodo de Reporte | Permite seleccionar el intervalo de tiempo para ver reportes históricos. |
 
-##### 2. Filtros y opciones
+- **Vista de Vivero Forestal**
 
-Los filtros permiten segmentar la búsqueda por criterios de estado y clasificación:
+En el caso de Viveros, el sistema de búsqueda es más robusto debido al mayor volumen de plantas, sensores, alertas y áreas de cultivo. Los filtros se centran en variables técnicas, zonas del vivero y estados operativos.
 
-- Por Nombre de la Planta
-- Por Tipo de Cultivo
-- Por Ubicación/Área
-- Por Estado de Alerta:
-    - Saludable (Verde)
-    - En Observación (Amarillo)
-    - Alerta Crítica (Rojo)
-- Por Tipo de Sensor Conectado
-
-##### 3. Visualización de resultados
-
-Los resultados se visualizan de manera intuitiva y visualmente jerárquica:
-
-- Tarjetas con vista de Grid
-    - Información en la tarjeta: Nombre, Tipo de planta, Foto y Última revisión.
-    - Alertas: Indicador circular de color junto a la "Última revisión".
-- Filas en la Vista de Gestión
-    - Filas con: Nombre, Sensor, Alerta, Reporte.
-    - Alerta: Círculo de color (Rojo/Amarillo/Verde) para identificación inmediata.
-    - Botón de acción rápida: Link "Ver reporte" para acceder a detalles.
-
-**Vista de viveros comerciales**
-
-##### 1. Medios de ayuda para la búsqueda de datos
-
-- Buscador centralizado para los módulos "Inventario de Lotes" y "Gestión de Clientes"
-- Autocompletado especializado: Ofrece sugerencias de códigos de lote, nombres de clientes o especies a nivel de producción.
-- Filtros persistentes en la barra lateral para alternar entre la gestión de Lotes/Stock.
-
-##### 2. Filtros y opciones
-
-Los filtros permiten segmentar el inventario y la producción a nivel masivo:
-
-- Por nombre de la Especie/Variedad
-- Por lote de Siembra/ID de Área
-- Por estado de Inventario/Stock
-- Por métrica crítica:
-    - Humedad Baja Extrema (Requiere riego masivo).
-    - Temperatura Extrema (Requiere ventilación/calefacción de lote).
-    - pH Anormal (Requiere ajuste de solución nutritiva).
-    - Sensor Desconectado (Alerta de sistema de infraestructura).
-- Por Fecha de Cosecha.
-
-##### 3. Visualización de resultados
-
-El formato es tabular, priorizando la densidad de información y la gestión de métricas agregadas.
-
-- Contenido de Resultados:
-    - Código de lotes o especie
-    - Tipo de especie 
-    - Cantidad de stock
-    - Alerta promedio de sensores
-    - Edad promedio
-- Colores de Estado:
-    - Verde: Producción Saludable
-    - Amarillo: Lote con Monitoreo
-    - Rojo: Riesgo Crítico en Lote
+| **Filtros** | **Descripción** |
+|------------|------------------|
+| Nombre / Código de Planta | Busca plantas por nombre, código interno o especie. |
+| Lote / Área del Vivero | Filtra plantas según el módulo, zona o sección del vivero. |
+| Estado de la Planta | Permite identificar plantas saludables, en riesgo o en estado crítico. |
+| Especie | Filtra por tipos específicos como frutales, ornamentales, forestales, etc. |
+| Tipo de Sensor | Selecciona sensores según su función (humedad, luminosidad, pH, temperatura). |
+| Estado del Sensor | Permite mostrar sensores activos, inactivos o con fallas técnicas. |
+| Tipo de Alerta | Filtro para alertas ambientales, de riego, temperatura o fallas de sensor. |
+| Nivel de Prioridad | Permite filtrar alertas entre baja, media o alta prioridad. |
+| Estado del Dispositivo IoT | Muestra dispositivos activos, desconectados o con error. |
+| Periodo de Reporte | Selecciona rangos de fechas avanzados (semanal, mensual, trimestral). |
 
 ### 4.2.5. Navigation Systems
 
