@@ -996,7 +996,7 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 
 |  **DANIEL CASTILLO**                                                                                                                                                                               |  
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
+| <div align="center"> <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="25%" height="auto"> </div>                                      |
 | Género: Masculino                                                                                                                                                                                  |
 | Edad: 22 años        
 | **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
@@ -1014,9 +1014,18 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 
 **User Persona del Segmento Objetivo 2: Viveros comerciales**
 
-|  **DIONISIO RODRIGUEZ**                                                                                                                                                                            |
+|  **NICOLE GUILLEN**                                                                                                                                                                                |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div>                                      |
+| Género: Masculino                                                                                                                                                                                  |
+| Edad: 35 años                                                                                                                                                                                      |
+| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQA3t8o3QYH8Q5MS_7G5JtQbAZmaOU4UJSALY0YLktrarOo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MEaIVx |
+| <div align="center"><b>Duración:</b> 00:04:19 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:19 </div>                                                          |
+|  |
+
+|  **DIONISIO RODRIGUEZ**                                                                                                                                                                            |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <div align="center"> <img src="assets/images/resources/Entrevista Flor Segmento 2.png" alt="Entrevista Flor Segmento 2" width="50%" height="auto"> </div>                                      |
 | Género: Masculino                                                                                                                                                                                   |
 | Edad: 35 años                                                                                                                                                                                      |
 | **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
