@@ -1108,74 +1108,65 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## DESCRIPCIÓN DE PROBLEMAS:
 
-***DESCRIPCIÓN DE PROBLEMAS:***
+## PROBLEMA \#1: No se encuentra una opción para redirigir al usuario desde la Landing Page hacia el Frontend
 
-**PROBLEMA \#1: No se encuentra una opción para redirigir al usuario desde la Landing Page hacia el Frontend**
-
-**Severidad: 2**
-
+- **Severidad: 2**
 - **Heurística violada:** Usabilidad, Libertad y control del usuario
 - **Problema:** El usuario que accede a la Landing Page no tiene disponible un acceso  visible para ingresar al sistema (Frontend). Esto genera confusión, incrementa el tiempo de exploración y puede provocar abandono al no saber cómo iniciar sesión o acceder a la - - plataforma funcional.
 - **Recomendación:** Incluir un botón visible de acceso al sistema en el header o sección principal de Landing Page, acompañado de un CTA claro como “Ingresar a mi cuenta” o “Ir al panel”.
 
-**PROBLEMA \#2: No se traduce la aplicación por completo**
+## PROBLEMA \#2: No se traduce la aplicación por completo
 
-**Severidad: 1**
-
+- **Severidad: 1**
 - **Heurística violada:** Usabilidad \- Consistencia y estándares
 - **Problema:** La interfaz mezcla idiomas entre secciones, etiquetas y microtextos. Además del cambio manual entre EN/ES, algunos textos permanecen sin traducirse. Esto afecta la claridad del contenido y puede generar errores de interpretación.
 - **Recomendación:** Completar el sistema de internacionalización (i18n), asegurando una traducción integral de todos los componentes.
 
-**PROBLEMA \#3: No se puede acceder al Dashboard como vivero**
+## PROBLEMA \#3: No se puede acceder al Dashboard como vivero
 
-**Severidad: 3**
-
+- **Severidad: 3**
 - **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema
 - **Problema:** El rol “Vivero” no puede verificar el acceso al Dashboard principal o falla al cargar la vista. La interfaz no informa si se trata de un error de permisos, carga o configuración. El usuario queda sin retroalimentación y sin ruta alternativa.
 - **Recomendación:** Implementar control de roles con mensajes informativos claros y acciones posibles (por ejemplo, “Solicitar permisos” o redirigir al panel adecuado según su rol).
 
-**PROBLEMA \#4: Poca intuitividad en el panel de Vivero**
+## PROBLEMA \#4: Poca intuitividad en el panel de Vivero
 
-**Severidad: 1**
-
+- **Severidad: 1**
 - **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema
 - **Problema:** Los elementos del panel no cuentan con una estructura fácilmente comprensible a primera vista. Probablemente, los usuarios o cliente deban explorar demasiado para entender dónde realizar las tareas clave, afectando su experiencia.
 - **Recomendación:** *Reestructurar el contenido según prioridades del usuario, utilizando agrupaciones visuales, etiquetas más claras e indicadores de acciones principales.*
 
-**PROBLEMA \#5: No se pueden visualizar los reportes generados**
+## PROBLEMA \#5: No se pueden visualizar los reportes generados
 
-**Severidad: 2**
-
+- **Severidad: 2**
 - **Heurística violada:** Usabilidad \- Libertad y control del usuario
 - **Problema:** Luego de generar un PDF, CSV o resumen, este se descarga sin opción previa de previsualización o confirmación. Si el archivo contiene errores, el usuario debe repetir el flujo completo sin retroalimentación del sistema.
 - **Recomendación:** Agregar un visor de reportes antes de descargar y un mensaje de verificación del contenido generado, así como la posibilidad de cancelar o volver a editar filtros.
 
-**PROBLEMA \#6: No se puede ingresar una ubicación real**
+## PROBLEMA \#6: No se puede ingresar una ubicación real
 
-- **Severidad: 1** Heurística violada: Usabilidad \- Consistencia y estándares
+- **Severidad: 1**
+- **Heurística violada:** Usabilidad \- Consistencia y estándares
 - **Problema:** Campos relacionados a la ubicación de plantas o viveros parecen restringidos o no permiten ingresar direcciones reales, lo que hace que la información no coincida con la del usuario.
 - **Recomendación:** Integrar autocompletado basado en mapas o permitir entrada libre de direcciones con validación.
 
-**PROBLEMA \#7: Falta filtrado de plantas**
+## PROBLEMA \#7: Falta filtrado de plantas
 
-**Severidad: 2**
-
+- **Severidad: 2**
 - **Heurística violada:** Usabilidad \- Libertad y control del usuario
 - **Problema:** La gestión de plantas no permite aplicar autocompletado avanzado (planta, sensor, tipo, especie). El usuario debe escribir toda la lista manualmente, aumentando tiempo y esfuerzo.
 - **Recomendación:** Incorporar filtros dinámicos, búsqueda por keywords y ordenamiento para agilizar la gestión, especialmente en viveros con gran cantidad de plantas.
 
-**PROBLEMA \#8: Falta un dropdown para seleccionar una especie específica de planta**
+## PROBLEMA \#8: Falta un dropdown para seleccionar una especie específica de planta
 
-**Severidad: 2**
-
+- **Severidad: 2**
 - **Heurística violada:** Usabilidad \- Prevención de errores
 - **Problema:** Actualmente el registro o asignación de plantas depende de texto manual o selección genérica, lo cual puede generar errores tipográficos y datos inconsistentes.
 - **Recomendación:** Agregar un dropdown con especies predefinidas y la posibilidad de buscar o registrar nuevas especies bajo un control validado.
 
-***PROBLEMA \#9: No se muestra un mensaje detallado al vincular sensores**
+## PROBLEMA \#9: No se muestra un mensaje detallado al vincular sensores
 
-**Severidad: 2**
-
+- **Severidad: 2**
 - **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema
 - **Problema:** Al vincular un sensor, el sistema no comunica con claridad si la operación fue exitosa, qué sensor se vinculó, ni su estado. Esto deja al usuario en incertidumbre.
 - **Recomendación:** Implementar mensajes detallados de éxito/fracaso, incluyendo nombre del sensor, planta asociada y tiempo de actualización. Añadir indicadores visuales de estado (conectado/no conectado)
