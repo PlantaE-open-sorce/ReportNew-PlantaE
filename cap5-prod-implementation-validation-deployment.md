@@ -1027,7 +1027,28 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-## Auditoria con el Grupo 1:
+## Auditoria con el Grupo 4:
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN:** 7380  
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Samuel Jesus Bonifacio Jaramillo
+
+**CLIENTE(S):**
+- Apaza Bocanegra, Elizabeth Noelia
+- Contreras Leon, Flor De María
+- Guillen Galindo, Julio Adolfo
+- Miraval Pomalaya, Rodrigo Jesus
+- Navarro Chinga, Antonio Jhair
 
 <p align="center">
     <img src="assets/images/resources/evaluacion_heuristicas_1.jpeg" alt="evaluacion_heuristicas_1"/>    
@@ -1036,6 +1057,201 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 <p align="center">
     <img src="assets/images/resources/evaluacion_heuristicas_2.jpeg" alt="evaluacion_heuristicas_2"/>    
 </p>
+  
+**SITE o APP A EVALUAR:** PlantaE
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+2. Página de Inicio
+3. Registro de acciones
+4. Plantas registradas
+5. Funcionalidad de sensores
+6. Búsqueda de dispositivos
+7. Gestión de Plantas
+8. Alertas
+9. Datos de Reportes
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Perfil
+2. Registro como usuario o vivero
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                                                                                                    |
+| :---: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
+
+## TABLA RESUMEN:
+
+| \#    | Problema                                                    | Escala de severidad | Heurística/Principio violada(o)                 |
+| :---: | :---------------------------------------------------------- | :-----------------: | :---------------------------------------------- |
+| 1	    | Falta de Login en la Landing Page	                          | 2	                  | Usability: Libertad y control del usuario       |
+| 2	    | Funciones inaccesibles en el Login	                        | 3	                  | Usability: Visibilidad del estado del sistema   | 
+| 3	    | Interfaz sin distribución clara; imágenes demasiado grandes	| 1	                  | Usability: Diseño estético y minimalista        |
+| 4	    | Cards muy amplias; filtrado y favoritos inactivos	          | 3	                  | Usability: Libertad y control del usuario       |
+| 5	    | No hay datos para Bicicletas Eléctricas	                    | 2	                  | Usability: Consistencia y estándares            |
+| 6	    | No permite cancelar reservas	                              | 4	                  | Usability: Libertad y control del usuario       |
+| 7	    | No se guardan nuevas reservas desde Booking	                | 4	                  | Usability: Prevención y recuperación de errores |
+| 8	    | Sección “Viaje” en Ver Detalles inactiva	                  | 2	                  | Usability: Visibilidad del estado del sistema   |
+| 9	    | Botón “Pagar” inactivo en la sección Planes	                | 3	                  | Usability: Libertad y control del usuario       |
+| 10	  | Botones del menú superior (Settings, User, etc.) inactivos	| 2	                  | Usability: Visibilidad del estado del sistema   |
+| 11	  | No hay traducción; dificulta comprensión de recibos	        | 1	                  | Usability: Consistencia y estándares            |
+| 12	  | Función “Reservar vehículo” inactiva	                      | 4	                  | Usability: Prevención de errores                |
+| 13	  | Botón reservar en las cards inactivo	                      | 3	                  | Usability: Libertad y control del usuario       |
+| 14	  | Botón “Edit Booking” no funciona	                          | 3	                  | Usability: Flexibilidad y eficiencia de uso     |
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+## OBSERVACIÓN 1: Falta de Login en la Landing Page
+
+- **Severidad:** 2. Heurística violada: Usabilidad – Libertad y control del usuario
+- **Problema:** La Landing Page no ofrece un acceso visible hacia la pantalla de Login. El usuario no tiene una ruta clara para ingresar al sistema, generando confusión y aumentando la tasa de abandono.
+- **Recomendación:** Agregar un botón visible (“Iniciar Sesión”, “Ir al Panel”), ubicado en el header o hero principal.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_1.jpeg" alt="heuristicas_1"/>    
+</p>
+
+## OBSERVACIÓN 2: Funciones inaccesibles en el Login
+
+- **Severidad:** 3. Heurística violada: Usabilidad – Visibilidad del estado del sistema
+- **Problema:** Algunas funciones de la pantalla de Login no responden o no muestran retroalimentación, como recuperación de contraseña o creación de cuenta. El usuario queda sin información sobre fallas.
+- **Recomendación:** Habilitar todos los botones y agregar mensajes de feedback claros (error, éxito, pasos a seguir).
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_2.jpeg" alt="heuristicas_2"/>    
+</p>
+
+## OBSERVACIÓN 3: Interfaz demasiado limpia, sin distribución clara e imágenes muy grandes
+
+- **Severidad:** 1. Heurística violada: Usabilidad – Diseño estético y minimalista
+- **Problema:** La interfaz presenta espacios vacíos extensos y elementos demasiado grandes, lo que dificulta encontrar las funciones principales.
+- **Recomendación:** Redistribuir el layout usando jerarquía visual, reducir el tamaño de imágenes y reforzar la navegación.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_3.jpeg" alt="heuristicas_3"/>    
+</p>
+
+## OBSERVACIÓN 4: Cards demasiado amplias; botones de filtrado y favoritos no funcionan
+
+- **Severidad:** 3. Heurística violada: Usabilidad – Libertad y control del usuario
+- **Problema:** Las cards ocupan demasiado espacio y los botones clave no funcionan, afectando directamente el flujo de selección de vehículos.
+- **Recomendación:** Optimizar dimensiones, activar funcionalidad de filtros, favoritos y feedback visual.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_4.jpeg" alt="heuristicas_4"/>    
+</p>
+
+## OBSERVACIÓN 5: No hay datos para Bicicletas eléctricas
+
+- **Severidad:** 2. Heurística violada: Usabilidad – Consistencia y estándares
+- **Problema:** La sección aparece vacía, lo que genera una experiencia inconsistente frente a otras categorías que sí muestran información.
+- **Recomendación:** Cargar datos por defecto, mostrar placeholders o indicar que “Pronto habrá disponibilidad”.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_5.jpeg" alt="heuristicas_5"/>    
+</p>
+
+## OBSERVACIÓN 6: No permite Cancelar Reservas
+
+- **Severidad:** 4. Heurística violada: Usabilidad – Libertad y control del usuario
+- **Problema:** Los usuarios no pueden cancelar sus reservas, bloqueando su flujo y generando frustración.
+- **Recomendación:** Incorporar botón “Cancelar reserva” con confirmación de acción.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_6.jpeg" alt="heuristicas_6"/>    
+</p>
+
+## OBSERVACIÓN 7: No permite guardar nuevas reservas desde Booking
+
+- **Severidad: 4**. Heurística violada: Usabilidad – Prevención y recuperación de errores
+- **Problema:** El flujo de Booking falla al guardar una nueva reserva, interrumpiendo una función crítica.
+- **Recomendación:** Corregir el flujo técnico y añadir mensajes que indiquen causa del error y pasos sugeridos.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_7.jpeg" alt="heuristicas_7"/>    
+</p>
+
+## OBSERVACIÓN 8: La sección “Viaje” en Ver Detalles está inactiva
+
+- **Severidad:** 2. Heurística violada: Usabilidad – Visibilidad del estado del sistema
+- **Problema:** El panel “Viaje” no despliega información ni responde a la interacción. El usuario no entiende si es temporal, un error o falta de permisos.
+- **Recomendación:** Activar el componente o mostrar un mensaje informativo (“Función en desarrollo”, “No hay información disponible”).
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_8.jpeg" alt="heuristicas_8"/>    
+</p>
+
+## OBSERVACIÓN 9: El botón “Pagar” de la sección Planes está inactivo
+
+- **Severidad:** 3. Heurística violada: Usabilidad – Libertad y control del usuario
+- **Problema:** El usuario no puede completar el pago de un plan, bloqueando una acción central del modelo de negocio.
+- **Recomendación:** Activar el botón, conectar el flujo a la pasarela de pago y agregar validaciones previas.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_9.jpeg" alt="heuristicas_9"/>    
+</p>
+
+## OBSERVACIÓN 10: Botones como Settings y User en la barra principal están inactivos
+
+- **Severidad:** 2. Heurística violada: Usabilidad – Visibilidad del estado del sistema
+- **Problema:** Los accesos principales no ejecutan acción alguna, lo que genera percepción de sistema incompleto o fallido.
+- **Recomendación:** Implementar navegación interna o, al menos, mensajes temporales de “módulo en construcción”.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_10.jpeg" alt="heuristicas_10"/>    
+</p>
+
+## OBSERVACIÓN 11: No hay opciones de traducción y dificulta la comprensión de recibos
+
+- **Severidad:** 1. Heurística violada: Usabilidad – Consistencia y estándares
+- **Problema:** El contenido de recibos y pantallas clave está solo en un idioma, dificultando la comprensión para usuarios que no lo manejan.
+- **Recomendación:** Integrar sistema de internacionalización (i18n) y traducciones completas.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_11.jpeg" alt="heuristicas_11"/>    
+</p>
+
+## OBSERVACIÓN 12: Reservar vehículo está inactivo
+
+- **Severidad:** 4. Heurística violada: Usabilidad – Prevención de errores
+- **Problema:** Al intentar reservar un vehículo, el botón o acción no funciona. Esto afecta directamente la funcionalidad principal del sistema.
+- **Recomendación:** Habilitar el botón, validar datos y mostrar confirmación de reserva exitosa.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_12.jpeg" alt="heuristicas_12"/>    
+</p>
+
+## OBSERVACIÓN 13: Botón de reservar dentro de las cards también está inactivo
+
+- **Severidad:** 3. Heurística violada: Usabilidad – Libertad y control del usuario
+- **Problema:** El usuario no puede reservar desde la vista de cards, obligándolo a pasos adicionales o impidiendo continuar.
+- **Recomendación:** Activar interacción, añadir feedback visual y redirigir al flujo de Booking.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_13.jpeg" alt="heuristicas_13"/>    
+</p>
+
+## OBSERVACIÓN 14: No permite usar el botón “Edit Booking”
+
+- **Severidad:** 3. Heurística violada: Usabilidad – Flexibilidad y eficiencia de uso
+- **Problema:** El botón para editar una reserva no responde, y el usuario no puede modificar fechas, horarios o vehículo seleccionado.
+- **Recomendación:** Implementar formulario editable, mensajes de validación y confirmación de cambios.
+
+<p align="center">
+    <img src="assets/images/resources/heuristicas_14.jpeg" alt="heuristicas_14"/>    
+</p>
+
+## Auditoria con el Grupo 1:
 
 ## **SITE o APP A EVALUAR:**
 
