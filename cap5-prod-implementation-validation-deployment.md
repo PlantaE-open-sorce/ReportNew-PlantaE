@@ -212,25 +212,13 @@ Los principales avances fueron:
     <img src="assets/images/resources/landing_3.png" alt="landing_3"/>    
 </p>
 
-- Testimonios de usuarios.
+- Video de introducción
 
 <p align="center">
     <img src="assets/images/resources/landing_4.png" alt="landing_4"/>    
 </p>
 
-- Preguntas Frecuentes de usuarios.
-
-<p align="center">
-    <img src="assets/images/resources/landing_5.png" alt="landing_5"/>    
-</p>
-
-- Contacto para usuarios con mas preguntas o consultas.
-
-<p align="center">
-    <img src="assets/images/resources/landing_6.png" alt="landing_6"/>    
-</p>
-
-- Donde descargar la aplicacion PlantE.
+- Testimonios de usuarios.
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
