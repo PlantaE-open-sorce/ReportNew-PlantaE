@@ -349,14 +349,124 @@ Se presenta la sección de propuesta de Contact:
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+En esta sección se presentarán los Wireframes más relevantes del proyecto
+
+Para usuarios normales, formulario de registro y de logeo para cuenta normal 
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/login-register-wirefrmaes.png" alt="login-register-wirefrmaes"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/inicio-wireframe.png" alt="inicio-wireframe"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/dashboar-sin-plantas.png" alt="dashboar-sin-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/agregar-plantas.png" alt="agregar-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/detalle-planta.png" alt="detalle-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireframes/planta/plantas.png" alt="plantas"/>
+
+Para viveros, guardan la misma relación de las anteriores wireframes presentadas pero hay un punto en específico que lo destaca de el anterior segemento el cual es la vista viveros, la cual se le presenta ahora:
+
+<img src="assets/images/chapter-4/vivero/vivero/aplicacion-reciente-vivero.png" alt="aplicacion-reciente-vivero"/>
+
+<img src="assets/images/chapter-4/vivero/vivero/tarea-vivero.png" alt="tarea-vivero"/>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+
+En esta meta, ambos usuarios —tanto el Jardinero Amateur como el Gestor del Vivero— deben crear una cuenta seleccionando su tipo de usuario. Luego completan su información personal, configuran sus preferencias iniciales (como idioma y notificaciones) e inician sesión para acceder a las funcionalidades principales de Plant-Care según su rol.
+
+Jardinero Amateur:
+
+Inicia en el Home → elige Crear Cuenta
+
+Selecciona tipo Jardinero Amateur
+
+Llena datos personales
+
+Inicia sesión
+
+Accede a su Dashboard personal (Mis Plantas, alertas, consejos, monitoreo básico)
+
+Gestor Profesional (Vivero):
+
+Inicia en el Home → Crear Cuenta
+
+Selecciona tipo Vivero
+
+Llena datos del vivero y responsable
+
+Inicia sesión
+
+Accede al Dashboard profesional (gestión de lotes, sensores, dispositivos y reportes)
+
+USER GOAL 2: Gestión de Plantas
+
+En esta meta, el usuario puede registrar nuevas plantas, ver su estado general, editar información relevante y acceder a los detalles de cada una.
+
+Jardinero Amateur:
+
+Agrega una nueva planta desde Mis Plantas
+
+Completa especie, nombre, ubicación y cuidados
+
+Ve tarjetas con indicadores de humedad, luz, riego y salud
+
+Accede a Plant Detail para ver información ampliada
+
+Edita o elimina la planta cuando sea necesario
+
+Gestor Profesional (Vivero):
+
+Gestiona plantas en formato de lotes
+
+Revisa cantidades, estado del lote y rotación
+
+Organiza stock por categorías
+
+Visualiza la trazabilidad y crecimiento del inventario
+
+Edita lotes y actualiza disponibilidad
+
 ### 4.4.3. Web Applications Mock-ups
+
+Se le presenta las capturas de nuestros mock-ups, losa más imortantes de nuestra aplicación.
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/inicio-applicación.png" alt="inicio-applicación"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/dashboard/dashboard-sin-plantas.png" alt="dashboard-sin-plantas"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/agregar-planta.png" alt="agregar-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/detalle-planta.png" alt="detalle-planta"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/planta-estado.png" alt="planta-estado"/>
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/plantas/registro-planta-vacio.png" alt="registro-planta-vacio"/>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+**Desktop User Flow 1**
+Relacionado con User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+
+Como usuario (Jardinero Amateur o Gestor Profesional), quiero registrarme eligiendo mi tipo de cuenta y luego iniciar sesión correctamente para acceder a las funcionalidades de la plataforma según mi perfil.
+
+En esta etapa, el usuario ingresa al Home, selecciona Crear Cuenta, completa el formulario según su tipo de usuario y finalmente inicia sesión. Tras la autenticación, el sistema lo dirige automáticamente al dashboard correspondiente, ya sea personal o empresarial.
+
+**DESKTOP USER FLOW 2**
+Relacionado con User Goal 2: Gestión de Plantas
+
+Como Jardinero Amateur o Gestor Profesional, quiero registrar, visualizar y administrar mis plantas (o lotes en caso del vivero) para mantener control y seguimiento de cada una.
+
+En esta etapa, el usuario accede a la sección de plantas desde el menú, revisa la lista disponible y puede agregar o editar información. Para el Jardinero Amateur se muestran plantas individuales; para el Vivero, lotes de producción.
+
 ## 4.5. Web Applications Prototyping
+En el presente link se le hace la entrega del prototipo del figma:
+
+<img src="assets/images/chapter-4/usuario-normal/wireflow/inicio-applicación.png" alt="inicio-applicación"/>
+
+[https://shorturl.at/sdUZr](https://shorturl.at/sdUZr)
 
 ## 4.6. Domain-Driven Software Architecture
 
