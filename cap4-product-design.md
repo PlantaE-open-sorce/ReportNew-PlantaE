@@ -104,36 +104,41 @@ El objetivo principal es minimizar la carga cognitiva de los usuarios —ya sean
 
 #### **Landing Page**
 
-- **Inicio:** Sección de bienvenida que presenta la propuesta de valor de PlantaE, combinando el mensaje principal, el logotipo y el acceso a la plataforma.  
-- **Beneficios:** Expone las ventajas de PlantaE, diferenciadas por tipo de usuario (hogares y viveros), destacando ahorro de agua, sostenibilidad y automatización.  
-- **Cómo funciona:** Describe de manera visual el proceso de uso: instalación de sensores IoT, monitoreo ambiental y generación de alertas.  
-- **Testimonios:** Presenta experiencias de usuarios que validan la efectividad del sistema.  
-- **Preguntas Frecuentes:** Reúne respuestas a inquietudes comunes sobre el uso de sensores, conexión y mantenimiento.  
-- **Contacto:** Formulario de comunicación directa con el equipo de PlantaE y enlaces a redes sociales.  
-- **Registro / Demo:** Botones de acción destacados (“Regístrate gratis”, “Solicitar demo”) que impulsan la conversión y refuerzan la accesibilidad del sitio.
+- **Home:** Sección principal de bienvenida que introduce la propuesta de valor de PlantaE. Incluye un mensaje destacado sobre el monitoreo inteligente de plantas con tecnología IoT, acompañado de un call to action (“Descubre más”), el logotipo y la barra de navegación.  
+- **Nosotros:** Presenta una breve descripción de EcoTech como startup universitaria enfocada en sostenibilidad urbana. Se explica el propósito del proyecto y cuál es el compromiso con el cuidado inteligente de plantas y cultivos urbanos.  
+- **Servicios:** Muestra los servicios principales que ofrece PlantaE mediante tarjetas informativas con iconos y descripciones. Incluye: Monitoreo en Tiempo Real, Alertas de Riego, Recomendaciones IA, etc.    
+- **Video – About the Product:** Sección demostrativa donde se incluye un video que permite conocer cómo funciona PlantaE en acción. Presenta la interfaz del sistema y explica visualmente el flujo del producto.  
+- **Testimonios:** Tarjetas con opiniones reales de usuarios que validan la efectividad del sistema. Incluyen nombre, rol del usuario y valoración, destacando beneficios como reducción de pérdidas, aumento de productividad y facilidad de monitoreo.
+- **Contacto:** Pie de página con información institucional y enlaces directos. Incluye: Descripción breve de PlantaE, Enlaces a servicios, Información de la empresa, etc.
 
 ---
 
 #### **Aplicación Web – Usuarios Domésticos**
 
-- **Dashboard:** Vista general del estado de las plantas registradas (humedad, temperatura, luz y calidad del aire).  
-- **Mis Plantas:** Listado visual con nombre, foto, ubicación y nivel de salud de cada planta.  
-- **Alertas:** Panel de notificaciones automáticas que indica plantas con riego pendiente o variables críticas.  
-- **Consejos:** Sección de recomendaciones personalizadas según las condiciones detectadas por los sensores IoT.  
-- **Reportes:** Visualización y descarga de métricas históricas sobre cuidado, consumo de agua y estado de salud de las plantas.  
-- **Perfil:** Espacio donde el usuario puede editar sus datos, idioma, modo de visualización y preferencias de notificación.
+- **Inicio:** Vista inicial del vivero después de iniciar sesión.
+- **Dashboard:** Panel con la visión general del vivero y métricas principales.
+- **Plantas:** Listado completo de plantas registradas en el vivero.
+- **Sensores:** Panel para visualizar sensores IoT asociados.
+- **Dispositivos:** Gestión de dispositivos IoT instalados en el vivero.
+- **Vivero:** Módulo exclusivo del rol vivero (gestión de áreas, espacios o administración específica del vivero).
+- **Gestión:** Herramientas para organizar, editar y administrar plantas o configuraciones operativas avanzadas.
+- **Alertas:** Panel de notificaciones ambientales y advertencias importantes.
+- **Reportes:** Análisis gráficos, estadísticas y reportes del vivero.
+- **Perfil:** Área de información personal y configuración de la cuenta del vivero.
 
 ---
 
 #### **Aplicación Web – Viveros Comerciales**
 
-- **Panel de Cultivos:** Control centralizado de lotes con indicadores de humedad, temperatura y luminosidad.  
-- **Alertas Críticas:** Notificaciones sobre riesgos ambientales o deficiencias detectadas en sensores.  
-- **Historial de Registros:** Acceso a datos históricos para análisis de rendimiento y planificación de mantenimiento.  
-- **Reportes de Rendimiento:** Generación de informes descargables por fechas, variables ambientales o tipo de cultivo.  
-- **Gestión de Sensores:** Administración de dispositivos IoT registrados, con opción de agregar, editar o retirar sensores.  
-- **Configuración:** Personalización de idioma, apariencia del sistema y preferencias de monitoreo.
-
+- **Inicio:** Pantalla inicial del usuario doméstico.
+- **Dashboard:** Vista resumida del estado general de sus plantas.
+- **Plantas:** Listado de plantas registradas.
+- **Sensores:** Visualización de sensores IoT asociados.
+- **Dispositivos:** Gestión de dispositivos IoT conectados.
+- **Gestión:** Herramientas para organizar o editar plantas del usuario.
+- **Alertas:** Panel de notificaciones y advertencias ambientales.
+- **Reportes:** Vista con estadísticas e historial del estado de sus plantas.
+- **Perfil:** Datos personales y ajustes básicos del usuario.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
