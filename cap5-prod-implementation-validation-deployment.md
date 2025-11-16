@@ -15,6 +15,44 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 | Version Control         | Git + GitHub          | Gestión colaborativa del código fuente.                      | https://github.com                       |
 | Software Deployment     | Github pages          | Despliegue continuo del sistema en ambientes de testing.     | https://railway.app / https://render.com |
 
+## Landing Page Development
+
+Ruta de referencia:
+
+- Link oficial de Github: https://github.com
+- Link oficial de Angular: https://angular.io/
+- Link oficial de Tailwind CSS: https://tailwindcss.com/
+- Link oficial de Astro: https://astro.build/
+- Link oficial de la documentación de Mozilla para HTML: https://developer.mozilla.org/es/docs/Web/HTML
+- Link oficial de la documentación de Mozilla para CSS: https://developer.mozilla.org/es/docs/Web/CSS
+- Link oficial de la documentación de Mozilla para TypeScript: https://www.typescriptlang.org/docs/
+- Link oficial de la documentación de Mozilla para Java: https://docs.oracle.com/en/java/
+- Link oficial de Spring Boot: https://spring.io/projects/spring-boot
+- Link oficial de Visual Studio Code: https://code.visualstudio.com/
+
+## Frontend Web Applications Development
+
+Ruta de referencia:
+
+- Link oficial de Github: https://github.com
+- Link oficial de Angular: https://angular.io/
+- Link oficial de la documentación de Mozilla para HTML: https://developer.mozilla.org/es/docs/Web/HTML
+- Link oficial de la documentación de Mozilla para CSS: https://developer.mozilla.org/es/docs/Web/CSS
+- Link oficial de la documentación de Mozilla para TypeScript: https://www.typescriptlang.org/docs/
+- Link oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
+
+## Backend Development
+
+Ruta de referencia:
+
+- Link oficial de Github: https://github.com
+- Link oficial de la documentación de Oracle para Java: https://docs.oracle.com/en/java/
+- Link Oficial de la documentación de Spring Boot: https://spring.io/projects/spring-boot
+- Link oficial de Spring Boot: https://spring.io/projects/spring-boot
+- Link oficial de IntelliJ IDEA: https://www.jetbrains.com/idea/
+
+
+
 ### 5.1.2. Source Code Management
 
 En esta sección el equipo establece los medios y esquema de organización que aplicará para el seguimiento de modificaciones. Para ello se utilizará **GitHub** como plataforma y sistema de control de versiones.
