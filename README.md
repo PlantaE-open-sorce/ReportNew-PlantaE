@@ -13,9 +13,9 @@
   <br><br>
   NCR: 7380
   <br><br>
-  Profesor: Hugo Allan Mori Paiva
-  <br><br>
   Periodo: 2025-20
+  <br><br>
+  PProfesor: Hugo Allan Mori Paiva
   <br><br>
   Informe del Trabajo Final
   <br><br>
