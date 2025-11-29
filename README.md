@@ -9,11 +9,13 @@
   <br><br>
   Curso: Desarrollo de Aplicaciones Open Source
   <br><br>
-  Sección: 7380
+  Codigo del Curso: 1ASI0729
+  <br><br>
+  NCR: 7380
   <br><br>
   Profesor: Hugo Allan Mori Paiva
   <br><br>
-  Semestre: 2025-20
+  Periodo: 2025-20
   <br><br>
   Informe del Trabajo Final
   <br><br>
@@ -24,17 +26,17 @@
 
 <div align="center">
 
-| `<div style="width:300px">`Alumno`</div>` | `<div style="width:125px">`Código`</div>` |
+| <div style="width:300px">`Alumno`</div>       | <div style="width:125px">`Código`</div>        |
 | :-------------------------------------------: | :--------------------------------------------: |
 |       Apaza Bocanegra, Elizabeth Noelia       |                   u20231c197                   |
-|        Contreras Leon, Flor De María        |                   u202323243                   |
+|        Contreras Leon, Flor De María          |                   u202323243                   |
 |         Guillen Galindo, Julio Adolfo         |                   u20241a352                   |
 |        Miraval Pomalaya, Rodrigo Jesus        |                   u202311082                   |
 |         Navarro Chinga, Antonio Jhair         |                   u202314101                   |
 
 </div>
 
-<div align="center"> Septiembre 2025 </div>
+<div align="center"> Diciembre 2025 </div>
 
 # Tabla de contenidos
 
@@ -114,15 +116,42 @@
   - [5.1.3 Source Code Style Guide & Conventions](cap5-prod-implementation-validation-deployment.md)
   - [5.1.4 Software Deployment Configuration](cap5-prod-implementation-validation-deployment.md)
 - [5.2 Landing Page, Services & Applications Implementation](cap5-prod-implementation-validation-deployment.md)
-  - [5.2.X Sprint n](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.1 Sprint Planning n](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.3 Sprint Backlog n](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
-    - [5.2.X.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md)
+  - [5.2.1 Sprint 1](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.1 Sprint Planning 1](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.3 Sprint Backlog 1](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.1 Sprint 2](cap5-prod-implementation-validation-deployment.md)
+  - [5.2.2.1 Sprint Planning 2](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.3 Sprint Backlog 2](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.2.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md)
+  - [5.2.3 Sprint 3](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.1 Sprint Planning 3](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.3 Sprint Backlog 3](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.3.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md)
+  - [5.2.4 Sprint 4](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.1 Sprint Planning 4](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.3 Sprint Backlog 4](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md)
+    - [5.2.4.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md)
 - [5.3 Validation Interviews](cap5-prod-implementation-validation-deployment.md)
     - [5.3.1 Diseño de Entrevistas](cap5-prod-implementation-validation-deployment.md)
     - [5.3.2 Registro de Entrevistas](cap5-prod-implementation-validation-deployment.md)
@@ -142,22 +171,22 @@
 
 <div align="center">
 
-| Versión | Fecha       | Autor(es)                                                                 | Descripción de modificación |
-|---------|-------------|---------------------------------------------------------------------------|------------------------------|
-|   TB1   | 16/09/2025  | Contreras Leon Flor De Maria                                            | Realicé la Descripción de la Startup, User Stories, Product Backlog, Organization Systems, Labeling Systems, Landing Page Wireframe, Landing Page Mock-up, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping|
-|   TB1   | 16/09/2025  | Miraval Poma, Rodrigo Jesus                                          | Realicé el Ubiquitous Language, Web Applications UX/UI Design, Domain-Driven Software Architecture.Class Diagrams. Primera versión de la Landing Page, Services & Applications Implementation. |
-|   TB1   | 16/09/2025  | Apaza Bocanegra, Elizabeth Noelia Torres                                          | Realicé los Antecedentes y problemática, Lean UX Canvas, Análisis competitivo, las Estrategias y tacticas frente a competidores, entrevistas, User Journey Mapping, Empathy Mapping, User Stories, Source Code Style Guide & Conventiones y Software Deployment & Conventions|
-|   TB1   | 16/09/2025  | Apaza Bocanegra, Elizabeth                                                | Realicé artefactos de Lean UX como lean ux problem statements, lean ux hyphotesis, lean ux assumptios. También desarrollé secciones del Needfinding como los user personas, impact mapping y user task matriz. Además del software development environment configuration y source code management. |
-|   TB1   | 16/09/2025  | Guillen Galindo, Julio Adolfo                                           | Realicé la secciones de User Stories, evaluando cada escenario posible de cada funcionalidad.Tambien el Diagrama de Clase en una versión temprana. Además de hacer los segmentos objetivos del proyecto. Evaluando los posibles usuarios a los que va dirijido el trabajo.  |
-|   TP1   | 07/10/2025  | Guillen Galindo, Julio Adolfo                       | Realicé las correcciones pertinentes y desarrollé el Bounded Context de Payment Service, donde me encargué de codificar todas las capas de dicho BC.  |
-|   TP1   | 07/10/2025  | Navarro Chinga, Antonio Jhair                         | Realicé la parte del Sprint 2, especifícamente el bounded context de IAM y Maintenance Status Tracking, donde realicé todo el código de dichas secciones |
-|  TP1   | 07/10/2025  |Navarro Chinga, Antonio Jhair                     | Realicé el desarrollo del Bounded Context  Coordiné efectivamente con los demás integrantes para asegurar la coherencia en la implementación y comuniqué los avances técnicos durante las reuniones de equipo. |
-|  TP1   | 07/10/2025  | Contreras Leon, Flor de Maria                 | Realicé el desarrollo del Bounded Context implementando las funcionalidades relacionadas con la gestión Mantuve comunicación constante con el equipo para alinear los requerimientos funcionales y técnicos del sistema. |
-|  TP1   | 07/10/2025  | Contreras Leon, Flor de Maria                   | En esta entrega desarrollé el Bounded Context de Data Collection, donde implementé las funcionalidades para la recolección y gestión de datos del sistema. Coordiné con el equipo para asegurar la integración correcta con otros bounded contexts y comuniqué efectivamente los requisitos técnicos y las decisiones de diseño tomadas. |
-|  TP1   | 07/10/2025  | Contreras Leon, Flor de Maria             | Realicé el desarrollo del Bounded Context , implementando las funcionalidades para el diagnóstico y evaluación  Mantuve comunicación efectiva con el equipo técnico para asegurar la integración correcta con los demás componentes del sistema. |
-|  TB2   | 12/11/2025  | Contreras Leon, Flor de Maria | Realicé una entrevista de validación, el desarrollo del backend del Bounded Context a partir del diagrama presentado. Me comuniqué constantemente con el grupo para asegurar la integración correcta con los demás componentes del sistema. Finalmente, registré las entrevistas y su contenido. |
-|  TB2   | 12/11/2025  | Guillen Galindo, Julio Adolfo | Realicé mi aporte en el backend del Bounded Context . También realicé 2 entrevistas de validación del segmentos 2. |
-  TB2   | 12/11/2025 | Guillen Galindo, Julio Adolfo | Realice las entrevistas de validaciones al segmento 1 y el avance del backend del Bounded Context Data Collection. Además de realizar validaciones con los demás integrantes del grupo sobre los distintos cambios en torno al diagrama de clases y su estructura. |
+| Versión | Fecha       | Autor(es)                     | Descripción de modificación |
+| :-----: | :---------: | :---------------------------- | :-------------------------- |
+|  TB1    | 16/09/2025  | Contreras Leon Flor De Maria  | Realicé la Descripción de la Startup, User Stories, Product Backlog, Organization Systems, Labeling Systems, Landing Page Wireframe, Landing Page Mock-up, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping.              |
+|  TB1    | 16/09/2025  | Miraval Poma, Rodrigo Jesus   | Realicé el Ubiquitous Language, Web Applications UX/UI Design, Domain-Driven Software Architecture.Class Diagrams. Primera versión de la Landing Page, Services & Applications Implementation. |
+|  TB1    | 16/09/2025  | Apaza Bocanegra, Elizabeth    | Realicé los Antecedentes y problemática, Lean UX Canvas, Análisis competitivo, las Estrategias y tacticas frente a competidores, entrevistas, User Journey Mapping, Empathy Mapping, User Stories, Source Code Style Guide & Conventiones y Software Deployment & Conventions                                                       |
+|  TB1    | 16/09/2025  | Apaza Bocanegra, Elizabeth    | Realicé artefactos de Lean UX como lean ux problem statements, lean ux hyphotesis, lean ux assumptios. También desarrollé secciones del Needfinding como los user personas, impact mapping y user task matriz. Además del software development environment configuration y source code management.                                        |
+|  TB1    | 16/09/2025  | Guillen Galindo, Julio Adolfo | Realicé la secciones de User Stories, evaluando cada escenario posible de cada funcionalidad.Tambien el Diagrama de Clase en una versión temprana. Además de hacer los segmentos objetivos del proyecto. Evaluando los posibles usuarios a los que va dirijido el trabajo.                                                                      |
+|  TP1    | 07/10/2025  | Guillen Galindo, Julio Adolfo | Realicé las correcciones pertinentes y desarrollé el Bounded Context de Payment Service, donde me encargué de codificar todas las capas de dicho BC.  |
+|  TP1    | 07/10/2025  | Navarro Chinga, Antonio Jhair | Realicé la parte del Sprint 2, especifícamente el bounded context de IAM y Maintenance Status Tracking, donde realicé todo el código de dichas secciones |
+|  TP1    | 07/10/2025  | Navarro Chinga, Antonio Jhair | Realicé el desarrollo del Bounded Context  Coordiné efectivamente con los demás integrantes para asegurar la coherencia en la implementación y comuniqué los avances técnicos durante las reuniones de equipo. |
+|  TP1    | 07/10/2025  | Contreras Leon, Flor de Maria | Realicé el desarrollo del Bounded Context implementando las funcionalidades relacionadas con la gestión Mantuve comunicación constante con el equipo para alinear los requerimientos funcionales y técnicos del sistema. |
+|  TP1    | 07/10/2025  | Contreras Leon, Flor de Maria | En esta entrega desarrollé el Bounded Context de Data Collection, donde implementé las funcionalidades para la recolección y gestión de datos del sistema. Coordiné con el equipo para asegurar la integración correcta con otros bounded contexts y comuniqué efectivamente los requisitos técnicos y las decisiones de diseño tomadas. |
+|  TP1    | 07/10/2025  | Contreras Leon, Flor de Maria | Realicé el desarrollo del Bounded Context , implementando las funcionalidades para el diagnóstico y evaluación  Mantuve comunicación efectiva con el equipo técnico para asegurar la integración correcta con los demás componentes del sistema.                                                                                               |
+|  TB2    | 12/11/2025  | Contreras Leon, Flor de Maria | Realicé una entrevista de validación, el desarrollo del backend del Bounded Context a partir del diagrama presentado. Me comuniqué constantemente con el grupo para asegurar la integración correcta con los demás componentes del sistema. Finalmente, registré las entrevistas y su contenido.                                          |
+|  TB2    | 12/11/2025  | Guillen Galindo, Julio Adolfo | Realicé mi aporte en el backend del Bounded Context . También realicé 2 entrevistas de validación del segmentos 2. |
+|  TB2    | 12/11/2025  | Guillen Galindo, Julio Adolfo | Realice las entrevistas de validaciones al segmento 1 y el avance del backend del Bounded Context Data Collection. Además de realizar validaciones con los demás integrantes del grupo sobre los distintos cambios en torno al diagrama de clases y su estructura.                                                                             |
 
 </div>
 
@@ -178,6 +207,8 @@
 
 TB2:
 
+<div align="center">
+
 | Integrante                        | Tarea Asignada                                              |
 | :-------------------------------: | :---------------------------------------------------------: |
 | Apaza Bocanegra, Elizabeth Noelia |	Conexión de los Bounded Context IAM del FrontEnd al BackEnd |
@@ -186,8 +217,10 @@ TB2:
 | Contreras Leon, Flor de Maria     |	Conexión del Bounded Context Home                           |
 | Miraval Pomalaya, Rodrigo Jesus   |	Conexión del Bounded Context Plants                         |
 
-Pull requests evidence:
+</div>
 
+Pull requests evidence:
+  
 <p align="center">
     <img src="assets/images/resources/evidence_tb2.jpeg" alt="evidence_tb2"/> 
 </p>
