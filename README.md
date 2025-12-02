@@ -24,7 +24,7 @@
 
 <div align="center">
 
-| `<div style="width:300px">`Alumno`</div>` | `<div style="width:125px">`Código`</div>` |
+| <div style="width:300px">`Alumno`</div> | <div style="width:125px">`Código`</div> |
 | :-------------------------------------------: | :--------------------------------------------: |
 |       Apaza Bocanegra, Elizabeth Noelia       |                   u20231c197                   |
 |        Contreras Leon, Flor De María        |                   u202323243                   |
@@ -206,9 +206,22 @@ TF:
 Pull requests evidence:
 
 <p align="center">
-    <img src="assets/images/resources/evidence_tb2.jpeg" alt="evidence_tb2"/> 
+    <img src="assets/images/Commits/FlorComit.jpg" alt="evidence_Tf"/> 
 </p>
 
+<p align="center">
+    <img src="assets/images/Commits/EliComit.jpg" alt="evidence_Tf"/> 
+</p>
+
+<p align="center">
+    <img src="assets/images/Commits/JulioComit.jpg" alt="evidence_Tf"/> 
+</p>
+<p align="center">
+    <img src="assets/images/Commits/AntonioComit.jpg" alt="evidence_Tf"/> 
+</p>
+<p align="center">
+    <img src="assets/images/Commits/RodrigoComit.jpg" alt="evidence_Tf"/> 
+</p>
 
 
 # Student Outcome
