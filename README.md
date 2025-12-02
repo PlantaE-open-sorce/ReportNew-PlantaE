@@ -192,6 +192,25 @@ Pull requests evidence:
     <img src="assets/images/resources/evidence_tb2.jpeg" alt="evidence_tb2"/> 
 </p>
 
+TF:
+
+
+| Integrante                        | Tarea Asignada                                              |
+| :-------------------------------: | :---------------------------------------------------------: |
+| Apaza Bocanegra, Elizabeth Noelia |	Correccion y Actualizacion de los Bounded Context IAM del FrontEnd al BackEnd |
+| Guillen Galindo, Julio Adolfo     | Correccion y Actualizacion del Bounded Context Gestion Plantas al BackEnd     |
+| Navarro Chinga, Antonio Jhair     |	Correccion y Actualizacion de los Bounded Context Login y Perfil al BackEnd   |
+| Contreras Leon, Flor de Maria     |	Correccion y Actualizacion del Bounded Context Home                           |
+| Miraval Pomalaya, Rodrigo Jesus   |	Correccion y Actualizacion del Bounded Context Plants                         |
+
+Pull requests evidence:
+
+<p align="center">
+    <img src="assets/images/resources/evidence_tb2.jpeg" alt="evidence_tb2"/> 
+</p>
+
+
+
 # Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
