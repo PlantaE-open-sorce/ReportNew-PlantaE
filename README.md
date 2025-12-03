@@ -187,6 +187,11 @@
 |  TB2    | 12/11/2025  | Contreras Leon, Flor de Maria | Realicé una entrevista de validación, el desarrollo del backend del Bounded Context a partir del diagrama presentado. Me comuniqué constantemente con el grupo para asegurar la integración correcta con los demás componentes del sistema. Finalmente, registré las entrevistas y su contenido.                                          |
 |  TB2    | 12/11/2025  | Guillen Galindo, Julio Adolfo | Realicé mi aporte en el backend del Bounded Context . También realicé 2 entrevistas de validación del segmentos 2. |
 |  TB2    | 12/11/2025  | Guillen Galindo, Julio Adolfo | Realice las entrevistas de validaciones al segmento 1 y el avance del backend del Bounded Context Data Collection. Además de realizar validaciones con los demás integrantes del grupo sobre los distintos cambios en torno al diagrama de clases y su estructura.                                                                             |
+| TF   | 04/12/2025  | Apaza Bocanegra, Elizabeth Noelia        | Corrección y Actualización de los Bounded Context IAM del FrontEnd al BackEnd |
+| TF   | 04/12/2025  | Guillen Galindo, Julio Adolfo            | Corrección y Actualización del Bounded Context Gestión Plantas al BackEnd     |
+| TF   | 04/12/2025  | Navarro Chinga, Antonio Jhair            | Corrección y Actualización de los Bounded Context Login y Perfil al BackEnd   |
+| TF   | 04/12/2025  | Contreras Leon, Flor de Maria            | Corrección y Actualización del Bounded Context Home                           |
+| TF   | 04/12/2025  | Miraval Pomalaya, Rodrigo Jesus          | Corrección y Actualización del Bounded Context Plants                         |
 
 </div>
 
