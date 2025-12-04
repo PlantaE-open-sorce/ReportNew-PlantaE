@@ -40,6 +40,10 @@
 
 # Tabla de contenidos
 
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+
 ## [Capítulo I: Introducción](cap1-introduction.md)
 
 - [1.1 Startup Profile](cap1-introduction.md)
