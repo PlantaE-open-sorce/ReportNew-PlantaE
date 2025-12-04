@@ -349,9 +349,31 @@ Se presenta la sección de propuesta de Contact:
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
-En esta sección se presentarán los Wireframes más relevantes del proyecto
 
-Para usuarios normales, formulario de registro y de logeo para cuenta normal 
+Los siguientes wireframes corresponden a la aplicación web de PlantaE.
+- Principios aplicados
+  - Jerarquía funcional clara
+
+      Se definieron rutas principales diferenciadas para hogares y viveros:
+      - Hogares → supervisión de plantas individuales, métricas y alertas.
+      - Viveros → administración masiva mediante lotes, tareas programadas e insumos.
+     
+      El menú lateral resalta las acciones más utilizadas (Dashboard, Mis plantas/Lotes, Sensores, Métricas, Tareas, Perfil).
+
+- Consistencia visual y patrones de diseño:
+  
+  Los wireframes mantienen componentes homogéneos en botones, tarjetas, formularios, tablas y gráficos.
+Esto garantiza coherencia entre módulos como Plantas, Sensores, Métricas, Alertas, Historial y Tareas programadas.
+
+- Accesibilidad en interfaces:
+
+  La interfaz fue diseñada con criterios de accesibilidad, empleando contrastes adecuados para distintas condiciones de luz, tipografías legibles y componentes compatibles con modo claro/oscuro. Toda la estructura admite navegación mediante teclado, y los elementos clave incluyen etiquetas semánticas y descripciones comprensibles para garantizar compatibilidad con lectores de pantalla y tecnologías asistivas.
+
+- Flujo de tareas optimizado
+
+  Los módulos fueron estructurados para reducir pasos y agilizar la interacción del usuario: registrar una nueva planta requiere solo dos clics, vincular un sensor se realiza en una única pantalla, las métricas están accesibles directamente desde el dashboard o la planta correspondiente, y las alertas críticas se visualizan de inmediato en un panel prioritario. En el caso de viveros, la creación de lotes utiliza un formulario compacto con asignación automática de rutinas.
+
+Versión Desktop Wireframes - Hogares  
 
 <img src="assets/images/chapter-4/usuario-normal/wireframes/login-register-wirefrmaes.png" alt="login-register-wirefrmaes"/>
 
