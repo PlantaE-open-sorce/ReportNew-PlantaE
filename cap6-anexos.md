@@ -48,9 +48,9 @@
 
    - **Module Documentation:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
 
-  - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
+   - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
 
-  - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
+   - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
   
 - **Video About-The-Team:** <br>
   - YouTube: https://youtu.be/uF8EA4og8VM
