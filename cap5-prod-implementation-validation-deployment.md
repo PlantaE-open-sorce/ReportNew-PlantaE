@@ -1183,6 +1183,22 @@ Con el avance del proyecto y el trabajo en backend, se organizó una matriz de l
 
 #### 5.2.4.3 Sprint Backlog 4
 
+El objetivo de este Sprint es finalizar el backend e integrarlo completamente con el frontend, asegurando que todas las funcionalidades trabajen de manera coordinada y sin errores. Se busca garantizar que los módulos desarrollados se conecten correctamente con la interfaz, ofreciendo al usuario una experiencia fluida, estable y totalmente funcional. Este sprint consolida la plataforma como un sistema operativo completo y listo para pruebas finales y despliegue.
+
+| User Story ID | User Story Title                    | Task ID | Task Title                                  | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
+| :------------ | :---------------------------------- | :------ | :------------------------------------------ | :----------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
+| **US-006**    | Panel de Métricas                   | T06-1   | Diseño del Panel de Métricas                | Diseñar layout para visualizar métricas clave del cultivo.                           | 1               | Julio Adolfo    | Done   |
+|               |                                     | T06-2   | Implementación de Gráficos                  | Programar gráficos dinámicos para mostrar humedad, temperatura y actividad reciente. | 8               | Elizabeth-Apaza | Done   |
+|               |                                     | T06-3   | Integración de Datos Reales                 | Conectar panel con la base de datos para mostrar métricas actualizadas.              | 4               | Rodrigo Jesus   | Done   |
+| **US-012**    | Visualizar sensores más activos     | T12-1   | Diseño de la Sección de Sensores Activos    | Crear pantalla que muestre los sensores con mayor actividad.                         | 1               | Flor De María   | Done   |
+|               |                                     | T12-2   | Implementación de Lista Dinámica            | Programar lista ordenada por actividad y conectada a datos en tiempo real.           | 2               | Elizabeth-Apaza | Done   |
+| **US-015**    | Registro de acciones y cosechas     | T15-1   | Diseño de Formulario de Registro            | Crear formulario para registrar acciones realizadas (riego, poda, cosecha).          | 1               | Antonio Jhair   | Done   |
+|               |                                     | T15-2   | Implementación de Historial                 | Programar historial que muestre todas las actividades realizadas por fecha y tipo.   | 2               | Julio Adolfo    | Done   |
+| **US-021**    | Descargar reportes                  | T21-1   | Diseño del Formato de Reporte               | Definir qué datos incluir en el reporte (sensores, cultivos, alertas, histórico).    | 1               | Rodrigo Jesus   | Done   |
+|               |                                     | T21-2   | Implementación de Descarga en PDF           | Programar la exportación de reportes en formato PDF.                                 | 8               | Flor De María   | Done   |
+| **US-017**    | Visualizar feedback de la comunidad | T17-1   | Diseño de la Sección de Feedback            | Diseñar vista donde se muestren comentarios y valoraciones de usuarios.              | 1               | Elizabeth-Apaza | Done   |
+|               |                                     | T17-2   | Implementación de Visualización de Feedback | Programar listado de comentarios con nombre, valoración y fecha.                     | 4               | Antonio Jhair   | Done   |
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
 #### 5.2.4.5 Execution Evidence for Sprint Review
