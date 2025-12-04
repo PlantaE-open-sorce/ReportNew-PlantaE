@@ -1,5 +1,3 @@
-# Capítulo V: Product Implementation, Validation & Deployment
-
 ## 5.1. Software Configuration Management.
 
 ### 5.1.1 Software Development Environment Configuration
@@ -1259,43 +1257,46 @@ El objetivo de este Sprint es finalizar el backend e integrarlo completamente co
 
 ---
 
-|  **DANIEL CASTILLO**                                                                                                                                                                               |  
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="25%" height="auto"> </div>                                |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 22 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
-| <div align="center"><b>Duración:</b> 00:05:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:00 </div>                                                          |
-| Daniel percibe la aplicación como una herramienta clara y fácil de usar, mostrando comodidad y familiaridad con cada paso que se le presenta. Repite varias veces que el sistema es “sencillo” e “intuitivo”, lo que refleja que no encuentra fricciones ni confusiones en el flujo. También valora especialmente la utilidad práctica de los sensores y las alertas, porque entiende que aportan información clave para el cuidado real de las plantas. En general, su actitud es positiva, receptiva y sin objeciones técnicas importantes, transmitiendo que la app le parece funcional, bien organizada y adecuada para usuarios que quieren gestionar sus plantas de manera eficiente.                                                                                                                                                                                    |
+- **Nombres y apellidos:** **ANDRE CARDENAN** 
+- **Género:** Masculino
+- **Edad:** 21 años
 
-|  **ANDRE CARDENAN**                                                                                                                                                                                |  
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 21 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c197_upc_edu_pe/IQBAPbPzZ9LaRLTMuplI1HgtAb3jY5Yyp_9oBWWvl_uLqoI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Nlzd3P      |
-| <div align="center"><b>Duración:</b> 00:04:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:05 </div>                                                          |
-| Andre entiende la aplicación sin dificultad y siente que todo está ordenado y fácil de navegar. A lo largo de la demostración comenta que los procesos ingresar, ver el dashboard, registrar plantas, crear sensores y dispositivos le resultan claros y nada confusos. Le parece especialmente útil que la app permita vincular sensores y mostrar alertas, porque lo ve como algo realmente práctico para cuidar mejor las plantas. En general, transmite una impresión positiva: considera que la herramienta funciona bien, es intuitiva y podría ser utilizada sin problemas por cualquier persona interesada en gestionar sus plantas.           |
+<div align="center">
+      <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 4:05 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c197_upc_edu_pe/IQBAPbPzZ9LaRLTMuplI1HgtAb3jY5Yyp_9oBWWvl_uLqoI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Nlzd3P
+- **Resumen:** Andre entiende la aplicación sin dificultad y siente que todo está ordenado y fácil de navegar. A lo largo de la demostración comenta que los procesos ingresar, ver el dashboard, registrar plantas, crear sensores y dispositivos le resultan claros y nada confusos. Le parece especialmente útil que la app permita vincular sensores y mostrar alertas, porque lo ve como algo realmente práctico para cuidar mejor las plantas. En general, transmite una impresión positiva: considera que la herramienta funciona bien, es intuitiva y podría ser utilizada sin problemas por cualquier persona interesada en gestionar sus plantas. 
 
 **User Persona del Segmento Objetivo 2: Viveros comerciales**
 
-|  **NICOLE GUILLEN**                                                                                                                                                                                |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div>                                      |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 35 años                                                                                                                                                                                      |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQA3t8o3QYH8Q5MS_7G5JtQbAZmaOU4UJSALY0YLktrarOo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MEaIVx |
-| <div align="center"><b>Duración:</b> 00:04:19 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:19 </div>                                                          |
-| Nicoel transmite que la aplicación le resulta clara, ordenada y muy fácil de usar desde el inicio. Percibe que todo el flujo, desde la landing page hasta alertas es intuitivo, sin pasos confusos. La información está bien presentada, es relevante y le permite entender rápidamente cómo funciona cada sección. También valora que los formularios sean breves y que la navegación sea directa. En general, su impresión es positiva, siente que la app está bien estructurada, que cada parte cumple su propósito y que todas las funciones aportan valor a la experiencia del usuario.                                                              |
+- **Nombres y apellidos:** **NICOLE GUILLEN** 
+- **Género:** Femenino
+- **Edad:** 25 años
 
-|  **DIONISIO RODRIGUEZ**                                                                                                                                                                            |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Flor Segmento 2.png" alt="Entrevista Flor Segmento 2" width="50%" height="auto"> </div>                                          |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 35 años                                                                                                                                                                                      |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
-| <div align="center"><b>Duración:</b> 00:05:10 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:10 </div>                                                          |
-| Dionisio percibe que toda la aplicación es clara, directa y fácil de usar. Desde la landing page siente que la información está bien explicada y no encuentra ningún obstáculo para entender las funciones gratuitas ni para navegar. El formulario de registro le parece rápido y lógico, con los datos justos y necesarios. Al llegar al dashboard, entiende de inmediato cómo moverse entre secciones y considera que agregar una planta es un proceso muy intuitivo, ya que todo está ordenado y bien identificado. También interpreta el módulo de vivero como una herramienta útil para organizar sus tareas y anotar fechas límite, nutrientes y prioridades. Finalmente, valora mucho las opciones del perfil, especialmente poder cambiar la contraseña y compartir su información, lo cual ve como funciones prácticas que mejoran la experiencia general dentro de la app. En resumen, su impresión global es positiva: siente que la plataforma es sencilla, funcional y pensada para que cualquier usuario la pueda utilizar sin complicaciones.                                          |
+<div align="center">
+      <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 4:19 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQA3t8o3QYH8Q5MS_7G5JtQbAZmaOU4UJSALY0YLktrarOo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MEaIVx
+- **Resumen:** Nicole transmite que la aplicación le resulta clara, ordenada y muy fácil de usar desde el inicio. Percibe que todo el flujo, desde la landing page hasta alertas es intuitivo, sin pasos confusos. La información está bien presentada, es relevante y le permite entender rápidamente cómo funciona cada sección. También valora que los formularios sean breves y que la navegación sea directa. En general, su impresión es positiva, siente que la app está bien estructurada, que cada parte cumple su propósito y que todas las funciones aportan valor a la experiencia del usuario. 
+
+- **Nombres y apellidos:** **DIONISIO RODRIGUEZ** 
+- **Género:** Masculino
+- **Edad:** 35 años
+
+<div align="center">
+      <img src="assets/images/resources/Entrevista Flor Segmento 2.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 5:10 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Resumen:** Dionisio percibe que toda la aplicación es clara, directa y fácil de usar. Desde la landing page siente que la información está bien explicada y no encuentra ningún obstáculo para entender las funciones gratuitas ni para navegar. El formulario de registro le parece rápido y lógico, con los datos justos y necesarios. Al llegar al dashboard, entiende de inmediato cómo moverse entre secciones y considera que agregar una planta es un proceso muy intuitivo, ya que todo está ordenado y bien identificado. También interpreta el módulo de vivero como una herramienta útil para organizar sus tareas y anotar fechas límite, nutrientes y prioridades. Finalmente, valora mucho las opciones del perfil, especialmente poder cambiar la contraseña y compartir su información, lo cual ve como funciones prácticas que mejoran la experiencia general dentro de la app. En resumen, su impresión global es positiva: siente que la plataforma es sencilla, funcional y pensada para que cualquier usuario la pueda utilizar sin complicaciones.   
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -1399,6 +1400,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Heurística violada:** Usabilidad \- Consistencia y estándares
 - **Problema:** La interfaz mezcla idiomas entre secciones, etiquetas y microtextos. Además del cambio manual entre EN/ES, algunos textos permanecen sin traducirse. Esto afecta la claridad del contenido y puede generar errores de interpretación.
 - **Recomendación:** Completar el sistema de internacionalización (i18n), asegurando una traducción integral de todos los componentes.
+
 
 ![eu2](assets/images/resources/eu2)
 
