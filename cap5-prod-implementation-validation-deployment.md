@@ -673,7 +673,18 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Durante este sprint se completó el diseño e implementación del FrontEnd del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Implementando los endpoints de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+Durante el Sprint 2, se desarrolló documentación técnica comprehensiva para la Frontend Web Application implementada. La documentación incluye guías de componentes, patrones de diseño implementados y guías de mantenimiento para facilitar el desarrollo futuro y la colaboración del equipo.
+
+**Documentación de Frontend generada:**
+
+La aplicación cuenta con documentación completa que incluye:
+
+-   Especificación de componentes con props y eventos soportados
+-   Guías de estilo y patrones de diseño implementados
+-   Estructura de navegación y routing configuration
+-   Validaciones de formularios y manejo de errores
+-   Guías de internacionalización y cambio de tema
+-   Ejemplos de uso y casos de testing
 
 **Descripción del Logro:**
 
@@ -681,20 +692,80 @@ Durante este sprint se completó el diseño e implementación del FrontEnd del s
 
 -Deployment del FrontEnd.
 
+**Evidencia de documentación:**
+<p align="center">
+    <img src="assets/images/documentacionImagen/Component.jpg" alt="Document_evidence_1"/>    
+</p>
+<p align="center">
+    <img src="assets/images/documentacionImagen/Desing.jpg" alt="Document_evidence_1"/>    
+</p>
+<p align="center">
+    <img src="assets/images/documentacionImagen/Module.jpg" alt="Document_evidence_1"/>    
+</p>
+<p align="center">
+    <img src="assets/images/documentacionImagen/Routung.jpg" alt="Document_evidence_1"/>    
+</p>
+
+
+**Documentación de componentes principales de la aplicación**
+
+
+*Purpose**: UI components and user interaction
+
+  
+
+**Guards**:
+
+-  `auth.guard.ts`: Authentication verification
+
+-  `account-type.guard.ts`: Role-based access control
+
+  
+
+**Views** (Page Components):
+
+-  `login/`: Authentication page
+
+-  `register/`: User registration
+
+-  `dashboard/`: Home user dashboard
+
+-  `nursery-dashboard/`: Nursery dashboard
+
+-  `plant-list/`: Plant inventory
+
+-  `plant-detail/`: Single plant view
+
+-  `plant-management/`: Plant CRUD operations
+
+-  `add-plant/`: Create new plant
+
+-  `devices/`: Device management
+
+-  `sensors/`: Sensor configuration
+
+-  `alerts/`: Alert notifications
+
+-  `reports/`: Report generation
+
+-  `profile/`: User profile
+
+-  `settings/`: Application settings
+
+-  `password/`: Password management
 ### Recursos del Sprint
 
 | Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                                                              | Link de repositorio                                                         |
 | ------------ | --------------------- | ----------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | FrontEnd     | Visualización inicial | GET         | http://20.57.10.48/login                                                    | https://github.com/PlantaE-open-sorce/frontedNew-PlantaE                    |
 
-- Component Documentation: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/fa2781f82273933e6fd230767d0d6da1d9f0aaa8/assets/documentation/Component%20Documentation
+- Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Component%20Documentation.md
 
-- Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/2bec321d980f51e31d3c02847d06208262a7934d/assets/documentation/Module%20Documentation
+- Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
 
-- Design Patterns: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4482f49e0503049298653b9b382b04b654dfdcc1/assets/documentation/Design%20Patterns%3A
+- Design Patterns: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
 
-
-- Routing Guide: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4dd3ec64653c496cfb0e0ec20120c29fd7c923f0/assets/documentation/Routing%20Guide
+- Routing Guide: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 **Documentación Técnica – Sprint 2**
