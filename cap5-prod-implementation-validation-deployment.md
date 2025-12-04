@@ -1148,6 +1148,49 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
     <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
 </p>
 
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                        | Sprint 3                                                                                                                                                             |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                      |
+| Date                            | 2025-12-04                                                                                                                                                           |
+| Time                            | 19:00 pm (GMT-5)                                                                                                                                                     |
+| Location                        | Modalidad remota mediante la plataforma Discord                                                                                                                      |
+| Prepared By                     | Contreras Leon, Flor De María                                                                                                                                        |
+| Attendees (to planning meeting) | Apaza Bocanegra, Elizabeth Noelia / Contreras Leon, Flor De María / Guillen Galindo, Julio Adolfo / Miraval Pomalaya, Rodrigo Jesus / Navarro Chinga, Antonio Jhair. |
+| Sprint 3 Review Summary         | Se logró desplegar la primera versión del backend, lo que permitió identificar varias mejoras necesarias en la forma de estructurar la información clave de PlantE. Aunque el frontend ya se encontraba finalizado, la retroalimentación del docente evidenció que algunas partes del frontend no estaban correctamente desarrolladas, generando inconsistencias entre ambos lados del sistema.       											 |
+| Sprint 3 Retrospective Summary  | En este sprint, a diferencia del anterior, se logró cumplir con los tiempos de entrega establecidos. Esto permitió trabajar con mayor orden y evitar la presión acumulada de tareas pendientes. Aun así, reconocemos la importancia de seguir utilizando de manera eficiente las herramientas de gestión para mantener este ritmo y asegurar un monitoreo constante del progreso del equipo.				                                     |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                      |
+| Sprint 4 Goal                   | Nuestro objetivo ahora es finalizar el desarrollo del backend y unificarlo correctamente con el frontend. Con ello, buscamos asegurar que las vistas principales interactúen de manera fluida con los servicios web, ofreciendo a las partes interesadas una demostración completa del sistema funcionando de extremo a extremo. El cumplimiento de este objetivo se validará al lograr una integración estable del API desde el frontend.     |
+| Sprint 4 Velocity               | 20 puntos                                                                                                                                                            |
+| Sum of Story Points             | 10 puntos    																																						 | 
+
+#### 5.2.4.2 Aspect Leaders and Collaborators
+
+Durante el Sprint 4 se definieron los principales aspectos a desarrollar, enfocados inicialmente en funcionalidades del frontend como la visualización de contenido, navegación fluida, adaptabilidad responsiva y la gestión de autenticación de usuarios.
+
+Con el avance del proyecto y el trabajo en backend, se organizó una matriz de liderazgo y colaboración para asegurar una comunicación clara y eficiente dentro del equipo. En esta matriz se asignó a cada aspecto un líder responsable (L) y colaboradores de apoyo (C), garantizando una mejor coordinación entre el desarrollo del frontend y integración con el backend."
+
+| Team Member (Last Name, First Name) | GitHub Username    | Integration & Validation | Data Consistency | Backend Finalization | Frontend Integration |
+| :---------------------------------- | :----------------- | :----------------------- | :--------------- | :------------------- | :------------------- |
+| Apaza Bocanegra, Elizabeth Noelia   | Elizabeth-Apaza    | L                     	  | C        		 | C       				| C           		   |
+| Contreras Leon, Flor De María       | FlorDeMa           | C                        | L       		 | C       			    | C           		   |
+| Guillen Galindo, Julio Adolfo	      | julio645           | C                        | C        		 | L        			| C             	   |
+| Miraval Pomalaya, Rodrigo Jesus     | RodMiraval         | C                        | C      		     | C        		    | L                    |
+| Navarro Chinga, Antonio Jhair       | AntonioNavarro24   | C                        | C      			 | C        			| C                    |
+
+#### 5.2.4.3 Sprint Backlog 4
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5 Execution Evidence for Sprint Review
+
+#### 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
