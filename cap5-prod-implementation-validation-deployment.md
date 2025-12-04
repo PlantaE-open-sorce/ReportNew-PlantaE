@@ -1366,9 +1366,234 @@ El objetivo de este Sprint es finalizar el backend e integrarlo completamente co
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
+| Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
+| :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
+| feature/adding-home-options      | feature/adding-home-options      | 0609611cfca7d7e59b9fe3935253ac9975f4518b | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025        |
+| feature/adding-home-options      | feature/adding-home-options      | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025        |
+| feature/adding-login-profile     | feature/adding-myplants-details  | 4c739fedc539ef752cc791f4081a46216f1a0c41 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Nov 14, 2025        |
+| feature/adding-management-plants | feature/adding-myplants-details  | b04b9dfac519df4149fc2ce3bb473fd887b2571f | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025        |
+| feature/adding-management-plants | feature/adding-login-profile     | 28b8a03b16aab6cebfe0217dbd02a3a82a185664 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-management-plants | 6e640a89acbbe66ea295f18edeb31112987d38e8 | Merge branch 'feature/adding-management-plants' into develop | -                                                              | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-management-plants | 956fb8baa1b71f57202452db637aa3dc4f40c22b | Añadiendo backend nuevo para management plants               | Añadiendo backend nuevo para management plants                 | Nov 14, 2025        |
+| feature/adding-myplants-details  | feature/adding-management-plants | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025        |
+| feature/adding-myplants-details  | develop                          | a6fc142372c6951ecc3bfb4a23b71cc1a0452474 | Initial commit                                               | Initial commit                                                 | Oct 21, 2025        |
+
+
+| **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
+| :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
+| G2-Aplicaciones-Open-Source/backend-java | main       | 94125b6       |          | feat: implement ExperienceMedia endpoint with full CRUD, validation and OpenAPI docs              | 2025-06-21             |
+
+
 #### 5.2.4.5 Execution Evidence for Sprint Review
 
+En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+
+**Capturas de Pantalla de MySQL conectado a la database de la maquina virtual**
+
+- Datos en bounded context
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
+</p>
+
+- Puerto MySQL prendido:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
+</p>
+
+- Datos en bounded context Profiles:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
+</p>
+
+- Tablas de base de datos:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_4.jpeg" alt="execution_evidence_4"/>    
+</p>
+
+- Datos en bounded context User:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_5.jpeg" alt="execution_evidence_5"/>    
+</p>
+
+- Datos en bounded context Plants Details:
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_6.jpeg" alt="execution_evidence_6"/>    
+</p>
+
+- Datos en bounded context Sensors:
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_7.jpeg" alt="execution_evidence_7"/>    
+</p>
+
+**Evidencias visuales del Backend deployado**
+<p align="center">
+    <img src="assets/images/resources/backend1.png" alt="backend1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend3.png" alt="backend3"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend4.png" alt="backend4"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend5.png" alt="backend5"/>    
+</p>
+
+**Funcionamiento de Backend deployado**
+
+<p align="center">
+    <img src="assets/images/resources/backend_deployado.png" alt="backend_deployado"/>    
+</p>
+
 #### 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
+
+<p align="center">
+    <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
+</p>
+
+# Endpoints EcoTech (API)
+Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
+
+---
+
+## IAM (Autenticación y Cuenta)
+| Método | Ruta                   | Auth    | Descripción                                                                              |
+| ------ | ---------------------- | ------- | ---------------------------------------------------------------------------------------- |
+| POST   | `/iam/register`        | Público | Registro de usuario (`email`, `password`, `confirmPassword`, `displayName`, `language`). |
+| POST   | `/iam/login`           | Público | Login con `email/password`; retorna JWT + mensaje localizado.                            |
+| POST   | `/iam/forgot-password` | Público | Lanza flujo de recuperación (`{ "email": "" }`).                                         |
+| PUT    | `/iam/change-password` | Bearer  | Cambia contraseña (`currentPassword`, `newPassword`).                                    |
+| DELETE | `/iam`                 | Bearer  | Elimina la cuenta actual.                                                                |
+| GET    | `/iam/profile`         | Bearer  | Perfil del usuario autenticado; soporta `AcceptLanguage`.                                |
+
+---
+
+## Profile (Perfiles Públicos)
+| Método | Ruta                  | Auth   | Descripción                                                                        |
+| ------ | --------------------- | ------ | ---------------------------------------------------------------------------------- |
+| POST   | `/profiles`           | Bearer | Create profile (`ownerId`, `displayName`). Autogenerates slug, resolves conflicts. |
+| PUT    | `/profiles/{ownerId}` | Bearer | Update public fields (`displayName`, `bio`, `avatarUrl`, `location`, `timezone`).  |
+| GET    | `/profiles/{slug}`    | Bearer | Fetch profile by public slug (404 if missing).                                     |
+
+### Preferencias y Notificaciones
+| Método | Ruta                     | Auth   | Descripción                                                                |
+| ------ | ------------------------ | ------ | -------------------------------------------------------------------------- |
+| GET    | `/profile`               | Bearer | Get personal preferences (fullName, timezone, language).                   |
+| PUT    | `/profile`               | Bearer | Update preferences (`fullName`, `timezone`, `language`).                   |
+| GET    | `/profile/notifications` | Bearer | Fetch notification settings (quiet hours, digest time, per-type channels). |
+| PUT    | `/profile/notifications` | Bearer | Update notification settings (HH:mm quiet hours, digest, channel toggles). |
+
+### Catálogo i18n
+| Método | Ruta                                   | Auth   | Descripción                                                |
+| ------ | -------------------------------------- | ------ | ---------------------------------------------------------- |
+| GET    | `/i18n/catalog?namespace={alerts|...}` | Public | Retrieve key→text catalog localized via `Accept-Language`. |
+
+---
+
+## Plants
+| Método | Ruta                  | Auth   | Descripción                                                                                                                                             |
+| ------ | --------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| POST   | `/plants`             | Bearer | Create plant (`name`, `species`, optional `deviceId`, `sensorId`).                                                                                      |
+| GET    | `/plants`             | Bearer | Paginated search (`name`, `species`, `status=ACTIVE| INACTIVE`, `createdFrom`, `createdTo`, `hasAlerts`, `sensorId`, `sort=field,dir`, `page`, `size`). |
+| GET    | `/plants/{id}`        | Bearer | Retrieve plant by ID.                                                                                                                                   |
+| PUT    | `/plants/{id}`        | Bearer | Update plant (any field + status).                                                                                                                      |
+| DELETE | `/plants/{id}`        | Bearer | Soft delete plant (sets `deletedAt`).                                                                                                                   |
+| GET    | `/plants/{id}/alerts` | Bearer | Recent alerts for a plant (supports `page`/`size`, honors `Accept-Language`).                                                                           |
+
+---
+
+## Sensors & Readings
+| Método | Ruta                             | Auth   | Descripción                                                                                                                                                          |
+| ------ | -------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| POST   | `/sensors`                       | Bearer | Register sensor (`type`, `ownerId`, optional `plantId`). Auto-links plant sensorId.                                                                                  |
+| POST   | `/sensors/{sensorId}/link`       | Bearer | Link sensor to plant (`plantId`).                                                                                                                                    |
+| POST   | `/sensors/{sensorId}/deactivate` | Bearer | Set sensor status to `INACTIVE`.                                                                                                                                     |
+| GET    | `/sensors`                       | Bearer | Paginated list (`type`, `status`, `plantId`, `page`, `size`).                                                                                                        |
+| GET    | `/sensors/{sensorId}`            | Bearer | Sensor details.                                                                                                                                                      |
+| POST   | `/sensors/{sensorId}/readings`   | Bearer | Ingest reading (`timestamp` optional ISO-8601, `metric` {soilMoisture, temperature, humidity, light}, ∈ `value`, optional `quality`).                                |
+| GET    | `/sensors/{sensorId}/readings`   | Bearer | Paginated readings (`from`, `to`, `metric`, `page`, `size`).                                                                                                         |
+| GET    | `/sensors/activity`              | Bearer | Most active sensors (`from`, `to`, `top=10`).                                                                                                                        |
+| (Auto) | Simulation                       | n/a    | When `simulation.sensors.enabled=true` (default), a scheduler injects random readings for each active sensor every `simulation.sensors.delay-ms` ms (default 15000). |
+
+---
+
+## Devices
+| Método | Ruta                             | Auth   | Descripción                                                            |
+| ------ | -------------------------------- | ------ | ---------------------------------------------------------------------- |
+| POST   | `/devices`                       | Bearer | Register device (`deviceId`, `ownerId`, `hwModel`, optional `secret`). |
+| POST   | `/devices/{deviceId}/link`       | Bearer | Link device to plant (`plantId`).                                      |
+| POST   | `/devices/{deviceId}/deactivate` | Bearer | Deactivate device.                                                     |
+| PUT    | `/devices/{deviceId}/note`       | Bearer | Update device note (`note`).                                           |
+| GET    | `/devices/{deviceId}`            | Bearer | Fetch device info.                                                     |
+
+---
+
+## Alerts
+| Método | Ruta                       | Auth   | Descripción                                                                             |
+| ------ | -------------------------- | ------ | --------------------------------------------------------------------------------------- |
+| GET    | `/alerts/recent`           | Bearer | Owner-scoped alerts (`plantId`, `sensorId`, `type`, `page`, `size`, `Accept-Language`). |
+| GET    | `/plants/{plantId}/alerts` | Bearer | Alerts for specific plant (`page`, `size`, `Accept-Language`).                          |
+
+Alerts are triggered internally via handlers (`RaiseAlertHandler`, `ResolveAlertHandler`) for THRESHOLD_BREACH, SENSOR_INACTIVE, DEVICE_DEACTIVATED, WEEKLY_REPORT, MONTHLY_REPORT. Notifications respect profile quiet hours and preferences, falling back to queued dispatch.
+
+---
+## Reports
+| Método | Ruta                            | Auth   | Descripción                                                                         |
+| ------ | ------------------------------- | ------ | ----------------------------------------------------------------------------------- |
+| GET    | `/reports/plants/{plantId}.pdf` | Bearer | Plant PDF report (`from`, `to`, optional `metrics`, optional `ownerId` for admins). |
+| GET    | `/reports/plants/{plantId}.csv` | Bearer | Plant CSV export (`from`, `to`, optional `ownerId`).                                |
+| GET    | `/reports/summary.pdf`          | Bearer | Summary PDF across plants (`from`, `to`, optional `ownerId`).                       |
+
+All report endpoints derive the effective owner from the authenticated user unless
+an ADMIN supplies `ownerId`.
+
+---
+
+## Notas Generales
+1. **Autenticación:** Genera un JWT en `/iam/login` y adjúntalo como `Bearer`. Las rutas públicas están listadas explícitamente.
+2. **Localización:** `Accept-Language` puede sobrescribir temporalmente el idioma persistido del perfil.
+3. **Códigos HTTP:** Se usan los estándar de Spring (201 en creaciones, 202 cuando se acepta procesamiento, 404 si no existe, 409 ante conflictos, 401 sin autenticación).
+4. **Fechas/Horas:** Para filtros `from`/`to` usa formato ISO-8601 (`2025-05-10T12:00:00Z`).
+   
+---
+
+## Flujo End-to-End (Resumen)
+1. **Alta de usuario y perfil**
+ - `POST /iam/register` guarda usuario + idioma.
+ - `POST /profiles` (opcional) crea perfil público; `PUT /profile` y `PUT /profile/notifications` configuran idioma, zona horaria, quiet hours y canales.
+2. **Onboarding de device/sensor**
+ - Device: `POST /devices` + `POST /devices/{id}/link` para asociarlo a la planta.
+ - Sensor: `POST /sensors` (tipo, owner, plantId opcional). Autoasigna `sensorId` a la planta.
+3. **Gestión de plantas**
+ - Crear con `POST /plants`, consultar/vincular con filtros (`GET /plants`), actualizar `PUT /plants/{id}`, eliminar lógico `DELETE /plants/{id}`.
+4. **Recolección de datos**
+ - Lecturas reales via `POST /sensors/{id}/readings` o simuladas (scheduler configurable). Alimentan `/sensors/{id}`, `/sensors/{id}/readings`, `/sensors/activity`.
+5. **Alertas automáticamente**
+ - `RaiseAlertHandler` dispara eventos cuando se violan umbrales/sensores inactivos/dispositivos inactivos. Se guardan, marcan `plant.hasAlerts` y se envían notificaciones respetando preferencias y quiet hours (si corresponde se encola en `pending_notifications`).
+ - Consultas mediante `/alerts/recent` o `/plants/{id}/alerts`.
+6. **Reportes**
+ - Dueños (o admins indicando `ownerId`) obtienen PDF/CSV para plantas y un resumen global (`/reports/...`).
+7. **Seguridad y Swagger**
+ - JWT Bearer para todo lo privado; públicas: `/iam/login`, `/iam/register`, `/iam/forgot-password`, `/i18n/catalog`, `/swagger-ui.html`, `/v3/api-docs`.
+ - Swagger tiene esquema Bearer: usa “Authorize” para probar rutas protegidas.
 
 En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
 
