@@ -80,7 +80,7 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 #### Repositorio de github - Backend de PlantaE
 
-- **Bckend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
+- **Backend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
   
 ![Deploy3](assets/images/resources/DeployBckend.jpg)
 
@@ -310,6 +310,7 @@ Para el Sprint 1, se han identificado cuatro aspectos fundamentales que abarcan 
 **Metodología de Asignación de Roles:**
 
 Se indican los aspectos principales considerados en el Sprint, especificando quién asume el rol de  **Líder (L)**  y quiénes participan como  **Colaboradores (C)**. Esta organización asegura claridad en la comunicación y coherencia en la selección de tareas del Sprint. Cada miembro del equipo tiene asignado un rol específico para cada aspecto, facilitando la coordinación y el cumplimiento de los objetivos del Sprint.
+
 ##### Aspect Leaders and Collaborators
 
 Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
@@ -427,7 +428,7 @@ Adicionalmente, se implementaron mejoras significativas en diseño responsive pa
 -   Segunda funcionalidad: Botón de cambio de tema (modo claro/oscuro).
 -   Tercera funcionalidad: Secciones iniciales (Bienvenida, Servicios, Cómo funciona, Contacto).
 -   Otras mejoras: Ajustes de diseño responsive, optimización de rendimiento y accesibilidad.
--   
+  
 Durante este Sprint, se realizaron actividades de despliegue de la Landing Page utilizando GitHub Pages como plataforma de hosting. A continuación, se detallan los pasos ejecutados:
 
 **1- Se accedió a la sección Settings del repositorio.**
@@ -476,6 +477,7 @@ Se documenta el proceso de implementación, pruebas, documentación y despliegue
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 En esta sección se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 2, enfocado en el desarrollo de los bounded contexts del backend y la implementación de la arquitectura de microservicios. Esta matriz define los roles, responsabilidades y nivel de participación de cada miembro del equipo durante el desarrollo de los Web Services RESTful.
+
 #### Aspectos Clave del Sprint 2
 Para el Sprint 2, se han identificado cuatro aspectos fundamentales que abarcan el desarrollo frontend completo:
 
