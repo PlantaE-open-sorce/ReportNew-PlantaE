@@ -1244,6 +1244,21 @@ El objetivo de este Sprint es finalizar el backend e integrarlo completamente co
 
 **User Persona del Segmento Objetivo 1: Personas con plantas en casa**
 
+- **Nombres y apellidos:** **DANIEL CASTILLO** 
+- **Género:** Masculino
+- **Edad:** 22 años
+
+<div align="center">
+      <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 5:00 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Resumen:** Daniel percibe la aplicación como una herramienta clara y fácil de usar, mostrando comodidad y familiaridad con cada paso que se le presenta. Repite varias veces que el sistema es “sencillo” e “intuitivo”, lo que refleja que no encuentra fricciones ni confusiones en el flujo. También valora especialmente la utilidad práctica de los sensores y las alertas, porque entiende que aportan información clave para el cuidado real de las plantas. En general, su actitud es positiva, receptiva y sin objeciones técnicas importantes, transmitiendo que la app le parece funcional, bien organizada y adecuada para usuarios que quieren gestionar sus plantas de manera eficiente.
+
+---
+
 |  **DANIEL CASTILLO**                                                                                                                                                                               |  
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <div align="center"> <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="25%" height="auto"> </div>                                |
