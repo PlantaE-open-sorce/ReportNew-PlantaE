@@ -170,9 +170,8 @@ Le asignamos el nombre “landing-page” dentro de nuestra organización
 
 ![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
 
-**3. Configuración del repositorio
-**
-Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
+**3. Configuración del repositorio**
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con GitHub Pages.
 Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
 ![Logo de la empresa](assets/images/resources/web_git.jpg)
