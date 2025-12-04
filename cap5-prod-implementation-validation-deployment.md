@@ -80,8 +80,6 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
   
 ![Deploy3](assets/images/resources/DeployBckend.jpg)
 
-
-
 #### GitFlow Workflow
 
 Se implementará el modelo de ramificación propuesto por Vincent Driessen en su artículo *“A successful Git branching model”*, conocido como **GitFlow**. Este modelo organiza el trabajo en las siguientes ramas:
@@ -209,9 +207,6 @@ Tanto en Frontend como el backend se desplegaron en maquina virtual
 
 ![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
 
-
-
-
 ### Despliegue del RESTful Web Services
 
 Para que nuestro RESTful Web Services esté disponible para todos nuestros usuarios, lo desplegamos utilizando Amazon Web Services (AWS) como plataforma de infraestructura en la nube. El proceso se llevó a cabo de la siguiente manera:
@@ -226,15 +221,12 @@ Creamos un repositorio llamado backend dentro de nuestra organización prime-fix
 
 ![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
 
-
 **2. Base datos en Microsoft Azure**
 
 Creamos una instancia de base de datos en Amazon RDS para almacenar los datos de la aplicación.
 Configuramos los parámetros de la base de datos, incluyendo el motor (MySQL, PostgreSQL, etc.), tamaño, y credenciales de acceso.
 
-
 ![Logo de la empresa](assets/images/resources/execution_evidence_3.jpeg)
-
 
 **3. Build en Microsoft Azure C**
 
@@ -244,8 +236,6 @@ Con todos estos archivos podemos compilar el proyecto de Java v.25 y Spring Boot
 
 ![Logo de la empresa](assets/images/resources/buil.jpg)
 
-
-
 **4. Actualizar la maquina virtual**
 
 Creamos un repositorio en Amazon ECR para almacenar las imágenes Docker del backend.
@@ -253,7 +243,6 @@ Configuramos las políticas de acceso para permitir que AWS CodeBuild pueda subi
 Subimos la imagen Docker generada por CodeBuild al repositorio de ECR.
 
 ![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
-
 
 **6. Despliegue en Maquina Virtual**
 
@@ -263,8 +252,6 @@ Definimos la configuración de escalado automático para manejar la carga de tr�
 Finalmente, iniciamos el servicio para que el backend esté disponible públicamente.
 
 ![Logo de la empresa](assets/images/resources/backend5.png)
-
-
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -289,10 +276,8 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Velocity               | 18 puntos                                                                                                                                                            |
 | Sum of Story Points             | 18 puntos                                                                                                                                                            |
 
-
 ![eu2](assets/images/resources/Sprint1.jpg)
 Link del Trello primera version Sprint 1: https://trello.com/b/eD8ju2rS/sprint-1
-
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
@@ -576,7 +561,6 @@ Se estableció la integración completa con la Landing Page existente, agregando
 | plantae/frontend     | develop  | Update README.md                                                 | Update README.md                                   | julio645         | Nov 14, 2025         |
 | plantae/frontend     | develop  | Primer commit de mi proyecto                                     | Primer commit de mi proyecto                       | FlorDeMa         | Nov 14, 2025         |
 
-
 **Funcionalidades Implementadas con Operaciones CRUD**
 - **Sistema de autenticación completo**
 Login, registro y gestión de sesiones de usuarios.
@@ -721,6 +705,7 @@ Durante el **Sprint 2**, se desarrolló documentación técnica **comprehensiva*
 La documentación incluye guías de componentes, patrones de diseño implementados y guías de mantenimiento para facilitar el desarrollo futuro y la colaboración del equipo.
 
 ---
+
 **Documentación de Frontend generada**
 
 La aplicación cuenta con documentación completa que incluye:
@@ -863,7 +848,7 @@ Enlace: https://trello.com/invite/b/693088880f466beac75727f8/ATTIe77b8053b13c98c
   </figcaption>
 
 | User Story ID | User Story Title             | Task ID | Task Title                       | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
-| :------------ | :--------------------------- | :------ | :------------------------------- | :----------------------------------------------------------------------------------- | :-------------- | :-------------- | :----- |
+| :-----------: | :--------------------------- | :-----: | :------------------------------- | :----------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
 | US-001	    | Acceso a la plataforma       | T01-1	 | Modelo y migraciones de usuarios | Definir tabla users, índices (email único), timestamps y soft-delete.                | 4	             | Elizabeth Apaza | Done   |
 | 	            |                              | T01-2	 | Endpoint de registro	            | POST /api/v1/auth/register con validación, hashing y verificación de email opcional. | 6	             | Julio Guillen   | Done   |
 | 	            |                              | T01-3 	 | Endpoint de login	            | POST /api/v1/auth/login con JWT/refresh, lockout por intentos y auditoría.           | 8	             | Rodrigo Miraval | Done   |
@@ -889,20 +874,18 @@ Enlace: https://trello.com/invite/b/693088880f466beac75727f8/ATTIe77b8053b13c98c
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
-| Repository                 | Branch                               | Commit Id | Commit Message                                               | Commit Message Body                                            | Committed on (Date) |
-|---------------------------|----------------------------------------|-----------|--------------------------------------------------------------|----------------------------------------------------------------|----------------------|
-| feature/adding-home-options          | feature/adding-home-options            |  0609611cfca7d7e59b9fe3935253ac9975f4518b        | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025         |
-| feature/adding-home-options          | feature/adding-home-options            | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf        | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025         |
-| feature/adding-login-profile           | feature/adding-myplants-details        | 4c739fedc539ef752cc791f4081a46216f1a0c41         | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Nov 14, 2025         |
-| feature/adding-management-plants           | feature/adding-myplants-details        |  b04b9dfac519df4149fc2ce3bb473fd887b2571f       | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025         |
-| feature/adding-management-plants           | feature/adding-login-profile           | 28b8a03b16aab6cebfe0217dbd02a3a82a185664        | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025         |
-| feature/adding-login-profile           | feature/adding-login-profile           | 0c2cc477c174597d41b2120cbe0e30e919338921        | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Nov 14, 2025         |
-| feature/adding-login-profile          | feature/adding-management-plants       | 6e640a89acbbe66ea295f18edeb31112987d38e8        | Merge branch 'feature/adding-management-plants' into develop | -                                                              | Nov 14, 2025         |
-| feature/adding-login-profile           | feature/adding-management-plants       | 956fb8baa1b71f57202452db637aa3dc4f40c22b        | Añadiendo backend nuevo para management plants               | Añadiendo backend nuevo para management plants                 | Nov 14, 2025         |
-| feature/adding-myplants-details          | feature/adding-management-plants       | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f        | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025         |
-| feature/adding-myplants-details           | develop                                | a6fc142372c6951ecc3bfb4a23b71cc1a0452474       | Initial commit                                               | Initial commit                                                 | Oct 21, 2025         |
-
-
+| Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
+| :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
+| feature/adding-home-options      | feature/adding-home-options      | 0609611cfca7d7e59b9fe3935253ac9975f4518b | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025        |
+| feature/adding-home-options      | feature/adding-home-options      | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025        |
+| feature/adding-login-profile     | feature/adding-myplants-details  | 4c739fedc539ef752cc791f4081a46216f1a0c41 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Nov 14, 2025        |
+| feature/adding-management-plants | feature/adding-myplants-details  | b04b9dfac519df4149fc2ce3bb473fd887b2571f | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025        |
+| feature/adding-management-plants | feature/adding-login-profile     | 28b8a03b16aab6cebfe0217dbd02a3a82a185664 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-management-plants | 6e640a89acbbe66ea295f18edeb31112987d38e8 | Merge branch 'feature/adding-management-plants' into develop | -                                                              | Nov 14, 2025        |
+| feature/adding-login-profile     | feature/adding-management-plants | 956fb8baa1b71f57202452db637aa3dc4f40c22b | Añadiendo backend nuevo para management plants               | Añadiendo backend nuevo para management plants                 | Nov 14, 2025        |
+| feature/adding-myplants-details  | feature/adding-management-plants | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025        |
+| feature/adding-myplants-details  | develop                          | a6fc142372c6951ecc3bfb4a23b71cc1a0452474 | Initial commit                                               | Initial commit                                                 | Oct 21, 2025        |
 
 
 | **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
@@ -991,7 +974,6 @@ En esta sección se muestra la evidencia de la documentación de los servicios c
 <p align="center">
     <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
 </p>
-
 
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
@@ -1255,7 +1237,6 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 
 ## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación  "PlantaE":
 
-
 **UX Heuristics & Principles Evaluation**
 
 **Usability – Inclusive Design – Information Architecture**
@@ -1338,7 +1319,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![Eu1](assets/images/resources/eu1)
 
-
 ## PROBLEMA \#2: No se traduce la aplicación por completo
 
 - **Severidad: 1**
@@ -1347,7 +1327,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:** Completar el sistema de internacionalización (i18n), asegurando una traducción integral de todos los componentes.
 
 ![eu2](assets/images/resources/eu2)
-
 
 ## PROBLEMA \#3: No se puede acceder al Dashboard como vivero
 
@@ -1358,7 +1337,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![eu3](assets/images/resources/eu3)
 
-
 ## PROBLEMA \#4: Poca intuitividad en el panel de Vivero
 
 - **Severidad: 1**
@@ -1367,7 +1345,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:** *Reestructurar el contenido según prioridades del usuario, utilizando agrupaciones visuales, etiquetas más claras e indicadores de acciones principales.*
 
 ![eu4](assets/images/resources/eu4)
-
 
 ## PROBLEMA \#5: No se pueden visualizar los reportes generados
 
@@ -1387,7 +1364,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:** Integrar autocompletado basado en mapas o permitir entrada libre de direcciones con validación.
 
 ![eu6](assets/images/resources/eu6)
-
 
 ## PROBLEMA \#7: Falta filtrado de plantas
 
