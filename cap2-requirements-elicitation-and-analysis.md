@@ -238,12 +238,14 @@ Con esto queremos crear una aplicación que te brinde alertas, consejos y herram
 - Direccion: Lima, Av Peru San Martin de Porres.
 
   
-| **ALESSANDRO BRAVO** |
-|-----------------------|
-| <div align="center"><img src="assets/images/resources/Alessandro-Entrevista1-Segmento1.jpg" alt="Entrevista Alessandro Segmento 1" width="50%"></div> |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/personal/u202323243_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202323243%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7380%2DPrime%2DFix%2Dneedfinding%2Dsprint%2D1%2Dsegmento%2D1%2Dentrevista%2D1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3e7b0ada%2D1360%2D4737%2Dbf3b%2Dc76da7f504f3 |
-| <div align="center"><b>Duración:</b> 00:05:57 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:10 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:54</div> |
-| Alessandro Bravo, de 20 años, es estudiante universitario y comentó que le gustan las plantas principalmente como elemento decorativo dentro de su hogar. Señaló que sigue una rutina básica de cuidado, aunque reconoce que sus plantas no siempre están en buen estado debido a que a veces olvida detalles importantes o no les dedica el tiempo suficiente. Nunca ha utilizado una aplicación o sistema digital para el mantenimiento de sus plantas, pero considera que la idea de una herramienta como PlantaE es muy atractiva, ya que le permitiría organizar mejor el riego y mejorar la salud de sus plantas. El entrevistado reconoció que en ocasiones ha perdido plantas por descuidos y que le resultaría valioso contar con recordatorios o alertas que lo apoyen en el cuidado. Asimismo, resaltó que una aplicación con consejos prácticos y funciones simples lo motivaría a mantener sus plantas más saludables. |
+|**ALESSANDRO BRAVO** |
+
+<div align="center"><img src="assets/images/resources/Alessandro-Entrevista1-Segmento1.jpg" alt="Entrevista Alessandro Segmento 1" width="50%"></div> 
+ **Link de la Entrevista:** <https://upcedupe-my.sharepoint.com/personal/u202323243_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202323243%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7380%2DPrime%2DFix%2Dneedfinding%2Dsprint%2D1%2Dsegmento%2D1%2Dentrevista%2D1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3e7b0ada%2D1360%2D4737%2Dbf3b%2Dc76da7f504f3> 
+ 
+<div align="center"><b>Duración:</b> 00:05:57 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:10 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:54</div>
+
+Alessandro Bravo, de 20 años, es estudiante universitario y comentó que le gustan las plantas principalmente como elemento decorativo dentro de su hogar. Señaló que sigue una rutina básica de cuidado, aunque reconoce que sus plantas no siempre están en buen estado debido a que a veces olvida detalles importantes o no les dedica el tiempo suficiente. Nunca ha utilizado una aplicación o sistema digital para el mantenimiento de sus plantas, pero considera que la idea de una herramienta como PlantaE es muy atractiva, ya que le permitiría organizar mejor el riego y mejorar la salud de sus plantas. El entrevistado reconoció que en ocasiones ha perdido plantas por descuidos y que le resultaría valioso contar con recordatorios o alertas que lo apoyen en el cuidado. Asimismo, resaltó que una aplicación con consejos prácticos y funciones simples lo motivaría a mantener sus plantas más saludables. 
 
 ##### Entrevista N°2: Angélica Apaza
 
