@@ -578,6 +578,18 @@ Las principales funcionalidades implementadas durante este sprint abarcan todas 
 El trabajo de desarrollo se organizó siguiendo las mejores prácticas de desarrollo frontend, implementando componentes standalone según las nuevas recomendaciones de Angular, gestión de estado reactiva con RxJS, validaciones de formularios robustas y diseño responsive que funciona óptimamente en desktop, tablet y móvil.
 
 Se estableció la integración completa con la Landing Page existente, agregando enlaces directos que permiten a los usuarios navegar fluidamente desde la página de presentación hacia la aplicación web funcional. La configuración incluye internacionalización (i18n), cambio de tema dinámico y optimización de rendimiento con lazy loading.
+
+Se estableció la integración completa con la Landing Page existente, agregando enlaces directos que permiten a los usuarios navegar fluidamente desde la página de presentación hacia la aplicación web funcional. La configuración incluye internacionalización (i18n), cambio de tema dinámico y optimización de rendimiento con lazy loading.
+
+**Principales funcionalidades implementadas:**
+
+-   Sistema de autenticación completo (login, registro, gestión de sesiones)
+-   Gestión de perfiles de usuario con edición y validaciones
+-   Gestión de vehículos con CRUD completo
+-   Programación de citas con calendario interactivo
+-   Integración con la Landing Page
+
+
 | Repository            | Branch  | Commit Message                                                   | Commit Message Body                               | Author           | Committed on (Date) |
 |----------------------|----------|------------------------------------------------------------------|----------------------------------------------------|------------------|----------------------|
 | plantae/frontend     | develop  | Update main.ts                                                   | Update main.ts                                     | AntonioNavarro24 | Nov 15, 2025         |
