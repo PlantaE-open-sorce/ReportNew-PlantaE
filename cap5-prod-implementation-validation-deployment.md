@@ -212,7 +212,7 @@ Tanto en Frontend como el backend se desplegaron en maquina virtual
 
 **4. Configuración del repositorio**
 
-Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Widows Azure.
 Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
 **5. Carga de los archivos de la Frontend Web Application**
