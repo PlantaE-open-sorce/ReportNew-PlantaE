@@ -210,6 +210,17 @@ Tanto en Frontend como el backend se desplegaron en maquina virtual
 
 ![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
 
+**4. Configuración del repositorio**
+
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
+Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
+
+**5. Carga de los archivos de la Frontend Web Application**
+
+Accedimos al repositorio creado.
+Subimos los archivos generados del proyecto (HTML, CSS, TypeScript, Angular).
+Verificamos que los cambios se hicieran en la rama principal (master).
+
 ### Despliegue del RESTful Web Services
 
 Para que nuestro RESTful Web Services esté disponible para todos nuestros usuarios, lo desplegamos utilizando Amazon Web Services (AWS) como plataforma de infraestructura en la nube. El proceso se llevó a cabo de la siguiente manera:
