@@ -417,6 +417,17 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Las principales funcionalidades implementadas durante este sprint abarcan desde la estructura básica de navegación hasta características avanzadas de experiencia de usuario. Se estableció una arquitectura sólida que incluye la implementación de componentes reutilizables, un sistema de enrutamiento eficiente, y la integración de estilos globales que reflejan la identidad visual de PlantaE definida previamente en las guías de estilo.
+
+El trabajo de desarrollo se organizó siguiendo las mejores prácticas de versionado con Git Flow, donde cada funcionalidad fue desarrollada en ramas específicas y posteriormente integrada a través de pull requests debidamente revisados. Esto garantizó la calidad del código y la colaboración efectiva entre los miembros del equipo, cada uno especializado en diferentes aspectos del desarrollo front-end.
+
+Adicionalmente, se implementaron mejoras significativas en diseño responsive para asegurar una experiencia óptima en diferentes dispositivos, optimizaciones de rendimiento para cargas rápidas de página, y consideraciones de accesibilidad web siguiendo estándares WCAG para garantizar que la plataforma sea inclusiva para todos los usuarios potenciales de PlantaE.
+
+-   Primera funcionalidad: Internacionalización (i18n) para múltiples idiomas (ES/EN).
+-   Segunda funcionalidad: Botón de cambio de tema (modo claro/oscuro).
+-   Tercera funcionalidad: Secciones iniciales (Bienvenida, Servicios, Cómo funciona, Contacto).
+-   Otras mejoras: Ajustes de diseño responsive, optimización de rendimiento y accesibilidad.
+-   
 Durante este Sprint, se realizaron actividades de despliegue de la Landing Page utilizando GitHub Pages como plataforma de hosting. A continuación, se detallan los pasos ejecutados:
 
 **1- Se accedió a la sección Settings del repositorio.**
