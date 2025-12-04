@@ -299,7 +299,17 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 Link del Trello primera version Sprint 1: https://trello.com/b/eD8ju2rS/sprint-1
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
+En esta sección se presenta la  **Leadership-and-Collaboration Matrix (LACX)**, una herramienta organizacional fundamental que define claramente los roles y responsabilidades de cada miembro del equipo durante el Sprint 1. Esta matriz establece una estructura de liderazgo distribuido que optimiza la eficiencia del trabajo colaborativo y garantiza la accountability en cada aspecto crítico del desarrollo.
 
+**Principales Aspectos Considerados en el Sprint:**
+
+Para el Sprint 1, se han identificado cuatro aspectos fundamentales que abarcan todo el ciclo de desarrollo y entrega de la Landing Page de Planta-E:
+
+**Landing Page (Desarrollo Front-end):**  Este aspecto engloba todo el desarrollo de la interfaz de usuario, incluyendo la implementación de componentes visuales, funcionalidades de internacionalización, sistema de cambio de tema, diseño responsive y optimización de la experiencia de usuario. Es el componente principal del Sprint 1.
+
+**Metodología de Asignación de Roles:**
+
+Se indican los aspectos principales considerados en el Sprint, especificando quién asume el rol de  **Líder (L)**  y quiénes participan como  **Colaboradores (C)**. Esta organización asegura claridad en la comunicación y coherencia en la selección de tareas del Sprint. Cada miembro del equipo tiene asignado un rol específico para cada aspecto, facilitando la coordinación y el cumplimiento de los objetivos del Sprint.
 ##### Aspect Leaders and Collaborators
 
 Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
