@@ -2,17 +2,17 @@
 
 ## Conclusiones
 
-- El proyecto **PlantaE** permitió identificar la necesidad de soluciones tecnológicas accesibles para optimizar el cuidado de plantas y áreas verdes, especialmente en contextos urbanos donde el riego suele ser ineficiente.  
-- La propuesta basada en IoT demostró ser viable y con alto potencial de impacto social y ambiental, contribuyendo al uso responsable del agua y fomentando prácticas sostenibles.  
-- Las entrevistas y validaciones realizadas confirmaron el interés de los usuarios en una herramienta intuitiva, simple y confiable, tanto para hogares como para viveros.  
-- El trabajo grupal fortaleció la capacidad de análisis, diseño y desarrollo, además de potenciar las habilidades de comunicación, coordinación y aprendizaje colaborativo de los integrantes.  
+- El proyecto **PlantaE** permitió evidenciar con claridad que, en un contexto donde la urbanización avanza rápidamente, es indispensable implementar soluciones tecnológicas accesibles que optimicen el cuidado de plantas y áreas verdes. A lo largo del trabajo se identificó que uno de los principales problemas es la ineficiencia en los procesos de riego, lo cual genera un consumo excesivo de agua y un deterioro gradual de los espacios naturales.  
+- La propuesta basada en tecnologías IoT no solo resultó técnicamente viable, sino que también demostró un alto potencial de impacto social y ambiental. La capacidad de automatizar, medir y optimizar recursos se posiciona como una herramienta clave para promover prácticas de sostenibilidad en hogares, instituciones y espacios públicos.  
+- Las actividades de investigación, entrevistas y validaciones realizadas con potenciales usuarios confirmaron la necesidad de una herramienta intuitiva, confiable y fácil de usar. La recepción positiva evidenció que existe un público dispuesto a adoptar soluciones digitales que simplifiquen el cuidado de sus plantas y mejoren su organización diaria.  
+- El trabajo en equipo fue un componente fundamental para el desarrollo del proyecto. La colaboración entre los integrantes permitió fortalecer habilidades de análisis, diseño y desarrollo de software, además de potenciar capacidades blandas como la comunicación efectiva, la coordinación interdisciplinaria y la toma de decisiones conjunta. Esta sinergia fue clave para construir una solución sólida y bien fundamentada.  
  
 ## Recomendaciones
 
-- Mantener una adecuada **organización de los tiempos** en cada fase del proyecto, estableciendo cronogramas realistas y priorizando tareas clave.  
-- Reforzar el proceso de validación con más usuarios, lo que permitirá obtener retroalimentación continua y mejorar la experiencia de uso.  
-- Explorar la posibilidad de alianzas con municipalidades, viveros u organizaciones ambientales para ampliar el alcance e impacto del proyecto.  
-- Seguir perfeccionando la interfaz y funcionalidades del sistema, priorizando siempre la usabilidad, la accesibilidad y la sostenibilidad como ejes centrales.  
+- Se recomienda mantener una planificación estratégica y una gestión del tiempo más rigurosa, estableciendo cronogramas alcanzables y priorizando hitos clave. Una estructura clara facilitará un ritmo de trabajo más estable y reducirá la presión en etapas avanzadas del proyecto.  
+- Es importante ampliar el proceso de validación incorporando una muestra más diversa de usuarios. Un ciclo continuo de retroalimentación permitirá enriquecer la propuesta, identificar puntos de mejora tempranamente y optimizar la experiencia de uso antes de su implementación final.  
+- Explorar la formación de alianzas con municipalidades, viveros, empresas de paisajismo u organizaciones ambientales podría potenciar significativamente el impacto de PlantaE. Estas colaboraciones no solo facilitarían la adopción del sistema a mayor escala, sino que también abrirían oportunidades para integrar nuevas funcionalidades adaptadas a distintos entornos.  
+- Se sugiere continuar con la evolución de la interfaz y las capacidades del sistema, asegurando que cada mejora mantenga como ejes centrales la usabilidad, la accesibilidad y la sostenibilidad. La incorporación progresiva de nuevas tecnologías, como análisis predictivo o integración con asistentes inteligentes, esto podría fortalecer aún más su valor en el mercado.  
 
 # Video About-the-Team
 
