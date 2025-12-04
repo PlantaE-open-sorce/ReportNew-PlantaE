@@ -642,7 +642,7 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 **Principales logros del Sprint 2:**
 
-**Aplicación Web Semi Completa: **Se desarrolló parcialmente la aplicación de Angular con las páginas y componentes necesarios para ambos tipos de usuarios (usuarios particulares y administradores de viveros).
+**Aplicación Web Semi Completa:** Se desarrolló parcialmente la aplicación de Angular con las páginas y componentes necesarios para ambos tipos de usuarios (usuarios particulares y administradores de viveros).
 
 **Experiencia de Usuario Optimizada:** Interfaces responsive e intuitivas que funcionan perfectamente en desktop, tablet y móvil con diseño consistente y accesible.
 
@@ -726,6 +726,15 @@ Navegación fluida entre la página de presentación y la aplicación web.
 **Frontend Application:** https://plant-e-frontend.vercel.app/auth/login
 
 **Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
+
+ ### Ultima Version Sprint 2
+**Enlaces de despliegue:** 
+
+**Frontend Application:** http://20.57.10.48/login
+
+**Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
+
+|**Ambas versiones solo funcionan cuando el contenedor virtual en este caso Microsoft Azure este encendido de lo contrario no se podra acceder por ello antes de ingresar indicar para prender el prototipo**|
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -868,6 +877,33 @@ La aplicación cuenta con documentación completa que incluye:
 
 **Evidencias de despliegue:**
 
+**Usuario de acceso ala Maquina Virtual : MiGato_Toby24**
+
+Como compilar el frontend:  
+1. Abres el terminal
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc1.jpg" alt="frontend_evidence_1"/>    
+</p>
+3. Ejecutas: **sudo -i** (para tener todos los permisos y evitar problemas)
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc2.jpg" alt="frontend_evidence_1"/>    
+</p>
+4. Debes ir al directorio del frontend, entonces pondrás: **cd /home/frontend** y en caso haga algún comité o mejore cosas de tu proyeto pondrás **git pull**, pero debes borrar la carpeta de la anterior versión, entonces pondrás **rm -r dist**
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc3.jpg" alt="frontend_evidence_1"/>    
+</p>
+(para verificar que no esté la carpeta, puedes abrir el:  
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc4.jpg" alt="frontend_evidence_1"/>    
+</p>
+Y buscarlo tu misma, si no está, es porque lo has borrado correctamente, pero basta con que pongas el comando **ls** como en la captura y que no veas ningún archivo/carpeta llamada “dist”
+
+4. Para compilarlo pones **npm run build** y se creará la carpeta dist nuevamente actualizada.
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc5.jpg" alt="frontend_evidence_1"/>    
+</p>
+4. No requieres hacer más cosas, pues la actualización del frontend es automática, basta con que veas esa carpeta.
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 **Organización Estratégica del Equipo**
 
@@ -878,6 +914,10 @@ El trabajo se organizó de manera estratégica, asignando a cada miembro módulo
 - **Guillen Galindo, Julio Adolfo** desarrolló el núcleo del sistema de plantas, implementando los modelos y repositorios para la gestión del catálogo botánico.  
 - **Miraval Pomalaya, Rodrigo Jesus** implementó la gestión de perfiles de usuario, asegurando una experiencia personalizada y consistente.  
 - **Navarro Chinga, Antonio Jhair** desarrolló el sistema de configuraciones y preferencias, permitiendo la personalización de la aplicación.  
+
+<p align="center">
+    <img src="assets/images/resources/CommistSpring1.jpg" alt="spring_evidence_1"/>    
+</p>
 
 ---
 
