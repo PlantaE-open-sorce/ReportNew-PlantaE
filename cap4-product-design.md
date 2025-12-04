@@ -395,7 +395,16 @@ Para viveros, guardan la misma relación de las anteriores wireframes presentada
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+Esta sección se presenta la propuesta de Wireflows para cada user goal, teniedno en cuenta los user persona definidos para las aplicaciones que estructuran parte de nuestro alcance.
+
+Task flow1: Acceder a PlantaE
+
+Objetivo del usuario: Creación de su cuenta junto con un inicio de sesión exitoso a la plataforma de PlantaE.
+
+Pasos del Tak Flow:
+
+
+`¡User Goal 1: Registro, inicio de sesión y acceso al aplicativo
 
 En esta meta, ambos usuarios —tanto el Jardinero Amateur como el Gestor del Vivero— deben crear una cuenta seleccionando su tipo de usuario. Luego completan su información personal, configuran sus preferencias iniciales (como idioma y notificaciones) e inician sesión para acceder a las funcionalidades principales de Plant-Care según su rol.
 
