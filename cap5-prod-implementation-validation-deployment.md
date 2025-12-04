@@ -2,6 +2,12 @@
 
 ### 5.1.1 Software Development Environment Configuration
 
+Para la creación de la landing page utilizamos principalmente Astro, combinado con HTML, TypeScript y TailwindCSS para construir una página rápida, limpia y bien estructurada. Esta elección nos permitió tener control total sobre el diseño y la organización del código, sin depender demasiado de frameworks externos.
+
+Para la creación de nuestro Frontend Web Aplication, utilizamos Angular, HTML, CSS y TypeScript. Angular nos proporcionó una estructura sólida para desarrollar aplicaciones web escalables y mantenibles, mientras que TypeScript añadió tipado estático, lo que ayudó a detectar errores en tiempo de desarrollo y mejorar la calidad del código.
+
+Para la creación de nuestro RESTful Web Services, utilizamos Spring Boot con Java. Spring Boot nos permitió desarrollar servicios robustos y escalables de manera rápida, gracias a su configuración automática y su amplia gama de herramientas integradas. Además, Java es un lenguaje ampliamente utilizado en el desarrollo backend, lo que nos brindó acceso a una gran cantidad de bibliotecas y recursos.
+
 A continuación, se listan las herramientas y estándares adoptados por el equipo para el desarrollo colaborativo del sistema:
 
 | Actividad               | Herramienta / Guía    | Propósito                                                    | Tipo de acceso / Ruta                    |
