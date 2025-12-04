@@ -238,10 +238,11 @@ Con esto queremos crear una aplicación que te brinde alertas, consejos y herram
 - Direccion: Lima, Av Peru San Martin de Porres.
 
   
-|**ALESSANDRO BRAVO** |
+<div align="center"> ALESSANDRO BRAVO </div>
 
 <div align="center"><img src="assets/images/resources/Alessandro-Entrevista1-Segmento1.jpg" alt="Entrevista Alessandro Segmento 1" width="50%"></div> 
- **Link de la Entrevista:** <https://upcedupe-my.sharepoint.com/personal/u202323243_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202323243%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7380%2DPrime%2DFix%2Dneedfinding%2Dsprint%2D1%2Dsegmento%2D1%2Dentrevista%2D1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3e7b0ada%2D1360%2D4737%2Dbf3b%2Dc76da7f504f3> 
+
+ **Link de la Entrevista:** < https://upcedupe-my.sharepoint.com/personal/u202323243_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202323243%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7380%2DPrime%2DFix%2Dneedfinding%2Dsprint%2D1%2Dsegmento%2D1%2Dentrevista%2D1%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3e7b0ada%2D1360%2D4737%2Dbf3b%2Dc76da7f504f3 > 
  
 <div align="center"><b>Duración:</b> 00:05:57 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:10 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:54</div>
 
@@ -253,12 +254,11 @@ Alessandro Bravo, de 20 años, es estudiante universitario y comentó que le gus
 * Edad: 22 años
 * Dirección: Breña, Lima
 
-| **ANGELICA APAZA**  |
-| --- |
-| <div align="center"><img src="assets/images/resources/Angelica-Entrevista2-Segmento1.jpg" alt="Entrevista Angélica Segmento 1" width="50%"></div> |
-| **Link de la Entrevista:** https://www.youtube.com/watch/Q3Tf_ZKPya4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/Ecmjh8RFCTRIomT8_NIQua0B23OZkxBkdxsjql-p0fnUzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3riBC |
-| <div align="center"><b>Duración:</b> 00:05:57     <b>Inicio:</b> 00:00:51     <b>Final:</b> 00:05:56</div> |
-| Angelica Apaza, 22 años, de Breña (Lima), comentó que en su hogar tiene alrededor de diez plantas, aunque reconoció que le resulta complicado mantener una rutina adecuada de cuidado debido al poco tiempo disponible y a que cada especie requiere atenciones distintas. Considera a las plantas tanto un pasatiempo como una responsabilidad y afirma que le aportan bienestar personal. Explicó que aprendió a cuidarlas por influencia de su madre y su hermana, y que organiza su riego con un calendario semanal, aunque en ocasiones se le olvida o riega de más, lo que ha ocasionado la pérdida de algunas plantas, incluyendo un cactus. Además, mencionó problemas frecuentes con plagas como las mosquitas blancas y que actualmente no usa ninguna aplicación o herramienta digital para apoyarse. Angélica considera que una app como PlantaE le sería bastante útil, especialmente si incluyera recordatorios de riego y recomendaciones contra plagas, ya que esto le permitiría mejorar su cuidado y hasta aumentar la cantidad de plantas que mantiene en casa. |
+<div align="center"> ANGELICA APAZA </div> 
+
+<div align="center"><img src="assets/images/resources/Angelica-Entrevista2-Segmento1.jpg" alt="Entrevista Angélica Segmento 1" width="50%"></div> 
+**Link de la Entrevista:** https://www.youtube.com/watch/Q3Tf_ZKPya4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/Ecmjh8RFCTRIomT8_NIQua0B23OZkxBkdxsjql-p0fnUzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3riBC <div align="center"><b>Duración:</b> 00:05:57     <b>Inicio:</b> 00:00:51     <b>Final:</b> 00:05:56</div> 
+Angelica Apaza, 22 años, de Breña (Lima), comentó que en su hogar tiene alrededor de diez plantas, aunque reconoció que le resulta complicado mantener una rutina adecuada de cuidado debido al poco tiempo disponible y a que cada especie requiere atenciones distintas. Considera a las plantas tanto un pasatiempo como una responsabilidad y afirma que le aportan bienestar personal. Explicó que aprendió a cuidarlas por influencia de su madre y su hermana, y que organiza su riego con un calendario semanal, aunque en ocasiones se le olvida o riega de más, lo que ha ocasionado la pérdida de algunas plantas, incluyendo un cactus. Además, mencionó problemas frecuentes con plagas como las mosquitas blancas y que actualmente no usa ninguna aplicación o herramienta digital para apoyarse. Angélica considera que una app como PlantaE le sería bastante útil, especialmente si incluyera recordatorios de riego y recomendaciones contra plagas, ya que esto le permitiría mejorar su cuidado y hasta aumentar la cantidad de plantas que mantiene en casa. 
 
 ##### Entrevista N°3: Fátima Florez
 
