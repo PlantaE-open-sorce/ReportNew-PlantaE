@@ -43,7 +43,7 @@
 - **URL del Backend desplegado:** <br>
   http://20.57.10.48:8080/swagger-ui/index.html
 
-  - **Documentacion Sprint 2**
+ - **Documentacion Sprint 2**
    - Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Component%20Documentation.md
 
    - **Module Documentation:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
