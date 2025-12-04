@@ -270,6 +270,11 @@ Finalmente, iniciamos el servicio para que el backend esté disponible públicam
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
+En esta sección se documenta el proceso de implementación, pruebas, documentación y despliegue del Landing Page, los Web Services y las Frontend Web Applications. Cada Sprint se registra con detalle en términos de producto, trabajo colaborativo y evidencias de revisión. Y se incluyen los siguientes apartados:
+
+-   **Sprint Planning**: Detalles de la planificación del Sprint, incluyendo objetivos, historias de usuario y puntos de historia.
+-   **Aspect Leaders and Collaborators**: Matriz de liderazgo y colaboración que asigna roles específicos a los miembros del equipo para cada aspecto del Sprint.
+-   **Sprint Backlog**: Lista detallada de historias de usuario y tareas asignadas, junto con su estado actual.
 
 #### 5.2.1.1. Sprint Planning 1
 
