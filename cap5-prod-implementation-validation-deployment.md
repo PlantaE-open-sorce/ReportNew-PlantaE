@@ -2184,9 +2184,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 En esta sección, el equipo presenta un resumen de los aspectos más destacados de PlantE. El material audiovisual explica de forma clara las funciones principales de la aplicación, mostrando cómo cada herramienta fue diseñada para responder a las necesidades del cuidado de plantas, tanto en espacios domésticos como comerciales.
 
-El video muestra ejemplos prácticos de cómo utilizar la app, incluyendo pasos clave como las sugerencias de riego y luz, el seguimiento del crecimiento, las notificaciones de cuidado y los informes generales de las plantas registradas.
-
-La narración acompaña al espectador a lo largo de toda la experiencia de uso, mientras que testimonios reales refuerzan la confianza en la herramienta al contar cómo ha simplificado el cuidado de plantas para personas con poca experiencia y para usuarios avanzados. Estas experiencias subrayan lo fácil que es usar la aplicación y cómo contribuye a mejorar la salud de las plantas.
+El video muestra ejemplos prácticos de cómo utilizar la app, incluyendo pasos clave como las sugerencias, el seguimiento del crecimiento, las notificaciones de cuidado y los informes generales de las plantas registradas.
 
 En conjunto, el video no solo da a conocer el producto, sino que también lo presenta como una solución digital eficaz para promover un cuidado responsable de las plantas, demostrando su utilidad, su facilidad de uso y su impacto positivo.
 
