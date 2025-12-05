@@ -51,6 +51,17 @@
    - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
 
    - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
+
+
+- **Documentacion Sprint 4**
+   - Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/ae9ed7ce5731a6372153b543c7b99933e4a58f12/assets/documentation/Backend_ComponentDocumentation.md
+
+   - **Module Documentation:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_ModuleDocumentation.md
+
+   - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_DesingPatterns.md
+
+   - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_RoutingGuides.md
+  
   
 - **Video About-The-Team:** <br>
   - YouTube: https://youtu.be/uF8EA4og8VM
