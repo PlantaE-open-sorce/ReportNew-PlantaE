@@ -397,72 +397,141 @@ Para viveros, guardan la misma relación de las anteriores wireframes presentada
 
 Esta sección se presenta la propuesta de Wireflows para cada user goal, teniedno en cuenta los user persona definidos para las aplicaciones que estructuran parte de nuestro alcance.
 
-Task flow1: Acceder a PlantaE
+**Task flow 1:** Acceder a la plataforma PlantaE
 
-Objetivo del usuario: Creación de su cuenta junto con un inicio de sesión exitoso a la plataforma de PlantaE.
+**Objetivo del usuario:** Ingresar o crear una cuenta para acceder a la aplicación de PlantaE.
 
-Pasos del Tak Flow:
+**Pasos del Tak Flow:** 
+    1. Seleccionar “Inicia sesión” o “Crear cuenta” desde la pantalla principal.
+    2. Inicia sesión si ya tiene credenciales.
+    3. Registrarse completando nombre, correo, contraseña e idioma si no tiene cuenta.
+    4. Acceder al dashboard tras completar el proceso.
 
 
-`¡User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+**Task flow 2:** Supervisar el dashboard
 
-En esta meta, ambos usuarios —tanto el Jardinero Amateur como el Gestor del Vivero— deben crear una cuenta seleccionando su tipo de usuario. Luego completan su información personal, configuran sus preferencias iniciales (como idioma y notificaciones) e inician sesión para acceder a las funcionalidades principales de Plant-Care según su rol.
+**Objetivo del usuario:** Ver el estado general de sus plantas y acciones recientes.
 
-Jardinero Amateur:
+**Pasos del Tak Flow:** 
+    1. Ingresar al dashboard luego de iniciar sesión.
+    2. Ver si tiene plantas activas o el mensaje de “Aún no tienes plantas registradas”.
+    3. Revisar la sección “Registrar acción manual”.
+    4. Consultar el bloque “Últimas acciones”.
 
-Inicia en el Home → elige Crear Cuenta
 
-Selecciona tipo Jardinero Amateur
+**Task flow 3:** Registrar una planta
 
-Llena datos personales
+**Objetivo del usuario:** Añadir una planta para iniciar su monitoreo.
 
-Inicia sesión
+**Pasos del Tak Flow:** 
+    1. Ir a Plantas o Gestión y seleccionar “Añadir planta”.
+    2. Completar nombre, especie, dispositivo y sensor (opcionales).
+    3. Guardar la planta.
+    4. Visualizarla en la lista de plantas registradas.
 
-Accede a su Dashboard personal (Mis Plantas, alertas, consejos, monitoreo básico)
 
-Gestor Profesional (Vivero):
+**Task flow 4:** Gestionar plantas registradas
 
-Inicia en el Home → Crear Cuenta
+**Objetivo del usuario:** Ver, buscar o filtrar plantas existentes.
 
-Selecciona tipo Vivero
+**Pasos del Tak Flow:** 
+    1. Acceder a la sección Plantas.
+    2. Usar filtros por nombre, especie o estado.
+    3. Seleccionar “Buscar” para mostrar coincidencias.
+    4. Hacer clic en “Ver detalle” para abrir información de una planta.
 
-Llena datos del vivero y responsable
 
-Inicia sesión
+**Task flow 5:** Ver detalle de una planta
 
-Accede al Dashboard profesional (gestión de lotes, sensores, dispositivos y reportes)
+**Objetivo del usuario:** Consultar información específica de una planta.
 
-<img src="assets/images/chapter-4/wire-flow/registro-usuario.png" alt="registro-usuario"/>
+**Pasos del Tak Flow:** 
+    1. Seleccionar la planta desde la lista.
+    2. Ver datos como especie, estado, sensor vinculado y dispositivo.
+    3. Revisar la tarjeta de alertas de esa planta.
+    4. Volver al listado si desea navegar entre más plantas.
 
-USER GOAL 2: Gestión de Plantas
 
-En esta meta, el usuario puede registrar nuevas plantas, ver su estado general, editar información relevante y acceder a los detalles de cada una.
+**Task flow 6:** Revisar alertas recientes
 
-Jardinero Amateur:
+**Objetivo del usuario:** Consultar alertas generadas por sensores.
 
-Agrega una nueva planta desde Mis Plantas
+**Pasos del Tak Flow:** 
+    1. Acceder a la sección Alertas.
+    2. Filtrar por planta, sensor o tipo.
+    3. Ver la lista de alertas recientes.
+    4. Seleccionar una alerta para revisarla.
 
-Completa especie, nombre, ubicación y cuidados
 
-Ve tarjetas con indicadores de humedad, luz, riego y salud
+**Task flow 7:** Registrar y gestionar dispositivos
 
-Accede a Plant Detail para ver información ampliada
+**Objetivo del usuario:** Registrar hubs/dispositivos y asignarlos a plantas.
 
-Edita o elimina la planta cuando sea necesario
+**Pasos del Tak Flow:** 
+    1. Acceder a Dispositivos.
+    2. Ingresar ID, modelo y secreto (opcional).
+    3. Guardar para registrar el dispositivo.
+    4. Buscar un dispositivo mediante el ID.
+    5. Revisar detalles: estado, modelo, notas.
+    6. Añadir nota o editarla.
+    7. Seleccionar planta para vincular el dispositivo.
+    8. Desactivar dispositivo si es necesario.
 
-Gestor Profesional (Vivero):
 
-Gestiona plantas en formato de lotes
+**Task flow 8:** Registrar y gestionar sensores
 
-Revisa cantidades, estado del lote y rotación
+**Objetivo del usuario:** Crear, vincular o desactivar sensores.
 
-Organiza stock por categorías
+**Pasos del Tak Flow:** 
+    1. Acceder a Sensores.
+    2. Registrar un sensor seleccionando tipo, propietario y planta opcional.
+    3. Vincular un sensor seleccionando un sensor y una planta.
+    4. Desactivar un sensor desde la tarjeta correspondiente.
+    5. Registrar lectura manual si es necesario (test).
+    6. Ver tabla de sensores registrados.
 
-Visualiza la trazabilidad y crecimiento del inventario
 
-Edita lotes y actualiza disponibilidad
+**Task flow 9:** Descargar reportes
 
-<img src="assets/images/chapter-4/wire-flow/agregar-planta.png" alt="agregar-plantao"/>
+**Objetivo del usuario:** Generar reportes en PDF o CSV sobre métricas.
+
+**Pasos del Tak Flow:** 
+    1. Acceder a Reportes.
+    2. Seleccionar planta.
+    3. Seleccionar rango de fechas.
+    4. Elegir las métricas (temperatura, humedad, pH…).
+    5. Descargar PDF o CSV.
+
+
+**Task flow 10:** Editar perfil personal
+
+**Objetivo del usuario:** Actualizar información personal o preferencias.
+
+**Pasos del Tak Flow:** 
+    1. Acceder a Perfil.
+    2. Editar nombre, zona horaria e idioma.
+    3. Guardar cambios.
+
+
+**Task flow 11:** Editar perfil personal
+
+**Objetivo del usuario:** Actualizar información personal o preferencias.
+
+**Pasos del Tak Flow:** 
+    1. Acceder a Perfil.
+    2. Editar nombre, zona horaria e idioma.
+    3. Guardar cambios.
+
+
+**Task flow 12:** Cambiar contraseña
+
+**Objetivo del usuario:** Actualizar su contraseña desde el perfil.
+
+**Pasos del Tak Flow:** 
+    1. Acceder a Perfil > Cambiar contraseña.
+    2. Ingresar contraseña actual y nueva.
+    3. Guardar la actualización.
+
 
 ### 4.4.3. Web Applications Mock-ups
 
