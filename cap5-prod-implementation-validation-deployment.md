@@ -1059,57 +1059,63 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
 En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
-
-**Capturas de Pantalla de MySQL conectado a la database de la maquina virtual**
-
-- Datos en bounded context
   
 <p align="center">
     <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
 </p>
 
-- Puerto MySQL prendido:
+- **Datos en bounded context:** SELECT * FROM plants devuelve las plantas registradas y se ve que los errores iniciales ya fueron resueltos.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
 </p>
 
-- Tablas de base de datos:
+- **Puerto MySQL prendido:** SHOW TABLES lista todas las tablas de la base plantae, confirmando que la conexión está OK.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_4.jpeg" alt="execution_evidence_4"/>    
 </p>
 
-- Datos en bounded context Plants Details:
+- **Tablas de base de datos:** Se ejecuta SELECT * FROM profiles y se muestran los perfiles guardados correctamente en la base plantae.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_6.jpeg" alt="execution_evidence_6"/>    
 </p>
 
-- Datos en bounded context Sensors:
+- **Datos en bounded context Plants Details:** Se ejecuta SELECT * FROM users en la base plantae y se muestran los usuarios registrados con su tipo de cuenta, nombre, correo, idioma y hash de contraseña, confirmando que la tabla users carga correctamente.
   
 <p align="center">
     <img src="assets/images/resources/execution_evidence_7.jpeg" alt="execution_evidence_7"/>    
 </p>
+
+- **Datos en bounded context Sensors:** Se ejecuta SELECT * FROM plants y se muestran las plantas registradas con sus fechas, nombres, dispositivos asociados y owner_id, confirmando que la tabla plants está llena y responde correctamente.
 
 **Evidencias visuales del Backend deployado**
 <p align="center">
     <img src="assets/images/resources/backend1.png" alt="backend1"/>    
 </p>
 
+- Se muestra Swagger UI con los endpoints del backend: rutas para plantas, listadas y organizadas por tipo de operación (GET, POST, PUT, DELETE).
+
 <p align="center">
     <img src="assets/images/resources/backend4.png" alt="backend4"/>    
 </p>
 
+- La sección de Swagger muestra los endpoints del módulo Sensor, permitiendo crear sensores, listar sensores y enviar/consultar lecturas usando las rutas GET y POST correspondientes.
+
 <p align="center">
     <img src="assets/images/resources/backend5.png" alt="backend5"/>    
 </p>
+
+- Se muestran los endpoints de Report, I18N y Alert en Swagger: permiten generar reportes en PDF/CSV, obtener catálogos de idioma y consultar alertas recientes.
 
 **Funcionamiento de Backend deployado**
 
 <p align="center">
     <img src="assets/images/resources/backend_deployado.png" alt="backend_deployado"/>    
 </p>
+
+- Este endpoint de Swagger muestra el GET /api/v1/plants/{id}, donde se ingresa un ID para obtener los datos completos de una planta y ver su respuesta JSON de ejemplo.
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
@@ -1119,9 +1125,13 @@ En esta sección se muestra la evidencia de la documentación de los servicios c
     <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
 </p>
 
+- Vista del proyecto, organizada por módulos como alert, device, plant y sensor, junto al archivo principal PlantaeApplication.java que inicia la aplicación Spring Boot.
+
 <p align="center">
     <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
 </p>
+
+- Muestra la configuración principal del backend: conexión a MySQL, ajustes de JPA/Hibernate, rutas de Swagger y los parámetros del JWT (secret y tiempo de expiración).
 
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
@@ -1247,17 +1257,25 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
     <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
 </p>
 
+- Esta pantalla de Azure muestra la información esencial de la máquina virtual PlantaE.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
 </p>
+
+- La terminal muestra que Spring Boot inició correctamente la app Plantae.
 
 <p align="center">
     <img src="assets/images/resources/spring_deploy_2.jpeg" alt="spring_deploy_2"/>    
 </p>
 
+- Aquí Azure muestra que la VM PlantaE está en ejecución.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_3.jpeg" alt="spring_deploy_3"/>    
 </p>
+
+- Esta parte de Azure muestra detalles técnicos de la VM: zona de disponibilidad.
 
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepcionalmente efectiva en la integración completa entre la Frontend Web Application y los Web Services RESTful del backend de PlantaE. La coordinación técnica precisa y la comunicación constante entre todos los miembros del equipo fueron fundamentales para lograr una integración exitosa y habilitar flujos de trabajo completos.
@@ -1265,6 +1283,8 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 <p align="center">
     <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
 </p>
+
+- Estadísticas de contribución del repositorio: commits, líneas añadidas/eliminadas y actividad por usuario dentro del proyecto.
 
 ### 5.2.4 Sprint 4
 
@@ -1533,6 +1553,13 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 </p>
 
 - Muestra varias secciones de configuración avanzada de la máquina virtual PlantaE en Azure.
+
+#### 5.2.4.8 Team Collaboration Insights during Sprint
+Durante el Sprint 4, el equipo de Ecotech mostró una colaboración altamente efectiva al lograr la integración total entre la aplicación web frontend y el backend de PlantaE. Gracias a una coordinación técnica cuidadosamente alineada y una comunicación continua entre todos los integrantes, fue posible completar con éxito la integración y habilitar flujos de trabajo totalmente operativos.
+
+<p align="center">
+    <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
+</p>
 
 ## 5.3. Validation Interviews
 
