@@ -1,8 +1,12 @@
-# Capítulo V: Product Implementation, Validation & Deployment
-
 ## 5.1. Software Configuration Management.
 
 ### 5.1.1 Software Development Environment Configuration
+
+Para la creación de la landing page utilizamos principalmente Astro, combinado con HTML, TypeScript y TailwindCSS para construir una página rápida, limpia y bien estructurada. Esta elección nos permitió tener control total sobre el diseño y la organización del código, sin depender demasiado de frameworks externos.
+
+Para la creación de nuestro Frontend Web Aplication, utilizamos Angular, HTML, CSS y TypeScript. Angular nos proporcionó una estructura sólida para desarrollar aplicaciones web escalables y mantenibles, mientras que TypeScript añadió tipado estático, lo que ayudó a detectar errores en tiempo de desarrollo y mejorar la calidad del código.
+
+Para la creación de nuestro RESTful Web Services, utilizamos Spring Boot con Java. Spring Boot nos permitió desarrollar servicios robustos y escalables de manera rápida, gracias a su configuración automática y su amplia gama de herramientas integradas. Además, Java es un lenguaje ampliamente utilizado en el desarrollo backend, lo que nos brindó acceso a una gran cantidad de bibliotecas y recursos.
 
 A continuación, se listan las herramientas y estándares adoptados por el equipo para el desarrollo colaborativo del sistema:
 
@@ -66,21 +70,31 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Landing Page**: https://github.com/PlantaE-open-sorce/PlantaE-landing
 
-![Deploy1](assets/images/resources/DeployLanding.jpg)
+<p align="center">
+    <img src="assets/images/resources/DeployLanding.jpg" alt="DeployLanding"/>    
+</p>
+
+- Este repositorio de GitHub contiene la landing page del proyecto, muestra archivos como index.html y la carpeta assets, junto con el historial de commits realizados.
 
 #### Repositorio de github - Frontend de PlantaE
 
 - **Frontend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
-  
-![Deploy2](assets/images/resources/DeployFrontend.jpg)
+
+<p align="center">
+    <img src="assets/images/resources/DeployFrontend.jpg" alt="DeployFrontend"/>    
+</p>
+
+- Este repositorio es el frontend de PlantaE, contiene src, public, archivos Angular como angular.json y las dependencias definidas en package.json, mostrando la estructura típica de un proyecto web moderno.
 
 #### Repositorio de github - Backend de PlantaE
 
-- **Bckend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
-  
-![Deploy3](assets/images/resources/DeployBckend.jpg)
+- **Backend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
 
+<p align="center">
+    <img src="assets/images/resources/DeployBckend.jpg" alt="DeployBckend"/>    
+</p>
 
+- Este repositorio es el backendNuevo PlantaE, pero aún está vacío: solo contiene un README.md y un commit inicial, indicando que el backend aún no ha sido subido o está en etapa de preparación.
 
 #### GitFlow Workflow
 
@@ -91,7 +105,11 @@ Se implementará el modelo de ramificación propuesto por Vincent Driessen en su
 - `feature/*`: Ramas creadas a partir de `develop` para desarrollar nuevas funcionalidades.**Convención de nombres:** `feature/<nombre-corto-descriptivo>`_Ejemplo: `feature/login-auth`_
 - `release/*`: Ramas creadas desde `develop` cuando se prepara una nueva versión para producción.**Convención de nombres:** `release/<versión>`_Ejemplo: `release/TB1`_
 
-![GitFlow](assets/images/resources/GitFlow.jpg)
+<p align="center">
+    <img src="assets/images/resources/GitFlow.jpg" alt="GitFlow"/>    
+</p>
+
+- Diagrama que muestra un flujo Git avanzado: ramas master, develop, feature, release y hotfix trabajando en paralelo, con merges controlados y versiones etiquetadas.
 
 #### Versionado Semántico
 
@@ -117,35 +135,36 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### Landing Page:
 **Resumen:** Como principales tecnologías, usaremos Astro, Tailwind CSS, HTML y TypeScript. Componentes pequeños y tipados, comunicación clara por props, y estilos utilitarios y organizados.
-| **Tecnología** | **Convenciones principales** | **Convenciones para código** |
-|---|---|---|
-| **Tailwind CSS** | - Usar solo clases utilitarias de Tailwind.<br>- Ordenar clases en bloques: Layout → Box Model → Tipografía → Colores/Fondos → Otros.<br>- Mantener legibilidad en clases largas. | - Usar `@apply` para estilos reutilizables.<br>- Evitar clases condicionales en el HTML. - Usar clases de estado (hover, focus, etc.) en lugar de JavaScript para interacciones simples.<br> - Mantener la estructura de carpetas organizada y coherente.<br> - Reutilizar el máximo de clases de tailwind. |
-| **HTML** | - Usar etiquetas semánticas (`header`, `main`, `section`, etc.).<br>- Indentación de 2 espacios.<br>- Atributos entre comillas dobles `"`.<br>- Orden de atributos: `id`, `class` → accesibilidad (`aria-*`) → funcionales (`src`, `href`, `alt`).<br>- Nombres en kebab-case (`main-section`). | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
-| **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
-| **Astro** | - Archivos `.astro` en `PascalCase`.<br>- Orden del archivo: frontmatter → HTML/JSX → estilos `\<style>`.<br>- Props siempre tipadas con TypeScript.<br>- Importaciones cortas y claras.<br>- Componentes pequeños y reutilizables. | - Mantener la lógica de los componentes en el archivo `.astro` y evitar la lógica compleja en el frontmatter. - Usar `Astro.fetch` para obtener datos de manera eficiente.<br> - Utilización de props para comunicación entre componentes. |
+
+| **Tecnología**   | **Convenciones principales**																																			 | **Convenciones para código**										  |
+| :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **Tailwind CSS** | - Usar solo clases utilitarias de Tailwind.<br>- Ordenar clases en bloques: Layout → Box Model → Tipografía → Colores/Fondos → Otros.<br>- Mantener legibilidad en clases largas. 																											    | - Usar `@apply` para estilos reutilizables.<br>- Evitar clases condicionales en el HTML. - Usar clases de estado (hover, focus, etc.) en lugar de JavaScript para interacciones simples.<br> - Mantener la estructura de carpetas organizada y coherente.<br> - Reutilizar el máximo de clases de tailwind. |
+| **HTML**         | - Usar etiquetas semánticas (`header`, `main`, `section`, etc.).<br>- Indentación de 2 espacios.<br>- Atributos entre comillas dobles `"`.<br>- Orden de atributos: `id`, `class` → accesibilidad (`aria-*`) → funcionales (`src`, `href`, `alt`).<br>- Nombres en kebab-case (`main-section`). | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **TypeScript**   | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
+| **Astro**        | - Archivos `.astro` en `PascalCase`.<br>- Orden del archivo: frontmatter → HTML/JSX → estilos `\<style>`.<br>- Props siempre tipadas con TypeScript.<br>- Importaciones cortas y claras.<br>- Componentes pequeños y reutilizables. 															| - Mantener la lógica de los componentes en el archivo `.astro` y evitar la lógica compleja en el frontmatter. - Usar `Astro.fetch` para obtener datos de manera eficiente.<br> - Utilización de props para comunicación entre componentes. |
 
 ### Front-End:
 
 **Resumen:** Como principales tecnologías, usaremos Vue.js, HTML, JavaScript y CSS. Componentes pequeños y tipados, comunicación clara por props/emits, y manejo de estado y APIs mantenible.
 
-| **Tecnología** | **Convención** | **Convenciones para código** |
-|----------------|----------------|------------------------------|
-| **HTML5** | Uso semántico de etiquetas (`header`, `main`, `section`, `footer`). Atributos en comillas dobles. Indentación de 2 espacios. | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
-| **CSS3** | Estilos modulares y reutilizables. Variables globales para colores/tipografía. Evitar `!important`. | - Usar BEM (Block Element Modifier) para nombrar clases.<br>- Mantener la especificidad baja y evitar selectores complejos.<br>- Utilizar preprocesadores como SASS o LESS si es necesario. |
+| **Tecnología** | **Convención** 																												| **Convenciones para código** 											 |
+| :------------: | :--------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| **HTML5**      | Uso semántico de etiquetas (`header`, `main`, `section`, `footer`). Atributos en comillas dobles. Indentación de 2 espacios. | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **CSS3**       | Estilos modulares y reutilizables. Variables globales para colores/tipografía. Evitar `!important`. | - Usar BEM (Block Element Modifier) para nombrar clases.<br>- Mantener la especificidad baja y evitar selectores complejos.<br>- Utilizar preprocesadores como SASS o LESS si es necesario. |
 | **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
-| **Angular** | - Componentes en `PascalCase`.<br>- Servicios en `camelCase`.<br>- Módulos en `PascalCase`.<br>- Uso de `@Input` y `@Output` para comunicación entre componentes. | - Mantener los componentes pequeños y enfocados en una sola responsabilidad.<br>- Utilzación de nuevas directivas como @if, @for o @else de Angular versión 20.<br>- No utilizar NgModules por nuevas recomendaciones de Angular versión 20. |
+| **Angular**    | - Componentes en `PascalCase`.<br>- Servicios en `camelCase`.<br>- Módulos en `PascalCase`.<br>- Uso de `@Input` y `@Output` para comunicación entre componentes. | - Mantener los componentes pequeños y enfocados en una sola responsabilidad.<br>- Utilzación de nuevas directivas como @if, @for o @else de Angular versión 20.<br>- No utilizar NgModules por nuevas recomendaciones de Angular versión 20. |
 
 ### Back-End:
 
 **Resumen:** Como principales tecnologías, C# y .NET. Como principales tecnologías, se utilizarán C# y .NET, enfocándose en un código limpio, seguro y mantenible bajo buenas prácticas de arquitectura, nomenclatura, validación, seguridad y pruebas.
 
-| **Tecnología** | **Convención** | **Convenciones para código** |
-|----------------|----------------|------------------------------|
-| **Java** | Lenguaje principal. Usar sintaxis moderna (Java 17+), convenciones de nomenclatura estándar de Oracle, y programación orientada a objetos junto con patrones modernos (Streams, Optional, records, etc.). | - Mantener el código limpio y bien estructurado.<br>- Usar comentarios para explicar la lógica compleja.<br>- Seguir las convenciones de nomenclatura de Oracle. |
-| **Spring Boot** | Framework principal para el backend. Uso de **arquitectura en capas** (API, Application, Domain, Infrastructure). Enfoque en modularidad, mantenibilidad y soporte multiplataforma. | - Seguir las mejores prácticas de diseño de API REST.<br>- Utilizar anotaciones de validación para entradas de usuario.<br>- Implementar manejo de errores y excepciones de manera consistente. |
-| **Maven** | Herramienta de gestión y construcción del proyecto. Uso de un `pom.xml` bien estructurado para gestionar dependencias, plugins y perfiles de construcción. | - Mantener una estructura de proyecto coherente y organizada.<br>- Utilizar versiones específicas de dependencias para evitar conflictos.<br>- Documentar la configuración del `pom.xml` para facilitar su comprensión. |
+| **Tecnología**  	| **Convención**																											  | **Convenciones para código**    |
+| :---------------: | :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
+| **Java**        	| Lenguaje principal. Usar sintaxis moderna (Java 17+), convenciones de nomenclatura estándar de Oracle, y programación orientada a objetos junto con patrones modernos (Streams, Optional, records, etc.). | - Mantener el código limpio y bien estructurado.<br>- Usar comentarios para explicar la lógica compleja.<br>- Seguir las convenciones de nomenclatura de Oracle. |
+| **Spring Boot** 	| Framework principal para el backend. Uso de **arquitectura en capas** (API, Application, Domain, Infrastructure). Enfoque en modularidad, mantenibilidad y soporte multiplataforma. | - Seguir las mejores prácticas de diseño de API REST.<br>- Utilizar anotaciones de validación para entradas de usuario.<br>- Implementar manejo de errores y excepciones de manera consistente. |
+| **Maven**         | Herramienta de gestión y construcción del proyecto. Uso de un `pom.xml` bien estructurado para gestionar dependencias, plugins y perfiles de construcción. | - Mantener una estructura de proyecto coherente y organizada.<br>- Utilizar versiones específicas de dependencias para evitar conflictos.<br>- Documentar la configuración del `pom.xml` para facilitar su comprensión. |
 | **JPA/Hibernate** | Framework de mapeo objeto-relacional. Uso de anotaciones para definir entidades, relaciones y consultas. Enfoque en la eficiencia y optimización de acceso a datos. | - Definir entidades claras y bien estructuradas.<br>- Utilizar consultas JPQL o Criteria API para operaciones complejas.<br>- Implementar estrategias de caché para mejorar el rendimiento. |
-| **Swagger** | Generación automática de documentación de la API REST. Versionado claro (`/api/v1`, `/api/v2`) y contratos visibles para clientes externos. | - Incluir ejemplos de solicitudes y respuestas en la documentación.<br>- Mantener la documentación actualizada con los cambios en la API.<br>- Utilizar herramientas de generación de documentación para automatizar el proceso. |
+| **Swagger** 		| Generación automática de documentación de la API REST. Versionado claro (`/api/v1`, `/api/v2`) y contratos visibles para clientes externos. | - Incluir ejemplos de solicitudes y respuestas en la documentación.<br>- Mantener la documentación actualizada con los cambios en la API.<br>- Utilizar herramientas de generación de documentación para automatizar el proceso. |
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -158,23 +177,32 @@ Para que nuestra landing page esté disponible para todos nuestros usuarios, la 
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Landing Page de PlantaE.
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
 
+- Pantalla de GitHub para crear una organización, donde se ingresan el nombre, correo de contacto y si pertenece a una cuenta personal o institución antes de la verificación.
 
 **2. Creación del repositorio**
 
 Hicimos clic en el botón “New” para generar un nuevo repositorio.
 Le asignamos el nombre “landing-page” dentro de nuestra organización
 
-![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_repositorio.jpg" alt="Creacion_repositorio"/>    
+</p>
 
-**3. Configuración del repositorio
-**
-Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Vercel.
+- Pantalla para crear un nuevo repositorio dentro de la organización en GitHub, donde se define el propietario, nombre del repo, descripción opcional, visibilidad y configuración inicial como el README.
+
+**3. Configuración del repositorio**
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con GitHub Pages.
 Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
-![Logo de la empresa](assets/images/resources/web_git.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_git.jpg" alt="web_git"/>    
+</p>
 
+- Esta pantalla muestra la configuración de GitHub Pages del repositorio PlantaE-landing, indicando que el sitio está publicado correctamente, la URL pública activa y que la rama main es la fuente de despliegue para generar la página web.
 
 **4. Carga de los archivos de la landing page**
 
@@ -183,8 +211,11 @@ Subimos los archivos generados del proyecto (HTML, TailwindCSS, TypeScript, Astr
 Verificamos que los cambios se hicieran en la rama principal (main).
 Finalmente, confirmamos la acción con “Commit changes” para guardar los archivos.
 
-![Logo de la empresa](assets/images/resources/landing_1.png)
+<p align="center">
+    <img src="assets/images/resources/landing_1.png" alt="landing_1"/>    
+</p>
 
+- Página principal del landing de PlantaE, mostrando el encabezado con menú, selector de idioma, modo noche y una sección hero donde se presenta el proyecto
 
 ### Despliegue del Frontend Web Applications
 Para que nuestra Frontend Web Application esté disponible para todos nuestros usuarios, la publicamos como un sitio web utilizando la plataforma de GitHub. El proceso se llevó a cabo de la siguiente manera: 
@@ -192,25 +223,43 @@ Para que nuestra Frontend Web Application esté disponible para todos nuestros u
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Frontend Web Application de PlantaE. 
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
 
+- Es la pantalla de creación de una organización en GitHub, donde se ingresan el nombre, correo de contacto y el tipo de cuenta a la que pertenecerá.
 
 **2. Creación del repositorio**
 
 Hicimos clic en el botón “New” para generar un nuevo repositorio
 Le asignamos el nombre “frontend” dentro de nuestra organización PlantaE.
 
-![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_repositorio.jpg" alt="Creacion_repositorio"/>    
+</p>
 
+- Página de creación de un nuevo repositorio en GitHub, donde eliges el dueño, asignas un nombre y configuras visibilidad y opciones iniciales.
 
 **3. Despliegue en Windows Azure**
 
 Tanto en Frontend como el backend se desplegaron en maquina virtual
 
-![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_fronted2.jpg" alt="web_fronted2"/>    
+</p>
 
+- Vvista de la máquina virtual en Azure, donde se muestra su estado, IP pública, sistema operativo, suscripción, red asociada y demás propiedades básicas del servidor.
 
+**4. Configuración del repositorio**
 
+Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con Widows Azure.
+Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
+
+**5. Carga de los archivos de la Frontend Web Application**
+
+Accedimos al repositorio creado.
+Subimos los archivos generados del proyecto (HTML, CSS, TypeScript, Angular).
+Verificamos que los cambios se hicieran en la rama principal (master).
 
 ### Despliegue del RESTful Web Services
 
@@ -224,17 +273,22 @@ Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto 
 
 Creamos un repositorio llamado backend dentro de nuestra organización prime-fix.
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
 
+- Pantalla para crear una organización en GitHub, donde defines el nombre, correo de contacto y si estará vinculada a tu cuenta personal o a una institución.
 
 **2. Base datos en Microsoft Azure**
 
 Creamos una instancia de base de datos en Amazon RDS para almacenar los datos de la aplicación.
 Configuramos los parámetros de la base de datos, incluyendo el motor (MySQL, PostgreSQL, etc.), tamaño, y credenciales de acceso.
 
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
+</p>
 
-![Logo de la empresa](assets/images/resources/execution_evidence_3.jpeg)
-
+- Es la lista de reglas del firewall de Azure (NSG) donde se ven los puertos abiertos de la VM
 
 **3. Build en Microsoft Azure C**
 
@@ -242,9 +296,11 @@ Configuramos un proyecto en la maquina virtual  para compilar el código del bac
 Construye la imagen Docker utilizando un archivo Dockerfile que define el entorno de ejecución.
 Con todos estos archivos podemos compilar el proyecto de Java v.25 y Spring Boot v.3.5.7
 
-![Logo de la empresa](assets/images/resources/buil.jpg)
+<p align="center">
+    <img src="assets/images/resources/buil.jpg" alt="buil"/>    
+</p>
 
-
+- Carpeta /home/frontend y borraste la carpeta dist; ahora solo quedan los archivos del proyecto Angular.
 
 **4. Actualizar la maquina virtual**
 
@@ -252,8 +308,11 @@ Creamos un repositorio en Amazon ECR para almacenar las imágenes Docker del bac
 Configuramos las políticas de acceso para permitir que AWS CodeBuild pueda subir imágenes al repositorio.
 Subimos la imagen Docker generada por CodeBuild al repositorio de ECR.
 
-![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_fronted2.jpg" alt="web_fronted2"/>    
+</p>
 
+- Iimagen muestra la máquina virtual PlantaE en Azure, donde se ve su IP pública, estado detenido, red asociada y sistema operativo.
 
 **6. Despliegue en Maquina Virtual**
 
@@ -262,13 +321,20 @@ Configuramos las variables de entorno necesarias para la conexión con la base d
 Definimos la configuración de escalado automático para manejar la carga de tráfico.
 Finalmente, iniciamos el servicio para que el backend esté disponible públicamente.
 
-![Logo de la empresa](assets/images/resources/backend5.png)
+<p align="center">
+    <img src="assets/images/resources/backend5.png" alt="backend5"/>    
+</p>
 
-
+- La imagen muestra la sección de Reportes, I18N y Alertas del Swagger, donde puedes generar archivos PDF/CSV, consultar el catálogo de idiomas y obtener alertas recientes.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
+En esta sección se documenta el proceso de implementación, pruebas, documentación y despliegue del Landing Page, los Web Services y las Frontend Web Applications. Cada Sprint se registra con detalle en términos de producto, trabajo colaborativo y evidencias de revisión. Y se incluyen los siguientes apartados:
+
+-   **Sprint Planning**: Detalles de la planificación del Sprint, incluyendo objetivos, historias de usuario y puntos de historia.
+-   **Aspect Leaders and Collaborators**: Matriz de liderazgo y colaboración que asigna roles específicos a los miembros del equipo para cada aspecto del Sprint.
+-   **Sprint Backlog**: Lista detallada de historias de usuario y tareas asignadas, junto con su estado actual.
 
 #### 5.2.1.1. Sprint Planning 1
 
@@ -289,12 +355,21 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 1 Velocity               | 18 puntos                                                                                                                                                            |
 | Sum of Story Points             | 18 puntos                                                                                                                                                            |
 
-
 ![eu2](assets/images/resources/Sprint1.jpg)
 Link del Trello primera version Sprint 1: https://trello.com/b/eD8ju2rS/sprint-1
 
-
 #### 5.2.1.2 Aspect Leaders and Collaborators
+En esta sección se presenta la  **Leadership-and-Collaboration Matrix (LACX)**, una herramienta organizacional fundamental que define claramente los roles y responsabilidades de cada miembro del equipo durante el Sprint 1. Esta matriz establece una estructura de liderazgo distribuido que optimiza la eficiencia del trabajo colaborativo y garantiza la accountability en cada aspecto crítico del desarrollo.
+
+**Principales Aspectos Considerados en el Sprint:**
+
+Para el Sprint 1, se han identificado cuatro aspectos fundamentales que abarcan todo el ciclo de desarrollo y entrega de la Landing Page de Planta-E:
+
+**Landing Page (Desarrollo Front-end):**  Este aspecto engloba todo el desarrollo de la interfaz de usuario, incluyendo la implementación de componentes visuales, funcionalidades de internacionalización, sistema de cambio de tema, diseño responsive y optimización de la experiencia de usuario. Es el componente principal del Sprint 1.
+
+**Metodología de Asignación de Roles:**
+
+Se indican los aspectos principales considerados en el Sprint, especificando quién asume el rol de  **Líder (L)**  y quiénes participan como  **Colaboradores (C)**. Esta organización asegura claridad en la comunicación y coherencia en la selección de tareas del Sprint. Cada miembro del equipo tiene asignado un rol específico para cada aspecto, facilitando la coordinación y el cumplimiento de los objetivos del Sprint.
 
 ##### Aspect Leaders and Collaborators
 
@@ -314,29 +389,29 @@ Con el objetivo de asegurar una comunicación clara y eficiente dentro del equip
 
 El objetivo principal de este Sprint es diseñar, implementar y validar las secciones del landing page, asegurando una navegación fluida, una experiencia responsiva en todos los dispositivos y funcionalidades críticas como registro. Se busca garantizar que el usuario final pueda interactuar de manera sencilla y eficiente con la plataforma, mejorando su satisfacción y promoviendo el cumplimiento de los objetivos de negocio.
 
-| User Story ID | User Story Title                  | Task ID | Task Title                                     | Task Description                                                                                                                                  | Estimated Hours | Assigned To     | Status |
-| ------------- | --------------------------------- | ------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- | ---------------- | ------ |
-| US-009        | Sección de Contáctanos            | T09-1   | Diseño del Formulario de Contacto              | Diseñar un formulario con campos de nombre, correo electrónico y mensaje.                                                                         | 1/2             | Julio Adolfo    | Done  |
-|               |                                   | T09-2   | Implementación de Envío Válido                 | Programar el formulario para almacenar la solicitud y notificar al equipo cuando los datos estén completos.                                       | 1               | Elizabeth-Apaza | Done  |
-|               |                                   | T09-3   | Validación de Campos                           | Implementar validación que muestre errores cuando falten datos obligatorios o el correo sea inválido.                                             | 1/2             | Flor De María   | Done  |
-| US-010        | Mostrar autores de la aplicación  | T10-1   | Diseño de la Sección de Autores                | Diseñar sección “Sobre nosotros” con espacio para lista de nombres, roles y fotos.                                                                | 1/2             | Julio Adolfo    | Done  |
-|               |                                   | T10-2   | Implementación de Autores                      | Mostrar dinámicamente los autores con su nombre, rol y fotografía.                                                                                | 1               | Elizabeth-Apaza | Done  |
-| US-024        | Consultar Preguntas Frecuentes    | T24-1   | Definición de Preguntas Frecuentes             | Redactar al menos tres preguntas frecuentes relacionadas con sensores y uso de la app.                                                            | 1/2             | Julio Adolfo    | Done  |
-|               |                                   | T24-2   | Implementación de Sección FAQ                  | Implementar sección de ayuda que muestre preguntas y respuestas de forma clara y accesible.                                                        | 1              | Flor De María   | Done  |
-| US-025        | Contacto directo                  | T25-1   | Diseño de Formulario de Contacto Directo       | Crear formulario de nombre, correo electrónico y mensaje para contacto directo.                                                                   | 1/2             | Flor De María   | Done  |
-|               |                                   | T25-2   | Implementación de Envío Válido en Formulario   | Almacenar la solicitud en sistema cuando los datos estén completos.                                                                               | 1               | Rodrigo Jesus   | Done  |
-|               |                                   | T25-3   | Mensaje de Confirmación                        | Mostrar mensaje de confirmación “Gracias por tu mensaje, te responderemos pronto” tras el envío.                                                   | 1/2            | Rodrigo Jesus   | Done  |
-| US-026        | Información institucional         | T26-1   | Diseño de Footer                               | Diseñar footer con enlaces a redes sociales, contacto y términos legales.                                                                         | 1/2             | Antonio Jhair   | Done  |
-|               |                                   | T26-2   | Implementación de Footer Fijo                  | Implementar el footer de manera persistente en todo el sitio.                                                                                     | 1               | Julio Adolfo    | Done  |
-| US-027        | Acceso a secciones principales    | T27-1   | Definición de Menú de Navegación               | Diseñar menú principal con enlaces a Inicio, Beneficios y Contacto.                                                                               | 1/2             | Rodrigo Jesus   | Done  |
-|               |                                   | T27-2   | Implementación de Navegación Principal         | Implementar navegación accesible y funcional a las secciones clave desde el menú.                                                                 | 1               | Flor De María   | Done  |
-| US-028        | Comprensión inmediata             | T28-1   | Diseño del Mensaje Principal                   | Diseñar mensaje de valor que represente la esencia de PlantaE en la primera pantalla.                                                             | 1/2             | Flor De María   | Done  |
-|               |                                   | T28-2   | Implementación de Mensaje de Valor             | Programar la visualización del mensaje principal al cargar la página.                                                                             | 1               | Julio Adolfo    | Done  |
-| US-029        | Beneficios segmentados            | T29-1   | Definición de Contenido por Perfil             | Redactar beneficios diferenciados para hogar, vivero y comunidad.                                                                                 | 1/2             | Antonio Jhair   | Done  |
-|               |                                   | T29-2   | Implementación de Beneficios Personalizados    | Mostrar dinámicamente la información segmentada según el perfil seleccionado.                                                                     | 1               | Elizabeth-Apaza | Done  |
-| US-033        | Testimonios de usuarios           | T33-1   | Diseño de la Sección de Testimonios            | Diseñar sección visualmente atractiva para mostrar experiencias de usuarios.                                                                      | 1/2             | Julio Adolfo    | Done  |
-|               |                                   | T33-2   | Implementación de Testimonios                  | Mostrar mínimo tres testimonios con nombre, tipo de usuario y comentario.                                                                         | 1               | Flor De María   | Done  |
-|               |                                   | T33-3   | Validación de Datos de Testimonios             | Asegurar que cada testimonio incluya nombre, tipo de usuario y comentario.                                                                        | 1/2             | Julio Adolfo    | Done  |
+| User Story ID | User Story Title                  | Task ID | Task Title                                     | Task Description                                                                                            | Estimated Hours | Assigned To     | Status |
+| :-----------: | :-------------------------------- | :-----: | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | :-------------: | :-------------- | :----: |
+| US-009        | Sección de Contáctanos            | T09-1   | Diseño del Formulario de Contacto              | Diseñar un formulario con campos de nombre, correo electrónico y mensaje.                                   | 8               | Julio Adolfo    | Done   |
+|               |                                   | T09-2   | Implementación de Envío Válido                 | Programar el formulario para almacenar la solicitud y notificar al equipo cuando los datos estén completos. | 4               | Elizabeth-Apaza | Done   |
+|               |                                   | T09-3   | Validación de Campos                           | Implementar validación que muestre errores cuando falten datos obligatorios o el correo sea inválido.       | 4               | Flor De María   | Done   |
+| US-010        | Mostrar autores de la aplicación  | T10-1   | Diseño de la Sección de Autores                | Diseñar sección “Sobre nosotros” con espacio para lista de nombres, roles y fotos.                          | 4               | Julio Adolfo    | Done   |
+|               |                                   | T10-2   | Implementación de Autores                      | Mostrar dinámicamente los autores con su nombre, rol y fotografía.                                          | 6               | Elizabeth-Apaza | Done   |
+| US-024        | Consultar Preguntas Frecuentes    | T24-1   | Definición de Preguntas Frecuentes             | Redactar al menos tres preguntas frecuentes relacionadas con sensores y uso de la app.                      | 6               | Julio Adolfo    | Done   |
+|               |                                   | T24-2   | Implementación de Sección FAQ                  | Implementar sección de ayuda que muestre preguntas y respuestas de forma clara y accesible.                 | 4               | Flor De María   | Done   |
+| US-025        | Contacto directo                  | T25-1   | Diseño de Formulario de Contacto Directo       | Crear formulario de nombre, correo electrónico y mensaje para contacto directo.                             | 6               | Flor De María   | Done   |
+|               |                                   | T25-2   | Implementación de Envío Válido en Formulario   | Almacenar la solicitud en sistema cuando los datos estén completos.                                         | 4               | Rodrigo Jesus   | Done   |
+|               |                                   | T25-3   | Mensaje de Confirmación                        | Mostrar mensaje de confirmación “Gracias por tu mensaje, te responderemos pronto” tras el envío.            | 2               | Rodrigo Jesus   | Done   |
+| US-026        | Información institucional         | T26-1   | Diseño de Footer                               | Diseñar footer con enlaces a redes sociales, contacto y términos legales.                                   | 2               | Antonio Jhair   | Done   |
+|               |                                   | T26-2   | Implementación de Footer Fijo                  | Implementar el footer de manera persistente en todo el sitio.                                               | 2               | Julio Adolfo    | Done   |
+| US-027        | Acceso a secciones principales    | T27-1   | Definición de Menú de Navegación               | Diseñar menú principal con enlaces a Inicio, Beneficios y Contacto.                                         | 4               | Rodrigo Jesus   | Done   |
+|               |                                   | T27-2   | Implementación de Navegación Principal         | Implementar navegación accesible y funcional a las secciones clave desde el menú.                           | 4               | Flor De María   | Done   |
+| US-028        | Comprensión inmediata             | T28-1   | Diseño del Mensaje Principal                   | Diseñar mensaje de valor que represente la esencia de PlantaE en la primera pantalla.                       | 4               | Flor De María   | Done   |
+|               |                                   | T28-2   | Implementación de Mensaje de Valor             | Programar la visualización del mensaje principal al cargar la página.                                       | 3               | Julio Adolfo    | Done   |
+| US-029        | Beneficios segmentados            | T29-1   | Definición de Contenido por Perfil             | Redactar beneficios diferenciados para hogar, vivero y comunidad.                                           | 4               | Antonio Jhair   | Done   |
+|               |                                   | T29-2   | Implementación de Beneficios Personalizados    | Mostrar dinámicamente la información segmentada según el perfil seleccionado.                               | 4               | Elizabeth-Apaza | Done   |
+| US-033        | Testimonios de usuarios           | T33-1   | Diseño de la Sección de Testimonios            | Diseñar sección visualmente atractiva para mostrar experiencias de usuarios.                                | 8               | Julio Adolfo    | Done   |
+|               |                                   | T33-2   | Implementación de Testimonios                  | Mostrar mínimo tres testimonios con nombre, tipo de usuario y comentario.                                   | 6               | Flor De María   | Done   |
+|               |                                   | T33-3   | Validación de Datos de Testimonios             | Asegurar que cada testimonio incluya nombre, tipo de usuario y comentario.                                  | 6               | Julio Adolfo    | Done   |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -365,25 +440,25 @@ Los principales avances fueron:
     <img src="assets/images/resources/landing_1.png" alt="landing_1"/>    
 </p>
 
-- Parte de inicio.
+- **Parte de inicio:** Página principal del sitio PlantaE: muestra el hero con el mensaje de monitoreo IoT, botón de acción y diseño limpio con fondo verde.
 
 <p align="center">
     <img src="assets/images/resources/landing_2.png" alt="landing_2"/>    
 </p>
 
-- Servicios que ofrece PlantE
+- **Servicios que ofrece PlantE:** Sección Nuestros Servicios: muestra las funcionalidades principales de PlantaE.
 
 <p align="center">
     <img src="assets/images/resources/landing_3.png" alt="landing_3"/>    
 </p>
 
-- Video de introducción
+- **Video de introducción:** Sección Conoce PlantaE en Acción, presenta un video demostrativo donde se muestra el uso real de la plataforma.
 
 <p align="center">
     <img src="assets/images/resources/landing_4.png" alt="landing_4"/>    
 </p>
 
-- Testimonios de usuarios.
+- **Testimonios de usuarios:** Muestra opiniones reales de usuarios satisfechos, como familias y profesionales.
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -401,8 +476,19 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 | ------------ | --------------------- | ----------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | Landing Page | Visualización inicial | GET         | https://plantae-open-sorce.github.io/PlantaE-landing/                       | https://github.com/PlantaE-open-sorce/PlantaE-landing                       |
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Las principales funcionalidades implementadas durante este sprint abarcan desde la estructura básica de navegación hasta características avanzadas de experiencia de usuario. Se estableció una arquitectura sólida que incluye la implementación de componentes reutilizables, un sistema de enrutamiento eficiente, y la integración de estilos globales que reflejan la identidad visual de PlantaE definida previamente en las guías de estilo.
+
+El trabajo de desarrollo se organizó siguiendo las mejores prácticas de versionado con Git Flow, donde cada funcionalidad fue desarrollada en ramas específicas y posteriormente integrada a través de pull requests debidamente revisados. Esto garantizó la calidad del código y la colaboración efectiva entre los miembros del equipo, cada uno especializado en diferentes aspectos del desarrollo front-end.
+
+Adicionalmente, se implementaron mejoras significativas en diseño responsive para asegurar una experiencia óptima en diferentes dispositivos, optimizaciones de rendimiento para cargas rápidas de página, y consideraciones de accesibilidad web siguiendo estándares WCAG para garantizar que la plataforma sea inclusiva para todos los usuarios potenciales de PlantaE.
+
+-   Primera funcionalidad: Internacionalización (i18n) para múltiples idiomas (ES/EN).
+-   Segunda funcionalidad: Botón de cambio de tema (modo claro/oscuro).
+-   Tercera funcionalidad: Secciones iniciales (Bienvenida, Servicios, Cómo funciona, Contacto).
+-   Otras mejoras: Ajustes de diseño responsive, optimización de rendimiento y accesibilidad.
+  
 Durante este Sprint, se realizaron actividades de despliegue de la Landing Page utilizando GitHub Pages como plataforma de hosting. A continuación, se detallan los pasos ejecutados:
 
 **1- Se accedió a la sección Settings del repositorio.**
@@ -451,6 +537,7 @@ Se documenta el proceso de implementación, pruebas, documentación y despliegue
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 En esta sección se presenta la Leadership-and-Collaboration Matrix (LACX) correspondiente al Sprint 2, enfocado en el desarrollo de los bounded contexts del backend y la implementación de la arquitectura de microservicios. Esta matriz define los roles, responsabilidades y nivel de participación de cada miembro del equipo durante el desarrollo de los Web Services RESTful.
+
 #### Aspectos Clave del Sprint 2
 Para el Sprint 2, se han identificado cuatro aspectos fundamentales que abarcan el desarrollo frontend completo:
 
@@ -504,44 +591,50 @@ Enlace: https://trello.com/b/4aXdCQPO/plante-frontend
     <strong>Figura 1:</strong> Sprint Backlog 2.
   </figcaption>
 
-| User Story ID | User Story Title                | Task ID | Task Title                                         | Description                                                                                                     | Estimated Hours | Assigned To     | Status |
-| :-----------: | :-----------------------------: | :-----: | :------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-------------: | :-------------: | :---------: |
-| US-01        | Acceso a la plataforma           | T01-1   | Diseño de pantallas de registro e inicio de sesión | Diseñar formularios de registro e inicio de sesión con campos claros y estilo coherente al branding de PlantaE. | 3               | Elizabeth Apaza | Done        | 
-|              |                                  | T01-2   | Implementación del formulario de inicio de sesión  | Programar la funcionalidad para ingresar credenciales y redirigir al dashboard.                                 | 3               | Elizabeth Apaza | Done        |
-|              |                                  | T01-3   | Implementación del formulario de registro          | Programar la creación de cuentas con validaciones y confirmación visual de registro exitoso.                    | 4               | Elizabeth Apaza | Done        |
-| US-02        | Recuperación de contraseña       | T02-1   | Diseño de interfaz de recuperación                 | Crear la pantalla con campo de correo electrónico y botón de envío para restablecer contraseña.                 | 6               | Antonio Navarro | Done        |
-|              |                                  | T02-2   | Implementación de funcionalidad de recuperación    | Integrar lógica de envío de correo y mensajes de confirmación visual.                                           | 6               | Antonio Navarro | Done        |
-| US-07        | Gestión de perfil                | T07-1   | Diseño del perfil del usuario                      | Diseñar la vista de perfil con campos editables (nombre, correo, idioma, notificaciones).                       | 3               | Julio Guillen   | Done        |
-|              |                                  | T07-2   | Implementación de edición de perfil                | Programar la actualización de datos personales con validaciones.                                                | 5               | Julio Guillen   | Done        |
-|              |                                  | T07-3   | Implementación del cambio de idioma                | Agregar soporte multilenguaje (es/en) en el frontend usando un switch persistente.                              | 5               | Julio Guillen   | Done        |
-| US-08        | Alternar modo oscuro/claro       | T08-1   | Diseño del botón de cambio de modo                 | Diseñar un toggle visual para activar el modo oscuro o claro.                                                   | 3               | Flor Contreras  | Done        |
-|              |                                  | T08-2   | Implementación de modo oscuro/claro                | Aplicar estilos dinámicos con CSS variables o framework (Tailwind, Bootstrap) para alternar entre temas.        | 3               | Flor Contreras  | Done        |
-| US-04        | Alertas de cultivo               | T04-1   | Diseño del componente de alertas                   | Crear una sección de notificaciones con iconos y colores distintivos por tipo de alerta.                        | 4               | Rodrigo Miraval | Done        |
-|              |                                  | T04-2   | Implementación de visualización de alertas         | Mostrar alertas en tiempo real (mock data o API simulada) con historial visual.                                 | 5               | Rodrigo Miraval | Done        |
-| US-06        | Panel de métricas                | T06-1   | Diseño del panel de gráficos                       | Diseñar interfaz visual para mostrar gráficos de humedad, temperatura y luz.                                    | 5               | Flor Contreras  | Done        |
-|              |                                  | T06-2   | Implementación de gráficos interactivos            | Integrar librería (Chart.js o Recharts) para mostrar datos dinámicos.                                           | 5               | Flor Contreras  | Done        |
-| US-14        | Identificar plantas más críticas | T14-1   | Diseño del panel de criticidad                     | Diseñar vista con lista ordenada de plantas según prioridad o nivel de riesgo.                                  | 6               | Antonio Navarro | Done        |
-|              |                                  | T14-2   | Implementación de orden dinámico                   | Programar lógica para ordenar y destacar plantas críticas.                                                      | 5               | Antonio Navarro | Done        |
-| US-30        | Selección de idioma              | T30-1   | Diseño del selector de idioma                      | Diseñar el botón o dropdown de idioma en el header.                                                             | 4               | Elizabeth Apaza | Done        |
-|              |                                  | T30-2   | Persistencia de idioma en sesión                   | Mantener el idioma seleccionado mientras el usuario navega por la app.                                          | 4               | Elizabeth Apaza | Done        |
-| US-31        | Optimización para escritorio     | T31-1   | Diseño responsive de dashboard                     | Adaptar componentes visuales para pantallas grandes con diseño fluido.                                          | 6               | Julio Guillen   | Done        |
-|              |                                  | T31-2   | Pruebas de responsividad y UX                      | Verificar visualización en diferentes dispositivos (mobile, tablet, desktop).                                   | 5               | Julio Guillen   | Done        |
-| US-32	       | Registro de lotes de plantas	    | T32-1   | Diseño del registro de lotes	                     | Diseñar formulario y atributos necesarios para registrar lotes con gestión masiva.	                             | 5               | Elizabeth Apaza | Done        |
-|              |                                  | T32-2	  | Implementación de registro de lotes                | Implementar lógica para crear entidad Lote y generar evento Registered batch.	                                 | 6	             | Julio Guillen   | Done        |
-| US-33        | Registro aplicación de insumos   | T33-1   | Diseño del módulo de insumos	                     | Diseñar UI para registrar tipo, cantidad y costo de insumos aplicados.                                          | 4               | Julio Guillen   | Done        |
-|              |                                  | T33-2   |	Implementación del registro de insumos	           | Programar lógica para almacenar insumos aplicados y generar evento Input Applied to Asset.	                     | 6	             | Antonio Navarro | Done        |
-| US-34	       | Detección tendencias de riesgo   | T34-1	  | Diseño de análisis de tendencias                   | Diseñar mecanismo visual o estructura para mostrar detección temprana de tendencias de riesgo.	                 | 5               | Flor Contreras  | Done        |
-|              |                                  | T34-2	  | Implementación de política Analyze Trends	         | Implementar comando Detect trend y generación del evento Risk Trend Detected.	                                 | 7               | Flor Contreras  | Done        |
-| US-35	       | Registro acciones de cuidado     |	T35-1	  | Diseño del registro de acciones manuales	         | Diseñar pantalla o formulario para registrar podas, fertilización u otras acciones.                             | 4               | Flor Contreras  | Done        |
-|              |                                  | T35-2   | Implementación del comando RegistrarAccion         | Implementar ejecución del comando y generación del evento Registered Manual Action.                             | 5               | Flor Contreras  | Done        |
-| US-36        | Asignación de rutina para lotes  | T36-1	  | Diseño de rutina automática	                       | Diseñar flujo de asignación automática cuando se registra un nuevo lote.	                                       | 5               | Rodrigo Miraval | Done        |
-|              |                                  | T36-2   | Implementación de Auto-Assign Routine	             | Programar la policy que ejecuta la asignación y genera Scheduled tasks.	                                       | 7               | Rodrigo Miraval | Done        |
-| US-37	       | Agendar tareas puntuales	        | T37-1	  | Diseño de tareas específicas	                     | Diseñar UI para crear y configurar tareas puntuales con fecha y activo asociado.                                | 4               | Julio Guillen   | Done        |
-|              |                                  | T37-2   | Implementación de tareas específicas               | Implementar creación de Scheduled Specific Task y su gestión en el sistema.                                     | 6               | Julio Guillen   | Done        |
-| US-38	       | Panel de Tareas Pendientes	      | T38-1	  | Diseño del panel To-Do	                           | Diseñar vista con listado ordenado por urgencia y filtrado por fecha.	                                         | 5               | Elizabeth Apaza | Done        |
-|              |                                  | T38-2	  | Implementación del panel	                         | Implementar consulta y visualización de Scheduled tasks pendientes.	                                           | 6               | Elizabeth Apaza | Done        |
-                                                  
-#### 5.2.2.4. Development Evidence for Sprint Review.
+| User Story ID | User Story Title                     | Task ID  | Task Title                                       | Task Description                                                      | Estimated Hours | Assigned To       | Status |
+| :-----------: | :----------------------------------- | :------: | :----------------------------------------------- | :-------------------------------------------------------------------- | :-------------: | :---------------- | :----: |
+| US-008        | Alternar modo oscuro/claro           | T08-1    | Diseño del Switch de Modo                        | Diseñar el componente UI para cambiar entre modo oscuro y claro.      | 6               | Julio Adolfo      | To Do |
+|               |                                      | T08-2    | Implementación del Modo Oscuro/Claro             | Programar la lógica de alternancia y estilos correspondientes.        | 8               | Elizabeth-Apaza   | To Do |
+| US-030        | Selección de idioma                  | T30-1    | Diseño del Selector de Idioma                    | Crear UI para selector ES/EN.                                         | 4               | Flor De María     | To Do |
+|               |                                      | T30-2    | Implementación de Cambio de Idioma               | Conectar traducciones y actualizar interfaz sin recargar la página.   | 6               | Rodrigo Jesus     | To Do |
+| US-031        | Optimización para escritorio         | T31-1    | Diseño Responsivo Desktop                        | Ajustar componentes para pantallas grandes.                           | 8               | Antonio Jhair     | To Do |
+|               |                                      | T31-2    | Implementación Responsive Desktop                | Aplicar grid y layouts optimizados.                                   | 8               | Julio Adolfo      | To Do |
+| US-032        | Navegación fluida                    | T32-1    | Definir estructura visual de secciones           | Asegurar que cada sección del sitio tenga límites visuales definidos. | 6               | Flor De María     | To Do |
+|               |                                      | T32-2    | Implementación de Navegación Fluida              | Ajustar transiciones, desplazamientos y estructura.                   | 4               | Rodrigo Jesus     | To Do |
+| US-023        | Eliminar cuenta 	                   | T23-1    | Diseño de vista de Confirmación                  | Crear pantalla de confirmación de eliminación de cuenta.              | 4               | Antonio Jhair     | To Do |
+|               |                                      | T23-2    | Implementación UI de Eliminación                 | Programar feedback visual y botones.                                  | 4               | Flor De María     | To Do |
+| US-007        | Gestión de perfil 	               | T07-1    | Diseño de Vista de Perfil                        | Crear UI para editar nombre, correo e idioma.                         | 4               | Julio Adolfo      | To Do |
+|               |                                      | T07-2    | Implementación UI Perfil                         | Programar formulario con validaciones visuales.                       | 4               | Elizabeth-Apaza   | To Do |
+| US-004        | Alertas de cultivo 	               | T04-1    | Diseño del Panel de Alertas                      | Crear maqueta visual del panel de alertas.                            | 4               | Flor De María     | To Do |
+|               |                                      | T04-2    | Implementación UI de Alertas                     | Representar gráficamente alertas sin datos reales.                    | 4               | Rodrigo Jesus     | To Do |
+| US-005        | Recomendaciones personalizadas       | T05-1    | Diseño de Vista de Recomendaciones               | Crear UI de recomendaciones.                                          | 4               | Elizabeth-Apaza   | To Do |
+|               |                                      | T05-2    | Implementación UI Recomendaciones                | Mostrar recomendaciones dummy en la UI.                               | 4               | Julio Adolfo      | To Do |
+| US-013        | Ver alertas recientes                | T13-1    | Diseño del Panel de Alertas Recientes            | Maquetar vista de últimas alertas.                                    | 4               | Flor De María     | To Do |
+|               |                                      | T20-2    | Implementación UI Historial de Alertas           | Mostrar datos placeholder ordenados.                                  | 1               | Julio Adolfo      | To Do |
+| US-003        | Gestión de plantas                   | T03-1    | Diseño de "Mis Plantas"                          | Crear interfaz para registrar, editar y ver plantas.                  | 8               | Elizabeth-Apaza   | To Do |
+|               |                                      | T03-2    | Implementación de Plantas (UI)                   | Maquetar tarjetas/listado de plantas.                                 | 6               | Flor De María     | To Do |
+| US-011        | Vincular sensor IoT                  | T11-1    | Diseño de Formulario de Vinculación              | Crear UI para ingresar código del sensor.                             | 4               | Julio Adolfo      | To Do |
+|               |                                      | T11-2    | Implementación UI de Vinculación                 | Programar interacción visual.                                         | 4               | Rodrigo Jesus     | To Do |
+| US-018        | Visualizar sensores activos          | T18-1    | Diseño Lista de Sensores                         | Crear UI del listado general.                                         | 6               | Rodrigo Jesus     | To Do |
+|               |                                      | T18-2    | Implementación UI Lista Sensores                 | Programar tabla visual sin datos reales.                              | 6               | Antonio Jhair     | To Do |
+| US-019        | Consultar datos de un sensor         | T19-1    | Diseño de Gráficas de Datos del Sensor           | Crear la UI para visualización de registros históricos.               | 4               | Julio Adolfo      | To Do |
+|               |                                      | T19-2    | Implementación UI Gráficas por Sensor            | Configurar gráficos estáticos.                                        | 4               | Flor De María     | To Do |
+| US-016        | Fases de crecimiento                 | T16-1    | Diseño del Módulo de Fases                       | Crear tarjeta/línea de tiempo de fases.                               | 4               | Elizabeth-Apaza   | To Do |
+|               |                                      | T16-2    | Implementación UI de Fases                       | Mostrar estado actual y fases dummy.                                  | 4               | Rodrigo Jesus     | To Do |
+| US-006        | Panel de métricas                    | T06-1    | Diseño del Dashboard de Métricas                 | Maquetar gráficos de humedad, luz y temperatura.                      | 2               | Flor De María     | To Do |
+|               |                                      | T06-2    | Implementación UI Dashboard Métricas             | Implementar gráficos con datos estáticos.                             | 4               | Julio Adolfo      | To Do |
+| US-015        | Registro de acciones/cosechas        | T15-1    | Diseño del Registro Manual                       | Crear UI para ingresar riego, poda o cosecha.                         | 4               | Antonio Jhair     | To Do |
+|               |                                      | T15-2    | Implementación UI Acciones/Cosechas              | Programar formulario con datos dummy.                                 | 4               | Rodrigo Jesus     | To Do |
+| US-034        | Gestión de lotes                     | T34-1    | Diseño de Vista de Lotes                         | Maquetar tabla y cards de lotes.                                      | 3               | Flor De María     | To Do |
+|               |                                      | T34-2    | Implementación UI Lotes                          | Mostrar lista dummy de lotes.                                         | 3               | Julio Adolfo      | To Do |
+| US-035        | Aplicación de insumos                | T35-1    | Diseño de Formulario de Insumos                  | Crear UI para registrar insumos aplicados.                            | 3               | Elizabeth-Apaza   | To Do |
+|               |                                      | T35-2    | Implementación UI Insumos                        | Mostrar tabla dummy de insumos.                                       | 3               | Antonio Jhair     | To Do |
+| US-036        | Rutinas automáticas                  | T36-1    | Diseño de Vista de Rutinas                       | Maquetar planning recurrente.                                         | 2               | Julio Adolfo      | To Do |
+|               |                                      | T36-2    | Implementación UI Rutinas                        | Mostrar rutinas programadas dummy.                                    | 2               | Rodrigo Jesus     | To Do |
+| US-037        | Tareas puntuales                     | T37-1    | Diseño del Agendamiento                          | Crear UI para agendar tareas específicas.                             | 6               | Flor De María     | To Do |
+|               |                                      | T37-2    | Implementación UI Agendamiento                   | Programar formulario y calendario visual.                             | 4               | Antonio Jhair     | To Do |
+                                              
+#### 5.2.2.4. Development Evidence for Sprint Review
 **En esta sección se presenta la evidencia detallada del desarrollo alcanzado durante el Sprint 2, enfocado en la implementación de la Frontend Web Application de EcoTech utilizando Angular y TypeScript. Durante este segundo sprint, el equipo de EcoTech se concentró en desarrollar las interfaces de usuario principales que conectarán a los dos segmentos objetivo con las funcionalidades core de la plataforma.**
 
 El desarrollo se llevó a cabo utilizando Angular como framework principal, junto con TypeScript para garantizar robustez en el código y HTML/CSS para la estructura y estilos. Se implementó una arquitectura de componentes reutilizables siguiendo las mejores prácticas de Angular, con separación clara entre componentes de presentación, servicios de lógica de negocio, guards de navegación e interceptors para manejo de HTTP.
@@ -551,6 +644,18 @@ Las principales funcionalidades implementadas durante este sprint abarcan todas 
 El trabajo de desarrollo se organizó siguiendo las mejores prácticas de desarrollo frontend, implementando componentes standalone según las nuevas recomendaciones de Angular, gestión de estado reactiva con RxJS, validaciones de formularios robustas y diseño responsive que funciona óptimamente en desktop, tablet y móvil.
 
 Se estableció la integración completa con la Landing Page existente, agregando enlaces directos que permiten a los usuarios navegar fluidamente desde la página de presentación hacia la aplicación web funcional. La configuración incluye internacionalización (i18n), cambio de tema dinámico y optimización de rendimiento con lazy loading.
+
+Se estableció la integración completa con la Landing Page existente, agregando enlaces directos que permiten a los usuarios navegar fluidamente desde la página de presentación hacia la aplicación web funcional. La configuración incluye internacionalización (i18n), cambio de tema dinámico y optimización de rendimiento con lazy loading.
+
+**Principales funcionalidades implementadas:**
+
+-   Sistema de autenticación completo (login, registro, gestión de sesiones)
+-   Gestión de perfiles de usuario con edición y validaciones
+-   Gestión de vehículos con CRUD completo
+-   Programación de citas con calendario interactivo
+-   Integración con la Landing Page
+
+
 | Repository            | Branch  | Commit Message                                                   | Commit Message Body                               | Author           | Committed on (Date) |
 |----------------------|----------|------------------------------------------------------------------|----------------------------------------------------|------------------|----------------------|
 | plantae/frontend     | develop  | Update main.ts                                                   | Update main.ts                                     | AntonioNavarro24 | Nov 15, 2025         |
@@ -575,7 +680,6 @@ Se estableció la integración completa con la Landing Page existente, agregando
 | plantae/frontend     | develop  | Update README.md                                                 | Update README.md                                   | julio645         | Nov 14, 2025         |
 | plantae/frontend     | develop  | Update README.md                                                 | Update README.md                                   | julio645         | Nov 14, 2025         |
 | plantae/frontend     | develop  | Primer commit de mi proyecto                                     | Primer commit de mi proyecto                       | FlorDeMa         | Nov 14, 2025         |
-
 
 **Funcionalidades Implementadas con Operaciones CRUD**
 - **Sistema de autenticación completo**
@@ -604,7 +708,7 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 **Principales logros del Sprint 2:**
 
-**Aplicación Web Semi Completa: **Se desarrolló parcialmente la aplicación de Angular con las páginas y componentes necesarios para ambos tipos de usuarios (usuarios particulares y administradores de viveros).
+**Aplicación Web Semi Completa:** Se desarrolló parcialmente la aplicación de Angular con las páginas y componentes necesarios para ambos tipos de usuarios (usuarios particulares y administradores de viveros).
 
 **Experiencia de Usuario Optimizada:** Interfaces responsive e intuitivas que funcionan perfectamente en desktop, tablet y móvil con diseño consistente y accesible.
 
@@ -632,55 +736,55 @@ Navegación fluida entre la página de presentación y la aplicación web.
     <img src="assets/images/resources/frontend_1.jpeg" alt="frontend_1"/>    
 </p>
 
-- Página de login para usuarios
+- **Página de login para usuarios:** esta vista permite a los usuarios acceder ingresando su correo y contraseña.
   
 <p align="center">
     <img src="assets/images/resources/frontend_2.jpeg" alt="frontend_2"/>    
 </p>
 
-- Página de registro para nuevos usuarios
+- **Página de registro para nuevos usuarios:** Permite crear una nueva cuenta ingresando datos básicos como nombre, correo y contraseña.
   
 <p align="center">
     <img src="assets/images/resources/frontend_3.jpeg" alt="frontend_3"/>    
 </p>
 
-- Página principal de la aplicación web con navegación y funcionalidades principales
+- **Pantalla de inicio del dashboard:** Muestra un resumen general del ecosistema PlantaE, incluyendo métricas como sensores conectados, eventos procesados y ahorro logrado.
   
 <p align="center">
     <img src="assets/images/resources/frontend_4.jpeg" alt="frontend_4"/>    
 </p>
 
-- Página del Dashboard
+- **Página del Dashboard:** Muestra las plantas activas y permite registrar acciones manuales como riego o fertilización, además de ver las últimas actividades realizadas.
   
 <p align="center">
     <img src="assets/images/resources/frontend_5.jpeg" alt="frontend_5"/>    
 </p>
 
-- Página de gestión de plantas
+- **Página de gestión de plantas:** Sección donde puedes buscar, filtrar y gestionar todas tus plantas, además de agregar nuevas de forma rápida.
   
 <p align="center">
     <img src="assets/images/resources/frontend_6.jpeg" alt="frontend_6"/>    
 </p>
 
-- Página de vista para ver detalles los dispositivos
+- **Pantalla de Dispositivos:** Permite registrar nuevos sensores agregando su ID, modelo y propietario para vincularlos fácilmente con tus plantas.
   
 <p align="center">
     <img src="assets/images/resources/frontend_7.jpeg" alt="frontend_7"/>    
 </p>
 
-- Página de alertas de plantas
+- **Página de alertas de plantas:** Muestra las alertas generadas por las plantas y sensores, permitiendo filtrarlas por planta, sensor o tipo. Actualmente no hay alertas registradas.
 
 <p align="center">
     <img src="assets/images/resources/frontend_8.png" alt="frontend_8"/>    
 </p>
 
-- Panel de gestión de reportes
+- **Panel de gestión de reportes:** Permite generar informes en PDF seleccionando una planta.
   
 <p align="center">
     <img src="assets/images/resources/frontend_9.png" alt="frontend_9"/>    
 </p>
 
-- Página de usuario
+- **Página de usuario:** Permite actualizar datos personales como nombre, zona horaria e idioma, además de cambiar contraseña o eliminar la cuenta.
   
  ### Primera Version Sprint 2
 **Enlaces de despliegue:** 
@@ -689,9 +793,29 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 **Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+ ### Ultima Version Sprint 2
+**Enlaces de despliegue:** 
 
-Durante este sprint se completó el diseño e implementación del FrontEnd del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Implementando los endpoints de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+**Frontend Application:** http://20.57.10.48/login
+
+**Landing Page:** https://plantae-open-sorce.github.io/PlantaE-landing/
+
+|**Ambas versiones solo funcionan cuando el contenedor virtual en este caso Microsoft Azure este encendido de lo contrario no se podra acceder por ello antes de ingresar indicar para prender el prototipo**|
+
+#### 5.2.2.6. .
+
+Durante el Sprint 2, se desarrolló documentación técnica comprehensiva para la Frontend Web Application implementada. La documentación incluye guías de componentes, patrones de diseño implementados y guías de mantenimiento para facilitar el desarrollo futuro y la colaboración del equipo.
+
+**Documentación de Frontend generada:**
+
+La aplicación cuenta con documentación completa que incluye:
+
+-   Especificación de componentes con props y eventos soportados
+-   Guías de estilo y patrones de diseño implementados
+-   Estructura de navegación y routing configuration
+-   Validaciones de formularios y manejo de errores
+-   Guías de internacionalización y cambio de tema
+-   Ejemplos de uso y casos de testing
 
 **Descripción del Logro:**
 
@@ -699,28 +823,94 @@ Durante este sprint se completó el diseño e implementación del FrontEnd del s
 
 -Deployment del FrontEnd.
 
+**Evidencia de documentación:**
+<p align="center">
+    <img src="assets/images/documentacionImagen/Component.jpg" alt="Document_evidence_1"/>    
+</p>
+
+- Documenta todos los componentes del frontend, sus props, eventos y ejemplos.
+
+<p align="center">
+    <img src="assets/images/documentacionImagen/Desing.jpg" alt="Document_evidence_1"/>    
+</p>
+
+- Documento que explica los patrones de diseño y decisiones arquitectónicas usados en el frontend de PlantaE.
+  
+<p align="center">
+    <img src="assets/images/documentacionImagen/Module.jpg" alt="Document_evidence_1"/>    
+</p>
+
+- Describe la arquitectura modular del frontend de PlantaE: cómo se organizan los módulos, sus roles y sus dependencias.
+
+<p align="center">
+    <img src="assets/images/documentacionImagen/Routung.jpg" alt="Document_evidence_1"/>    
+</p>
+
+- Explica cómo funciona el sistema de rutas en el frontend de PlantaE: configuración, navegación, rutas protegidas y organización del archivo de rutas principal.
+
+**Documentación de componentes principales de la aplicación**
+
+*Purpose**: UI components and user interaction
+
+**Guards**:
+
+-  `auth.guard.ts`: Authentication verification
+
+-  `account-type.guard.ts`: Role-based access control
+
+**Views** (Page Components):
+
+-  `login/`: Authentication page
+
+-  `register/`: User registration
+
+-  `dashboard/`: Home user dashboard
+
+-  `nursery-dashboard/`: Nursery dashboard
+
+-  `plant-list/`: Plant inventory
+
+-  `plant-detail/`: Single plant view
+
+-  `plant-management/`: Plant CRUD operations
+
+-  `add-plant/`: Create new plant
+
+-  `devices/`: Device management
+
+-  `sensors/`: Sensor configuration
+
+-  `alerts/`: Alert notifications
+
+-  `reports/`: Report generation
+
+-  `profile/`: User profile
+
+-  `settings/`: Application settings
+
+-  `password/`: Password management
 ### Recursos del Sprint
 
 | Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                                                              | Link de repositorio                                                         |
 | ------------ | --------------------- | ----------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | FrontEnd     | Visualización inicial | GET         | http://20.57.10.48/login                                                    | https://github.com/PlantaE-open-sorce/frontedNew-PlantaE                    |
 
-- Component Documentation: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/fa2781f82273933e6fd230767d0d6da1d9f0aaa8/assets/documentation/Component%20Documentation
+- Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Component%20Documentation.md
 
-- Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/2bec321d980f51e31d3c02847d06208262a7934d/assets/documentation/Module%20Documentation
+- Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
 
-- Design Patterns: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4482f49e0503049298653b9b382b04b654dfdcc1/assets/documentation/Design%20Patterns%3A
+- Design Patterns: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
 
+- Routing Guide: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
 
-- Routing Guide: https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/4dd3ec64653c496cfb0e0ec20120c29fd7c923f0/assets/documentation/Routing%20Guide
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 **Documentación Técnica – Sprint 2**
 
 Durante el **Sprint 2**, se desarrolló documentación técnica **comprehensiva** para la **Frontend Web Application** implementada.  
 La documentación incluye guías de componentes, patrones de diseño implementados y guías de mantenimiento para facilitar el desarrollo futuro y la colaboración del equipo.
 
 ---
+
 **Documentación de Frontend generada**
 
 La aplicación cuenta con documentación completa que incluye:
@@ -758,6 +948,44 @@ La aplicación cuenta con documentación completa que incluye:
 
 **Evidencias de despliegue:**
 
+**Usuario de acceso ala Maquina Virtual : MiGato_Toby24**
+
+Como compilar el frontend:  
+
+1. Abres el terminal
+   
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc1.jpg" alt="frontend_evidence_1"/>    
+</p>
+
+2. Ejecutas: **sudo -i** (para tener todos los permisos y evitar problemas)
+   
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc2.jpg" alt="frontend_evidence_1"/>    
+</p>
+
+3. Debes ir al directorio del frontend, entonces pondrás: **cd /home/frontend** y en caso haga algún comité o mejore cosas de tu proyeto pondrás **git pull**, pero debes borrar la carpeta de la anterior versión, entonces pondrás **rm -r dist**
+   
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc3.jpg" alt="frontend_evidence_1"/>    
+</p>
+
+(para verificar que no esté la carpeta, puedes abrir el:  
+
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc4.jpg" alt="frontend_evidence_1"/>    
+</p>
+
+Y buscarlo tu misma, si no está, es porque lo has borrado correctamente, pero basta con que pongas el comando **ls** como en la captura y que no veas ningún archivo/carpeta llamada “dist”
+
+4. Para compilarlo pones **npm run build** y se creará la carpeta dist nuevamente actualizada.
+   
+<p align="center">
+    <img src="assets/images/documentacionImagen/Doc5.jpg" alt="frontend_evidence_1"/>    
+</p>
+
+5. No requieres hacer más cosas, pues la actualización del frontend es automática, basta con que veas esa carpeta.
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 **Organización Estratégica del Equipo**
 
@@ -768,6 +996,12 @@ El trabajo se organizó de manera estratégica, asignando a cada miembro módulo
 - **Guillen Galindo, Julio Adolfo** desarrolló el núcleo del sistema de plantas, implementando los modelos y repositorios para la gestión del catálogo botánico.  
 - **Miraval Pomalaya, Rodrigo Jesus** implementó la gestión de perfiles de usuario, asegurando una experiencia personalizada y consistente.  
 - **Navarro Chinga, Antonio Jhair** desarrolló el sistema de configuraciones y preferencias, permitiendo la personalización de la aplicación.  
+
+<p align="center">
+    <img src="assets/images/resources/CommistSpring1.jpg" alt="spring_evidence_1"/>    
+</p>
+
+- Permite ver ramas para trabajar sin afectar la principal.
 
 ---
 
@@ -855,130 +1089,129 @@ En este Sprint, el equipo enfocó sus esfuerzos principalmente en el desarrollo 
 
 El Sprint Backlog 3 se centró en el desarrollo de los *bounded contexts* definidos para el proyecto. Aunque se dio prioridad al backend sobre el frontend, esta decisión permitirá que las funcionalidades estén listas para su integración, reduciendo la complejidad del desarrollo en la interfaz. Esto se debe a que los servicios esenciales para el funcionamiento de la aplicación y el cumplimiento de las historias de usuario ya estarán implementados. En conjunto, este trabajo sienta una base sólida que brindará una ventaja significativa en los próximos sprints frente a otros enfoques de desarrollo ágil.
 
-Enlace: https://trello.com/b/dCP1R45x/plante
+Enlace: https://trello.com/invite/b/693088880f466beac75727f8/ATTIe77b8053b13c98c258bbd098f6b505cfF9777D47/plante
 
 ![Sprint1-Trello.png](assets/images/resources/Sprint3-Trello.png)
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Sprint Backlog 3.
   </figcaption>
 
-| User Story ID | User Story Title             | Task ID | Task Title                       | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
-| :------------ | :--------------------------- | :------ | :------------------------------- | :----------------------------------------------------------------------------------- | :-------------- | :-------------- | :----- |
-| US-001	    | Acceso a la plataforma       | T01-1	 | Modelo y migraciones de usuarios | Definir tabla users, índices (email único), timestamps y soft-delete.                | 4	             | Elizabeth Apaza | Done   |
-| 	            |                              | T01-2	 | Endpoint de registro	            | POST /api/v1/auth/register con validación, hashing y verificación de email opcional. | 6	             | Julio Guillen   | Done   |
-| 	            |                              | T01-3 	 | Endpoint de login	            | POST /api/v1/auth/login con JWT/refresh, lockout por intentos y auditoría.           | 8	             | Rodrigo Miraval | Done   |
-| 	            |                              | T01-4	 | Gestión de sesiones/refresh	    | Rotación de refresh tokens, revoke/blacklist y expiraciones.	                       | 6	             | Elizabeth Apaza | Done   |
-| 	            |                              | T01-5	 | Tests de auth                    | Unit/integration (registro, login, expiración, lockout).	                           | 6	             | Julio Guillen   | Done   |
-| US-002        |	Recuperación de contraseña | T02-1	 | Token y plantilla de reset	    | Generar token firmado/expirable y payload seguro; stub de email.	                   | 4	             | Flor Contreras  | Done   |
-|               |                              | T02-2	 | Endpoint solicitud reset         | POST /api/v1/auth/forgot-password (rate limit, respuesta idempotente).	           | 3	             | Elizabeth Apaza | Done   |
-|               |                              | T02-3	 | Endpoint confirmar reset	        | POST /api/v1/auth/reset-password con validaciones y rotación de credenciales.	       | 4	             | Julio Guillen   | Done   |
-| US-022        |	Cambio de contraseña       | T22-1	 | Endpoint change password	        | PATCH /api/v1/auth/change-password (auth requerida, políticas de complejidad).	   | 3	             | Antonio Navarro | Done   |
-| US-023	    | Eliminar cuenta              | T23-1	 | Endpoint delete account          | DELETE /api/v1/account (GDPR-like: borrar o anonimizar datos relacionados).	       | 6	             | Rodrigo Miraval | Done   |
-| US-003        |	Gestión de plantas         | T03-1	 | Modelo Plant & media	            | Tabla plants (user_id, name, type, photo_url), ownership y constraints.              | 5	             | Flor Contreras  | Done   |
-|               |                              | T03-2 	 | CRUD plantas (API)	            | Endpoints REST con paginación, filtros por tipo, validación de foto.	               | 6	             | Elizabeth Apaza | Done   |
-| US-011	    | Agregar sensores IoT         | T11-1	 | Modelo Sensor & vínculo          | Tablas sensors y plant_sensors; estados y códigos de registro.	                   | 5	             | Flor Contreras  | Done   |
-|               |                              | T11-2	 | Endpoint vinculación	            | POST /api/v1/sensors/link por código, validación y ownership.	                       | 4	             | Flor Contreras  | Done   |
-| US-018        | Lista de sensores activos	   | T18-1	 | Endpoint listado/estado	        | GET /api/v1/sensors con estado, planta asociada y filtros.	                       | 4	             | Antonio Navarro | Done   |
-|               |                              | T18-2   | Desvincular/eliminar sensor     	| DELETE /api/v1/sensors/{id} con reglas de historial.	                               | 3	             | Rodrigo Miraval | Done   |
-| US-019	    | Consultar datos de un sensor | T19-1 	 | Ingesta y esquema de lecturas	| Tabla sensor_readings (humedad, luz, temp, ts); índices por sensor/fecha.            | 6	             | Flor Contreras  | Done   |
-|               |                              | T19-2   | Endpoint histórico	            | GET /api/v1/sensors/{id}/readings con rango de fechas y agregaciones.	               | 6	             | Elizabeth Apaza | Done   |
-| US-004        |	Alertas de cultivo	       | T04-1	 | Motor de umbrales	            | Servicio que evalúa lecturas vs umbrales por planta/tipo (riego/luz/temp).	       | 6	             | Julio Guillen   | Done   |
-|               |                              | T04-2	 | Persistencia de alertas          | Tabla alerts (type, severity, plant_id, sensor_id, ts, estado).	                   | 4	             | Antonio Navarro | Done   |
-|               |                              | T04-3	 | Endpoints alertas	            | GET /api/v1/alerts (listado, filtros) y GET /api/v1/plants/{id}/alerts (historial).  | 5	             | Julio Guillen   | Done   |
+| User Story ID | User Story Title                       | Task ID | Task Title                                  | Task Description                                                                | Estimated Hours | Assigned To     | Status |
+| :-----------: | :------------------------------------- | :-----: | :------------------------------------------ | :------------------------------------------------------------------------------ | :-------------: | :-------------- | :----: |
+| US-001        | Acceso a la plataforma (Backend)       | T01B-1  | Implementar Registro en Backend             | Crear endpoint para registrar usuario con validaciones y almacenamiento seguro. | 4               | Julio Adolfo    | To Do  |
+|               |                                        | T01B-2  | Implementar Login                           | Implementar autenticación con verificación de credenciales.                     | 4               | Julio Adolfo    | To Do  |
+| US-023        | Eliminar cuenta                        | T23B-1  | Eliminación de Usuario                      | Borrar datos del usuario y entidades relacionadas según políticas.              | 6               | Flor De María   | To Do  |
+| US-003        | Gestión de plantas                     | T03B-1  | CRUD Plantas                                | Implementar endpoints para crear, listar, modificar y eliminar plantas.         | 8               | Flor De María   | To Do  |
+| US-011        | Agregar sensores IoT (Backend)         | T11B-1  | Endpoint de Vinculación                     | Registrar sensor con código y asociarlo a una planta.                           | 6               | Julio Adolfo    | To Do  |
+| US-018        | Lista de sensores activos              | T18B-1  | Endpoint de Listado de Sensores             | Devolver sensores vinculados con su estado.                                     | 4               | Flor De María   | To Do  |
+| US-019        | Consulta de datos de un sensor         | T19B-1  | Endpoint Datos Históricos                   | Devolver registros históricos del sensor.                                       | 4               | Elizabeth-Apaza | To Do  |
+| US-012        | Sensores más activos                   | T12B-1  | Endpoint Ranking de Actividad               | Calcular actividad por frecuencia/lecturas y devolver ranking.                  | 2               | Elizabeth-Apaza | To Do  |
+| US-020        | Historial de alertas por planta        | T20B-1  | Endpoint Historial de Alertas               | Devolver alertas asociadas a una planta ordenadas cronológicamente.             | 4               | Julio Adolfo    | To Do  |
+| US-013        | Ver alertas recientes                  | T13B-1  | Endpoint Alertas Recientes                  | Retornar últimas alertas generadas.                                             | 2               | Flor De María   | To Do  |
+| US-014        | Plantas más críticas                   | T14B-1  | Algoritmo de Criticidad                     | Calcular criticidad según alertas y datos del sensor.                           | 3               | Flor De María   | To Do  |
+| US-016        | Seguimiento de fases de crecimiento    | T16B-1  | Lógica de Cambio Automático                 | Implementar algoritmo que determine fase de planta según patrones.              | 4               | Antonio Jhair   | To Do  |
+| US-004        | Alertas de cultivo                     | T04B-1  | Motor de Alertas por Umbral                 | Detectar humedad/luz/temp fuera de rango.                                       | 2               | Julio Adolfo    | To Do  |
+| US-005        | Recomendaciones personalizadas         | T05B-1  | Motor de Recomendaciones                    | Analizar datos históricos y generar recomendaciones.                            | 4               | Elizabeth-Apaza | To Do  |
+| US-039        | Detección proactiva de riesgos         | T39B-1  | Algoritmo de Tendencias                     | Detectar patrones antes de llegar a alertas críticas.                           | 4               | Flor De María   | To Do  |
+| US-006        | Panel de métricas                      | T06B-1  | Endpoint Métricas por Planta                | Devolver datos históricos agregados de sensores.                                | 2               | Antonio Jhair   | To Do  |
+| US-017        | Feedback comunidad                     | T17B-1  | CRUD Feedback                               | Crear endpoints de comentarios y calificaciones.                                | 6               | Antonio Jhair   | To Do  |
+| US-021        | Descargar reportes                     | T21B-1  | Generación de Reportes PDF/Excel            | Crear servicio backend para generar archivo descargable.                        | 6               | Julio Adolfo    | To Do  |
+| US-015        | Registro de acciones y cosechas        | T15B-1  | Endpoint para Acciones Manuales             | Registrar riego/poda/fertilización manual.                                      | 4               | Julio Adolfo    | To Do  |
+| US-035        | Aplicación de insumos y costos         | T35B-1  | Lógica y Endpoint de Insumos                | Registrar aplicación de insumos y trazabilidad.                                 | 4               | Julio Adolfo    | To Do  |
+| US-034        | Gestión de lotes                       | T34B-1  | CRUD Lotes                                  | Crear endpoints para registrar lotes y diferenciarlos de plantas individuales.  | 8               | Antonio Jhair   | To Do  |
+| US-036        | Rutinas automáticas                    | T36B-1  | Motor de Rutinas                            | Crear tareas programadas automáticamente al registrar lote.                     | 6               | Julio Adolfo    | To Do  |
+| US-037        | Tareas puntuales                       | T37B-1  | Endpoint para Tareas Específicas            | Registrar tareas con fecha y activo asociado.                                   | 4               | Elizabeth-Apaza | To Do  |
+| US-038        | Panel To-Do                            | T38B-1  | Endpoint de Tareas Pendientes               | Devolver tareas ordenadas por fecha/urgencia.                                   | 4               | Julio Adolfo    | To Do  |
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3, se logró la integración completa entre la Frontend Web Application y los Web Services RESTful del backend de PlantaE. Esta integración habilitó flujos de trabajo completos y funcionalidades integradas para ambos segmentos objetivo, permitiendo a los usuarios interactuar con la plataforma de manera fluida y eficiente.
+
+**Principales logros del Sprint 3:**
+
+1.  **Integración de API Exitosa:**  Se conectaron todos los componentes frontend con los endpoints RESTful del backend, permitiendo la comunicación bidireccional y el intercambio de datos en tiempo real.
+2.  **Pruebas End-to-End Completas:**  Se implementaron pruebas automatizadas que validan flujos completos desde la interfaz de usuario hasta el backend, asegurando la funcionalidad y estabilidad del sistema integrado.
+3.  **Manejo de Errores y Retroalimentación al Usuario:**  Se implementaron mecanismos robustos para manejar errores de API y proporcionar retroalimentación clara a los usuarios en caso de fallos o problemas.
+4.  **Documentación Actualizada:**  Se actualizó la documentación técnica para reflejar la integración completa, incluyendo guías de uso de la API y flujos de trabajo integrados.
+
+**Principales funcionalidades integradas:**
+
 Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
-| Repository                 | Branch                               | Commit Id | Commit Message                                               | Commit Message Body                                            | Committed on (Date) |
-|---------------------------|----------------------------------------|-----------|--------------------------------------------------------------|----------------------------------------------------------------|----------------------|
-| feature/adding-home-options          | feature/adding-home-options            |  0609611cfca7d7e59b9fe3935253ac9975f4518b        | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025         |
-| feature/adding-home-options          | feature/adding-home-options            | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf        | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025         |
-| feature/adding-login-profile           | feature/adding-myplants-details        | 4c739fedc539ef752cc791f4081a46216f1a0c41         | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Nov 14, 2025         |
-| feature/adding-management-plants           | feature/adding-myplants-details        |  b04b9dfac519df4149fc2ce3bb473fd887b2571f       | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025         |
-| feature/adding-management-plants           | feature/adding-login-profile           | 28b8a03b16aab6cebfe0217dbd02a3a82a185664        | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025         |
-| feature/adding-login-profile           | feature/adding-login-profile           | 0c2cc477c174597d41b2120cbe0e30e919338921        | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Nov 14, 2025         |
-| feature/adding-login-profile          | feature/adding-management-plants       | 6e640a89acbbe66ea295f18edeb31112987d38e8        | Merge branch 'feature/adding-management-plants' into develop | -                                                              | Nov 14, 2025         |
-| feature/adding-login-profile           | feature/adding-management-plants       | 956fb8baa1b71f57202452db637aa3dc4f40c22b        | Añadiendo backend nuevo para management plants               | Añadiendo backend nuevo para management plants                 | Nov 14, 2025         |
-| feature/adding-myplants-details          | feature/adding-management-plants       | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f        | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025         |
-| feature/adding-myplants-details           | develop                                | a6fc142372c6951ecc3bfb4a23b71cc1a0452474       | Initial commit                                               | Initial commit                                                 | Oct 21, 2025         |
 
-
+| Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
+| :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
+| feature/adding-home-options      | feature/adding-home-options      | 0609611cfca7d7e59b9fe3935253ac9975f4518b | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025        |
+| feature/adding-home-options      | feature/adding-home-options      | 0b8466e959e7896c02578ed6dd8a35c7a23fefdf | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 15, 2025        |
+| feature/adding-management-plants | feature/adding-myplants-details  | b04b9dfac519df4149fc2ce3bb473fd887b2571f | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Nov 14, 2025        |
+| feature/adding-management-plants | feature/adding-login-profile     | 28b8a03b16aab6cebfe0217dbd02a3a82a185664 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Nov 14, 2025        |
+| feature/adding-myplants-details  | feature/adding-management-plants | 7fecc6867ecacc51770c40ea5e6cfac28e13b47f | Añadiendo backend desde cero                                 | Añadiendo backend desde cero                                   | Nov 14, 2025        |
+| feature/adding-myplants-details  | develop                          | a6fc142372c6951ecc3bfb4a23b71cc1a0452474 | Initial commit                                               | Initial commit                                                 | Oct 21, 2025        |
 
 
 | **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
 | :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
-| G2-Aplicaciones-Open-Source/backend-java | main       | 94125b6       |          | feat: implement ExperienceMedia endpoint with full CRUD, validation and OpenAPI docs              | 2025-06-21             |
+| G2-Aplicaciones-Open-Source/backend-java | main       | 94125b6       |          | feat: implement ExperienceMedia endpoint with full CRUD, validation and OpenAPI docs              | 2025-11-20             |
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
 En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
-
-**Capturas de Pantalla de MySQL conectado a la database de la maquina virtual**
-
-- Datos en bounded context
   
 <p align="center">
     <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
 </p>
 
-- Puerto MySQL prendido:
+- **Datos en bounded context:** SELECT * FROM plants devuelve las plantas registradas y se ve que los errores iniciales ya fueron resueltos.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
 </p>
 
-- Datos en bounded context Profiles:
-
-<p align="center">
-    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
-</p>
-
-- Tablas de base de datos:
+- **Puerto MySQL prendido:** SHOW TABLES lista todas las tablas de la base plantae, confirmando que la conexión está OK.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_4.jpeg" alt="execution_evidence_4"/>    
 </p>
 
-- Datos en bounded context User:
-
-<p align="center">
-    <img src="assets/images/resources/execution_evidence_5.jpeg" alt="execution_evidence_5"/>    
-</p>
-
-- Datos en bounded context Plants Details:
+- **Tablas de base de datos:** Se ejecuta SELECT * FROM profiles y se muestran los perfiles guardados correctamente en la base plantae.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_6.jpeg" alt="execution_evidence_6"/>    
 </p>
 
-- Datos en bounded context Sensors:
+- **Datos en bounded context Plants Details:** Se ejecuta SELECT * FROM users en la base plantae y se muestran los usuarios registrados con su tipo de cuenta, nombre, correo, idioma y hash de contraseña, confirmando que la tabla users carga correctamente.
   
 <p align="center">
     <img src="assets/images/resources/execution_evidence_7.jpeg" alt="execution_evidence_7"/>    
 </p>
+
+- **Datos en bounded context Sensors:** Se ejecuta SELECT * FROM plants y se muestran las plantas registradas con sus fechas, nombres, dispositivos asociados y owner_id, confirmando que la tabla plants está llena y responde correctamente.
 
 **Evidencias visuales del Backend deployado**
 <p align="center">
     <img src="assets/images/resources/backend1.png" alt="backend1"/>    
 </p>
 
-<p align="center">
-    <img src="assets/images/resources/backend3.png" alt="backend3"/>    
-</p>
+- Se muestra Swagger UI con los endpoints del backend: rutas para plantas, listadas y organizadas por tipo de operación (GET, POST, PUT, DELETE).
 
 <p align="center">
     <img src="assets/images/resources/backend4.png" alt="backend4"/>    
 </p>
 
+- La sección de Swagger muestra los endpoints del módulo Sensor, permitiendo crear sensores, listar sensores y enviar/consultar lecturas usando las rutas GET y POST correspondientes.
+
 <p align="center">
     <img src="assets/images/resources/backend5.png" alt="backend5"/>    
 </p>
+
+- Se muestran los endpoints de Report, I18N y Alert en Swagger: permiten generar reportes en PDF/CSV, obtener catálogos de idioma y consultar alertas recientes.
 
 **Funcionamiento de Backend deployado**
 
 <p align="center">
     <img src="assets/images/resources/backend_deployado.png" alt="backend_deployado"/>    
 </p>
+
+- Este endpoint de Swagger muestra el GET /api/v1/plants/{id}, donde se ingresa un ID para obtener los datos completos de una planta y ver su respuesta JSON de ejemplo.
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
 
@@ -988,34 +1221,18 @@ En esta sección se muestra la evidencia de la documentación de los servicios c
     <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
 </p>
 
+- Vista del proyecto, organizada por módulos como alert, device, plant y sensor, junto al archivo principal PlantaeApplication.java que inicia la aplicación Spring Boot.
+
 <p align="center">
     <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
 </p>
 
+- Muestra la configuración principal del backend: conexión a MySQL, ajustes de JPA/Hibernate, rutas de Swagger y los parámetros del JWT (secret y tiempo de expiración).
 
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
 
 ---
-
-## IAM (Autenticación y Cuenta)
-| Método | Ruta                   | Auth    | Descripción                                                                              |
-| ------ | ---------------------- | ------- | ---------------------------------------------------------------------------------------- |
-| POST   | `/iam/register`        | Público | Registro de usuario (`email`, `password`, `confirmPassword`, `displayName`, `language`). |
-| POST   | `/iam/login`           | Público | Login con `email/password`; retorna JWT + mensaje localizado.                            |
-| POST   | `/iam/forgot-password` | Público | Lanza flujo de recuperación (`{ "email": "" }`).                                         |
-| PUT    | `/iam/change-password` | Bearer  | Cambia contraseña (`currentPassword`, `newPassword`).                                    |
-| DELETE | `/iam`                 | Bearer  | Elimina la cuenta actual.                                                                |
-| GET    | `/iam/profile`         | Bearer  | Perfil del usuario autenticado; soporta `AcceptLanguage`.                                |
-
----
-
-## Profile (Perfiles Públicos)
-| Método | Ruta                  | Auth   | Descripción                                                                        |
-| ------ | --------------------- | ------ | ---------------------------------------------------------------------------------- |
-| POST   | `/profiles`           | Bearer | Create profile (`ownerId`, `displayName`). Autogenerates slug, resolves conflicts. |
-| PUT    | `/profiles/{ownerId}` | Bearer | Update public fields (`displayName`, `bio`, `avatarUrl`, `location`, `timezone`).  |
-| GET    | `/profiles/{slug}`    | Bearer | Fetch profile by public slug (404 if missing).                                     |
 
 ### Preferencias y Notificaciones
 | Método | Ruta                     | Auth   | Descripción                                                                |
@@ -1024,11 +1241,6 @@ Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcio
 | PUT    | `/profile`               | Bearer | Update preferences (`fullName`, `timezone`, `language`).                   |
 | GET    | `/profile/notifications` | Bearer | Fetch notification settings (quiet hours, digest time, per-type channels). |
 | PUT    | `/profile/notifications` | Bearer | Update notification settings (HH:mm quiet hours, digest, channel toggles). |
-
-### Catálogo i18n
-| Método | Ruta                                   | Auth   | Descripción                                                |
-| ------ | -------------------------------------- | ------ | ---------------------------------------------------------- |
-| GET    | `/i18n/catalog?namespace={alerts|...}` | Public | Retrieve key→text catalog localized via `Accept-Language`. |
 
 ---
 
@@ -1079,6 +1291,7 @@ Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcio
 Alerts are triggered internally via handlers (`RaiseAlertHandler`, `ResolveAlertHandler`) for THRESHOLD_BREACH, SENSOR_INACTIVE, DEVICE_DEACTIVATED, WEEKLY_REPORT, MONTHLY_REPORT. Notifications respect profile quiet hours and preferences, falling back to queued dispatch.
 
 ---
+
 ## Reports
 | Método | Ruta                            | Auth   | Descripción                                                                         |
 | ------ | ------------------------------- | ------ | ----------------------------------------------------------------------------------- |
@@ -1092,32 +1305,25 @@ an ADMIN supplies `ownerId`.
 ---
 
 ## Notas Generales
-1. **Autenticación:** Genera un JWT en `/iam/login` y adjúntalo como `Bearer`. Las rutas públicas están listadas explícitamente.
-2. **Localización:** `Accept-Language` puede sobrescribir temporalmente el idioma persistido del perfil.
-3. **Códigos HTTP:** Se usan los estándar de Spring (201 en creaciones, 202 cuando se acepta procesamiento, 404 si no existe, 409 ante conflictos, 401 sin autenticación).
-4. **Fechas/Horas:** Para filtros `from`/`to` usa formato ISO-8601 (`2025-05-10T12:00:00Z`).
+1. **Localización:** `Accept-Language` puede sobrescribir temporalmente el idioma persistido del perfil.
+2. **Códigos HTTP:** Se usan los estándar de Spring (201 en creaciones, 202 cuando se acepta procesamiento, 404 si no existe, 409 ante conflictos, 401 sin autenticación).
+3. **Fechas/Horas:** Para filtros `from`/`to` usa formato ISO-8601 (`2025-05-10T12:00:00Z`).
    
 ---
 
 ## Flujo End-to-End (Resumen)
-1. **Alta de usuario y perfil**
- - `POST /iam/register` guarda usuario + idioma.
- - `POST /profiles` (opcional) crea perfil público; `PUT /profile` y `PUT /profile/notifications` configuran idioma, zona horaria, quiet hours y canales.
-2. **Onboarding de device/sensor**
+1. **Onboarding de device/sensor**
  - Device: `POST /devices` + `POST /devices/{id}/link` para asociarlo a la planta.
  - Sensor: `POST /sensors` (tipo, owner, plantId opcional). Autoasigna `sensorId` a la planta.
-3. **Gestión de plantas**
+2. **Gestión de plantas**
  - Crear con `POST /plants`, consultar/vincular con filtros (`GET /plants`), actualizar `PUT /plants/{id}`, eliminar lógico `DELETE /plants/{id}`.
-4. **Recolección de datos**
+3. **Recolección de datos**
  - Lecturas reales via `POST /sensors/{id}/readings` o simuladas (scheduler configurable). Alimentan `/sensors/{id}`, `/sensors/{id}/readings`, `/sensors/activity`.
-5. **Alertas automáticamente**
+4. **Alertas automáticamente**
  - `RaiseAlertHandler` dispara eventos cuando se violan umbrales/sensores inactivos/dispositivos inactivos. Se guardan, marcan `plant.hasAlerts` y se envían notificaciones respetando preferencias y quiet hours (si corresponde se encola en `pending_notifications`).
  - Consultas mediante `/alerts/recent` o `/plants/{id}/alerts`.
-6. **Reportes**
+5. **Reportes**
  - Dueños (o admins indicando `ownerId`) obtienen PDF/CSV para plantas y un resumen global (`/reports/...`).
-7. **Seguridad y Swagger**
- - JWT Bearer para todo lo privado; públicas: `/iam/login`, `/iam/register`, `/iam/forgot-password`, `/i18n/catalog`, `/swagger-ui.html`, `/v3/api-docs`.
- - Swagger tiene esquema Bearer: usa “Authorize” para probar rutas protegidas.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -1147,20 +1353,338 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
     <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
 </p>
 
+- Esta pantalla de Azure muestra la información esencial de la máquina virtual PlantaE.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
 </p>
+
+- La terminal muestra que Spring Boot inició correctamente la app Plantae.
 
 <p align="center">
     <img src="assets/images/resources/spring_deploy_2.jpeg" alt="spring_deploy_2"/>    
 </p>
 
+- Aquí Azure muestra que la VM PlantaE está en ejecución.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_3.jpeg" alt="spring_deploy_3"/>    
 </p>
 
+- Esta parte de Azure muestra detalles técnicos de la VM: zona de disponibilidad.
+
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepcionalmente efectiva en la integración completa entre la Frontend Web Application y los Web Services RESTful del backend de PlantaE. La coordinación técnica precisa y la comunicación constante entre todos los miembros del equipo fueron fundamentales para lograr una integración exitosa y habilitar flujos de trabajo completos.
+
+<p align="center">
+    <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
+</p>
+
+- Estadísticas de contribución del repositorio: commits, líneas añadidas/eliminadas y actividad por usuario dentro del proyecto.
+
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                        | Sprint 4                                                                                                                                                             |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                      |
+| Date                            | 2025-12-04                                                                                                                                                           |
+| Time                            | 19:00 pm (GMT-5)                                                                                                                                                     |
+| Location                        | Modalidad remota mediante la plataforma Discord                                                                                                                      |
+| Prepared By                     | Contreras Leon, Flor De María                                                                                                                                        |
+| Attendees (to planning meeting) | Apaza Bocanegra, Elizabeth Noelia / Contreras Leon, Flor De María / Guillen Galindo, Julio Adolfo / Miraval Pomalaya, Rodrigo Jesus / Navarro Chinga, Antonio Jhair. |
+| Sprint 3 Review Summary         | Se logró desplegar la primera versión del backend, lo que permitió identificar varias mejoras necesarias en la forma de estructurar la información clave de PlantE. Aunque el frontend ya se encontraba finalizado, la retroalimentación del docente evidenció que algunas partes del frontend no estaban correctamente desarrolladas, generando inconsistencias entre ambos lados del sistema.       											 |
+| Sprint 3 Retrospective Summary  | En este sprint, a diferencia del anterior, se logró cumplir con los tiempos de entrega establecidos. Esto permitió trabajar con mayor orden y evitar la presión acumulada de tareas pendientes. Aun así, reconocemos la importancia de seguir utilizando de manera eficiente las herramientas de gestión para mantener este ritmo y asegurar un monitoreo constante del progreso del equipo.				                                     |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                      |
+| Sprint 4 Goal                   | Nuestro objetivo ahora es finalizar el desarrollo del backend y unificarlo correctamente con el frontend. Con ello, buscamos asegurar que las vistas principales interactúen de manera fluida con los servicios web, ofreciendo a las partes interesadas una demostración completa del sistema funcionando de extremo a extremo. El cumplimiento de este objetivo se validará al lograr una integración estable del API desde el frontend.     |
+| Sprint 4 Velocity               | 60 puntos                                                                                                                                                            |
+| Sum of Story Points             | 47 puntos    																																						 | 
+
+#### 5.2.4.2 Aspect Leaders and Collaborators
+
+Durante el Sprint 4 se definieron los principales aspectos a desarrollar, enfocados inicialmente en funcionalidades del frontend como la visualización de contenido, navegación fluida, adaptabilidad responsiva y la gestión de autenticación de usuarios.
+
+Con el avance del proyecto y el trabajo en backend, se organizó una matriz de liderazgo y colaboración para asegurar una comunicación clara y eficiente dentro del equipo. En esta matriz se asignó a cada aspecto un líder responsable (L) y colaboradores de apoyo (C), garantizando una mejor coordinación entre el desarrollo del frontend y integración con el backend.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Integration & Validation | Data Consistency | Backend Finalization | Frontend Integration |
+| :---------------------------------- | :----------------- | :----------------------- | :--------------- | :------------------- | :------------------- |
+| Apaza Bocanegra, Elizabeth Noelia   | Elizabeth-Apaza    | L                     	  | C        		 | C       				| C           		   |
+| Contreras Leon, Flor De María       | FlorDeMa           | C                        | L       		 | C       			    | C           		   |
+| Guillen Galindo, Julio Adolfo	      | julio645           | C                        | C        		 | L        			| C             	   |
+| Miraval Pomalaya, Rodrigo Jesus     | RodMiraval         | C                        | C      		     | C        		    | L                    |
+| Navarro Chinga, Antonio Jhair       | AntonioNavarro24   | C                        | C      			 | C        			| C                    |
+
+#### 5.2.4.3 Sprint Backlog 4
+
+El objetivo de este Sprint es finalizar el backend e integrarlo completamente con el frontend, asegurando que todas las funcionalidades trabajen de manera coordinada y sin errores. Se busca garantizar que los módulos desarrollados se conecten correctamente con la interfaz, ofreciendo al usuario una experiencia fluida, estable y totalmente funcional. Este sprint consolida la plataforma como un sistema operativo completo y listo para pruebas finales y despliegue.
+
+
+Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
+![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
+<figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Sprint Backlog 4.
+  </figcaption>
+
+| User Story ID | User Story Title                               | Task ID  | Task Title                                     | Task Description                                           | Estimated Hours | Assigned To      | Status |
+| :-----------: | :--------------------------------------------- | :------: | :--------------------------------------------- | :--------------------------------------------------------- | :-------------: | :--------------: | :----: |
+| US-001        | Acceso a la plataforma 			             | T01I-1   | Conectar Login/Registro con Backend            | Consumir endpoints reales desde el frontend.               | 4               | Flor De María    | To Do |
+|               |                                                | T01I-2   | Manejo de Tokens (JWT)                         | Guardar, refrescar y validar tokens en frontend.           | 8               | Flor De María    | To Do |
+| US-002        | Recuperación de contraseña                     | T02I-1   | Conectar UI con endpoint de recuperación       | Implementar envío de correo/token real.                    | 8               | Julio Adolfo     | To Do |
+| US-022        | Cambio de contraseña                           | T22I-1   | Integración UI → API Change Password           | Validar password actual y actualizar.                      | 6               | Elizabeth-Apaza  | To Do |
+| US-023        | Eliminar cuenta                                | T23I-1   | Conectar UI de eliminación → Backend           | Eliminar datos reales y cerrar sesión.                     | 6               | Julio Adolfo     | To Do |
+| US-007        | Gestión de perfil                              | T07I-1   | Integrar UI Perfil → API Backend               | Editar datos reales (nombre, correo, idioma).              | 4               | Flor De María    | To Do |
+| US-003        | Gestión de plantas                             | T03I-1   | Conectar CRUD Plantas con API real             | Crear, editar y eliminar plantas con datos del backend.    | 8               | Julio Adolfo     | To Do |
+| US-011        | Vincular sensor IoT                            | T11I-1   | Integración UI → Validación con backend        | Validar código real del sensor.                            | 6               | Flor De María    | To Do |
+| US-018        | Visualizar sensores activos                    | T18I-1   | Cargar listado de sensores desde API           | Obtener estado real de sensores vinculados.                | 2               | Julio Adolfo     | To Do |
+| US-019        | Consultar datos de un sensor                   | T19I-1   | Cargar gráficos con datos reales               | Mostrar datos históricos conectados a la API.              | 2               | Antonio Jhair    | To Do |
+| US-012        | Sensores más activos                           | T12I-1   | Integración ranking dinámico                   | Conectar ranking con datos reales.                         | 2               | Antonio Jhair    | To Do |
+| US-014        | Plantas más críticas                           | T14I-1   | Conectar algoritmos de criticidad              | Consumir cálculo del backend.                              | 4               | Antonio Jhair    | To Do |
+| US-020        | Historial de alertas por planta                | T20I-1   | Mostrar alertas reales desde API               | Cargar datos ordenados por fecha.                          | 2               | Julio Adolfo     | To Do |
+| US-013        | Ver alertas recientes                          | T13I-1   | Integrar panel de alertas recientes            | Llamar API real de últimas alertas.                        | 2               | Antonio Jhair    | To Do |
+| US-004        | Alertas de cultivo                             | T04I-1   | Conectar motor de alertas → Frontend           | Mostrar alertas generadas en backend automáticamente.      | 2               | Antonio Jhair    | To Do |
+| US-005        | Recomendaciones personalizadas                 | T05I-1   | Integración UI → Motor de recomendaciones      | Mostrar sugerencias reales basadas en datos.               | 2               | Antonio Jhair    | To Do |
+| US-039        | Detección proactiva de riesgos                 | T39I-1   | Conectar IA de tendencias con UI               | Mostrar alertas tempranas del backend.                     | 6               | Julio Adolfo     | To Do |
+| US-006        | Panel de métricas                              | T06I-1   | Integrar dashboard con API                     | Graficar datos de humedad/luz/temp reales.                 | 2               | Elizabeth-Apaza  | To Do |
+| US-017        | Feedback comunidad                             | T17I-1   | Conectar UI de feedback → Backend              | Mostrar y enviar comentarios reales.                       | 6               | Elizabeth-Apaza  | To Do |
+| US-021        | Descargar reportes                             | T21I-1   | Integrar descarga real de PDF/Excel            | Consumir archivos generados por backend.                   | 4               | Flor De María    | To Do |
+| US-015        | Registro de acciones y cosechas                | T15I-1   | Conectar registro manual → API real            | Guardar acciones reales en historial.                      | 4               | Flor De María    | To Do |
+| US-035        | Aplicación de insumos y costos                 | T35I-1   | Conectar flujo de insumos → backend            | Ejecutar trazabilidad completa.                            | 8               | Flor De María    | To Do |
+| US-034        | Gestión de lotes                               | T34I-1   | Integración CRUD Lotes                         | Mostrar lotes reales y sus datos en UI.                    | 6               | Flor De María    | To Do |
+| US-036        | Rutinas automáticas                            | T36I-1   | Integrar rutinas generadas por backend         | Mostrar tareas automáticas en frontend.                    | 2               | Julio Adolfo     | To Do |
+| US-037        | Tareas puntuales                               | T37I-1   | Conectar tareas específicas → API              | Guardar y listar tareas reales.                            | 4               | Elizabeth-Apaza  | To Do |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
+
+| Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
+| :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
+| feature/adding-login-profile     | feature/adding-myplants-details  | b27fa1edc5830f75a4c791f4089b46a26f1acf12 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Dic 03, 2025        |
+| feature/adding-management-plants | feature/adding-myplants-details  | 4c739fedc539ef75bbc791f40a3a46216f1a0c41 | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Dic 02, 2025        |
+| feature/adding-management-plants | feature/adding-login-profile     | 6e439fedc539ef75cdc791f40b1a46216f1aa9e1 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Dic 01, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d43b2120cba0e30e919330e77 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Dic 02, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c184597d41b2120cbe0e30e91933c912 | Añadiendo api para login y profile                           | Añadiendo api para login y profile                             | Dic 04, 2025        |
+
+| **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
+| :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
+| G2-Aplicaciones-Open-Source/backend-java | main       | 94125b6       |          | feat: implement ExperienceMedia endpoint with full CRUD, validation and OpenAPI docs              | 2025-12-02             |
+
+
+#### 5.2.4.5 Execution Evidence for Sprint Review
+
+En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
+</p>
+
+- **Datos en bounded context:** En esta imagen se llama al Query, donde se usa USE plantae, para indicar que se trabajará con la base de datos plantae y luego SELECT * FROM plants, para obtener todos los registros de la tabla plants, mostrando las filas como id, created_at, deleted_at y device_id.
+
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
+</p>
+
+- **Puerto MySQL prendido:** En esta imagen se observa ejecutandose dos sentencias en Query, USE plantae, que selecciona la base de datos plantae para trabajar dentro de ella, y después SHOW TABLES, que solicita la lista de tablas disponibles, debajo de ello, se muestra todas las tablas existentes en esa base de datos, como alerts, devices, plants, users, entre otras, lo que confirma que la base fue seleccionada correctamente.
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
+</p>
+
+- **Datos en bounded context Profiles:** Esta imagen muestra la máquina virtual en Azure, específicamente las reglas de entrada que determinan qué puertos pueden recibir conexiones desde fuera, lo que significa que cualquier equipo externo puede conectarse a través de esos puertos. El puerto 3306, permite que se conecte al servidor MySQL que corre dentro de la máquina virtual.
+  
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_5.jpeg" alt="execution_evidence_5"/>    
+</p>
+
+- **Datos en bounded context User:** En esta imagen se ejecuta USE plantae;, que selecciona la base de datos plantae para indicar que todas las consultas siguientes deben hacerse dentro de ella, y luego SHOW TABLES, que le pide al servidor MySQL que muestre todas las tablas contenidas en esa base, mostrando la lista completa de tablas, como alerts, devices, plants, profiles, sensors, users, entre otras, lo que confirma que la conexión al servidor funciona correctamente, que la base de datos existe, y que el usuario tiene permisos para consultarla.
+
+**Evidencias visuales del Backend deployado**
+<p align="center">
+    <img src="assets/images/resources/backend1.png" alt="backend1"/>    
+</p>
+
+- En esta imagen se muestra el BC: Profile, contiene endpoints para crear, actualizar y obtener perfiles. Luego el BC: Profile Preferences, donde se administran las preferencias de usuario.
+
+<p align="center">
+    <img src="assets/images/resources/backend3.png" alt="backend3"/>    
+</p>
+
+- En esta imagen se observa BC: IAM (Identity and Access Management), que agrupa todos los endpoints relacionados con autenticación y manejo de usuarios, cambiar contraseña, registrar un usuario, iniciar sesión, recuperar cuenta, obtener el perfil autenticado y eliminar la cuenta.
+
+**Como iniciar el backend:**
+
+1. Te vas a la carpeta del backend, usando **cd /home/backend** y simplemente pondrás el siguiente comando: **screen -S backend java -jar plantae-0.0.1-SNAPSHOT.jar**
+   
+<p align="center">
+    <img src="assets/images/resources/Recort1.jpg" alt="backend3"/>    
+</p>
+
+2. Le das enter y empezará a iniciarse Spring Boot, cuando acabe de cargar verás un mensaje parecido a este:
+   
+<p align="center">
+    <img src="assets/images/resources/Recort2.jpg" alt="backend3"/>    
+</p>
+
+3. Eso significa que ya se cargo el backend, entonces no requieres hacer nada más y ya pueden acceder.
+
+**IMPORTANTE:** Inicialo de esta forma, porque si lo intentas iniciar de otra forma sin el “screen” si cierras la consola se cerrará el backend también, usamos “screen -S” para que el backend se mantenga prendido aún que cerremos la consola.  
+
+# Restablecer Contraseña mediante API Externa
+
+1. Para recuperar contraseña debe ingresar el correo electronico correspondiente
+
+<p align="center">
+    <img src="assets/images/resources/api-externa-1.jpeg" alt="api-externa-1"/>    
+</p>
+
+2. El usuario recibira un correo para cambiar su contraseña correspondiente.
+  
+<p align="center">
+    <img src="assets/images/resources/api-externa-2.jpeg" alt="api-externa-2"/>    
+</p>
+
+1. La aplicacion le mandara la confirmacion para reemplazar la contraseña sel usuario y guardarla.
+
+<p align="center">
+    <img src="assets/images/resources/api-externa-3.jpeg" alt="api-externa-3"/>    
+</p>
+
+#### 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
+
+<p align="center">
+    <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
+</p>
+
+- Estructura del proyecto, donde cada carpeta representa un bounded context del backend. 
+ 
+**Evidencias:**  
+
+<p align="center">
+    <img src="assets/documentation/Evidence1.jpg" alt="final_code_1"/>    
+</p>
+
+- Describen anotaciones como @RestController, @RequestMapping, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PathVariable y @RequestBody.
+
+<p align="center">
+    <img src="assets/documentation/Evidence2.jpg" alt="final_code_1"/>    
+</p>
+
+- Guía de uso de la API, explicando cómo interactuar con el módulo Device Management.
+
+<p align="center">
+    <img src="assets/documentation/Evidence3.jpg" alt="final_code_1"/>    
+</p>
+
+- Describe los patrones de diseño con enfoque Hexagonal/Onion Architecture.
+
+<p align="center">
+    <img src="assets/documentation/Evidence4.jpg" alt="final_code_1"/>    
+</p>
+
+- Detallada el Device Component, especifican los endpoints REST asociados al controlador DeviceController.
+
+Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_ComponentDocumentation.md
+
+Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_ModuleDocumentation.md
+
+Design Patterns:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_DesingPatterns.md
+
+Routing Guide:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_RoutingGuides.md
+
+# Endpoints EcoTech (API)
+Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
+
+---
+
+## IAM (Autenticación y Cuenta)
+| Método | Ruta                   | Auth    | Descripción                                                                              |
+| ------ | ---------------------- | ------- | ---------------------------------------------------------------------------------------- |
+| POST   | `/iam/register`        | Público | Registro de usuario (`email`, `password`, `confirmPassword`, `displayName`, `language`). |
+| POST   | `/iam/login`           | Público | Login con `email/password`; retorna JWT + mensaje localizado.                            |
+| POST   | `/iam/forgot-password` | Público | Lanza flujo de recuperación (`{ "email": "" }`).                                         |
+| PUT    | `/iam/change-password` | Bearer  | Cambia contraseña (`currentPassword`, `newPassword`).                                    |
+| DELETE | `/iam`                 | Bearer  | Elimina la cuenta actual.                                                                |
+| GET    | `/iam/profile`         | Bearer  | Perfil del usuario autenticado; soporta `AcceptLanguage`.                                |
+
+---
+
+## Profile (Perfiles Públicos)
+| Método | Ruta                  | Auth   | Descripción                                                                        |
+| ------ | --------------------- | ------ | ---------------------------------------------------------------------------------- |
+| POST   | `/profiles`           | Bearer | Create profile (`ownerId`, `displayName`). Autogenerates slug, resolves conflicts. |
+| PUT    | `/profiles/{ownerId}` | Bearer | Update public fields (`displayName`, `bio`, `avatarUrl`, `location`, `timezone`).  |
+| GET    | `/profiles/{slug}`    | Bearer | Fetch profile by public slug (404 if missing).                                     |
+
+---
+
+## Notas Generales
+1. **Autenticación:** Genera un JWT en `/iam/login` y adjúntalo como `Bearer`. Las rutas públicas están listadas explícitamente.
+2. **Localización:** `Accept-Language` puede sobrescribir temporalmente el idioma persistido del perfil.
+3. **Códigos HTTP:** Se usan los estándar de Spring (201 en creaciones, 202 cuando se acepta procesamiento, 404 si no existe, 409 ante conflictos, 401 sin autenticación).
+   
+---
+
+## Flujo End-to-End (Resumen)
+1. **Alta de usuario y perfil**
+ - `POST /iam/register` guarda usuario + idioma.
+ - `POST /profiles` (opcional) crea perfil público; `PUT /profile` y `PUT /profile/notifications` configuran idioma, zona horaria, quiet hours y canales.
+2. **Seguridad y Swagger**
+ - JWT Bearer para todo lo privado; públicas: `/iam/login`, `/iam/register`, `/iam/forgot-password`, `/i18n/catalog`, `/swagger-ui.html`, `/v3/api-docs`.
+ - Swagger tiene esquema Bearer: usa “Authorize” para probar rutas protegidas.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se consiguió publicar correctamente la API del backend en Render, lo que habilitó el acceso público a los endpoints creados y documentados. Esto asegura que las funciones desarrolladas puedan probarse y evaluarse desde fuera, dentro de un entorno de staging.
+
+El despliegue contempla una instancia de servidor ejecutando la aplicación Spring Boot, junto con una base de datos PostgreSQL conectada de forma remota.
+
+**Entorno de Despliegue**
+- Plataforma: Microsoft Azure
+- Base de datos: PostgreSQL
+- Gestor de Base de Datos: pgAdmin 4
+- Tipo de despliegue: Máquina Virtual
+
+**Archivos de configuración clave**
+- `Dockerfile:` Utilizado para generar la imagen necesaria para la ejecución del backend dentro de la máquina virtual.
+
+**Verificación de Despliegue**
+Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, además de verificaciones manuales mediante pgAdmin 4. Estas pruebas permitieron confirmar:
+
+- El funcionamiento correcto de los endpoints del backend.
+- La persistencia adecuada de los datos en la base de datos PostgreSQL conectada de forma remota.
+- La estabilidad del backend desplegado en la VM Ubuntu y su correcta accesibilidad a través de la web.
+
+**Evidencia Visual**
+
+<p align="center">
+    <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
+</p>
+
+- Muestra la vista de la máquina virtual PlantaE dentro del portal de Microsoft Azure, actualmente detenida, lo que significa que no está ejecutándose y tampoco está consumiendo recursos.
+
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
+</p>
+
+- Terminal de la máquina virtual en Azure ejecutando el backend de PlantaE construido con Spring Boot.
+
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_2.jpeg" alt="spring_deploy_2"/>    
+</p>
+
+- Confirmacion de la VM actualmente se encuentra en ejecución, lo que significa que está encendida y lista para recibir conexiones desde el exterior.
+
+<p align="center">
+    <img src="assets/images/resources/spring_deploy_3.jpeg" alt="spring_deploy_3"/>    
+</p>
+
+- Muestra varias secciones de configuración avanzada de la máquina virtual PlantaE en Azure.
+
+#### 5.2.4.8 Team Collaboration Insights during Sprint
+Durante el Sprint 4, el equipo de Ecotech mostró una colaboración altamente efectiva al lograr la integración total entre la aplicación web frontend y el backend de PlantaE. Gracias a una coordinación técnica cuidadosamente alineada y una comunicación continua entre todos los integrantes, fue posible completar con éxito la integración y habilitar flujos de trabajo totalmente operativos.
 
 <p align="center">
     <img src="assets/images/resources/Insights_Colaboration.jpg" alt="collaboration_insights_3"/>
@@ -1203,43 +1727,61 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 
 **User Persona del Segmento Objetivo 1: Personas con plantas en casa**
 
-|  **DANIEL CASTILLO**                                                                                                                                                                               |  
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="25%" height="auto"> </div>                                |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 22 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
-| <div align="center"><b>Duración:</b> 00:05:00 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:00 </div>                                                          |
-| Daniel percibe la aplicación como una herramienta clara y fácil de usar, mostrando comodidad y familiaridad con cada paso que se le presenta. Repite varias veces que el sistema es “sencillo” e “intuitivo”, lo que refleja que no encuentra fricciones ni confusiones en el flujo. También valora especialmente la utilidad práctica de los sensores y las alertas, porque entiende que aportan información clave para el cuidado real de las plantas. En general, su actitud es positiva, receptiva y sin objeciones técnicas importantes, transmitiendo que la app le parece funcional, bien organizada y adecuada para usuarios que quieren gestionar sus plantas de manera eficiente.                                                                                                                                                                                    |
+- **Nombres y apellidos:** **DANIEL CASTILLO** 
+- **Género:** Masculino
+- **Edad:** 22 años
 
-|  **ANDRE CARDENAN**                                                                                                                                                                                |  
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" alt="Entrevista Fatima Segmento 1" width="25%" height="auto"> </div>                                      |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 21 años        
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c197_upc_edu_pe/IQBAPbPzZ9LaRLTMuplI1HgtAb3jY5Yyp_9oBWWvl_uLqoI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Nlzd3P      |
-| <div align="center"><b>Duración:</b> 00:04:05 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:05 </div>                                                          |
-| Andre entiende la aplicación sin dificultad y siente que todo está ordenado y fácil de navegar. A lo largo de la demostración comenta que los procesos ingresar, ver el dashboard, registrar plantas, crear sensores y dispositivos le resultan claros y nada confusos. Le parece especialmente útil que la app permita vincular sensores y mostrar alertas, porque lo ve como algo realmente práctico para cuidar mejor las plantas. En general, transmite una impresión positiva: considera que la herramienta funciona bien, es intuitiva y podría ser utilizada sin problemas por cualquier persona interesada en gestionar sus plantas.           |
+<div align="center">
+      <img src="assets/images/resources/Entrevista Cristhyan Segmento 1.png" alt="Entrevista Cristhyan Segmento 1" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 5:00 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311082_upc_edu_pe/IQDu-vGArPjvQZbIJN1-flTDAfRFYF3reEetcAV8P1jpORY?e=wT3QkQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Resumen:** Daniel percibe la aplicación como una herramienta clara y fácil de usar, mostrando comodidad y familiaridad con cada paso que se le presenta. Repite varias veces que el sistema es “sencillo” e “intuitivo”, lo que refleja que no encuentra fricciones ni confusiones en el flujo. También valora especialmente la utilidad práctica de los sensores y las alertas, porque entiende que aportan información clave para el cuidado real de las plantas. En general, su actitud es positiva, receptiva y sin objeciones técnicas importantes, transmitiendo que la app le parece funcional, bien organizada y adecuada para usuarios que quieren gestionar sus plantas de manera eficiente.
+
+---
+
+- **Nombres y apellidos:** **ANDRE CARDENAN** 
+- **Género:** Masculino
+- **Edad:** 21 años
+
+<div align="center">
+      <img src="assets/images/resources/Entrevista Fatima Segmento 1.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 4:05 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c197_upc_edu_pe/IQBAPbPzZ9LaRLTMuplI1HgtAb3jY5Yyp_9oBWWvl_uLqoI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Nlzd3P
+- **Resumen:** Andre entiende la aplicación sin dificultad y siente que todo está ordenado y fácil de navegar. A lo largo de la demostración comenta que los procesos ingresar, ver el dashboard, registrar plantas, crear sensores y dispositivos le resultan claros y nada confusos. Le parece especialmente útil que la app permita vincular sensores y mostrar alertas, porque lo ve como algo realmente práctico para cuidar mejor las plantas. En general, transmite una impresión positiva: considera que la herramienta funciona bien, es intuitiva y podría ser utilizada sin problemas por cualquier persona interesada en gestionar sus plantas. 
 
 **User Persona del Segmento Objetivo 2: Viveros comerciales**
 
-|  **NICOLE GUILLEN**                                                                                                                                                                                |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" alt="Entrevista Nicole Segmento 2" width="50%" height="auto"> </div>                                      |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 35 años                                                                                                                                                                                      |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQA3t8o3QYH8Q5MS_7G5JtQbAZmaOU4UJSALY0YLktrarOo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MEaIVx |
-| <div align="center"><b>Duración:</b> 00:04:19 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:04:19 </div>                                                          |
-| Nicoel transmite que la aplicación le resulta clara, ordenada y muy fácil de usar desde el inicio. Percibe que todo el flujo, desde la landing page hasta alertas es intuitivo, sin pasos confusos. La información está bien presentada, es relevante y le permite entender rápidamente cómo funciona cada sección. También valora que los formularios sean breves y que la navegación sea directa. En general, su impresión es positiva, siente que la app está bien estructurada, que cada parte cumple su propósito y que todas las funciones aportan valor a la experiencia del usuario.                                                              |
+- **Nombres y apellidos:** **NICOLE GUILLEN** 
+- **Género:** Femenino
+- **Edad:** 25 años
 
-|  **DIONISIO RODRIGUEZ**                                                                                                                                                                            |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <div align="center"> <img src="assets/images/resources/Entrevista Flor Segmento 2.png" alt="Entrevista Flor Segmento 2" width="50%" height="auto"> </div>                                          |
-| Género: Masculino                                                                                                                                                                                  |
-| Edad: 35 años                                                                                                                                                                                      |
-| **Link de la Entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D      |
-| <div align="center"><b>Duración:</b> 00:05:10 &nbsp;&nbsp;&nbsp; <b>Inicio:</b> 00:00:00 &nbsp;&nbsp;&nbsp; <b>Final:</b> 00:05:10 </div>                                                          |
-| Dionisio percibe que toda la aplicación es clara, directa y fácil de usar. Desde la landing page siente que la información está bien explicada y no encuentra ningún obstáculo para entender las funciones gratuitas ni para navegar. El formulario de registro le parece rápido y lógico, con los datos justos y necesarios. Al llegar al dashboard, entiende de inmediato cómo moverse entre secciones y considera que agregar una planta es un proceso muy intuitivo, ya que todo está ordenado y bien identificado. También interpreta el módulo de vivero como una herramienta útil para organizar sus tareas y anotar fechas límite, nutrientes y prioridades. Finalmente, valora mucho las opciones del perfil, especialmente poder cambiar la contraseña y compartir su información, lo cual ve como funciones prácticas que mejoran la experiencia general dentro de la app. En resumen, su impresión global es positiva: siente que la plataforma es sencilla, funcional y pensada para que cualquier usuario la pueda utilizar sin complicaciones.                                          |
+<div align="center">
+      <img src="assets/images/resources/Entrevista Nicole Segmento 2.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 4:19 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a352_upc_edu_pe/IQA3t8o3QYH8Q5MS_7G5JtQbAZmaOU4UJSALY0YLktrarOo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MEaIVx
+- **Resumen:** Nicole transmite que la aplicación le resulta clara, ordenada y muy fácil de usar desde el inicio. Percibe que todo el flujo, desde la landing page hasta alertas es intuitivo, sin pasos confusos. La información está bien presentada, es relevante y le permite entender rápidamente cómo funciona cada sección. También valora que los formularios sean breves y que la navegación sea directa. En general, su impresión es positiva, siente que la app está bien estructurada, que cada parte cumple su propósito y que todas las funciones aportan valor a la experiencia del usuario. 
+
+- **Nombres y apellidos:** **DIONISIO RODRIGUEZ** 
+- **Género:** Masculino
+- **Edad:** 35 años
+
+<div align="center">
+      <img src="assets/images/resources/Entrevista Flor Segmento 2.png" width="80%" height="auto">
+</div>
+
+- **Inicio:** 0:00
+- **Duración:** 5:10 min
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDvG7qcbLA4SpbyXvgeLP6zAZK4JCsJsvKpmLwuEPqTFp4?e=TL1NWp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Resumen:** Dionisio percibe que toda la aplicación es clara, directa y fácil de usar. Desde la landing page siente que la información está bien explicada y no encuentra ningún obstáculo para entender las funciones gratuitas ni para navegar. El formulario de registro le parece rápido y lógico, con los datos justos y necesarios. Al llegar al dashboard, entiende de inmediato cómo moverse entre secciones y considera que agregar una planta es un proceso muy intuitivo, ya que todo está ordenado y bien identificado. También interpreta el módulo de vivero como una herramienta útil para organizar sus tareas y anotar fechas límite, nutrientes y prioridades. Finalmente, valora mucho las opciones del perfil, especialmente poder cambiar la contraseña y compartir su información, lo cual ve como funciones prácticas que mejoran la experiencia general dentro de la app. En resumen, su impresión global es positiva: siente que la plataforma es sencilla, funcional y pensada para que cualquier usuario la pueda utilizar sin complicaciones.   
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -1254,7 +1796,6 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 </p>
 
 ## Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación  "PlantaE":
-
 
 **UX Heuristics & Principles Evaluation**
 
@@ -1338,7 +1879,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![Eu1](assets/images/resources/eu1)
 
-
 ## PROBLEMA \#2: No se traduce la aplicación por completo
 
 - **Severidad: 1**
@@ -1346,8 +1886,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** La interfaz mezcla idiomas entre secciones, etiquetas y microtextos. Además del cambio manual entre EN/ES, algunos textos permanecen sin traducirse. Esto afecta la claridad del contenido y puede generar errores de interpretación.
 - **Recomendación:** Completar el sistema de internacionalización (i18n), asegurando una traducción integral de todos los componentes.
 
-![eu2](assets/images/resources/eu2)
 
+![eu2](assets/images/resources/eu2)
 
 ## PROBLEMA \#3: No se puede acceder al Dashboard como vivero
 
@@ -1358,7 +1898,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![eu3](assets/images/resources/eu3)
 
-
 ## PROBLEMA \#4: Poca intuitividad en el panel de Vivero
 
 - **Severidad: 1**
@@ -1367,7 +1906,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:** *Reestructurar el contenido según prioridades del usuario, utilizando agrupaciones visuales, etiquetas más claras e indicadores de acciones principales.*
 
 ![eu4](assets/images/resources/eu4)
-
 
 ## PROBLEMA \#5: No se pueden visualizar los reportes generados
 
@@ -1387,7 +1925,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Recomendación:** Integrar autocompletado basado en mapas o permitir entrada libre de direcciones con validación.
 
 ![eu6](assets/images/resources/eu6)
-
 
 ## PROBLEMA \#7: Falta filtrado de plantas
 
@@ -1645,20 +2182,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## 5.4. Video About-the-Product
 
-En esta parte, el equipo ofrece una síntesis de los puntos más importantes de PlantE. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de las plantas, ya sean hogares o comericales.
+En esta sección, el equipo presenta un resumen de los aspectos más destacados de PlantE. El material audiovisual explica de forma clara las funciones principales de la aplicación, mostrando cómo cada herramienta fue diseñada para responder a las necesidades del cuidado de plantas, tanto en espacios domésticos como comerciales.
 
-El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como las recomendaciones de riego y luz, monitoreo del crecimiento, alertas de cuidado y reportes generales sobre tus plantas registradas.
+El video muestra ejemplos prácticos de cómo utilizar la app, incluyendo pasos clave como las sugerencias, el seguimiento del crecimiento, las notificaciones de cuidado y los informes generales de las plantas registradas.
 
-La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado el cuidado de plantas tanto para principiantes como para aficionados experimentados. Estos relatos destacan la facilidad de uso y la mejora en la salud de las plantas.
-
-En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el cuidado responsable de las plantas, demostrando su utilidad, su usabilidad y su impacto positivo.
+En conjunto, el video no solo da a conocer el producto, sino que también lo presenta como una solución digital eficaz para promover un cuidado responsable de las plantas, demostrando su utilidad, su facilidad de uso y su impacto positivo.
 
 **Video Explicativo**
 
 <p align="center">
-    <img src="assets/images/resources/about_product.jpeg" alt="about_product"/>    
+    <img src="assets/images/resources/about_product1.png" alt="about_product1"/>    
 </p>
 
 **URL de la Versión Publicada**
 
-- Link de YouTube: https://youtu.be/NjN0LWdj1WI
+- Link de YouTube: https://www.youtube.com/watch?v=n8PixEmEuhs

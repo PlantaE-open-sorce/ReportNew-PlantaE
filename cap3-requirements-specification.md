@@ -1,19 +1,20 @@
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories
+
 <table>
     <tr>
-        <td>Epic / Story ID</td>
-        <td>Título</td>
-        <td>Descripción</td>
-        <td>Criterios de Aceptación</td>
-        <td>Relacionado con (Epic ID)</td>
+        <th>Epic / Story ID</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Criterios de Aceptación</th>
+        <th>Relacionado con (Epic ID)</th>
     </tr>
-      <tr>
-      <td>EP-01</td>
-      <td>Comunicación de valor y confianza en la página de inicio</td>
-      <td>Como usuario, quiero entender de inmediato qué es PlantaE, sus beneficios y testimonios de otros usuarios, para sentirme motivado a registrarme.</td>
-      <td></td>
-      <td></td>
+    <tr>
+        <td>EP-01</td>
+        <td>Comunicación de valor y confianza en la página de inicio</td>
+        <td>Como usuario, quiero entender de inmediato qué es PlantaE, sus beneficios y testimonios de otros usuarios, para sentirme motivado a registrarme.</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>EP-02</td>
@@ -275,15 +276,15 @@
     </tr>
     <tr>
         <td>US-15</td>
-        <td>Registro de cosechas</td>
-        <td>Como usuario, quiero registrar las veces que cosecho una planta, para llevar un historial de producción.</td>
+        <td>Registro de acciones y cosechas</td>
+        <td>Como usuario, quiero registrar manualmente acciones (poda, fertilización) y cosechas, para mantener un historial completo de mi planta.</td>
         <td>
             <ul>
-                <li>Escenario 1: Registro exitoso: Dado que el usuario cosecha una planta, cuando ingresa fecha y cantidad, entonces el sistema guarda el registro en el historial.</li>
-                <li>Escenario 2: Registro incompleto: Dado que el usuario omite un dato obligatorio, cuando intenta guardar, entonces el sistema muestra un error.</li>
+                <li>Escenario 1: Registro de cosecha: Dado que el usuario cosecha una planta, cuando ingresa fecha y cantidad, entonces el sistema guarda el registro.</li>
+                <li>Escenario 2: Registro de acción manual: Dado que el usuario realiza una poda o fertilización manual, cuando ejecuta el comando de registro, entonces el sistema genera el evento "Registered Manual Action" y actualiza el historial.</li>
             </ul>
         </td>
-        <td>EP-07</td>
+        <td>EP-14</td>
     </tr>
     <tr>
         <td>US-16</td>
@@ -490,6 +491,73 @@
         </td>
         <td>EP-01</td>
     </tr>
+    <tr>
+        <td>US-34</td>
+        <td>Gestión de Lotes de Plantas</td>
+        <td>Como Vivero, quiero registrar lotes de plantas, para diferenciar la gestión masiva de la gestión individual.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Creación de lote: Dado que el usuario es Vivero, cuando ingresa los datos del grupo (especie, cantidad), entonces el sistema crea la entidad Lote y dispara el evento "Registered batch".</li>
+                <li>Escenario 2: Diferenciación: Dado que existen lotes registrados, cuando el usuario accede al listado, entonces ve los grupos separados de las plantas individuales.</li>
+            </ul>
+        </td>
+        <td>EP-06</td>
+    </tr>
+    <tr>
+        <td>US-35</td>
+        <td>Aplicación de Insumos y Costos</td>
+        <td>Como Vivero, quiero registrar la aplicación de insumos (fertilizantes, pesticidas), para llevar un control de costos y trazabilidad.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Registro de costo: Dado que se aplica un insumo a un lote o planta, cuando el usuario registra tipo, cantidad y costo, entonces el sistema guarda la trazabilidad y genera el evento "Input Applied to Asset".</li>
+            </ul>
+        </td>
+        <td>EP-07</td>
+    </tr>
+    <tr>
+        <td>US-36</td>
+        <td>Asignación de Rutinas Automáticas</td>
+        <td>Como Vivero, quiero que se asigne automáticamente una rutina de cuidado al registrar un nuevo lote, para iniciar la planificación de trabajo sin intervención manual.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Automatización de rutina: Dado que se configura una política de "Auto-Assign Routine", cuando ocurre el evento "Registered batch", entonces el sistema genera automáticamente las tareas programadas (Scheduled tasks) correspondientes.</li>
+            </ul>
+        </td>
+        <td>EP-13</td>
+    </tr>
+    <tr>
+        <td>US-37</td>
+        <td>Creación de Tareas Puntuales</td>
+        <td>Como Vivero, quiero agendar tareas puntuales, para gestionar trabajo fuera de las rutinas estandarizadas.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Agendar excepción: Dado que surge una necesidad específica, cuando el usuario crea una "Scheduled Specific Task" con fecha y activo asociado, entonces el sistema la añade al calendario de trabajo.</li>
+            </ul>
+        </td>
+        <td>EP-13</td>
+    </tr>
+    <tr>
+        <td>US-38</td>
+        <td>Panel de Tareas Pendientes (To-Do)</td>
+        <td>Como Vivero, quiero ver un panel de Tareas Pendientes ordenadas por urgencia, para saber qué trabajo debo realizar hoy.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Visualización priorizada: Dado que existen tareas programadas, cuando el usuario accede al "To-Do Panel", entonces ve las tareas filtradas por fecha y ordenadas por urgencia.</li>
+            </ul>
+        </td>
+        <td>EP-13</td>
+    </tr>
+    <tr>
+        <td>US-39</td>
+        <td>Detección Proactiva de Riesgos</td>
+        <td>Como usuario, quiero que el sistema detecte tendencias de riesgo antes de que se dispare una alerta crítica, para actuar proactivamente.</td>
+        <td>
+            <ul>
+                <li>Escenario 1: Análisis de tendencia: Dado que el sistema monitorea sensores, cuando la política "Analyze Trends" detecta una desviación progresiva, entonces ejecuta el comando "Detect trend" y genera el evento "Risk Trend Detected" antes de llegar al umbral crítico.</li>
+            </ul>
+        </td>
+        <td>EP-09</td>
+    </tr>
 </table>
 
 ## 3.2. Impact Mapping
@@ -498,20 +566,26 @@
 </div>
 
 ## 3.3. Product Backlog
-  | Orden | User Story Id | Título                           | Descripción                                                                                                                                   | Story Points |
-  | ----- | ------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-  | 1     | US-01         | Acceso a la plataforma           | Como visitante, quiero registrarme o iniciar sesión, para acceder a las funcionalidades de PlantaE.                                           | 5            |
-  | 2     | US-02         | Recuperación de contraseña       | Como usuario, quiero recuperar mi contraseña mediante correo electrónico, para continuar usando la app aunque olvide mis credenciales.        | 3            |
-  | 3     | US-03         | Gestión de plantas               | Como usuario, quiero registrar mis plantas con nombre, tipo y foto, para organizarlas y monitorearlas.                                        | 8            |
-  | 4     | US-11         | Agregar sensores IoT             | Como usuario, quiero poder vincular un nuevo sensor IoT a una planta, para empezar a recibir datos.                                           | 8            |
-  | 5     | US-04         | Alertas de cultivo               | Como usuario, quiero recibir notificaciones sobre humedad, luz o temperatura, para cuidar mis plantas a tiempo.                               | 8            |
-  | 6     | US-05         | Recomendaciones personalizadas   | Como usuario, quiero recibir consejos basados en mi tipo de planta y datos históricos, para mejorar su salud.                                 | 5            |
-  | 7     | US-06         | Panel de métricas                | Como usuario, quiero ver gráficos de humedad, temperatura y luz, para analizar tendencias de mis plantas.                                     | 8            |
-  | 8     | US-13         | Ver alertas recientes            | Como usuario, quiero ver un panel con mis últimas alertas de plantas, para actuar rápido.                                                     | 5            |
-  | 9     | US-14         | Identificar plantas críticas     | Como usuario, quiero ver qué plantas requieren más atención, para priorizar su cuidado.                                                       | 5            |
-  | 10    | US-15         | Registro de cosechas             | Como usuario, quiero registrar las veces que cosecho una planta, para llevar un historial de producción.                                      | 5            |
-  | 11    | US-16         | Seguimiento de estado de cultivo | Como usuario, quiero ver las fases de crecimiento de mis plantas, para planificar mejor sus cuidados.                                         | 8            |
-  | 12    | US-21         | Descargar reportes               | Como usuario, quiero descargar un reporte de mis cultivos en Excel o PDF, para analizar mis datos fuera de la plataforma.                     | 5            |
-  | 13    | US-07         | Gestión de perfil                | Como usuario, quiero actualizar mis datos e idioma preferido, para personalizar mi experiencia en PlantaE.                                    | 3            |
-  | 14    | US-08         | Alternar modo oscuro/claro       | Como usuario, quiero poder cambiar entre modo oscuro y claro, para visualizar la página de acuerdo a mis preferencias.                        | 3            |
-  | 15    | US-09         | Sección de contáctanos           | Como visitante, quiero tener un formulario de contacto, para enviar consultas o sugerencias directamente al equipo de PlantaE.                | 5            |
+| Orden | User Story Id | Título                           | Descripción                                                                                                                                                                     | Story Points |
+| ----- | ------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1     | US-01         | Acceso a la plataforma           | Como visitante, quiero registrarme o iniciar sesión, para acceder a las funcionalidades de PlantaE.                                                                             | 5            |
+| 2     | US-02         | Recuperación de contraseña       | Como usuario, quiero recuperar mi contraseña mediante correo electrónico, para continuar usando la app aunque olvide mis credenciales.                                          | 3            |
+| 3     | US-03         | Gestión de plantas               | Como usuario, quiero registrar mis plantas con nombre, tipo y foto, para organizarlas y monitorearlas.                                                                          | 8            |
+| 4     | US-11         | Agregar sensores IoT             | Como usuario, quiero poder vincular un nuevo sensor IoT a una planta, para empezar a recibir datos.                                                                             | 8            |
+| 5     | US-04         | Alertas de cultivo               | Como usuario, quiero recibir notificaciones sobre humedad, luz o temperatura, para cuidar mis plantas a tiempo.                                                                 | 8            |
+| 6     | US-05         | Recomendaciones personalizadas   | Como usuario, quiero recibir consejos basados en mi tipo de planta y datos históricos, para mejorar su salud.                                                                   | 5            |
+| 7     | US-06         | Panel de métricas                | Como usuario, quiero ver gráficos de humedad, temperatura y luz, para analizar tendencias de mis plantas.                                                                       | 8            |
+| 8     | US-13         | Ver alertas recientes            | Como usuario, quiero ver un panel con mis últimas alertas de plantas, para actuar rápido.                                                                                       | 5            |
+| 9     | US-14         | Identificar plantas críticas     | Como usuario, quiero ver qué plantas requieren más atención, para priorizar su cuidado.                                                                                         | 5            |
+| 10    | US-15         | Registro de acciones y cosechas  | Como usuario, quiero registrar manualmente acciones (poda, fertilización) y cosechas, para mantener un historial completo.                                                      | 5            |
+| 11    | US-16         | Seguimiento de estado de cultivo | Como usuario, quiero ver las fases de crecimiento de mis plantas, para planificar mejor sus cuidados.                                                                           | 8            |
+| 12    | US-21         | Descargar reportes               | Como usuario, quiero descargar un reporte de mis cultivos en Excel o PDF, para analizar mis datos fuera de la plataforma.                                                       | 5            |
+| 13    | US-07         | Gestión de perfil                | Como usuario, quiero actualizar mis datos e idioma preferido, para personalizar mi experiencia en PlantaE.                                                                      | 3            |
+| 14    | US-08         | Alternar modo oscuro/claro       | Como usuario, quiero poder cambiar entre modo oscuro y claro, para visualizar la página de acuerdo a mis preferencias.                                                          | 3            |
+| 15    | US-09         | Sección de contáctanos           | Como visitante, quiero tener un formulario de contacto, para enviar consultas o sugerencias directamente al equipo de PlantaE.                                                  | 5            |
+| 16    | US-34         | Gestión de Lotes de Plantas      | Como Vivero, quiero registrar lotes de plantas, para diferenciar la gestión masiva de la gestión individual.                                                                    | 8            |
+| 17    | US-35         | Aplicación de Insumos y Costos   | Como Vivero, quiero registrar la aplicación de insumos, para llevar un control de costos y trazabilidad.                                                                        | 5            |
+| 18    | US-36         | Asignación de Rutinas Auto       | Como Vivero, quiero que se asigne automáticamente una rutina al registrar un lote, para iniciar la planificación sin intervención manual.                                       | 8            |
+| 19    | US-37         | Creación de Tareas Puntuales     | Como Vivero, quiero agendar tareas puntuales, para gestionar trabajo fuera de las rutinas estandarizadas.                                                                       | 5            |
+| 20    | US-38         | Panel de Tareas Pendientes       | Como Vivero, quiero ver un panel de Tareas Pendientes ordenadas por urgencia, para saber qué trabajo debo realizar hoy.                                                         | 5            |
+| 21    | US-39         | Detección Proactiva de Riesgos   | Como usuario, quiero que el sistema detecte tendencias de riesgo antes de que se dispare una alerta crítica, para actuar proactivamente.                                        | 8            |
