@@ -71,6 +71,7 @@
   
 - **Video About-The-Team:** <br>
   - YouTube: <br>
+    https://youtu.be/zV0CPW7cqh0
   
     
   - One Drive: <br>
@@ -81,4 +82,4 @@
     https://www.youtube.com/watch?v=n8PixEmEuhs
         
   - One Drive: <br>
-    
+    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQCc1mLa5bSaRYhQMPqP7OORAf8pd-Gf_DqjISmqdRqa7I0?e=Pjfoyq
