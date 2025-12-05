@@ -1270,7 +1270,6 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 
 #### 5.2.4.1. Sprint Planning 4
 
-
 | Sprint #                        | Sprint 4                                                                                                                                                             |
 | :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background**  |                                                                                                                                                                      |
@@ -1283,8 +1282,8 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 | Sprint 3 Retrospective Summary  | En este sprint, a diferencia del anterior, se logró cumplir con los tiempos de entrega establecidos. Esto permitió trabajar con mayor orden y evitar la presión acumulada de tareas pendientes. Aun así, reconocemos la importancia de seguir utilizando de manera eficiente las herramientas de gestión para mantener este ritmo y asegurar un monitoreo constante del progreso del equipo.				                                     |
 | **Sprint Goal & User Stories**  |                                                                                                                                                                      |
 | Sprint 4 Goal                   | Nuestro objetivo ahora es finalizar el desarrollo del backend y unificarlo correctamente con el frontend. Con ello, buscamos asegurar que las vistas principales interactúen de manera fluida con los servicios web, ofreciendo a las partes interesadas una demostración completa del sistema funcionando de extremo a extremo. El cumplimiento de este objetivo se validará al lograr una integración estable del API desde el frontend.     |
-| Sprint 4 Velocity               | 20 puntos                                                                                                                                                            |
-| Sum of Story Points             | 10 puntos    																																						 | 
+| Sprint 4 Velocity               | 60 puntos                                                                                                                                                            |
+| Sum of Story Points             | 47 puntos    																																						 | 
 
 #### 5.2.4.2 Aspect Leaders and Collaborators
 
@@ -1315,16 +1314,16 @@ Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b5
 
 | User Story ID | User Story Title                    | Task ID | Task Title                                  | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
 | :------------ | :---------------------------------- | :------ | :------------------------------------------ | :----------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
-| **US-006**    | Panel de Métricas                   | T06-1   | Diseño del Panel de Métricas                | Diseñar layout para visualizar métricas clave del cultivo.                           | 1               | Julio Adolfo    | Done   |
+| **US-006**    | Panel de Métricas                   | T06-1   | Diseño del Panel de Métricas                | Diseñar layout para visualizar métricas clave del cultivo.                           | 4              | Julio Adolfo    | Done   |
 |               |                                     | T06-2   | Implementación de Gráficos                  | Programar gráficos dinámicos para mostrar humedad, temperatura y actividad reciente. | 8               | Elizabeth-Apaza | Done   |
 |               |                                     | T06-3   | Integración de Datos Reales                 | Conectar panel con la base de datos para mostrar métricas actualizadas.              | 4               | Rodrigo Jesus   | Done   |
-| **US-012**    | Visualizar sensores más activos     | T12-1   | Diseño de la Sección de Sensores Activos    | Crear pantalla que muestre los sensores con mayor actividad.                         | 1               | Flor De María   | Done   |
+| **US-012**    | Visualizar sensores más activos     | T12-1   | Diseño de la Sección de Sensores Activos    | Crear pantalla que muestre los sensores con mayor actividad.                         | 4               | Flor De María   | Done   |
 |               |                                     | T12-2   | Implementación de Lista Dinámica            | Programar lista ordenada por actividad y conectada a datos en tiempo real.           | 2               | Elizabeth-Apaza | Done   |
-| **US-015**    | Registro de acciones y cosechas     | T15-1   | Diseño de Formulario de Registro            | Crear formulario para registrar acciones realizadas (riego, poda, cosecha).          | 1               | Antonio Jhair   | Done   |
-|               |                                     | T15-2   | Implementación de Historial                 | Programar historial que muestre todas las actividades realizadas por fecha y tipo.   | 2               | Julio Adolfo    | Done   |
-| **US-021**    | Descargar reportes                  | T21-1   | Diseño del Formato de Reporte               | Definir qué datos incluir en el reporte (sensores, cultivos, alertas, histórico).    | 1               | Rodrigo Jesus   | Done   |
+| **US-015**    | Registro de acciones y cosechas     | T15-1   | Diseño de Formulario de Registro            | Crear formulario para registrar acciones realizadas (riego, poda, cosecha).          | 4               | Antonio Jhair   | Done   |
+|               |                                     | T15-2   | Implementación de Historial                 | Programar historial que muestre todas las actividades realizadas por fecha y tipo.   | 4               | Julio Adolfo    | Done   |
+| **US-021**    | Descargar reportes                  | T21-1   | Diseño del Formato de Reporte               | Definir qué datos incluir en el reporte (sensores, cultivos, alertas, histórico).    | 2               | Rodrigo Jesus   | Done   |
 |               |                                     | T21-2   | Implementación de Descarga en PDF           | Programar la exportación de reportes en formato PDF.                                 | 8               | Flor De María   | Done   |
-| **US-017**    | Visualizar feedback de la comunidad | T17-1   | Diseño de la Sección de Feedback            | Diseñar vista donde se muestren comentarios y valoraciones de usuarios.              | 1               | Elizabeth-Apaza | Done   |
+| **US-017**    | Visualizar feedback de la comunidad | T17-1   | Diseño de la Sección de Feedback            | Diseñar vista donde se muestren comentarios y valoraciones de usuarios.              | 3               | Elizabeth-Apaza | Done   |
 |               |                                     | T17-2   | Implementación de Visualización de Feedback | Programar listado de comentarios con nombre, valoración y fecha.                     | 4               | Antonio Jhair   | Done   |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
@@ -1346,52 +1345,58 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 #### 5.2.4.5 Execution Evidence for Sprint Review
 
 En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos MySQL. También se configuró el despliegue en maquina virtual Windows Azure  y se verificó el funcionamiento mediante la conexión al servidor de ubuntu y el puerto accesible 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
-
-**Capturas de Pantalla de MySQL conectado a la database de la maquina virtual**
-
-- Datos en bounded context
   
 <p align="center">
     <img src="assets/images/resources/execution_evidence_1.jpeg" alt="execution_evidence_1"/>    
 </p>
 
-- Puerto MySQL prendido:
+- **Datos en bounded context:** En esta imagen se llama al Query, donde se usa USE plantae, para indicar que se trabajará con la base de datos plantae y luego SELECT * FROM plants, para obtener todos los registros de la tabla plants, mostrando las filas como id, created_at, deleted_at y device_id.
 
 <p align="center">
     <img src="assets/images/resources/execution_evidence_2.jpeg" alt="execution_evidence_2"/>    
 </p>
 
-- Datos en bounded context Profiles:
-
+- **Puerto MySQL prendido:** En esta imagen se observa ejecutandose dos sentencias en Query, USE plantae, que selecciona la base de datos plantae para trabajar dentro de ella, y después SHOW TABLES, que solicita la lista de tablas disponibles, debajo de ello, se muestra todas las tablas existentes en esa base de datos, como alerts, devices, plants, users, entre otras, lo que confirma que la base fue seleccionada correctamente.
+  
 <p align="center">
     <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
 </p>
 
-- Datos en bounded context User:
-
+- **Datos en bounded context Profiles:** Esta imagen muestra la máquina virtual en Azure, específicamente las reglas de entrada que determinan qué puertos pueden recibir conexiones desde fuera, lo que significa que cualquier equipo externo puede conectarse a través de esos puertos. El puerto 3306, permite que se conecte al servidor MySQL que corre dentro de la máquina virtual.
+  
 <p align="center">
     <img src="assets/images/resources/execution_evidence_5.jpeg" alt="execution_evidence_5"/>    
 </p>
+
+- **Datos en bounded context User:** En esta imagen se ejecuta USE plantae;, que selecciona la base de datos plantae para indicar que todas las consultas siguientes deben hacerse dentro de ella, y luego SHOW TABLES, que le pide al servidor MySQL que muestre todas las tablas contenidas en esa base, mostrando la lista completa de tablas, como alerts, devices, plants, profiles, sensors, users, entre otras, lo que confirma que la conexión al servidor funciona correctamente, que la base de datos existe, y que el usuario tiene permisos para consultarla.
 
 **Evidencias visuales del Backend deployado**
 <p align="center">
     <img src="assets/images/resources/backend1.png" alt="backend1"/>    
 </p>
 
+- En esta imagen se muestra el BC: Profile, contiene endpoints para crear, actualizar y obtener perfiles. Luego el BC: Profile Preferences, donde se administran las preferencias de usuario.
+
 <p align="center">
     <img src="assets/images/resources/backend3.png" alt="backend3"/>    
 </p>
 
+- En esta imagen se observa BC: IAM (Identity and Access Management), que agrupa todos los endpoints relacionados con autenticación y manejo de usuarios, cambiar contraseña, registrar un usuario, iniciar sesión, recuperar cuenta, obtener el perfil autenticado y eliminar la cuenta.
+
 **Como iniciar el backend:**
 
 1. Te vas a la carpeta del backend, usando **cd /home/backend** y simplemente pondrás el siguiente comando: **screen -S backend java -jar plantae-0.0.1-SNAPSHOT.jar**
+   
 <p align="center">
     <img src="assets/images/resources/Recort1.jpg" alt="backend3"/>    
 </p>
-2. Le das enter y empezará a iniciarse Spring Boot, cuando acabe de cargar verás un mensaje parecido a este:  
+
+2. Le das enter y empezará a iniciarse Spring Boot, cuando acabe de cargar verás un mensaje parecido a este:
+   
 <p align="center">
     <img src="assets/images/resources/Recort2.jpg" alt="backend3"/>    
 </p>
+
 3. Eso significa que ya se cargo el backend, entonces no requieres hacer nada más y ya pueden acceder.
 
 **IMPORTANTE:** Inicialo de esta forma, porque si lo intentas iniciar de otra forma sin el “screen” si cierras la consola se cerrará el backend también, usamos “screen -S” para que el backend se mantenga prendido aún que cerremos la consola.  
@@ -1404,24 +1409,33 @@ En esta sección se muestra la evidencia de la documentación de los servicios c
     <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
 </p>
 
-
+- Estructura del proyecto, donde cada carpeta representa un bounded context del backend. 
+ 
 **Evidencias:**  
 
 <p align="center">
     <img src="assets/documentation/Evidence1.jpg" alt="final_code_1"/>    
 </p>
 
+- Describen anotaciones como @RestController, @RequestMapping, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PathVariable y @RequestBody.
+
 <p align="center">
     <img src="assets/documentation/Evidence2.jpg" alt="final_code_1"/>    
 </p>
+
+- Guía de uso de la API, explicando cómo interactuar con el módulo Device Management.
 
 <p align="center">
     <img src="assets/documentation/Evidence3.jpg" alt="final_code_1"/>    
 </p>
 
+- Describe los patrones de diseño con enfoque Hexagonal/Onion Architecture.
+
 <p align="center">
     <img src="assets/documentation/Evidence4.jpg" alt="final_code_1"/>    
 </p>
+
+- Detallada el Device Component, especifican los endpoints REST asociados al controlador DeviceController.
 
 Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_ComponentDocumentation.md
 
@@ -1494,25 +1508,31 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 - La persistencia adecuada de los datos en la base de datos PostgreSQL conectada de forma remota.
 - La estabilidad del backend desplegado en la VM Ubuntu y su correcta accesibilidad a través de la web.
 
-  
-
 **Evidencia Visual**
 
 <p align="center">
     <img src="assets/images/resources/deployment_backend3_1.jpeg" alt="deployment_backend3_1"/>    
 </p>
 
+- Muestra la vista de la máquina virtual PlantaE dentro del portal de Microsoft Azure, actualmente detenida, lo que significa que no está ejecutándose y tampoco está consumiendo recursos.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_1.jpeg" alt="spring_deploy_1"/>    
 </p>
+
+- Terminal de la máquina virtual en Azure ejecutando el backend de PlantaE construido con Spring Boot.
 
 <p align="center">
     <img src="assets/images/resources/spring_deploy_2.jpeg" alt="spring_deploy_2"/>    
 </p>
 
+- Confirmacion de la VM actualmente se encuentra en ejecución, lo que significa que está encendida y lista para recibir conexiones desde el exterior.
+
 <p align="center">
     <img src="assets/images/resources/spring_deploy_3.jpeg" alt="spring_deploy_3"/>    
 </p>
+
+- Muestra varias secciones de configuración avanzada de la máquina virtual PlantaE en Azure.
 
 ## 5.3. Validation Interviews
 
