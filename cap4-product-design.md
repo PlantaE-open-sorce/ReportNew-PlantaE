@@ -699,6 +699,8 @@ Para la vista de Viveros
 
 ![Task Flow 11](assets/images/chapter-4/wire-flow/Task-V/Task11V.png)
 
+URL de los Wireflows Diagrams: https://lucid.app/lucidchart/ac20990f-cb36-4acd-8fa9-58a8fd6c10e4/edit?viewport_loc=-2424%2C-1728%2C20766%2C9296%2C0_0&invitationId=inv_f4247083-cea2-4f91-910c-253827ba05f0
+
 ### 4.4.3. Web Applications Mock-ups
 
 Se le presenta las capturas de nuestros mock-ups, losa más imortantes de nuestra aplicación.
@@ -717,30 +719,117 @@ Se le presenta las capturas de nuestros mock-ups, losa más imortantes de nuestr
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-**Desktop User Flow 1**
-Relacionado con User Goal 1: Registro, inicio de sesión y acceso al aplicativo
+**Desktop User Flow 1: Acceder a PlantaE**
 
-Como usuario (Jardinero Amateur o Gestor Profesional), quiero registrarme eligiendo mi tipo de cuenta y luego iniciar sesión correctamente para acceder a las funcionalidades de la plataforma según mi perfil.
+Relacionado con User Goal 1: Como usuario, quiero registrarme, iniciar sesión o recuperar mi contraseña, para acceder a PlantaE de forma segura.
 
-En esta etapa, el usuario ingresa al Home, selecciona Crear Cuenta, completa el formulario según su tipo de usuario y finalmente inicia sesión. Tras la autenticación, el sistema lo dirige automáticamente al dashboard correspondiente, ya sea personal o empresarial.
+En este flujo, el usuario llega a la pantalla de Inicia Sesión / Crear Cuenta y decide si necesita autenticarse o registrarse. En el flujo principal ingresa sus credenciales correctas o completa el formulario de registro y, tras la validación, es redirigido al dashboard de PlantaE. En escenarios alternativos, si las credenciales son inválidas o falta información, el sistema muestra mensajes de error y ofrece la opción de recuperar contraseña antes de volver a intentar.
 
-<img src="assets/images/chapter-4/User-flow/registro-usuario.png" alt="registro-usuario"/>
+<img src="assets/images/chapter-4/User-flow/USF1.png" alt="Acceder a PlantaE"/>
 
-**DESKTOP USER FLOW 2**
-Relacionado con User Goal 2: Gestión de Plantas
+**Desktop User Flow 2: Registrar y gestionar plantas**
 
-Como Jardinero Amateur o Gestor Profesional, quiero registrar, visualizar y administrar mis plantas (o lotes en caso del vivero) para mantener control y seguimiento de cada una.
+Relacionado con User Goal 2: Como usuario, quiero registrar nuevas plantas y gestionarlas desde una vista centralizada.
 
-En esta etapa, el usuario accede a la sección de plantas desde el menú, revisa la lista disponible y puede agregar o editar información. Para el Jardinero Amateur se muestran plantas individuales; para el Vivero, lotes de producción.
+En este flujo, el usuario accede a la sección Plantas o Gestión, donde puede ver el listado de plantas o un estado “sin plantas registradas”. En el flujo principal, selecciona “Añadir planta”, completa el formulario (nombre, especie, dispositivo y sensor opcionales) y guarda los datos. La planta aparece en el listado y puede filtrarse por nombre, especie o estado. En escenarios alternativos, si la búsqueda no encuentra resultados, se muestra un mensaje de “no se encontraron plantas con esos filtros” sin romper la navegación.
 
-<img src="assets/images/chapter-4/User-flow/agregar-planta.png" alt="agregar-planta"/>
+<img src="assets/images/chapter-4/User-flow/USF2.png" alt="Registrar y gestionar plantas"/>
+
+**Desktop User Flow 3: Consultar detalle de una planta**
+
+Relacionado con User Goal: Como usuario, quiero ver la información detallada de una planta específica, para conocer su estado actual.
+
+En este flujo, el usuario parte desde el listado de Plantas registradas y selecciona “Ver detalle”. La aplicación lo lleva a una pantalla donde se muestran nombre, especie, estado, sensor asignado, dispositivo y un panel de alertas asociadas a esa planta. Desde aquí puede revisar si hay alertas activas o si todo está en orden. Finalmente, dispone de un botón de “Volver” para regresar al listado sin perder el contexto.
+
+<img src="assets/images/chapter-4/User-flow/USF3.png" alt="Consultar detalle de una planta"/>
+
+**Desktop User Flow 4: Visualizar alertas recientes**
+
+Relacionado con User Goal: Como usuario, quiero revisar rápidamente las alertas generadas, para priorizar qué plantas atender.
+
+En este flujo, el usuario entra a la sección Alertas. En el flujo principal, utiliza los filtros por planta, sensor o tipo de alerta y pulsa Filtrar para ver los eventos críticos más recientes. En caso de no existir alertas, la vista muestra el mensaje “Sin alertas”, manteniendo una experiencia clara. El usuario puede actualizar o restablecer los filtros usando los botones de acción, sin necesidad de salir de la pantalla.
+
+<img src="assets/images/chapter-4/User-flow/USF4.png" alt="Visualizar alertas recientes"/>
+
+**Desktop User Flow 5: Gestionar dispositivos del hogar**
+
+Relacionado con User Goal: Como usuario, quiero registrar dispositivos (hubs/gateways) y vincularlos a mis plantas.
+
+Aquí, el usuario navega al módulo Dispositivos, donde puede registrar un dispositivo ingresando su ID, modelo y un secreto opcional. Tras el registro, utiliza el cuadro de Buscar dispositivo para consultarlo y visualizar su detalle. Desde la sección de Detalle, agrega notas, vincula el dispositivo a una planta seleccionada o lo desactiva si deja de usarse. En un flujo alternativo, si se busca un ID inexistente, el usuario no verá detalle y puede intentar con otro identificador.
+
+<img src="assets/images/chapter-4/User-flow/USF5.png" alt="Gestionar dispositivos del hogar"/>
+
+**Desktop User Flow 6: Gestionar sensores y ver lecturas**
+
+Relacionado con User Goal: Como usuario, quiero administrar sensores y consultar sus lecturas para entender el comportamiento de mis cultivos.
+
+En este flujo, el usuario accede a Sensores. En el flujo principal, registra un sensor nuevo, luego lo vincula a una planta y lo visualiza en la tabla de sensores. Desde esa tabla, puede elegir “Ver lecturas” para abrir el histórico de valores (métrica, valor, fecha, calidad), o “Usar en formularios” si la interfaz lo permite. Un escenario alternativo ocurre cuando aún no hay sensores: la tabla aparece vacía y se muestra un mensaje informativo indicando que debe registrar el primero.
+
+<img src="assets/images/chapter-4/User-flow/USF6.png" alt="Gestionar sensores y ver lecturas"/>
+
+**Desktop User Flow 7: Generar reportes de plantas**
+
+Relacionado con User Goal: Como usuario, quiero descargar reportes en PDF o CSV de mis plantas, para analizarlos fuera de la plataforma.
+
+En este flujo, el usuario entra a Reportes, selecciona una planta, define un rango de fechas y decide qué métricas quiere incluir (temperatura, humedad, humedad del suelo o pH). En el happy path, pulsa PDF Planta o CSV Planta, y el sistema genera el archivo para descarga. Si no se ha seleccionado una planta o fechas válidas, el sistema impide generar el reporte y mantiene los controles visibles para que el usuario complete la información faltante.
+
+<img src="assets/images/chapter-4/User-flow/USF7.png" alt="Generar reportes de plantas"/>
+
+**Desktop User Flow 8: Configurar perfil e información pública**
+
+Relacionado con User Goal: Como usuario, quiero actualizar mis datos personales, idioma y perfil público, para controlar cómo se muestra mi cuenta.
+
+En este flujo, el usuario accede al módulo Perfil. En la sección de información personal, ajusta nombre, zona horaria, idioma y guarda cambios. Desde la misma vista puede lanzar el flujo de Cambio de contraseña, ingresando contraseña actual y nueva. En la columna de Perfil público, configura nombre de mostrar, slug, avatar, ubicación y biografía, y guarda su perfil compartible. Si algún dato obligatorio no cumple las reglas, el sistema muestra el error sin romper el flujo, permitiendo corregir y volver a guardar.
+
+<img src="assets/images/chapter-4/User-flow/USF08.png" alt="Configurar perfil e información pública"/>
+
+**Desktop User Flow 9: Acceder al panel del vivero**
+
+Relacionado con User Goal: Como vivero, quiero iniciar sesión y acceder a un panel especializado para mi operación.
+
+En este flujo, el usuario accede con sus credenciales (o se registra) y, tras la autenticación, en lugar del dashboard de hogar se le dirige al Panel de Vivero. Desde allí ve indicadores agregados (plantas activas, lotes activos) y las secciones específicas para tareas e insumos, manteniendo la navegación similar pero con contenido adaptado a la gestión masiva.
+
+<img src="assets/images/chapter-4/User-flow/USF9.png" alt="Acceder al panel del vivero"/>
+
+**Desktop User Flow 10: Revisar tareas críticas y registrar nuevas tareas**
+
+Relacionado con User Goal: Como vivero, quiero ver mis tareas críticas y registrar nuevas tareas de cuidado para plantas o lotes.
+
+En este flujo, el usuario entra al módulo Vivero. El happy path muestra una lista de tareas críticas con fecha de vencimiento y prioridad, permitiendo entender qué debe hacerse primero. Debajo, un formulario permite registrar nuevas tareas indicando título, tipo de activo (planta o lote), prioridad, fecha límite y nota. Tras guardar, la tarea se incorpora al listado. En rutas alternativas, si el usuario no completa la información obligatoria, el sistema no crea la tarea y mantiene el formulario para que pueda corregirlo.
+
+<img src="assets/images/chapter-4/User-flow/USF10.png" alt="Revisar tareas críticas y registrar nuevas tareas"/>
+
+**Desktop User Flow 11: Registrar aplicaciones de insumos**
+
+Relacionado con User Goal: Como vivero, quiero registrar la aplicación de fertilizantes u otros insumos para mantener trazabilidad.
+
+En este flujo, el usuario utiliza la sección de Aplicaciones recientes dentro del módulo Vivero. En el flujo principal, selecciona el activo (planta o lote), el tipo de insumo, la cantidad, unidad, costo, fecha y quién aplica. Al confirmar, el registro se añade al historial de insumos recientes. este flujo permite centralizar el control de aplicaciones, y se integra luego con los módulos de métricas o costos. Si falta información clave (por ejemplo, activo o tipo de insumo), el sistema impide guardar y mantiene los datos en pantalla.
+
+<img src="assets/images/chapter-4/User-flow/USF11.png" alt="Registrar aplicaciones de insumos"/>
+
+URL de los Users Flows Diagrams: https://lucid.app/lucidchart/ac20990f-cb36-4acd-8fa9-58a8fd6c10e4/edit?viewport_loc=-2424%2C-1728%2C20766%2C9296%2C0_0&invitationId=inv_f4247083-cea2-4f91-910c-253827ba05f0
 
 ## 4.5. Web Applications Prototyping
+
+Las decisiones de interacción en PlantaE se fundamentaron en principios clave de diseño, empleando contraste para destacar información crítica como alertas y estados del cultivo; repetición para mantener coherencia visual entre módulos; alineación para favorecer una navegación clara y ordenada; y proximidad para agrupar de manera lógica los elementos relacionados. Estos criterios se aplicaron de forma consistente en toda la plataforma, priorizando una experiencia accesible y orientada al monitoreo eficiente de plantas y sensores.
+
+Desde la perspectiva de arquitectura de información, PlantaE organiza sus funciones mediante un sistema de navegación jerárquica que distribuye los módulos principales (Dashboard, Plantas, Sensores, Dispositivos, Alertas, Reportes y Perfil), complementado con un módulo especializado para Viveros. Los flujos de acciones más relevantes—como registrar una planta, vincular un sensor, aplicar insumos o generar reportes—siguen estructuras secuenciales que reducen la complejidad y guían al usuario paso a paso. Además, se definieron sistemas de etiquetado claros, filtros precisos y herramientas de búsqueda que permiten localizar información rápidamente incluso con múltiples cultivos o sensores activos.
+
+Asimismo, se implementaron interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentación inmediata tras cada acción y patrones de navegación adaptados al tipo de usuario (hogar o vivero). Esto asegura que tanto la consulta de datos como la ejecución de tareas se desarrollen de manera fluida, comprensible y alineada a los objetivos de la plataforma.
+
+A continuación, se incluirán capturas representativas donde se ilustran los principales flujos de interacción del prototipo web, evidenciando cómo se aplican estos lineamientos dentro de la interfaz de PlantaE.
+
+Web Application Desktop:
+
+
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314101_upc_edu_pe/IQCX8fzGayseTqDvBCQNciImASENPzNLePMg1qmpHazutoA?e=rBkyi6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 En el presente link se le hace la entrega del prototipo del figma:
 
 <img src="assets/images/chapter-4/usuario-normal/wireflow/inicio-applicación.png" alt="inicio-applicación"/>
 
-[https://shorturl.at/sdUZr](https://shorturl.at/sdUZr)
+https://www.figma.com/design/1rNP3WUqWPkGLod2D4h9PF/Web-application-PlantaE?node-id=0-1&t=sP1evBJbQUxpCgNy-1
 
 ## 4.6. Domain-Driven Software Architecture
 
