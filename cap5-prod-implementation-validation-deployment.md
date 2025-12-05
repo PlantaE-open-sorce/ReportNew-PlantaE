@@ -70,19 +70,31 @@ A continuación se indican los URLs de los repositorios de GitHub para cada prod
 
 - **Landing Page**: https://github.com/PlantaE-open-sorce/PlantaE-landing
 
-![Deploy1](assets/images/resources/DeployLanding.jpg)
+<p align="center">
+    <img src="assets/images/resources/DeployLanding.jpg" alt="DeployLanding"/>    
+</p>
+
+- Este repositorio de GitHub contiene la landing page del proyecto, muestra archivos como index.html y la carpeta assets, junto con el historial de commits realizados.
 
 #### Repositorio de github - Frontend de PlantaE
 
 - **Frontend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
-  
-![Deploy2](assets/images/resources/DeployFrontend.jpg)
+
+<p align="center">
+    <img src="assets/images/resources/DeployFrontend.jpg" alt="DeployFrontend"/>    
+</p>
+
+- Este repositorio es el frontend de PlantaE, contiene src, public, archivos Angular como angular.json y las dependencias definidas en package.json, mostrando la estructura típica de un proyecto web moderno.
 
 #### Repositorio de github - Backend de PlantaE
 
 - **Backend**: https://github.com/PlantaE-open-sorce/PlantaE-landing
-  
-![Deploy3](assets/images/resources/DeployBckend.jpg)
+
+<p align="center">
+    <img src="assets/images/resources/DeployBckend.jpg" alt="DeployBckend"/>    
+</p>
+
+- Este repositorio es el backendNuevo PlantaE, pero aún está vacío: solo contiene un README.md y un commit inicial, indicando que el backend aún no ha sido subido o está en etapa de preparación.
 
 #### GitFlow Workflow
 
@@ -93,7 +105,11 @@ Se implementará el modelo de ramificación propuesto por Vincent Driessen en su
 - `feature/*`: Ramas creadas a partir de `develop` para desarrollar nuevas funcionalidades.**Convención de nombres:** `feature/<nombre-corto-descriptivo>`_Ejemplo: `feature/login-auth`_
 - `release/*`: Ramas creadas desde `develop` cuando se prepara una nueva versión para producción.**Convención de nombres:** `release/<versión>`_Ejemplo: `release/TB1`_
 
-![GitFlow](assets/images/resources/GitFlow.jpg)
+<p align="center">
+    <img src="assets/images/resources/GitFlow.jpg" alt="GitFlow"/>    
+</p>
+
+- Diagrama que muestra un flujo Git avanzado: ramas master, develop, feature, release y hotfix trabajando en paralelo, con merges controlados y versiones etiquetadas.
 
 #### Versionado Semántico
 
@@ -119,35 +135,36 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### Landing Page:
 **Resumen:** Como principales tecnologías, usaremos Astro, Tailwind CSS, HTML y TypeScript. Componentes pequeños y tipados, comunicación clara por props, y estilos utilitarios y organizados.
-| **Tecnología** | **Convenciones principales** | **Convenciones para código** |
-|---|---|---|
-| **Tailwind CSS** | - Usar solo clases utilitarias de Tailwind.<br>- Ordenar clases en bloques: Layout → Box Model → Tipografía → Colores/Fondos → Otros.<br>- Mantener legibilidad en clases largas. | - Usar `@apply` para estilos reutilizables.<br>- Evitar clases condicionales en el HTML. - Usar clases de estado (hover, focus, etc.) en lugar de JavaScript para interacciones simples.<br> - Mantener la estructura de carpetas organizada y coherente.<br> - Reutilizar el máximo de clases de tailwind. |
-| **HTML** | - Usar etiquetas semánticas (`header`, `main`, `section`, etc.).<br>- Indentación de 2 espacios.<br>- Atributos entre comillas dobles `"`.<br>- Orden de atributos: `id`, `class` → accesibilidad (`aria-*`) → funcionales (`src`, `href`, `alt`).<br>- Nombres en kebab-case (`main-section`). | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
-| **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
-| **Astro** | - Archivos `.astro` en `PascalCase`.<br>- Orden del archivo: frontmatter → HTML/JSX → estilos `\<style>`.<br>- Props siempre tipadas con TypeScript.<br>- Importaciones cortas y claras.<br>- Componentes pequeños y reutilizables. | - Mantener la lógica de los componentes en el archivo `.astro` y evitar la lógica compleja en el frontmatter. - Usar `Astro.fetch` para obtener datos de manera eficiente.<br> - Utilización de props para comunicación entre componentes. |
+
+| **Tecnología**   | **Convenciones principales**																																			 | **Convenciones para código**										  |
+| :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **Tailwind CSS** | - Usar solo clases utilitarias de Tailwind.<br>- Ordenar clases en bloques: Layout → Box Model → Tipografía → Colores/Fondos → Otros.<br>- Mantener legibilidad en clases largas. 																											    | - Usar `@apply` para estilos reutilizables.<br>- Evitar clases condicionales en el HTML. - Usar clases de estado (hover, focus, etc.) en lugar de JavaScript para interacciones simples.<br> - Mantener la estructura de carpetas organizada y coherente.<br> - Reutilizar el máximo de clases de tailwind. |
+| **HTML**         | - Usar etiquetas semánticas (`header`, `main`, `section`, etc.).<br>- Indentación de 2 espacios.<br>- Atributos entre comillas dobles `"`.<br>- Orden de atributos: `id`, `class` → accesibilidad (`aria-*`) → funcionales (`src`, `href`, `alt`).<br>- Nombres en kebab-case (`main-section`). | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **TypeScript**   | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
+| **Astro**        | - Archivos `.astro` en `PascalCase`.<br>- Orden del archivo: frontmatter → HTML/JSX → estilos `\<style>`.<br>- Props siempre tipadas con TypeScript.<br>- Importaciones cortas y claras.<br>- Componentes pequeños y reutilizables. 															| - Mantener la lógica de los componentes en el archivo `.astro` y evitar la lógica compleja en el frontmatter. - Usar `Astro.fetch` para obtener datos de manera eficiente.<br> - Utilización de props para comunicación entre componentes. |
 
 ### Front-End:
 
 **Resumen:** Como principales tecnologías, usaremos Vue.js, HTML, JavaScript y CSS. Componentes pequeños y tipados, comunicación clara por props/emits, y manejo de estado y APIs mantenible.
 
-| **Tecnología** | **Convención** | **Convenciones para código** |
-|----------------|----------------|------------------------------|
-| **HTML5** | Uso semántico de etiquetas (`header`, `main`, `section`, `footer`). Atributos en comillas dobles. Indentación de 2 espacios. | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
-| **CSS3** | Estilos modulares y reutilizables. Variables globales para colores/tipografía. Evitar `!important`. | - Usar BEM (Block Element Modifier) para nombrar clases.<br>- Mantener la especificidad baja y evitar selectores complejos.<br>- Utilizar preprocesadores como SASS o LESS si es necesario. |
+| **Tecnología** | **Convención** 																												| **Convenciones para código** 											 |
+| :------------: | :--------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| **HTML5**      | Uso semántico de etiquetas (`header`, `main`, `section`, `footer`). Atributos en comillas dobles. Indentación de 2 espacios. | - Mantener el HTML limpio y libre de código comentado.<br>- Usar comentarios para secciones complejas o importantes.<br> - Usar `data-*` atributos para información adicional.<br> - Evitar el uso de inline styles. |
+| **CSS3**       | Estilos modulares y reutilizables. Variables globales para colores/tipografía. Evitar `!important`. | - Usar BEM (Block Element Modifier) para nombrar clases.<br>- Mantener la especificidad baja y evitar selectores complejos.<br>- Utilizar preprocesadores como SASS o LESS si es necesario. |
 | **TypeScript** | - Variables/funciones en `camelCase`.<br>- Clases/interfaces en `PascalCase`.<br>- Constantes en `UPPER_SNAKE_CASE`.<br>- Tipado obligatorio en variables, parámetros y retornos.<br>- Ordenar imports de externos a internos. | - Usar `readonly` para propiedades que no deben cambiar.<br>- Preferir funciones puras y evitar efectos secundarios.<br> - Usar destructuración para extraer valores de objetos y arrays. |
-| **Angular** | - Componentes en `PascalCase`.<br>- Servicios en `camelCase`.<br>- Módulos en `PascalCase`.<br>- Uso de `@Input` y `@Output` para comunicación entre componentes. | - Mantener los componentes pequeños y enfocados en una sola responsabilidad.<br>- Utilzación de nuevas directivas como @if, @for o @else de Angular versión 20.<br>- No utilizar NgModules por nuevas recomendaciones de Angular versión 20. |
+| **Angular**    | - Componentes en `PascalCase`.<br>- Servicios en `camelCase`.<br>- Módulos en `PascalCase`.<br>- Uso de `@Input` y `@Output` para comunicación entre componentes. | - Mantener los componentes pequeños y enfocados en una sola responsabilidad.<br>- Utilzación de nuevas directivas como @if, @for o @else de Angular versión 20.<br>- No utilizar NgModules por nuevas recomendaciones de Angular versión 20. |
 
 ### Back-End:
 
 **Resumen:** Como principales tecnologías, C# y .NET. Como principales tecnologías, se utilizarán C# y .NET, enfocándose en un código limpio, seguro y mantenible bajo buenas prácticas de arquitectura, nomenclatura, validación, seguridad y pruebas.
 
-| **Tecnología** | **Convención** | **Convenciones para código** |
-|----------------|----------------|------------------------------|
-| **Java** | Lenguaje principal. Usar sintaxis moderna (Java 17+), convenciones de nomenclatura estándar de Oracle, y programación orientada a objetos junto con patrones modernos (Streams, Optional, records, etc.). | - Mantener el código limpio y bien estructurado.<br>- Usar comentarios para explicar la lógica compleja.<br>- Seguir las convenciones de nomenclatura de Oracle. |
-| **Spring Boot** | Framework principal para el backend. Uso de **arquitectura en capas** (API, Application, Domain, Infrastructure). Enfoque en modularidad, mantenibilidad y soporte multiplataforma. | - Seguir las mejores prácticas de diseño de API REST.<br>- Utilizar anotaciones de validación para entradas de usuario.<br>- Implementar manejo de errores y excepciones de manera consistente. |
-| **Maven** | Herramienta de gestión y construcción del proyecto. Uso de un `pom.xml` bien estructurado para gestionar dependencias, plugins y perfiles de construcción. | - Mantener una estructura de proyecto coherente y organizada.<br>- Utilizar versiones específicas de dependencias para evitar conflictos.<br>- Documentar la configuración del `pom.xml` para facilitar su comprensión. |
+| **Tecnología**  	| **Convención**																											  | **Convenciones para código**    |
+| :---------------: | :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
+| **Java**        	| Lenguaje principal. Usar sintaxis moderna (Java 17+), convenciones de nomenclatura estándar de Oracle, y programación orientada a objetos junto con patrones modernos (Streams, Optional, records, etc.). | - Mantener el código limpio y bien estructurado.<br>- Usar comentarios para explicar la lógica compleja.<br>- Seguir las convenciones de nomenclatura de Oracle. |
+| **Spring Boot** 	| Framework principal para el backend. Uso de **arquitectura en capas** (API, Application, Domain, Infrastructure). Enfoque en modularidad, mantenibilidad y soporte multiplataforma. | - Seguir las mejores prácticas de diseño de API REST.<br>- Utilizar anotaciones de validación para entradas de usuario.<br>- Implementar manejo de errores y excepciones de manera consistente. |
+| **Maven**         | Herramienta de gestión y construcción del proyecto. Uso de un `pom.xml` bien estructurado para gestionar dependencias, plugins y perfiles de construcción. | - Mantener una estructura de proyecto coherente y organizada.<br>- Utilizar versiones específicas de dependencias para evitar conflictos.<br>- Documentar la configuración del `pom.xml` para facilitar su comprensión. |
 | **JPA/Hibernate** | Framework de mapeo objeto-relacional. Uso de anotaciones para definir entidades, relaciones y consultas. Enfoque en la eficiencia y optimización de acceso a datos. | - Definir entidades claras y bien estructuradas.<br>- Utilizar consultas JPQL o Criteria API para operaciones complejas.<br>- Implementar estrategias de caché para mejorar el rendimiento. |
-| **Swagger** | Generación automática de documentación de la API REST. Versionado claro (`/api/v1`, `/api/v2`) y contratos visibles para clientes externos. | - Incluir ejemplos de solicitudes y respuestas en la documentación.<br>- Mantener la documentación actualizada con los cambios en la API.<br>- Utilizar herramientas de generación de documentación para automatizar el proceso. |
+| **Swagger** 		| Generación automática de documentación de la API REST. Versionado claro (`/api/v1`, `/api/v2`) y contratos visibles para clientes externos. | - Incluir ejemplos de solicitudes y respuestas en la documentación.<br>- Mantener la documentación actualizada con los cambios en la API.<br>- Utilizar herramientas de generación de documentación para automatizar el proceso. |
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -160,22 +177,32 @@ Para que nuestra landing page esté disponible para todos nuestros usuarios, la 
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Landing Page de PlantaE.
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
 
+- Pantalla de GitHub para crear una organización, donde se ingresan el nombre, correo de contacto y si pertenece a una cuenta personal o institución antes de la verificación.
 
 **2. Creación del repositorio**
 
 Hicimos clic en el botón “New” para generar un nuevo repositorio.
 Le asignamos el nombre “landing-page” dentro de nuestra organización
 
-![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_repositorio.jpg" alt="Creacion_repositorio"/>    
+</p>
+
+- Pantalla para crear un nuevo repositorio dentro de la organización en GitHub, donde se define el propietario, nombre del repo, descripción opcional, visibilidad y configuración inicial como el README.
 
 **3. Configuración del repositorio**
 Nos aseguramos de que el repositorio tenga visibilidad pública para permitir la integración con GitHub Pages.
 Añadimos un archivo README.md inicial y configuramos un .gitignore adecuado para excluir archivos innecesarios.
 
-![Logo de la empresa](assets/images/resources/web_git.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_git.jpg" alt="web_git"/>    
+</p>
 
+- Esta pantalla muestra la configuración de GitHub Pages del repositorio PlantaE-landing, indicando que el sitio está publicado correctamente, la URL pública activa y que la rama main es la fuente de despliegue para generar la página web.
 
 **4. Carga de los archivos de la landing page**
 
@@ -184,8 +211,11 @@ Subimos los archivos generados del proyecto (HTML, TailwindCSS, TypeScript, Astr
 Verificamos que los cambios se hicieran en la rama principal (main).
 Finalmente, confirmamos la acción con “Commit changes” para guardar los archivos.
 
-![Logo de la empresa](assets/images/resources/landing_1.png)
+<p align="center">
+    <img src="assets/images/resources/landing_1.png" alt="landing_1"/>    
+</p>
 
+- Página principal del landing de PlantaE, mostrando el encabezado con menú, selector de idioma, modo noche y una sección hero donde se presenta el proyecto
 
 ### Despliegue del Frontend Web Applications
 Para que nuestra Frontend Web Application esté disponible para todos nuestros usuarios, la publicamos como un sitio web utilizando la plataforma de GitHub. El proceso se llevó a cabo de la siguiente manera: 
@@ -193,22 +223,32 @@ Para que nuestra Frontend Web Application esté disponible para todos nuestros u
 **1. Registro en GitHub**
 Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto y almacenar el código de la Frontend Web Application de PlantaE. 
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
 
+- Es la pantalla de creación de una organización en GitHub, donde se ingresan el nombre, correo de contacto y el tipo de cuenta a la que pertenecerá.
 
 **2. Creación del repositorio**
 
 Hicimos clic en el botón “New” para generar un nuevo repositorio
 Le asignamos el nombre “frontend” dentro de nuestra organización PlantaE.
 
-![Logo de la empresa](assets/images/resources/Creacion_repositorio.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_repositorio.jpg" alt="Creacion_repositorio"/>    
+</p>
 
+- Página de creación de un nuevo repositorio en GitHub, donde eliges el dueño, asignas un nombre y configuras visibilidad y opciones iniciales.
 
 **3. Despliegue en Windows Azure**
 
 Tanto en Frontend como el backend se desplegaron en maquina virtual
 
-![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_fronted2.jpg" alt="web_fronted2"/>    
+</p>
+
+- Vvista de la máquina virtual en Azure, donde se muestra su estado, IP pública, sistema operativo, suscripción, red asociada y demás propiedades básicas del servidor.
 
 **4. Configuración del repositorio**
 
@@ -233,14 +273,22 @@ Creamos una cuenta en GitHub para poder gestionar los repositorios del proyecto 
 
 Creamos un repositorio llamado backend dentro de nuestra organización prime-fix.
 
-![Logo de la empresa](assets/images/resources/Creacion_github.jpg)
+<p align="center">
+    <img src="assets/images/resources/Creacion_github.jpg" alt="Creacion_github"/>    
+</p>
+
+- Pantalla para crear una organización en GitHub, donde defines el nombre, correo de contacto y si estará vinculada a tu cuenta personal o a una institución.
 
 **2. Base datos en Microsoft Azure**
 
 Creamos una instancia de base de datos en Amazon RDS para almacenar los datos de la aplicación.
 Configuramos los parámetros de la base de datos, incluyendo el motor (MySQL, PostgreSQL, etc.), tamaño, y credenciales de acceso.
 
-![Logo de la empresa](assets/images/resources/execution_evidence_3.jpeg)
+<p align="center">
+    <img src="assets/images/resources/execution_evidence_3.jpeg" alt="execution_evidence_3"/>    
+</p>
+
+- Es la lista de reglas del firewall de Azure (NSG) donde se ven los puertos abiertos de la VM
 
 **3. Build en Microsoft Azure C**
 
@@ -248,7 +296,11 @@ Configuramos un proyecto en la maquina virtual  para compilar el código del bac
 Construye la imagen Docker utilizando un archivo Dockerfile que define el entorno de ejecución.
 Con todos estos archivos podemos compilar el proyecto de Java v.25 y Spring Boot v.3.5.7
 
-![Logo de la empresa](assets/images/resources/buil.jpg)
+<p align="center">
+    <img src="assets/images/resources/buil.jpg" alt="buil"/>    
+</p>
+
+- Carpeta /home/frontend y borraste la carpeta dist; ahora solo quedan los archivos del proyecto Angular.
 
 **4. Actualizar la maquina virtual**
 
@@ -256,7 +308,11 @@ Creamos un repositorio en Amazon ECR para almacenar las imágenes Docker del bac
 Configuramos las políticas de acceso para permitir que AWS CodeBuild pueda subir imágenes al repositorio.
 Subimos la imagen Docker generada por CodeBuild al repositorio de ECR.
 
-![Logo de la empresa](assets/images/resources/web_fronted2.jpg)
+<p align="center">
+    <img src="assets/images/resources/web_fronted2.jpg" alt="web_fronted2"/>    
+</p>
+
+- Iimagen muestra la máquina virtual PlantaE en Azure, donde se ve su IP pública, estado detenido, red asociada y sistema operativo.
 
 **6. Despliegue en Maquina Virtual**
 
@@ -265,7 +321,11 @@ Configuramos las variables de entorno necesarias para la conexión con la base d
 Definimos la configuración de escalado automático para manejar la carga de tráfico.
 Finalmente, iniciamos el servicio para que el backend esté disponible públicamente.
 
-![Logo de la empresa](assets/images/resources/backend5.png)
+<p align="center">
+    <img src="assets/images/resources/backend5.png" alt="backend5"/>    
+</p>
+
+- La imagen muestra la sección de Reportes, I18N y Alertas del Swagger, donde puedes generar archivos PDF/CSV, consultar el catálogo de idiomas y obtener alertas recientes.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
