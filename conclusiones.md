@@ -28,4 +28,5 @@ El video finaliza con una reflexión colectiva sobre todo lo aprendido, resaltan
 
 **URLs de la Versión Publicada**
 
-- Link en OneDrive: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQD4nteYlwb4QLtbNPunG4RaAQNoGpxI8P9MT7FV8jVEdzQ?e=3jLdem&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link en OneDrive: https://upcedupe-my.sharepoint.com/personal/u202323243_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202323243%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202025%2D12%2D05%20at%201%2E25%2E13%20PM%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0f8527e5%2D7c2f%2D4137%2D91ee%2Dfea34a18a270
+
