@@ -1294,10 +1294,6 @@ Con el avance del proyecto y el trabajo en backend, se organizó una matriz de l
 
 Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
 
-![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 4.
-  </figcaption>
 
 | Team Member (Last Name, First Name) | GitHub Username    | Integration & Validation | Data Consistency | Backend Finalization | Frontend Integration |
 | :---------------------------------- | :----------------- | :----------------------- | :--------------- | :------------------- | :------------------- |
@@ -1310,6 +1306,12 @@ Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b5
 #### 5.2.4.3 Sprint Backlog 4
 
 El objetivo de este Sprint es finalizar el backend e integrarlo completamente con el frontend, asegurando que todas las funcionalidades trabajen de manera coordinada y sin errores. Se busca garantizar que los módulos desarrollados se conecten correctamente con la interfaz, ofreciendo al usuario una experiencia fluida, estable y totalmente funcional. Este sprint consolida la plataforma como un sistema operativo completo y listo para pruebas finales y despliegue.
+
+![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
+<figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Sprint Backlog 4.
+  </figcaption>
+
 
 | User Story ID | User Story Title                    | Task ID | Task Title                                  | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
 | :------------ | :---------------------------------- | :------ | :------------------------------------------ | :----------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
