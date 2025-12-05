@@ -411,6 +411,7 @@ Para la vista de Home
 3. Registrarse completando nombre, correo, contraseña e idioma si no tiene cuenta.
 4. Acceder al dashboard tras completar el proceso.
 
+![Task Flow 1](assets/images/chapter-4/wire-flow/Task-h/Task1.png)
 
 **Task flow 2:** Supervisar el dashboard
 
@@ -423,6 +424,7 @@ Para la vista de Home
 3. Revisar la sección “Registrar acción manual”.
 4. Consultar el bloque “Últimas acciones”.
 
+![Task Flow 2](assets/images/chapter-4/wire-flow/Task-h/Task2.png)
 
 **Task flow 3:** Registrar una planta
 
@@ -435,6 +437,7 @@ Para la vista de Home
 3. Guardar la planta.
 4. Visualizarla en la lista de plantas registradas.
 
+![Task Flow 3](assets/images/chapter-4/wire-flow/Task-h/Task3.png)
 
 **Task flow 4:** Gestionar plantas registradas
 
@@ -447,6 +450,7 @@ Para la vista de Home
 3. Seleccionar “Buscar” para mostrar coincidencias.
 4. Hacer clic en “Ver detalle” para abrir información de una planta.
 
+![Task Flow 4](assets/images/chapter-4/wire-flow/Task-h/Task4.png)
 
 **Task flow 5:** Ver detalle de una planta
 
@@ -459,6 +463,7 @@ Para la vista de Home
 3. Revisar la tarjeta de alertas de esa planta.
 4. Volver al listado si desea navegar entre más plantas.
 
+![Task Flow 5](assets/images/chapter-4/wire-flow/Task-h/Task5.png)
 
 **Task flow 6:** Revisar alertas recientes
 
@@ -471,6 +476,7 @@ Para la vista de Home
 3. Ver la lista de alertas recientes.
 4. Seleccionar una alerta para revisarla.
 
+![Task Flow 6](assets/images/chapter-4/wire-flow/Task-h/Task6.png)
 
 **Task flow 7:** Registrar y gestionar dispositivos
 
@@ -487,6 +493,7 @@ Para la vista de Home
 7. Seleccionar planta para vincular el dispositivo.
 8. Desactivar dispositivo si es necesario.
 
+![Task Flow 7](assets/images/chapter-4/wire-flow/Task-h/Task7.png)
 
 **Task flow 8:** Registrar y gestionar sensores
 
@@ -501,6 +508,7 @@ Para la vista de Home
 5. Registrar lectura manual si es necesario (test).
 6. Ver tabla de sensores registrados.
 
+![Task Flow 8](assets/images/chapter-4/wire-flow/Task-h/Task8.png)
 
 **Task flow 9:** Descargar reportes
 
@@ -514,6 +522,7 @@ Para la vista de Home
 4. Elegir las métricas (temperatura, humedad, pH…).
 5. Descargar PDF o CSV.
 
+![Task Flow 9](assets/images/chapter-4/wire-flow/Task-h/Task9.png)
 
 **Task flow 10:** Editar perfil personal
 
@@ -525,6 +534,7 @@ Para la vista de Home
 2. Editar nombre, zona horaria e idioma.
 3. Guardar cambios.
 
+![Task Flow 10](assets/images/chapter-4/wire-flow/Task-h/Task10.png)
 
 **Task flow 11:** Cambiar contraseña
 
@@ -536,9 +546,11 @@ Para la vista de Home
 2. Ingresar contraseña actual y nueva.
 3. Guardar la actualización.
 
+![Task Flow 11](assets/images/chapter-4/wire-flow/Task-h/Task11.png)
 
-
+----------------------------------------------------
 Para la vista de Viveros
+----------------------------------------------------
 
 **Task flow 1:** Acceder a la plataforma PlantaE
 
@@ -550,7 +562,7 @@ Para la vista de Viveros
 2. Ingresar credenciales válidas o completar el registro.
 3. Acceder al inicio de la aplicación.
 
-
+![Task Flow 1](assets/images/chapter-4/wire-flow/Task-V/Task1V.png)
 
 **Task flow 2:** Supervisar el panel de viveros
 
@@ -563,6 +575,7 @@ Para la vista de Viveros
 3. Revisar lista de tareas críticas ordenadas por urgencia.
 4. Visualizar insumos recientes aplicados a plantas o lotes.
 
+![Task Flow 2](assets/images/chapter-4/wire-flow/Task-V/Task2V.png)
 
 **Task flow 3:** Registrar plantas
 
@@ -575,6 +588,7 @@ Para la vista de Viveros
 3. Completar nombre, especie, dispositivo y sensor opcionales.
 4. Guardar la planta y visualizarla en lista.
 
+![Task Flow 3](assets/images/chapter-4/wire-flow/Task-V/Task3V.png)
 
 **Task flow 4:** Gestionar listado de plantas del vivero
 
@@ -587,6 +601,7 @@ Para la vista de Viveros
 3. Pulsar Buscar para actualizar la lista.
 4. Seleccionar Ver detalle para abrir la ficha de una planta.
 
+![Task Flow 4](assets/images/chapter-4/wire-flow/Task-V/Task4V.png)
 
 **Task flow 5:** Ver detalle de una planta del vivero
 
@@ -599,6 +614,7 @@ Para la vista de Viveros
 3. Consultar sección de Alertas activas.
 4. Regresar a la lista usando “Volver”.
 
+![Task Flow 5](assets/images/chapter-4/wire-flow/Task-V/Task5V.png)
 
 **Task flow 6:** Gestionar dispositivos del vivero
 
@@ -614,6 +630,7 @@ Para la vista de Viveros
 6. Seleccionar una planta para vincular dispositivo.
 7. Confirmar vinculación o desactivar dispositivo.
 
+![Task Flow 6](assets/images/chapter-4/wire-flow/Task-V/Task6V.png)
 
 **Task flow 7:** Registrar, vincular y gestionar sensores del vivero
 
@@ -628,6 +645,7 @@ Para la vista de Viveros
 5. Registrar lectura manual para pruebas.
 6. Ver tabla de sensores registrados.
 
+![Task Flow 7](assets/images/chapter-4/wire-flow/Task-V/Task7V.png)
 
 **Task flow 8:** Revisar alertas del vivero
 
@@ -640,6 +658,7 @@ Para la vista de Viveros
 3. Visualizar lista de alertas activas.
 4. Actualizar o restablecer filtros con los botones correspondientes.
 
+![Task Flow 8](assets/images/chapter-4/wire-flow/Task-V/Task8V.png)
 
 **Task flow 9:** Generar reportes del vivero
 
@@ -653,6 +672,7 @@ Para la vista de Viveros
 4. Activar métricas deseadas (temperatura, humedad, pH…).
 5. Descargar PDF Planta, CSV Planta o Resumen PDF.
 
+![Task Flow 9](assets/images/chapter-4/wire-flow/Task-V/Task9V.png)
 
 **Task flow 10:** Actualizar información personal del vivero
 
@@ -664,6 +684,7 @@ Para la vista de Viveros
 2. Editar nombre, zona horaria e idioma.
 3. Guardar cambios.
 
+![Task Flow 10](assets/images/chapter-4/wire-flow/Task-V/Task10V.png)
 
 **Task flow 11:** Cambiar contraseña
 
@@ -676,6 +697,7 @@ Para la vista de Viveros
 3. Ingresar nueva contraseña.
 4. Guardar actualizado.
 
+![Task Flow 11](assets/images/chapter-4/wire-flow/Task-V/Task11V.png)
 
 ### 4.4.3. Web Applications Mock-ups
 
