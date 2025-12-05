@@ -736,7 +736,7 @@ Navegación fluida entre la página de presentación y la aplicación web.
 
 |**Ambas versiones solo funcionan cuando el contenedor virtual en este caso Microsoft Azure este encendido de lo contrario no se podra acceder por ello antes de ingresar indicar para prender el prototipo**|
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6. .
 
 Durante el Sprint 2, se desarrolló documentación técnica comprehensiva para la Frontend Web Application implementada. La documentación incluye guías de componentes, patrones de diseño implementados y guías de mantenimiento para facilitar el desarrollo futuro y la colaboración del equipo.
 
@@ -1345,6 +1345,7 @@ Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b5
 |               |                                     | T21-2   | Implementación de Descarga en PDF           | Programar la exportación de reportes en formato PDF.                                 | 8               | Flor De María   | Done   |
 | **US-017**    | Visualizar feedback de la comunidad | T17-1   | Diseño de la Sección de Feedback            | Diseñar vista donde se muestren comentarios y valoraciones de usuarios.              | 3               | Elizabeth-Apaza | Done   |
 |               |                                     | T17-2   | Implementación de Visualización de Feedback | Programar listado de comentarios con nombre, valoración y fecha.                     | 4               | Antonio Jhair   | Done   |
+| **US-040**    | Validar por correo electornico      | T40-1   | Implementación API externa		          | IMplementar una peticion al correo electronico al registar el usuario	             | 6               | Flor De María   | Done   |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
@@ -1352,10 +1353,11 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 
 | Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
 | :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
-| feature/adding-login-profile     | feature/adding-myplants-details  | 4c739fedc539ef752cc791f4081a46216f1a0c41 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Dic 02, 2025        |
+| feature/adding-login-profile     | feature/adding-myplants-details  | 4c739fedc539ef752cc791f4081a46216f1a0c41 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Dic 03, 2025        |
 | feature/adding-management-plants | feature/adding-myplants-details  | b04b9dfac519df4149fc2ce3bb473fd887b2571f | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Dic 02, 2025        |
 | feature/adding-management-plants | feature/adding-login-profile     | 28b8a03b16aab6cebfe0217dbd02a3a82a185664 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Dic 01, 2025        |
-| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Dic 01, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Dic 02, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo api para login y profile                           | Añadiendo api para login y profile                             | Dic 04, 2025        |
 
 | **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
 | :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
@@ -1420,6 +1422,26 @@ En este sprint, hemos logrado avances significativos en el desarrollo del backen
 3. Eso significa que ya se cargo el backend, entonces no requieres hacer nada más y ya pueden acceder.
 
 **IMPORTANTE:** Inicialo de esta forma, porque si lo intentas iniciar de otra forma sin el “screen” si cierras la consola se cerrará el backend también, usamos “screen -S” para que el backend se mantenga prendido aún que cerremos la consola.  
+
+# Restablecer Contraseña mediante API Externa
+
+1. Para recuperar contraseña debe ingresar el correo electronico correspondiente
+
+<p align="center">
+    <img src="assets/images/resources/api-externa-1.jpeg" alt="api-externa-1"/>    
+</p>
+
+2. El usuario recibira un correo para cambiar su contraseña correspondiente.
+  
+<p align="center">
+    <img src="assets/images/resources/api-externa-2.jpeg" alt="api-externa-2"/>    
+</p>
+
+1. La aplicacion le mandara la confirmacion para reemplazar la contraseña sel usuario y guardarla.
+
+<p align="center">
+    <img src="assets/images/resources/api-externa-3.jpeg" alt="api-externa-3"/>    
+</p>
 
 #### 5.2.4.6 Services Documentation Evidence for Sprint Review
 
