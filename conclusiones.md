@@ -23,7 +23,7 @@ El video finaliza con una reflexión colectiva sobre todo lo aprendido, resaltan
 **Imagen representativa del video**
 
 <p align="center">
-    <img src="assets/images/resources/about_team.png" alt="about_team"/>    
+    <img src="assets/images/resources/about_team1.png" alt="about_team1"/>    
 </p>
 
 **URLs de la Versión Publicada**
