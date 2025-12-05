@@ -2182,20 +2182,20 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## 5.4. Video About-the-Product
 
-En esta parte, el equipo ofrece una síntesis de los puntos más importantes de PlantE. El contenido audiovisual describe detalladamente las funciones principales de la aplicación, mostrando cómo cada una fue creada para atender las necesidades de las plantas, ya sean hogares o comericales.
+En esta sección, el equipo presenta un resumen de los aspectos más destacados de PlantE. El material audiovisual explica de forma clara las funciones principales de la aplicación, mostrando cómo cada herramienta fue diseñada para responder a las necesidades del cuidado de plantas, tanto en espacios domésticos como comerciales.
 
-El video incluye demostraciones visuales del uso de la app, mostrando pasos esenciales como las recomendaciones de riego y luz, monitoreo del crecimiento, alertas de cuidado y reportes generales sobre tus plantas registradas.
+El video muestra ejemplos prácticos de cómo utilizar la app, incluyendo pasos clave como las sugerencias de riego y luz, el seguimiento del crecimiento, las notificaciones de cuidado y los informes generales de las plantas registradas.
 
-La narración guía al espectador por toda la experiencia de uso, mientras que testimonios reales aportan credibilidad al compartir cómo la aplicación ha facilitado el cuidado de plantas tanto para principiantes como para aficionados experimentados. Estos relatos destacan la facilidad de uso y la mejora en la salud de las plantas.
+La narración acompaña al espectador a lo largo de toda la experiencia de uso, mientras que testimonios reales refuerzan la confianza en la herramienta al contar cómo ha simplificado el cuidado de plantas para personas con poca experiencia y para usuarios avanzados. Estas experiencias subrayan lo fácil que es usar la aplicación y cómo contribuye a mejorar la salud de las plantas.
 
-En conjunto, el video no solo presenta el producto, sino que lo posiciona como una solución digital efectiva para apoyar el cuidado responsable de las plantas, demostrando su utilidad, su usabilidad y su impacto positivo.
+En conjunto, el video no solo da a conocer el producto, sino que también lo presenta como una solución digital eficaz para promover un cuidado responsable de las plantas, demostrando su utilidad, su facilidad de uso y su impacto positivo.
 
 **Video Explicativo**
 
 <p align="center">
-    <img src="assets/images/resources/about_product.jpeg" alt="about_product"/>    
+    <img src="assets/images/resources/about_product1.png" alt="about_product1"/>    
 </p>
 
 **URL de la Versión Publicada**
 
-- Link de YouTube: https://youtu.be/NjN0LWdj1WI
+- Link de YouTube: https://www.youtube.com/watch?v=n8PixEmEuhs
