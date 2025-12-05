@@ -1012,33 +1012,36 @@ Enlace: https://trello.com/invite/b/693088880f466beac75727f8/ATTIe77b8053b13c98c
     <strong>Figura 1:</strong> Sprint Backlog 3.
   </figcaption>
 
-| User Story ID | User Story Title             | Task ID | Task Title                       | Task Description                                                                     | Estimated Hours | Assigned To     | Status |
-| :-----------: | :--------------------------- | :-----: | :------------------------------- | :----------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
-| US-001	    | Acceso a la plataforma       | T01-1	 | Modelo y migraciones de usuarios | Definir tabla users, índices (email único), timestamps y soft-delete.                | 4	             | Elizabeth Apaza | Done   |
-| 	            |                              | T01-2	 | Endpoint de registro	            | POST /api/v1/auth/register con validación, hashing y verificación de email opcional. | 6	             | Julio Guillen   | Done   |
-| 	            |                              | T01-3 	 | Endpoint de login	            | POST /api/v1/auth/login con JWT/refresh, lockout por intentos y auditoría.           | 8	             | Rodrigo Miraval | Done   |
-| 	            |                              | T01-4	 | Gestión de sesiones/refresh	    | Rotación de refresh tokens, revoke/blacklist y expiraciones.	                       | 6	             | Elizabeth Apaza | Done   |
-| 	            |                              | T01-5	 | Tests de auth                    | Unit/integration (registro, login, expiración, lockout).	                           | 6	             | Julio Guillen   | Done   |
-| US-002        | Recuperación de contraseña   | T02-1	 | Token y plantilla de reset	    | Generar token firmado/expirable y payload seguro; stub de email.	                   | 4	             | Flor Contreras  | Done   |
-|               |                              | T02-2	 | Endpoint solicitud reset         | POST /api/v1/auth/forgot-password (rate limit, respuesta idempotente).	           | 3	             | Elizabeth Apaza | Done   |
-|               |                              | T02-3	 | Endpoint confirmar reset	        | POST /api/v1/auth/reset-password con validaciones y rotación de credenciales.	       | 4	             | Julio Guillen   | Done   |
-| US-022        | Cambio de contraseña         | T22-1	 | Endpoint change password	        | PATCH /api/v1/auth/change-password (auth requerida, políticas de complejidad).	   | 3	             | Antonio Navarro | Done   |
-| US-023	    | Eliminar cuenta              | T23-1	 | Endpoint delete account          | DELETE /api/v1/account (GDPR-like: borrar o anonimizar datos relacionados).	       | 6	             | Rodrigo Miraval | Done   |
-| US-003        | Gestión de plantas           | T03-1	 | Modelo Plant & media	            | Tabla plants (user_id, name, type, photo_url), ownership y constraints.              | 5	             | Flor Contreras  | Done   |
-|               |                              | T03-2 	 | CRUD plantas (API)	            | Endpoints REST con paginación, filtros por tipo, validación de foto.	               | 6	             | Elizabeth Apaza | Done   |
-| US-011	    | Agregar sensores IoT         | T11-1	 | Modelo Sensor & vínculo          | Tablas sensors y plant_sensors; estados y códigos de registro.	                   | 5	             | Flor Contreras  | Done   |
-|               |                              | T11-2	 | Endpoint vinculación	            | POST /api/v1/sensors/link por código, validación y ownership.	                       | 4	             | Flor Contreras  | Done   |
-| US-018        | Lista de sensores activos	   | T18-1	 | Endpoint listado/estado	        | GET /api/v1/sensors con estado, planta asociada y filtros.	                       | 4	             | Antonio Navarro | Done   |
-|               |                              | T18-2   | Desvincular/eliminar sensor     	| DELETE /api/v1/sensors/{id} con reglas de historial.	                               | 3	             | Rodrigo Miraval | Done   |
-| US-019	    | Consultar datos de un sensor | T19-1 	 | Ingesta y esquema de lecturas	| Tabla sensor_readings (humedad, luz, temp, ts); índices por sensor/fecha.            | 6	             | Flor Contreras  | Done   |
-|               |                              | T19-2   | Endpoint histórico	            | GET /api/v1/sensors/{id}/readings con rango de fechas y agregaciones.	               | 6	             | Elizabeth Apaza | Done   |
-| US-004        | Alertas de cultivo	       | T04-1	 | Motor de umbrales	            | Servicio que evalúa lecturas vs umbrales por planta/tipo (riego/luz/temp).	       | 6	             | Julio Guillen   | Done   |
-|               |                              | T04-2	 | Persistencia de alertas          | Tabla alerts (type, severity, plant_id, sensor_id, ts, estado).	                   | 4	             | Antonio Navarro | Done   |
-|               |                              | T04-3	 | Endpoints alertas	            | GET /api/v1/alerts (listado, filtros) y GET /api/v1/plants/{id}/alerts (historial).  | 5	             | Julio Guillen   | Done   |
+| User Story ID | User Story Title             | Task ID | Task Title                    | Task Description                                                                    | Estimated Hours | Assigned To     | Status |
+| :-----------: | :--------------------------- | :-----: | :---------------------------- | :---------------------------------------------------------------------------------- | :-------------: | :-------------- | :----- |
+|     US-003    | Gestión de plantas           |  T03-1  | Modelo Plant & media          | Tabla plants (user_id, name, type, photo_url), ownership y constraints.             |        5        | Flor Contreras  | Done   |
+|               |                              |  T03-2  | CRUD plantas (API)            | Endpoints REST con paginación, filtros por tipo, validación de foto.                |        6        | Elizabeth Apaza | Done   |
+|     US-011    | Agregar sensores IoT         |  T11-1  | Modelo Sensor & vínculo       | Tablas sensors y plant_sensors; estados y códigos de registro.                      |        5        | Flor Contreras  | Done   |
+|               |                              |  T11-2  | Endpoint vinculación          | POST /api/v1/sensors/link por código, validación y ownership.                       |        4        | Flor Contreras  | Done   |
+|     US-018    | Lista de sensores activos    |  T18-1  | Endpoint listado/estado       | GET /api/v1/sensors con estado, planta asociada y filtros.                          |        4        | Antonio Navarro | Done   |
+|               |                              |  T18-2  | Desvincular/eliminar sensor   | DELETE /api/v1/sensors/{id} con reglas de historial.                                |        3        | Rodrigo Miraval | Done   |
+|     US-019    | Consultar datos de un sensor |  T19-1  | Ingesta y esquema de lecturas | Tabla sensor_readings (humedad, luz, temp, ts); índices por sensor/fecha.           |        6        | Flor Contreras  | Done   |
+|               |                              |  T19-2  | Endpoint histórico            | GET /api/v1/sensors/{id}/readings con rango de fechas y agregaciones.               |        6        | Elizabeth Apaza | Done   |
+|     US-004    | Alertas de cultivo           |  T04-1  | Motor de umbrales             | Servicio que evalúa lecturas vs umbrales por planta/tipo (riego/luz/temp).          |        6        | Julio Guillen   | Done   |
+|               |                              |  T04-2  | Persistencia de alertas       | Tabla alerts (type, severity, plant_id, sensor_id, ts, estado).                     |        4        | Antonio Navarro | Done   |
+|               |                              |  T04-3  | Endpoints alertas             | GET /api/v1/alerts (listado, filtros) y GET /api/v1/plants/{id}/alerts (historial). |        5        | Julio Guillen   | Done   |
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3, se logró la integración completa entre la Frontend Web Application y los Web Services RESTful del backend de PlantaE. Esta integración habilitó flujos de trabajo completos y funcionalidades integradas para ambos segmentos objetivo, permitiendo a los usuarios interactuar con la plataforma de manera fluida y eficiente.
+
+**Principales logros del Sprint 3:**
+
+1.  **Integración de API Exitosa:**  Se conectaron todos los componentes frontend con los endpoints RESTful del backend, permitiendo la comunicación bidireccional y el intercambio de datos en tiempo real.
+2.  **Pruebas End-to-End Completas:**  Se implementaron pruebas automatizadas que validan flujos completos desde la interfaz de usuario hasta el backend, asegurando la funcionalidad y estabilidad del sistema integrado.
+3.  **Manejo de Errores y Retroalimentación al Usuario:**  Se implementaron mecanismos robustos para manejar errores de API y proporcionar retroalimentación clara a los usuarios en caso de fallos o problemas.
+4.  **Documentación Actualizada:**  Se actualizó la documentación técnica para reflejar la integración completa, incluyendo guías de uso de la API y flujos de trabajo integrados.
+
+**Principales funcionalidades integradas:**
+
 Se mostrará a continuación una tabla con los commits realizados en el repositorio del backend de PlantE durante el sprint. Esta información evidencia las tareas de desarrollo e implementación efectuadas en la aplicación, como la creación de endpoints, la organización modular del código, la configuración para el despliegue y la elaboración de documentación técnica. Cada commit representa una mejora o funcionalidad importante incorporada en la rama principal del proyecto.
+
 | Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
 | :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
 | feature/adding-home-options      | feature/adding-home-options      | 0609611cfca7d7e59b9fe3935253ac9975f4518b | Merge branch 'feature/adding-home-options' into develop      | -                                                              | Nov 15, 2025        |
