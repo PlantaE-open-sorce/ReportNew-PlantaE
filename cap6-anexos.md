@@ -43,29 +43,41 @@
 - **URL del Backend desplegado:** <br>
   http://20.57.10.48:8080/swagger-ui/index.html
 
- - **Documentacion Sprint 2**
-   - Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Component%20Documentation.md
+ - **Documentacion Sprint 2** <br>
+   - Component Documentation: <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Component%20Documentation.md
 
-   - **Module Documentation:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
+   - **Module Documentation:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Module%20Documentation.md
 
-   - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
+   - **Design Patterns:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Design%20Patterns.md
 
-   - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
+   - **Routing Guide:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6a4df886b77f6074edbe7802f32f204de6a2503c/assets/documentation/Routing%20Guide.md
 
+- **Documentacion Sprint 4** <br>
+   - Component Documentation: <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/ae9ed7ce5731a6372153b543c7b99933e4a58f12/assets/documentation/Backend_ComponentDocumentation.md
 
-- **Documentacion Sprint 4**
-   - Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/ae9ed7ce5731a6372153b543c7b99933e4a58f12/assets/documentation/Backend_ComponentDocumentation.md
+   - **Module Documentation:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_ModuleDocumentation.md
 
-   - **Module Documentation:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_ModuleDocumentation.md
+   - **Design Patterns:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_DesingPatterns.md
 
-   - **Design Patterns:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_DesingPatterns.md
-
-   - **Routing Guide:** https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_RoutingGuides.md
-  
+   - **Routing Guide:** <br>
+     https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/6f4bc4de3ef8521f08cf620c55feca0448cc460f/assets/documentation/Backend_RoutingGuides.md
   
 - **Video About-The-Team:** <br>
-  - YouTube: https://youtu.be/uF8EA4og8VM
-  - One Drive: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDQSPb2-TYTTZvyRH9gREvIAetLgGKMzJEq01C66LWeI1s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6XYGHh
-- **Video About-The-Product:**
-  - YouTube: https://youtu.be/NjN0LWdj1WI
-  - One Drive: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQBRK2tEorbxQIvBAb_wpATWATUBVEwrrDzZ_GiVrNAJ7j0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7tqWlm
+  - YouTube: <br>
+    https://youtu.be/uF8EA4og8VM
+  
+  - One Drive: <br>
+    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDQSPb2-TYTTZvyRH9gREvIAetLgGKMzJEq01C66LWeI1s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6XYGHh
+- **Video About-The-Product:** <br>
+  - YouTube: <br>
+    https://youtu.be/NjN0LWdj1WI
+    
+  - One Drive: <br>
+    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQBRK2tEorbxQIvBAb_wpATWATUBVEwrrDzZ_GiVrNAJ7j0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7tqWlm
