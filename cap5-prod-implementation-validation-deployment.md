@@ -1270,6 +1270,14 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 
 #### 5.2.4.1. Sprint Planning 4
 
+Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
+
+![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
+<figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Sprint Backlog 4.
+  </figcaption>
+
+
 | Sprint #                        | Sprint 4                                                                                                                                                             |
 | :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background**  |                                                                                                                                                                      |
