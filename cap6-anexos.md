@@ -71,13 +71,13 @@
   
 - **Video About-The-Team:** <br>
   - YouTube: <br>
-    https://youtu.be/uF8EA4og8VM
+    
   
   - One Drive: <br>
-    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQDQSPb2-TYTTZvyRH9gREvIAetLgGKMzJEq01C66LWeI1s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6XYGHh
+    
 - **Video About-The-Product:** <br>
   - YouTube: <br>
-    https://youtu.be/NjN0LWdj1WI
+    youtube.com/watch?feature=shared&v=n8PixEmEuhs
     
   - One Drive: <br>
-    https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323243_upc_edu_pe/IQBRK2tEorbxQIvBAb_wpATWATUBVEwrrDzZ_GiVrNAJ7j0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7tqWlm
+    
