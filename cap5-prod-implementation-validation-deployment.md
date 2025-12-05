@@ -730,55 +730,55 @@ Navegación fluida entre la página de presentación y la aplicación web.
     <img src="assets/images/resources/frontend_1.jpeg" alt="frontend_1"/>    
 </p>
 
-- Página de login para usuarios
+- **Página de login para usuarios:** esta vista permite a los usuarios acceder ingresando su correo y contraseña.
   
 <p align="center">
     <img src="assets/images/resources/frontend_2.jpeg" alt="frontend_2"/>    
 </p>
 
-- Página de registro para nuevos usuarios
+- **Página de registro para nuevos usuarios:** Permite crear una nueva cuenta ingresando datos básicos como nombre, correo y contraseña.
   
 <p align="center">
     <img src="assets/images/resources/frontend_3.jpeg" alt="frontend_3"/>    
 </p>
 
-- Página principal de la aplicación web con navegación y funcionalidades principales
+- **Pantalla de inicio del dashboard:** Muestra un resumen general del ecosistema PlantaE, incluyendo métricas como sensores conectados, eventos procesados y ahorro logrado.
   
 <p align="center">
     <img src="assets/images/resources/frontend_4.jpeg" alt="frontend_4"/>    
 </p>
 
-- Página del Dashboard
+- **Página del Dashboard:** Muestra las plantas activas y permite registrar acciones manuales como riego o fertilización, además de ver las últimas actividades realizadas.
   
 <p align="center">
     <img src="assets/images/resources/frontend_5.jpeg" alt="frontend_5"/>    
 </p>
 
-- Página de gestión de plantas
+- **Página de gestión de plantas:** Sección donde puedes buscar, filtrar y gestionar todas tus plantas, además de agregar nuevas de forma rápida.
   
 <p align="center">
     <img src="assets/images/resources/frontend_6.jpeg" alt="frontend_6"/>    
 </p>
 
-- Página de vista para ver detalles los dispositivos
+- **Pantalla de Dispositivos:** Permite registrar nuevos sensores agregando su ID, modelo y propietario para vincularlos fácilmente con tus plantas.
   
 <p align="center">
     <img src="assets/images/resources/frontend_7.jpeg" alt="frontend_7"/>    
 </p>
 
-- Página de alertas de plantas
+- **Página de alertas de plantas:** Muestra las alertas generadas por las plantas y sensores, permitiendo filtrarlas por planta, sensor o tipo. Actualmente no hay alertas registradas.
 
 <p align="center">
     <img src="assets/images/resources/frontend_8.png" alt="frontend_8"/>    
 </p>
 
-- Panel de gestión de reportes
+- **Panel de gestión de reportes:** Permite generar informes en PDF seleccionando una planta.
   
 <p align="center">
     <img src="assets/images/resources/frontend_9.png" alt="frontend_9"/>    
 </p>
 
-- Página de usuario
+- **Página de usuario:** Permite actualizar datos personales como nombre, zona horaria e idioma, además de cambiar contraseña o eliminar la cuenta.
   
  ### Primera Version Sprint 2
 **Enlaces de despliegue:** 
@@ -821,31 +821,36 @@ La aplicación cuenta con documentación completa que incluye:
 <p align="center">
     <img src="assets/images/documentacionImagen/Component.jpg" alt="Document_evidence_1"/>    
 </p>
+
+- Documenta todos los componentes del frontend, sus props, eventos y ejemplos.
+
 <p align="center">
     <img src="assets/images/documentacionImagen/Desing.jpg" alt="Document_evidence_1"/>    
 </p>
+
+- Documento que explica los patrones de diseño y decisiones arquitectónicas usados en el frontend de PlantaE.
+  
 <p align="center">
     <img src="assets/images/documentacionImagen/Module.jpg" alt="Document_evidence_1"/>    
 </p>
+
+- Describe la arquitectura modular del frontend de PlantaE: cómo se organizan los módulos, sus roles y sus dependencias.
+
 <p align="center">
     <img src="assets/images/documentacionImagen/Routung.jpg" alt="Document_evidence_1"/>    
 </p>
 
+- Explica cómo funciona el sistema de rutas en el frontend de PlantaE: configuración, navegación, rutas protegidas y organización del archivo de rutas principal.
 
 **Documentación de componentes principales de la aplicación**
 
-
 *Purpose**: UI components and user interaction
-
-  
 
 **Guards**:
 
 -  `auth.guard.ts`: Authentication verification
 
 -  `account-type.guard.ts`: Role-based access control
-
-  
 
 **Views** (Page Components):
 
@@ -940,29 +945,40 @@ La aplicación cuenta con documentación completa que incluye:
 **Usuario de acceso ala Maquina Virtual : MiGato_Toby24**
 
 Como compilar el frontend:  
+
 1. Abres el terminal
+   
 <p align="center">
     <img src="assets/images/documentacionImagen/Doc1.jpg" alt="frontend_evidence_1"/>    
 </p>
-3. Ejecutas: **sudo -i** (para tener todos los permisos y evitar problemas)
+
+2. Ejecutas: **sudo -i** (para tener todos los permisos y evitar problemas)
+   
 <p align="center">
     <img src="assets/images/documentacionImagen/Doc2.jpg" alt="frontend_evidence_1"/>    
 </p>
-4. Debes ir al directorio del frontend, entonces pondrás: **cd /home/frontend** y en caso haga algún comité o mejore cosas de tu proyeto pondrás **git pull**, pero debes borrar la carpeta de la anterior versión, entonces pondrás **rm -r dist**
+
+3. Debes ir al directorio del frontend, entonces pondrás: **cd /home/frontend** y en caso haga algún comité o mejore cosas de tu proyeto pondrás **git pull**, pero debes borrar la carpeta de la anterior versión, entonces pondrás **rm -r dist**
+   
 <p align="center">
     <img src="assets/images/documentacionImagen/Doc3.jpg" alt="frontend_evidence_1"/>    
 </p>
+
 (para verificar que no esté la carpeta, puedes abrir el:  
+
 <p align="center">
     <img src="assets/images/documentacionImagen/Doc4.jpg" alt="frontend_evidence_1"/>    
 </p>
+
 Y buscarlo tu misma, si no está, es porque lo has borrado correctamente, pero basta con que pongas el comando **ls** como en la captura y que no veas ningún archivo/carpeta llamada “dist”
 
 4. Para compilarlo pones **npm run build** y se creará la carpeta dist nuevamente actualizada.
+   
 <p align="center">
     <img src="assets/images/documentacionImagen/Doc5.jpg" alt="frontend_evidence_1"/>    
 </p>
-4. No requieres hacer más cosas, pues la actualización del frontend es automática, basta con que veas esa carpeta.
+
+5. No requieres hacer más cosas, pues la actualización del frontend es automática, basta con que veas esa carpeta.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 **Organización Estratégica del Equipo**
@@ -978,6 +994,8 @@ El trabajo se organizó de manera estratégica, asignando a cada miembro módulo
 <p align="center">
     <img src="assets/images/resources/CommistSpring1.jpg" alt="spring_evidence_1"/>    
 </p>
+
+- Permite ver ramas para trabajar sin afectar la principal.
 
 ---
 
@@ -1413,11 +1431,11 @@ Se mostrará a continuación una tabla con los commits realizados en el reposito
 
 | Repository 		               | Branch                           | Commit Id 								 | Commit Message             	         					 	| Commit Message Body                                            | Committed on (Date) |
 | :------------------------------- | :------------------------------- | :--------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------- | :------------------ |
-| feature/adding-login-profile     | feature/adding-myplants-details  | 4c739fedc539ef752cc791f4081a46216f1a0c41 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Dic 03, 2025        |
-| feature/adding-management-plants | feature/adding-myplants-details  | b04b9dfac519df4149fc2ce3bb473fd887b2571f | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Dic 02, 2025        |
-| feature/adding-management-plants | feature/adding-login-profile     | 28b8a03b16aab6cebfe0217dbd02a3a82a185664 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Dic 01, 2025        |
-| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Dic 02, 2025        |
-| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d41b2120cbe0e30e919338921 | Añadiendo api para login y profile                           | Añadiendo api para login y profile                             | Dic 04, 2025        |
+| feature/adding-login-profile     | feature/adding-myplants-details  | b27fa1edc5830f75a4c791f4089b46a26f1acf12 | Merge branch 'feature/adding-myplants-details' into develop  | -                                                              | Dic 03, 2025        |
+| feature/adding-management-plants | feature/adding-myplants-details  | 4c739fedc539ef75bbc791f40a3a46216f1a0c41 | Reemplazo completo del backend para myplants details         | Reemplazo completo del backend para myplants details           | Dic 02, 2025        |
+| feature/adding-management-plants | feature/adding-login-profile     | 6e439fedc539ef75cdc791f40b1a46216f1aa9e1 | Merge branch 'feature/adding-login-profile' into develop     | -                                                              | Dic 01, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c174597d43b2120cba0e30e919330e77 | Añadiendo backend para login y profile                       | Añadiendo backend para login y profile                         | Dic 02, 2025        |
+| feature/adding-login-profile     | feature/adding-login-profile     | 0c2cc477c184597d41b2120cbe0e30e91933c912 | Añadiendo api para login y profile                           | Añadiendo api para login y profile                             | Dic 04, 2025        |
 
 | **Repository**                           | **Branch** | **Commit ID** | **Body** | **Commit Message**                                                                                | **Commited on (Date)** |
 | :--------------------------------------- | :--------- | :------------ | :------- | :------------------------------------------------------------------------------------------------ | :--------------------- |
