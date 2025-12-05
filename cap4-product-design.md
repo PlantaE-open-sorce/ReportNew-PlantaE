@@ -513,17 +513,7 @@ Esta sección se presenta la propuesta de Wireflows para cada user goal, teniedn
     3. Guardar cambios.
 
 
-**Task flow 11:** Editar perfil personal
-
-**Objetivo del usuario:** Actualizar información personal o preferencias.
-
-**Pasos del Tak Flow:** 
-    1. Acceder a Perfil.
-    2. Editar nombre, zona horaria e idioma.
-    3. Guardar cambios.
-
-
-**Task flow 12:** Cambiar contraseña
+**Task flow 11:** Cambiar contraseña
 
 **Objetivo del usuario:** Actualizar su contraseña desde el perfil.
 
