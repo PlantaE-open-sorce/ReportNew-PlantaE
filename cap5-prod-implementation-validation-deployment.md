@@ -1286,18 +1286,18 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 | Sprint 4 Velocity               | 20 puntos                                                                                                                                                            |
 | Sum of Story Points             | 10 puntos    																																						 | 
 
+#### 5.2.4.2 Aspect Leaders and Collaborators
+
+Durante el Sprint 4 se definieron los principales aspectos a desarrollar, enfocados inicialmente en funcionalidades del frontend como la visualización de contenido, navegación fluida, adaptabilidad responsiva y la gestión de autenticación de usuarios.
+
+Con el avance del proyecto y el trabajo en backend, se organizó una matriz de liderazgo y colaboración para asegurar una comunicación clara y eficiente dentro del equipo. En esta matriz se asignó a cada aspecto un líder responsable (L) y colaboradores de apoyo (C), garantizando una mejor coordinación entre el desarrollo del frontend y integración con el backend.
+
 Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
 
 ![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
 <figcaption style="font-size: 0.9em; color: #555;">
     <strong>Figura 1:</strong> Sprint Backlog 4.
   </figcaption>
-
-#### 5.2.4.2 Aspect Leaders and Collaborators
-
-Durante el Sprint 4 se definieron los principales aspectos a desarrollar, enfocados inicialmente en funcionalidades del frontend como la visualización de contenido, navegación fluida, adaptabilidad responsiva y la gestión de autenticación de usuarios.
-
-Con el avance del proyecto y el trabajo en backend, se organizó una matriz de liderazgo y colaboración para asegurar una comunicación clara y eficiente dentro del equipo. En esta matriz se asignó a cada aspecto un líder responsable (L) y colaboradores de apoyo (C), garantizando una mejor coordinación entre el desarrollo del frontend y integración con el backend.
 
 | Team Member (Last Name, First Name) | GitHub Username    | Integration & Validation | Data Consistency | Backend Finalization | Frontend Integration |
 | :---------------------------------- | :----------------- | :----------------------- | :--------------- | :------------------- | :------------------- |
