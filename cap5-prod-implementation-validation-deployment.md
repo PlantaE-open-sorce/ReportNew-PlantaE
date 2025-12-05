@@ -1372,6 +1372,20 @@ En este sprint, hemos logrado avances significativos en el desarrollo del backen
     <img src="assets/images/resources/backend3.png" alt="backend3"/>    
 </p>
 
+**Como iniciar el backend:**
+
+1. Te vas a la carpeta del backend, usando **cd /home/backend** y simplemente pondrás el siguiente comando: **screen -S backend java -jar plantae-0.0.1-SNAPSHOT.jar**
+<p align="center">
+    <img src="assets/images/resources/Recort1.jpg" alt="backend3"/>    
+</p>
+2. Le das enter y empezará a iniciarse Spring Boot, cuando acabe de cargar verás un mensaje parecido a este:  
+<p align="center">
+    <img src="assets/images/resources/Recort2.jpg" alt="backend3"/>    
+</p>
+3. Eso significa que ya se cargo el backend, entonces no requieres hacer nada más y ya pueden acceder.
+
+**IMPORTANTE:** Inicialo de esta forma, porque si lo intentas iniciar de otra forma sin el “screen” si cierras la consola se cerrará el backend también, usamos “screen -S” para que el backend se mantenga prendido aún que cerremos la consola.  
+
 #### 5.2.4.6 Services Documentation Evidence for Sprint Review
 
 En esta sección se muestra la evidencia de la documentación de los servicios creados durante el sprint, los cuales pueden consultarse y visualizarse a través de Swagger dentro de la aplicación PlantE. A continuación, se describen los endpoints más relevantes implementados para cada módulo funcional, indicando su método HTTP, la ruta asociada y una breve descripción de cada uno.
@@ -1380,9 +1394,32 @@ En esta sección se muestra la evidencia de la documentación de los servicios c
     <img src="assets/images/resources/backend_code_1.jpeg" alt="backend_code_1"/>    
 </p>
 
+
+**Evidencias:**  
+
 <p align="center">
-    <img src="assets/images/resources/backend_code_2.jpeg" alt="backend_code_2"/>    
+    <img src="assets/documentation/Evidence1.jpg" alt="final_code_1"/>    
 </p>
+
+<p align="center">
+    <img src="assets/documentation/Evidence2.jpg" alt="final_code_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/documentation/Evidence3.jpg" alt="final_code_1"/>    
+</p>
+
+<p align="center">
+    <img src="assets/documentation/Evidence4.jpg" alt="final_code_1"/>    
+</p>
+
+Component Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_ComponentDocumentation.md
+
+Module Documentation:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_ModuleDocumentation.md
+
+Design Patterns:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_DesingPatterns.md
+
+Routing Guide:https://github.com/PlantaE-open-sorce/ReportNew-PlantaE/blob/682c77e9de9475564a4dc1fb1cf71e54f3a4fb10/assets/documentation/Backend_RoutingGuides.md
 
 # Endpoints EcoTech (API)
 Prefijo base para todos los endpoints: `/api/v1`. Todos los strings/enums funcionales se mantienen en inglés (`ACTIVE`, `soilMoisture`, etc.). Salvo que se indique como público, cada ruta requiere `Authorization: Bearer <JWT>`.
@@ -1446,6 +1483,8 @@ Se realizaron pruebas en el entorno de la máquina virtual de Microsoft Azure, a
 - El funcionamiento correcto de los endpoints del backend.
 - La persistencia adecuada de los datos en la base de datos PostgreSQL conectada de forma remota.
 - La estabilidad del backend desplegado en la VM Ubuntu y su correcta accesibilidad a través de la web.
+
+  
 
 **Evidencia Visual**
 
