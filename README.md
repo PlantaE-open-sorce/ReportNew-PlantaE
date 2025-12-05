@@ -26,7 +26,11 @@
 
 <div align="center">
 
+
 | <div style="width:300px">`Alumno`</div>       | <div style="width:125px">`Código`</div>        |
+=======
+| <div style="width:300px">`Alumno`</div> | <div style="width:125px">`Código`</div> |
+
 | :-------------------------------------------: | :--------------------------------------------: |
 |       Apaza Bocanegra, Elizabeth Noelia       |                   u20231c197                   |
 |        Contreras Leon, Flor De María          |                   u202323243                   |
