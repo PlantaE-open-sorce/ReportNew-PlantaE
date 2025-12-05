@@ -440,25 +440,25 @@ Los principales avances fueron:
     <img src="assets/images/resources/landing_1.png" alt="landing_1"/>    
 </p>
 
-- Parte de inicio.
+- **Parte de inicio:** Página principal del sitio PlantaE: muestra el hero con el mensaje de monitoreo IoT, botón de acción y diseño limpio con fondo verde.
 
 <p align="center">
     <img src="assets/images/resources/landing_2.png" alt="landing_2"/>    
 </p>
 
-- Servicios que ofrece PlantE
+- **Servicios que ofrece PlantE:** Sección Nuestros Servicios: muestra las funcionalidades principales de PlantaE.
 
 <p align="center">
     <img src="assets/images/resources/landing_3.png" alt="landing_3"/>    
 </p>
 
-- Video de introducción
+- **Video de introducción:** Sección Conoce PlantaE en Acción, presenta un video demostrativo donde se muestra el uso real de la plataforma.
 
 <p align="center">
     <img src="assets/images/resources/landing_4.png" alt="landing_4"/>    
 </p>
 
-- Testimonios de usuarios.
+- **Testimonios de usuarios:** Muestra opiniones reales de usuarios satisfechos, como familias y profesionales.
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
