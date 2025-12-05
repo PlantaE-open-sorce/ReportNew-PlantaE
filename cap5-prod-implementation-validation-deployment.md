@@ -1270,13 +1270,6 @@ Durante el Sprint 3, el equipo de Ecotech demostró una colaboración excepciona
 
 #### 5.2.4.1. Sprint Planning 4
 
-Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
-
-![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
-<figcaption style="font-size: 0.9em; color: #555;">
-    <strong>Figura 1:</strong> Sprint Backlog 4.
-  </figcaption>
-
 
 | Sprint #                        | Sprint 4                                                                                                                                                             |
 | :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1292,6 +1285,13 @@ Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b5
 | Sprint 4 Goal                   | Nuestro objetivo ahora es finalizar el desarrollo del backend y unificarlo correctamente con el frontend. Con ello, buscamos asegurar que las vistas principales interactúen de manera fluida con los servicios web, ofreciendo a las partes interesadas una demostración completa del sistema funcionando de extremo a extremo. El cumplimiento de este objetivo se validará al lograr una integración estable del API desde el frontend.     |
 | Sprint 4 Velocity               | 20 puntos                                                                                                                                                            |
 | Sum of Story Points             | 10 puntos    																																						 | 
+
+Enlace: https://trello.com/invite/b/69323a1a758bcd2491e3410e/ATTIc24bfd7a928d9b54ebf0df9e9ea116cc73EA0741/sprint-4
+
+![Sprint4-Trello.png](assets/images/resources/Sprint4-Trello.png)
+<figcaption style="font-size: 0.9em; color: #555;">
+    <strong>Figura 1:</strong> Sprint Backlog 4.
+  </figcaption>
 
 #### 5.2.4.2 Aspect Leaders and Collaborators
 
