@@ -819,9 +819,9 @@ Asimismo, se implementaron interacciones responsivas (hover, active), validacion
 
 A continuación, se incluirán capturas representativas donde se ilustran los principales flujos de interacción del prototipo web, evidenciando cómo se aplican estos lineamientos dentro de la interfaz de PlantaE.
 
-Web Application Desktop:
+Web Application Desktop prototype:
 
-
+<img src="assets/images/chapter-4/video-prototipo.png" alt="video-prototipo"/>
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314101_upc_edu_pe/IQCX8fzGayseTqDvBCQNciImASENPzNLePMg1qmpHazutoA?e=rBkyi6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
