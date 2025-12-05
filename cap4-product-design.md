@@ -397,130 +397,284 @@ Para viveros, guardan la misma relación de las anteriores wireframes presentada
 
 Esta sección se presenta la propuesta de Wireflows para cada user goal, teniedno en cuenta los user persona definidos para las aplicaciones que estructuran parte de nuestro alcance.
 
+Para la vista de Home
+
+
 **Task flow 1:** Acceder a la plataforma PlantaE
 
 **Objetivo del usuario:** Ingresar o crear una cuenta para acceder a la aplicación de PlantaE.
 
-**Pasos del Tak Flow:** 
-    1. Seleccionar “Inicia sesión” o “Crear cuenta” desde la pantalla principal.
-    2. Inicia sesión si ya tiene credenciales.
-    3. Registrarse completando nombre, correo, contraseña e idioma si no tiene cuenta.
-    4. Acceder al dashboard tras completar el proceso.
+**Pasos del Task Flow:** 
+
+1. Seleccionar “Inicia sesión” o “Crear cuenta” desde la pantalla principal.
+2. Inicia sesión si ya tiene credenciales.
+3. Registrarse completando nombre, correo, contraseña e idioma si no tiene cuenta.
+4. Acceder al dashboard tras completar el proceso.
 
 
 **Task flow 2:** Supervisar el dashboard
 
 **Objetivo del usuario:** Ver el estado general de sus plantas y acciones recientes.
 
-**Pasos del Tak Flow:** 
-    1. Ingresar al dashboard luego de iniciar sesión.
-    2. Ver si tiene plantas activas o el mensaje de “Aún no tienes plantas registradas”.
-    3. Revisar la sección “Registrar acción manual”.
-    4. Consultar el bloque “Últimas acciones”.
+**Pasos del Task Flow:** 
+
+1. Ingresar al dashboard luego de iniciar sesión.
+2. Ver si tiene plantas activas o el mensaje de “Aún no tienes plantas registradas”.
+3. Revisar la sección “Registrar acción manual”.
+4. Consultar el bloque “Últimas acciones”.
 
 
 **Task flow 3:** Registrar una planta
 
 **Objetivo del usuario:** Añadir una planta para iniciar su monitoreo.
 
-**Pasos del Tak Flow:** 
-    1. Ir a Plantas o Gestión y seleccionar “Añadir planta”.
-    2. Completar nombre, especie, dispositivo y sensor (opcionales).
-    3. Guardar la planta.
-    4. Visualizarla en la lista de plantas registradas.
+**Pasos del Task Flow:** 
+
+1. Ir a Plantas o Gestión y seleccionar “Añadir planta”.
+2. Completar nombre, especie, dispositivo y sensor (opcionales).
+3. Guardar la planta.
+4. Visualizarla en la lista de plantas registradas.
 
 
 **Task flow 4:** Gestionar plantas registradas
 
 **Objetivo del usuario:** Ver, buscar o filtrar plantas existentes.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a la sección Plantas.
-    2. Usar filtros por nombre, especie o estado.
-    3. Seleccionar “Buscar” para mostrar coincidencias.
-    4. Hacer clic en “Ver detalle” para abrir información de una planta.
+**Pasos del Task Flow:** 
+
+1. Acceder a la sección Plantas.
+2. Usar filtros por nombre, especie o estado.
+3. Seleccionar “Buscar” para mostrar coincidencias.
+4. Hacer clic en “Ver detalle” para abrir información de una planta.
 
 
 **Task flow 5:** Ver detalle de una planta
 
 **Objetivo del usuario:** Consultar información específica de una planta.
 
-**Pasos del Tak Flow:** 
-    1. Seleccionar la planta desde la lista.
-    2. Ver datos como especie, estado, sensor vinculado y dispositivo.
-    3. Revisar la tarjeta de alertas de esa planta.
-    4. Volver al listado si desea navegar entre más plantas.
+**Pasos del Task Flow:**
+
+1. Seleccionar la planta desde la lista.
+2. Ver datos como especie, estado, sensor vinculado y dispositivo.
+3. Revisar la tarjeta de alertas de esa planta.
+4. Volver al listado si desea navegar entre más plantas.
 
 
 **Task flow 6:** Revisar alertas recientes
 
 **Objetivo del usuario:** Consultar alertas generadas por sensores.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a la sección Alertas.
-    2. Filtrar por planta, sensor o tipo.
-    3. Ver la lista de alertas recientes.
-    4. Seleccionar una alerta para revisarla.
+**Pasos del Task Flow:** 
+
+1. Acceder a la sección Alertas.
+2. Filtrar por planta, sensor o tipo.
+3. Ver la lista de alertas recientes.
+4. Seleccionar una alerta para revisarla.
 
 
 **Task flow 7:** Registrar y gestionar dispositivos
 
 **Objetivo del usuario:** Registrar hubs/dispositivos y asignarlos a plantas.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a Dispositivos.
-    2. Ingresar ID, modelo y secreto (opcional).
-    3. Guardar para registrar el dispositivo.
-    4. Buscar un dispositivo mediante el ID.
-    5. Revisar detalles: estado, modelo, notas.
-    6. Añadir nota o editarla.
-    7. Seleccionar planta para vincular el dispositivo.
-    8. Desactivar dispositivo si es necesario.
+**Pasos del Task Flow:** 
+
+1. Acceder a Dispositivos.
+2. Ingresar ID, modelo y secreto (opcional).
+3. Guardar para registrar el dispositivo.
+4. Buscar un dispositivo mediante el ID.
+5. Revisar detalles: estado, modelo, notas.
+6. Añadir nota o editarla.
+7. Seleccionar planta para vincular el dispositivo.
+8. Desactivar dispositivo si es necesario.
 
 
 **Task flow 8:** Registrar y gestionar sensores
 
 **Objetivo del usuario:** Crear, vincular o desactivar sensores.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a Sensores.
-    2. Registrar un sensor seleccionando tipo, propietario y planta opcional.
-    3. Vincular un sensor seleccionando un sensor y una planta.
-    4. Desactivar un sensor desde la tarjeta correspondiente.
-    5. Registrar lectura manual si es necesario (test).
-    6. Ver tabla de sensores registrados.
+**Pasos del Task Flow:** 
+
+1. Acceder a Sensores.
+2. Registrar un sensor seleccionando tipo, propietario y planta opcional.
+3. Vincular un sensor seleccionando un sensor y una planta.
+4. Desactivar un sensor desde la tarjeta correspondiente.
+5. Registrar lectura manual si es necesario (test).
+6. Ver tabla de sensores registrados.
 
 
 **Task flow 9:** Descargar reportes
 
 **Objetivo del usuario:** Generar reportes en PDF o CSV sobre métricas.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a Reportes.
-    2. Seleccionar planta.
-    3. Seleccionar rango de fechas.
-    4. Elegir las métricas (temperatura, humedad, pH…).
-    5. Descargar PDF o CSV.
+**Pasos del Task Flow:**
+
+1. Acceder a Reportes.
+2. Seleccionar planta.
+3. Seleccionar rango de fechas.
+4. Elegir las métricas (temperatura, humedad, pH…).
+5. Descargar PDF o CSV.
 
 
 **Task flow 10:** Editar perfil personal
 
 **Objetivo del usuario:** Actualizar información personal o preferencias.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a Perfil.
-    2. Editar nombre, zona horaria e idioma.
-    3. Guardar cambios.
+**Pasos del Task Flow:**
+
+1. Acceder a Perfil.
+2. Editar nombre, zona horaria e idioma.
+3. Guardar cambios.
 
 
 **Task flow 11:** Cambiar contraseña
 
 **Objetivo del usuario:** Actualizar su contraseña desde el perfil.
 
-**Pasos del Tak Flow:** 
-    1. Acceder a Perfil > Cambiar contraseña.
-    2. Ingresar contraseña actual y nueva.
-    3. Guardar la actualización.
+**Pasos del Task Flow:** 
+
+1. Acceder a Perfil > Cambiar contraseña.
+2. Ingresar contraseña actual y nueva.
+3. Guardar la actualización.
+
+
+
+Para la vista de Viveros
+
+**Task flow 1:** Acceder a la plataforma PlantaE
+
+**Objetivo del usuario:** Iniciar sesión o registrarse para acceder al panel principal del vivero.
+
+**Pasos del Task Flow:** 
+
+1. Seleccionar “Iniciar sesión” o “Crear cuenta”.
+2. Ingresar credenciales válidas o completar el registro.
+3. Acceder al inicio de la aplicación.
+
+
+
+**Task flow 2:** Supervisar el panel de viveros
+
+**Objetivo del usuario:** Visualizar indicadores clave y revisar tareas críticas del vivero.
+
+**Pasos del Task Flow:** 
+
+1. Ingresar al módulo Vivero desde el menú lateral.
+2. Ingresar credenciales válidas o completar el registro.
+3. Revisar lista de tareas críticas ordenadas por urgencia.
+4. Visualizar insumos recientes aplicados a plantas o lotes.
+
+
+**Task flow 3:** Registrar plantas
+
+**Objetivo del usuario:** Registrar una nueva planta para monitoreo.
+
+**Pasos del Task Flow:** 
+
+1. Ir al módulo Plantas.
+2. Seleccionar “Agregar” o “Añadir planta”.
+3. Completar nombre, especie, dispositivo y sensor opcionales.
+4. Guardar la planta y visualizarla en lista.
+
+
+**Task flow 4:** Gestionar listado de plantas del vivero
+
+**Objetivo del usuario:** Consultar plantas, aplicar filtros y acceder a su detalle.
+
+**Pasos del Task Flow:** 
+
+1. Acceder a Plantas desde el menú.
+2. Filtrar por nombre, especie o estado.
+3. Pulsar Buscar para actualizar la lista.
+4. Seleccionar Ver detalle para abrir la ficha de una planta.
+
+
+**Task flow 5:** Ver detalle de una planta del vivero
+
+**Objetivo del usuario:** Consultar estado, sensor, dispositivo y alertas de la planta.
+
+**Pasos del Task Flow:** 
+
+1. En el listado de plantas, seleccionar Ver detalle.
+2. Revisar nombre, especie, estado, sensor asociado y dispositivo.
+3. Consultar sección de Alertas activas.
+4. Regresar a la lista usando “Volver”.
+
+
+**Task flow 6:** Gestionar dispositivos del vivero
+
+**Objetivo del usuario:** Registrar, buscar y vincular dispositivos a plantas.
+
+**Pasos del Task Flow:** 
+
+1. Acceder al módulo Dispositivos.
+2. Registrar un nuevo dispositivo ingresando ID, modelo y secreto opcional.
+3. Buscar un dispositivo mediante su ID.
+4. Ver sección Detalle del dispositivo encontrado.
+5. Agregar o actualizar una nota si es necesario.
+6. Seleccionar una planta para vincular dispositivo.
+7. Confirmar vinculación o desactivar dispositivo.
+
+
+**Task flow 7:** Registrar, vincular y gestionar sensores del vivero
+
+**Objetivo del usuario:** Administrar sensores disponibles en el vivero.
+
+**Pasos del Task Flow:** 
+
+1. Acceder al módulo Sensores.
+2. Registrar sensor eligiendo tipo, propietario y planta opcional.
+3. Vincular sensor seleccionando ID y planta correspondiente.
+4. Desactivar sensor si ya no se usa.
+5. Registrar lectura manual para pruebas.
+6. Ver tabla de sensores registrados.
+
+
+**Task flow 8:** Revisar alertas del vivero
+
+**Objetivo del usuario:** Visualizar alertas activas y filtrarlas según necesidad.
+
+**Pasos del Task Flow:** 
+
+1. Acceder al módulo Alertas.
+2. Filtrar por planta, sensor o tipo.
+3. Visualizar lista de alertas activas.
+4. Actualizar o restablecer filtros con los botones correspondientes.
+
+
+**Task flow 9:** Generar reportes del vivero
+
+**Objetivo del usuario:** Descargar reportes de métricas en PDF o CSV.
+
+**Pasos del Task Flow:** 
+
+1. Acceder al módulo Reportes.
+2. Seleccionar la planta (obligatorio para exportación).
+3. Indicar fechas Desde y Hasta.
+4. Activar métricas deseadas (temperatura, humedad, pH…).
+5. Descargar PDF Planta, CSV Planta o Resumen PDF.
+
+
+**Task flow 10:** Actualizar información personal del vivero
+
+**Objetivo del usuario:** Editar datos básicos de la cuenta y preferencias.
+
+**Pasos del Task Flow:** 
+
+1. Acceder al módulo Perfil.
+2. Editar nombre, zona horaria e idioma.
+3. Guardar cambios.
+
+
+**Task flow 11:** Cambiar contraseña
+
+**Objetivo del usuario:** Actualizar credenciales para mantener seguridad.
+
+**Pasos del Task Flow:** 
+
+1. Acceder a Perfil > Cambiar contraseña.
+2. Ingresar contraseña actual.
+3. Ingresar nueva contraseña.
+4. Guardar actualizado.
 
 
 ### 4.4.3. Web Applications Mock-ups
